@@ -1,0 +1,51 @@
+/**
+ * SPLS June 2019 Website Stylesheet
+ */
+
+body {
+    font-family: serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 26pt;
+}
+
+h2 {
+    margin-top: 1em;
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+h5 {
+    font-size: 16pt;
+}
+
+h6 {
+    font-size: 14pt;
+}
+
+/* Paragraphs */
+p {
+    font-size: 12pt;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/* Google Map instance */
+.interactive-map {
+    width: 100%;
+    min-height: 450px;
+}
