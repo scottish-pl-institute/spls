@@ -44,6 +44,24 @@ p {
     text-align: justify;
 }
 
+.abstract {
+    padding-left: 15pt;
+    padding-top: 5pt;
+    width: 85%;
+}
+
+.author-title {
+    font-weight: 600;
+}
+
+.title {
+    font-style: italic;
+}
+
+li {
+    list-style-type: square;
+}
+
 /* Google Map instance */
 .interactive-map {
     width: 100%;
