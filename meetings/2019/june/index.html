@@ -80,7 +80,7 @@
 	    The meeting will begin at 11:30 and last until 17:30. The
 	    talks will take place in room G.07.
 	  </p>
-	  <h6>11:30 &mdash; 12:30: Type-driven Verification and TBD</h6>
+	  <h6>11:30 &mdash; 12:30: Type-driven Verification and Weak Memory Semantics</h6>
 	  <ul>
 	    <li> <span class="author-title"><a href="https://adb23.host.cs.st-andrews.ac.uk/">Adam Barwell</a>, <span class="title">Type-Driven Verification of Non-functional Properties</span></span>
 	      <p class="abstract">
@@ -105,7 +105,26 @@
 		provable worst-case ETS properties.
 	      </p>
 	    </li>
-            <li> <span class="author-title"><a href="https://www.cl.cam.ac.uk/~bs630/">Ben Simner</a>, TBA</span></li>
+            <li> <span class="author-title"><a href="https://www.cl.cam.ac.uk/~bs630/">Ben Simner</a>, <span class="title">Modelling instruction fetching in ARM assembly</span></span>
+              <p class="abstract">
+                Weak memory semantics studies modern hardware, such as
+                ARMv8, which allow surprising behaviours.  In this
+                talk, I will give a brief introduction to this area
+                and explain the ongoing work in modelling the
+                system-level aspects of the Arm architecture as used
+                in operating system kernels, and JIT compilers,
+                particularly those related to self-modifying code.  I
+                will: show examples of weak behaviours for
+                self-modifying code and instruction fetching; and give
+                the current operational model that explains these
+                behaviours.  This work is used by architects to
+                rigorously analyse their architecture, OS kernel
+                programmers to gain confidence in the architectural
+                guarantees for the correctness of their code, and
+                programming language implementors who wish to
+                implement efficient just-in-time compilation.
+              </p>
+            </li>
 	  </ul>
 	  <h6>12:30 &mdash; 13:30: Lunch</h6>
 	  <p class="abstract">
