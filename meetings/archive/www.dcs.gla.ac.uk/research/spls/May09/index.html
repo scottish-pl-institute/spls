@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>SPLS May 2009</title>
+    <LINK rel="stylesheet" type="text/css" href="../style.css">
+  </head>
+
+  <body>
+
+
+<H2>SPLS Meeting: Friday 8th May 2009
+</H2>
+
+<H3>Location</H3>
+
+<P>
+Department of Computing Science, University of Glasgow<BR>
+Level 5, Sir Alwyn Williams Building, Lilybank Gardens, Glasgow G12 8RZ.
+</P>
+
+<P>
+Information on travelling to the university can be found <A
+							    href="http://www.gla.ac.uk/general/maps/index.html">here</A>. Campus maps can be found <A href="http://www.gla.ac.uk/general/maps/campusmap.html">here<A>.
+</P>
+
+<H3>Acknowledgement</H3>
+
+This meeting of SPLS has received financial support from the <A href="http://www.sicsa.ac.uk/themes/complex-systems-engineering">Complex Systems Engineering</A> theme of <A href="http://www.sicsa.ac.uk">SICSA</A>, the Scottish Informatics and Computer Science Alliance.
+
+<H3>Programme</H3>
+
+<P>
+
+<B>12.30</B> <B>Lunch</B>
+
+<P>
+
+<B>13.30</B> <B>Short cut fusion ``in context" for recursive programs</B><BR>
+Patricia Johann, University of Strathclyde<BR>
+<BLOCKQUOTE>
+Short cut fusion is the process of improving the efficiency of modularly 
+constructed programs by transforming them into monolithic equivalents. 
+Program components which produce inductive data structures are written in 
+terms of the standard build combinator, components which consume inductive 
+data structures are written in terms of the standard fold combinator, and 
+inductive data structures which are used solely to glue compositions of 
+such components together are eliminated using the fold/build rule on which 
+short cut fusion is based.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+In this talk, we give a generalization of the standard build combinator 
+which expresses uniform production of functorial contexts containing data 
+of inductive types. We also give a short cut fusion technique for 
+producers defined in terms of this generalized build combinator. The rule 
+underlying this technique generalizes the standard fold/build rule and the 
+fold/buildp rules from the literature, and eliminates gluing inductive 
+data structures without disturbing the contexts in which they are 
+situated. We observe that an important special case of our new rule arises 
+when the context is monadic, in which case a second rule for fusing 
+producers and consumers via monad operations, rather than via composition, 
+is also possible. We sketch correctness proofs for our new rule and its 
+monadic variant. Coalgebraic duals of these rules as well, although these 
+will not be discussed in the talk.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+This is joint work with Neil Ghani.
+</BLOCKQUOTE>
+<P>
+
+<B>14.00</B> <B>Designing a Functional Array Language for teaching compilers</B><BR>
+Paul Cockshott, University of Glasgow<BR>
+<P>
+
+<B>14.30</B> <B>Syntax For Free: Representing Syntax with Binding using
+Parametricity</B><BR>
+Robert Atkey, University of Edinburgh<BR>
+<BLOCKQUOTE>
+I will show that, in a parametric model of polymorphism, the type ∀α.
+((α → α) → α) → (α → α → α) → α is isomorphic to closed deBruijn terms.
+That is, the type of closed higher-order abstract syntax terms is
+isomorphic to a concrete representation. To demonstrate the proof I have
+constructed a model of parametric polymorphism inside the Coq proof
+assistant. The proof of the theorem requires parametricity over Kripke
+relations. I will also discuss some variants of this representation.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+More information is available 
+ <A href="http://homepages.inf.ed.ac.uk/ratkey/parametricity">here</A>.
+</BLOCKQUOTE>
+
+<B>15.00</B> <B>Tea/coffee break</B>
+<P>
+
+<B>15.30</B> <B>Effective Compilation of Array Expressions for High
+Performance Computing</B><BR>
+Paul Keir, University of Glasgow<BR>
+<BLOCKQUOTE>
+Array-based languages are a popular choice for
+high-performance, scientific computing. Languages such as APL, MATLAB,
+and Fortran 90 are well used in industry and academia, and offer rich
+opportunities for the automatic detection of implicit
+parallelism. Nevertheless, the monolithic structure of these programs
+can present dependency issues for compilers; notably in imperative
+assignment statements. Excessive scratch memory usage and redundant
+calculations are also a perennial concern. The psi calculus (L.Mullin
+1988) is a theory of flat arrays using structure and indexing, and
+related to original APL concepts. The formalism provides a reduction
+mechanism to transform array expressions into a normal form suitable
+for efficient loop scalarisation; and subsequent parallel
+execution. In this talk I will describe ongoing efforts to enhance a
+Fortran 9x subset compiler, written in Haskell, using Mullin's
+treatment of arrays.
+</BLOCKQUOTE>
+<P>
+
+<B>16.00</B> <B>Challenges of a type error slicer for the SML language</B><BR>
+Vincent Rahli, Heriot-Watt University<BR>
+<BLOCKQUOTE>
+ Programming languages such as SML, OCaml, and Haskell have
+  sophisticated type systems which are both flexible and also safe in
+  the sense that all program behavior is guaranteed to be well
+  defined.  These languages' implementations use extensions of
+  Milner's type checking algorithm W that automatically infer nearly
+  all of the type information for correct programs.  Unfortunately,
+  the type error messages for incorrect programs are confusing,
+  because they generally (1) identify an error location that is just
+  one of the program points that contributes to the error, (2) exhibit
+  an internal representation of the program subtree at that location
+  which often has been transformed substantially from what the
+  programmer wrote, and (3) exhibit details of inferred types which
+  were not written by the programmer and which are anyway erroneous
+  and therefore confusing.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+  A particularly promising approach to making type errors easier to
+  understand and fix is type error slicing, in which minimal
+  sets of program points in the original (untransformed) program text
+  that contribute to an error are identified and exhibited and there
+  is no need to exhibit internal details of inferred types.  Such
+  slices contain all and only the information needed by the programmer
+  to understand a type error.  Type error slicing was initially
+  developed for a tiny fragment of SML, with properties being proven
+  for a core barely larger than the lambda-calculus and an
+  implementation that handles a few additional primitives such as
+  integers, booleans, and lists (but not arbitrary data types).  We
+  have been extending type error slicing toward the full SML language.
+  This paper reports on the challenges that we have faced and the
+  solutions we have developed on the way to this goal.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+This is a joint work with my supervisor, Doctor Joe Wells.
+</BLOCKQUOTE>
+
+<B>16.30</B> <B>The Glasgow Virtual Machine Toolkit</B><BR>
+Mark Shannon, University of Glasgow<BR>
+<BLOCKQUOTE>
+Many programing languages, especially interpreted ones, are based on a virtual machine.
+Despite this, few tools are available for the construction of such virtual machines in
+the way that tools are available for building compilers.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+In this talk I will describe the Glasgow Virtual Machine Toolkit (GVMT). The GVMT provides developers of virtual machines with the sort of assistance that compiler writers have had for years.
+The GVMT can create, from a common specification, both interpreters and compilers (including just-in-time compilers), and ensure correct integration of all components with the garbage collector.
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+I will also give examples of virtual machines that have been created with the GVMT.
+</BLOCKQUOTE>
+<P>
+
+<B>17.00</B> <B>End</B>
+
+  </body>
+</html>

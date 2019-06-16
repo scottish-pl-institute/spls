@@ -1,0 +1,73 @@
+# robots.txt file for www.macs.hw.ac.uk
+# this files tells automated search robots which directories
+# they shouldn't try to index (if they're well behaved)
+
+Sitemap: http://www.macs.hw.ac.uk/sitemap.xml
+
+# This is aimed at all search agents:
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /pub/
+Disallow: /bscw/
+Disallow: /dept/
+Disallow: /repo/
+Disallow: /visage/
+Disallow: /phpMyAdmin/
+Disallow: /gitlist/
+Disallow: /av/
+Disallow: /admin/
+Disallow: /modules/
+Disallow: /guidebook/
+Disallow: /internal/
+Disallow: /cs/localinfo/
+Disallow: /cs/online/
+Disallow: /cs/project-system/
+Disallow: /sicsawiki/
+Disallow: /cs_staff_wiki/
+Disallow: /studentwiki/
+Disallow: /timetable/
+Disallow: /researchperspectives/
+Disallow: /heriotwatt/
+Disallow: /spires/
+Disallow: /EcircusWeb/
+Disallow: /DART/
+Disallow: /ultra/compositional-analysis/type-error-slicing/testbug
+Disallow: /ultra/compositional-analysis/type-error-slicing/bugzilla-4.0
+Disallow: /~dsg/content/shared/
+Disallow: /~dsg/content/private/
+Disallow: /~hwloidl/Courses/F21SC/Samples
+Disallow: /~hwloidl/SPS/CW9_Alt
+Disallow: /~hwloidl/SPS/test
+Disallow: /~po38/phd
+Disallow: /~wl145/blog
+Disallow: /~mcneil/protected/
+Disallow: /~iain/teaching/MORTALITY/
+Disallow: /~pjbk/projectdata/
+Disallow: /~pjbk/new-project-system/
+Disallow: /~pjbk/test-project-system/
+Disallow: /~pjbk/cgi-bin/
+Disallow: /~dar14/mturkwww/
+Disallow: /~monica
+Disallow: /%7Emonica
+Disallow: /~alison
+Disallow: /~cjh/
+Disallow: /~dubois/
+Disallow: /~rpointon/
+Disallow: /~sebc/
+Disallow: /~nutt/
+Disallow: /~jj36/
+Disallow: /~gnik/
+Disallow: /~trinder/
+Disallow: /~lachlan/
+Disallow: /~mnelson/
+Disallow: /~bill
+Disallow: /~jann/
+Disallow: /~mm20/
+Disallow: /~ceeads2/
+Disallow: /~pier
+Disallow: /~retel
+Disallow: /~gr67
+Disallow: /~mb341
+Disallow: /~mhw/
+Disallow: /~hwloidl/Courses/F21SC/Samples/
+Disallow: /~denis/STV_elections

@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SPLS Nov '16</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/custom.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SPLS Nov '16</a> <!--  -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+	    <!-- <li><a href="">Call for papers</a></li> -->
+	    <li><a href="#about-spls">About</a></li>
+  	    <li><a href="#time-and-place">Time and place</a></li>
+	    <li><a href="#programme">Programme</a></li>
+	    <li><a href="#abstracts">Abstracts</a></li>
+	    <li><a href="#registration">Registration</a></li>
+	    
+	  </ul>
+	   <ul class="nav navbar-nav navbar-right">
+	    <li><a href="http://www.dcs.gla.ac.uk/research/spls/">SPLS</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+		<h1 id="scottish-programming-languages-seminar-spls">Scottish Programming Languages Seminar (SPLS)</h1>
+
+<h2 id="university-of-strathclyde-9-november-2016">University of Strathclyde, 9 November 2016</h2>
+
+<h2 id="about-spls">About SPLS</h2>
+
+<p>The <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a>
+is an informal meeting for the discussion of any aspect of programming languages.
+The next SPLS will take place on Wednesday 9 November at the University of Strathclyde.</p>
+
+<p>Information and updates about the November edition of SPLS will be sent
+via the <a href="https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls">SPLS Mailing List</a>.</p>
+
+<h2 id="time-and-place">Time and place</h2>
+<p>12:00–17:45, 9 November, room <strong>301</strong>, <a href="https://goo.gl/maps/2JjoPR6FvY82">McCance Building</a>, University of Strathclyde.</p>
+
+<h2 id="programme">Programme</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12.00</td>
+      <td>Lunch (provided)</td>
+    </tr>
+    <tr>
+      <td>13.00</td>
+      <td>Consistency of Quine’s NF using nominal techniques - Jamie Gabbay [<a href="/slides/Gabbay.pdf">slides</a>]</td>
+    </tr>
+    <tr>
+      <td>14.00</td>
+      <td>Coffee</td>
+    </tr>
+    <tr>
+      <td>14.30</td>
+      <td>Relating Channels and Actor-based Languages in Concurrent Lambda-Calculi - Simon Fowler [<a href="/slides/Fowler.pdf">slides</a>]</td>
+    </tr>
+    <tr>
+      <td>15.00</td>
+      <td>Provably Correct Transformation of Specifications into Programs - Martin Ward [<a href="/slides/Ward.pdf">slides</a>]</td>
+    </tr>
+    <tr>
+      <td>15.30</td>
+      <td>Update on new SICSA Research Themes and funding - Katya Komendantskaya</td>
+    </tr>
+    <tr>
+      <td>15.45</td>
+      <td>Coffee</td>
+    </tr>
+    <tr>
+      <td>16.15</td>
+      <td>Type-Driven Design of Communicating Systems using Idris - Jan de Muijnck-Hughes [<a href="/slides/deMuijnck-Hughes.pdf">slides</a>]</td>
+    </tr>
+    <tr>
+      <td>16.45</td>
+      <td>The essence of Frank programming - Craig McLaughlin [<a href="/slides/McLaughlin.pdf">slides</a>]</td>
+    </tr>
+    <tr>
+      <td>17.15</td>
+      <td>Irrelevant classical logic in Agda - Stephen Dolan</td>
+    </tr>
+    <tr>
+      <td>17.45</td>
+      <td>Pub</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstracts">Abstracts</h2>
+
+<h3 id="jamie-gabbay-heriot-watt"><a href="http://www.gabbay.org.uk/">Jamie Gabbay</a> (Heriot-Watt)</h3>
+
+<h4 id="consistency-of-quines-nf-using-nominal-techniques"><a href="/slides/Gabbay.pdf">Consistency of Quine’s NF using nominal techniques</a></h4>
+
+<p>Naive set theory has one rule; naive sets comprehension: If φ is a predicate, then {a | φ(a)} is a set. This is inconsistent by Bertrand Russell’s famous observation of 1901 that {a | a ∉ a} ∈ {a | a ∉ a} if and only if {a | a ∉ a} ∉ {a | a ∉ a}.
+Solutions proposed included Zermelo-Fraenkel set theory, simple type theory, and Quine’s New Foundations (NF). NF works by restricting comprehension to stratifiable formulae; those in which variables can be assigned ‘levels’, which are natural numbers, such that if a ∈ b occurs and a has level n, then b must have level n+1. Russell’s example is ruled out because a ∉ a cannot be stratified. Consistency of NF has been an open problem since it was proposed by Quine in 1937.  I will present a claimed proof of consistency of Quine’s NF (the paper is available from www.gabbay.org.uk/papers.html and on arXiv, and is under review). In use, NF feels more like a simple type theory than it does a set theory, and there are deep reasons for this which come out in my proof.  My proof, while ostensibly about set theory, is actually about applying ideas from rewriting and computing to ideas from set theory, along with a pinch of non-Tarskian thinking about what binders (including forall and lambda) are. In my talk I will present the proof with an emphasis on the implications that this specific result has more generally for the theory of computing.</p>
+
+<h3 id="simon-fowler-edinburgh"><a href="http://simonjf.com/">Simon Fowler</a> (Edinburgh)</h3>
+
+<h4 id="relating-channels-and-actor-based-languages-in-concurrent-lambda-calculi"><a href="/slides/Fowler.pdf">Relating Channels and Actor-based Languages in Concurrent Lambda-Calculi</a></h4>
+
+<p>To aid the development of highly-concurrent and distributed systems,
+communication-centric programming languages take communication and
+concurrency to be central to their design.
+Programming languages such as Go provide anonymous processes which communicate
+using typed buffers known as channels, whereas programming languages such as
+Erlang are related to the actor model of concurrency, providing addressable
+processes with a single incoming message queue.</p>
+
+<p>The relationship between the two models remains a source of confusion, and the
+lack of a common representation makes it difficult to reason formally about the
+translations that exist in the folklore.
+Building on concurrent λ-calculi, we define a calculus λch for typed asynchronous
+channels, and a calculus λact for type-parameterised actors.  We then show
+translations from λact into λch and λch into λact, and prove
+that both translations are type- and semantics-preserving.</p>
+
+<p>(joint work with Sam Lindley and Philip Wadler)</p>
+
+<h3 id="martin-ward-de-montfort-university"><a href="http://www.tech.dmu.ac.uk/~mward/">Martin Ward</a> (De Montfort University)</h3>
+
+<h4 id="provably-correct-transformation-of-specifications-into-programs"><a href="/slides/Ward.pdf">Provably Correct Transformation of Specifications into Programs</a></h4>
+
+<p>This talk will introduce the transformational programming method
+of algorithm derivation. This starts with a formal specification
+of the result to be achieved, plus some informal ideas as to what
+techniques will be used in the implementation.
+The formal specification is then transformed into an implementation,
+by means of correctness-preserving refinement and transformation steps,
+guided by the informal ideas.</p>
+
+<p>With this approach, loops can be introduced and manipulated
+while maintaining program correctness and with no need
+to derive loop invariants.  At every stage in the process
+we are working with a correct program: so there is no need
+for a separate “verification” step.</p>
+
+<p>These factors help to ensure that the method is capable of scaling
+up to the development of large and complex software systems.</p>
+
+<h3 id="jan-de-muijnck-hughes-st-andrews"><a href="https://jfdm.github.io/">Jan de Muijnck-Hughes</a> (St Andrews)</h3>
+
+<h4 id="type-driven-design-of-communicating-systems-using-idris"><a href="/slides/deMuijnck-Hughes.pdf">Type-Driven Design of Communicating Systems using Idris</a></h4>
+
+<p>The idea of communicating systems is a cornerstone of modern technology that allows heterogeneous collections of components to communicate through well-defined communication patterns.
+However, there is a disconnect between the tooling and languages used to design, implement and reason about communication protocols.</p>
+
+<p>Idris is a general purpose programming language that supports full-dependent types, providing programmers with the ability to reason more precisely about programs.
+Inspired by work on Session types, our research looks to leverage dependent types to describe and reason about secure communication patterns and their implementation in different communication contexts.</p>
+
+<p>This talk presents our current progress and introduces <em>sessions</em>, a library for describing, and reasoning about, the interactions of a communicating system.
+Demonstrated is use of <em>sessions</em> to describe common communication patterns, and how the library enforces correctness of the pattern itself through type-level guarantees.</p>
+
+<p>Given time future work will also be presented detailing our next steps in linking these descriptions to implementations such that compile time correctness guarantees over the actions of an entity in a communicating system can be given respective to a known specification.</p>
+
+<h3 id="craig-mclaughlin-edinburgh"><a href="http://homepages.inf.ed.ac.uk/s1544843/">Craig McLaughlin</a> (Edinburgh)</h3>
+
+<h4 id="the-essence-of-frank-programming"><a href="/slides/McLaughlin.pdf">The essence of Frank programming</a></h4>
+
+<p>Frank is a strict functional language supporting algebraic effects
+(a la Plotkin &amp; Power) and handlers (a la Plotkin &amp; Pretnar) within an
+effect
+type system. Key to the design is the generalisation of functions to
+<em>operators</em> which may handle effects by pattern matching on computation
+trees. Operators are n-ary allowing the simultaneous handling of multiple
+computations. I will describe the key features of Frank by way of example,
+showing its similarities to regular functional programming and its
+differences. I will highlight the conveniences afforded by some of the
+design
+choices, in particular achieving effect polymorphism while avoiding the need
+to mention effect variables. I will describe the current implementation of
+Frank and how we have leveraged existing technology in its
+development. Finally, I will speculate on some future work. (Joint work with
+Sam Lindley and Conor McBride to appear at POPL 2017.)</p>
+
+<h3 id="stephen-dolan-cambridge"><a href="https://github.com/stedolan">Stephen Dolan</a> (Cambridge)</h3>
+
+<h4 id="irrelevant-classical-logic-in-agda">Irrelevant classical logic in Agda</h4>
+
+<p>The dependently-typed programming language Agda, viewed through a
+Curry-Howard lens, implements a constructive logic where a proof that
+something exists is simultaneously a program for building it.
+Classical principles, like double-negation elimination, are not
+derivable in such a system: the absurdity of something’s absence gives
+no clue of how to build it.</p>
+
+<p>Recently, Agda has gained a sophisticated notion of “irrelevance”,
+where certain inputs to a program can be marked as not necessary to
+compute the result. By assuming classical axioms only in irrelevant
+positions, we allow some non-constructive reasoning without breaking
+constructiveness of the whole program, since the non-constructive
+parts need not be computed.</p>
+
+<p>In this talk, I show how allowing this mixture of classical and
+constructive in fact adds power to the purely constructive fragment of
+Agda, by showing how to derive functions like the unbounded search
+operator which are constructive, yet whose constructiveness can only
+be shown classically.</p>
+
+<h3 id="katya-komendantskaya-heriot-watt"><a href="http://www.macs.hw.ac.uk/~ek19/">Katya Komendantskaya</a> (Heriot-Watt)</h3>
+
+<h4 id="update-on-new-sicsa-research-themes-and-funding">Update on new SICSA Research Themes and funding</h4>
+
+<h2 id="registration">Registration</h2>
+
+<p>Registration is now closed.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<ul>
+  <li><a href="https://bentnib.org">Bob Atkey</a>, University of Strathclyde</li>
+  <li><a href="https://jmchapman.github.io">James Chapman</a>, University of Strathclyde</li>
+  <li><a href="https://personal.cis.strath.ac.uk/conor.mcbride/">Conor McBride</a>, University of Strathclyde</li>
+  <li><a href="https://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/">Fredrik Nordvall Forsberg</a>, University of Strathclyde</li>
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This meeting of SPLS has received financial support from the
+<a href="http://www.sicsa.ac.uk/research/theory-modelling-computation/">Theory, Modelling and Computation theme</a>
+of the <a href="http://www.sicsa.ac.uk/">Scottish Informatics and Computer Science Alliance</a>.</p>
+
+<p><img src="sicsa_blue.jpg" alt="SICSA logo" title="SICSA logo" /></p>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

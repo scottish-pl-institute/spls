@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SPLS in St Andrews, June 16th 2010</title>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="spls.css">
+</head>
+<body>
+
+<h1>Scottish Programming Languages Seminar</h1>
+
+<h3>Date and Time</h3>
+
+<p>Wednesday June 16th 2010, 1pm - 5:30pm</p>
+
+<h3>Venue</h3>
+
+<p>Room 1.33, School of Computer Science, University of St Andrews, KY16 9SX
+(<a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=ky16+9sx&sll=54.965002,-2.373047&sspn=13.803836,38.364258&ie=UTF8&hq=&hnear=Saint+Andrews,+Fife+KY16+9SX,+United+Kingdom&z=16">map</a>,
+  <a href="http://www.st-andrews.ac.uk/visiting/GettingtoStAndrews/">directions</a>)
+</p>
+
+<h3>Programme</h3>
+
+<table>
+<tr><td><b>12noon</b></td><td></td><td><b>Lunch</b></td><td></td></tr>
+<tr><td><b>1pm</b></td><td>
+Jeremy Siek
+</td><td>
+University of Colorado at Boulder
+</td><td><a href="index.html#jeremy">Monads for Relations</a></td></tr>
+<tr><td><b>1:40pm</b></td><td>
+Greg Michaelson
+</td><td>
+Heriot Watt University
+</td><td>
+<a href="index.html#greg">Costing by Construction</a></td></tr>
+<tr><td><b>2:20pm</b></td><td>
+Jon Lewis
+</td><td>
+University of St Andrews
+</td><td><a href="index.html#jon">Insense: a component-based language for self-configuring and
+  self-healing wireless sensor network applications</a></td></tr>
+<tr><td><b>3pm</b></td><td></td><td><b>Coffee</b></td><td></td></tr>
+
+<tr><td><b>3:30pm</b></td><td>
+Seyed H Haeri
+</td><td>
+MuSemantik
+</td><td>
+<a href="index.html#seyed">Observational Equivalence between Lazy Programs in Presence of
+Selective Strictness.</a>
+ </td></tr>
+
+<tr><td><b>4:10pm</b></td><td>
+Conor McBride
+</td><td>
+Strathclyde University
+</td><td><a href="index.html#conor">Jockstrapping Dependent Types</a></td></tr>
+
+<tr><td><b>4:50pm</b></td><td>
+Chris Brown
+</td><td>
+University of St Andrews
+</td><td>
+<a href="index.html#chris">Ever-Decreasing Circles: a Skeleton for Parallel Orbit Calculations in Eden.</a> </td></tr>
+
+<tr><td><b>5:30pm</b></td><td></td><td><b>Pub and dinner</b></td><td></td></tr>
+</table>
+
+<!--
+<p>
+If you are interested in giving a talk, please contact the organisers
+(details below) giving a title and abstract.
+</p>
+-->
+
+<h3>Abstracts</h3>
+
+<a name="jeremy">
+<h4>Jeremy Siek: 
+Monads for Relations</h4>
+
+<p>
+  Monads provide a framework for writing modular and concise
+  specifications for functions that appear to have computational
+  effects. For example, an interpreter for a language with references
+  can be written in Haskell as a function over a state monad. But what
+  if we wish to define a relation, not a function?  Suppose we want to
+  define a natural semantics for a language with references.  Natural
+  semantics are inductively defined relations, not functions, so
+  monads are not directly applicable.  But can we adapt monads to
+  relations? The answer is yes; I show how in this talk.  I follow
+  a similar structure to Wadler's ``The essence of functional
+  programming,'' defining several extensions to the lambda calculus,
+  but via natural semantics instead of interpreters.
+</p>
+
+<a name="greg">
+<h4>Greg Michaelson: Costing by Construction</h4>
+
+<a name="jon">
+<h4>Jon Lewis: Insense: a component-based language for self-configuring and
+  self-healing wireless sensor network applications
+</h4>
+
+<p>
+  Wireless sensor networks (WSNs) are complex, distributed systems
+  whose components are commonly expected to operate in the face of
+  unforeseen changes to the environment. WSN applications must be
+  self-aware to be capable of adapting in response to such changes. We
+  address this requirement with a high-level, component-based language
+  model and implementation. In Insense, a sensing system is modelled
+  as a composition of software components that interact via channels
+  that may be published to the network and used to identify services
+  available to other networked components. The language permits an
+  application to dynamically discover both network topology and
+  channels that have been published for inter-node
+  use. Self-configuring application components are thereby able to
+  search for the service channels they require and access these by
+  configuring the channel bindings.  Self-healing is supported by an
+  exception model permitting components to detect channel
+  communication anomalies and through language mechanisms permitting
+  applications to be dynamically reconfigured.
+</p>
+
+<a name="seyed">
+<h4>Seyed H Haeri: Observational Equivalence between Lazy Programs in
+  Presence of Selective Strictness.
+</h4>
+
+<p>
+Gabbay et al. were first to consider Observational Equivalence between
+Lazy Programs in Presence of Selective Strictness and Haeri later
+completed their work. Gabbay et al. and Haeri choose to manipulate the
+operational semantics of van Eekelen and de Mol to prevent increase in
+heap expressiveness upon expression evaluation. This improvement
+helped them to prove their desired observational equivalences using a
+novel proof technique called: Induction on the Number of Manipulated
+Bindings (INMB). They used (INMB) to prove a handful of interesting
+results including a couple of observational equivalences. However,
+their operational semantics suffers from restrictions in
+expressiveness.
+</p>
+<p>
+In this talk, we investigate the elements in the operational semantics
+of Gabbay et al. and Haeri which cause restrictions in
+expressiveness. We present a new variation of van Eekelen and de Mol
+that, in the same time that retains all the interesting results in
+Gabbay et al. (including INMB), is as expressive as the operational
+semantics of van Eekelen and de Mol.
+</p>
+
+<a name="conor">
+<h4>Conor McBride: Jockstrapping Dependent Types</h4>
+
+<p>
+Tagless interpreters for well-typed terms in some object language
+are a standard example of the power and beneﬁt of precise indexing
+in types, whether with dependent types, or generalized algebraic
+datatypes. The key is to reﬂect object language types as indices
+(however they may be constituted) for the term datatype in the host
+language, so that host type coincidence ensures object type coinci-
+dence. Whilst this technique is widespread for simply typed object
+languages, dependent types have proved a tougher nut with nontriv-
+ial computation in type equality. In their type-safe representations,
+Danielsson [2006] and Chapman [2009] succeed in capturing the
+equality rules, but at the cost of representing equality derivations
+explicitly within terms. This article delivers a type-safe represen-
+tation for a dependently typed object language, dubbed KIPLING,
+whose computational type equality just appropriates that of its host,
+Agda. The KIPLING interpreter example is not merely de rigeur---
+it is key to the construction. This is almost like bootstrapping,
+but at a higher level.
+</p>
+
+<a name="chris">
+<h4>Chris Brown: Ever-Decreasing Circles: a Skeleton for Parallel Orbit Calculations in Eden.</h4>
+
+<p>
+The Orbit algorithm is widely used in symbolic computation, allowing
+the exploration of a solution space given some initial starting values
+and a number of mathematically-defined generators.  In this paper, we
+consider how the Orbit algorithm can be encoded in Haskell, and thence
+how a parallel skeleton can be developed to cover a variety of Orbit
+calculations, using the Eden parallel dialect of Haskell.  We report
+on a set of performance results that demonstrate the potential of the
+skeleton to allow a simple but effective implementation of the Orbit
+algorithm for shared-memory parallel machines.
+</p>
+
+<h3>Contact</h3>
+
+<p>
+General information about SPLS is available from
+the <a href="http://www.dcs.gla.ac.uk/research/spls/">SPLS
+    page</a>. For information about the event, please contact the
+organisers:
+</p>
+
+<ul>
+<li>Edwin Brady
+  (<a href="mailto:eb@cs.st-andrews.ac.uk">eb@cs.st-andrews.ac.uk</a>)
+<li>Kevin Hammond
+  (<a href="mailto:kh@cs.st-andrews.ac.uk">kh@cs.st-andrews.ac.uk</a>)
+</ul>
+
+<p>
+SPLS receives financial support from the Complex Systems Engineering
+theme of <a href="http://www.sicsa.ac.uk/">SICSA</a>, the Scottish
+Informatics and Computer Science Alliance.
+</p>
+
+<hr>
+<em>Last updated April 20th 2010 &mdash;
+<a href="mailto:eb@cs.st-andrews.ac.uk">eb@cs.st-andrews.ac.uk</a>
+</em>
+
+</body>

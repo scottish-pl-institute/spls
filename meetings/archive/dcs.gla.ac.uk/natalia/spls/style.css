@@ -1,0 +1,39 @@
+body {
+%  margin: 0px;
+%  font-family: Arial, Helvetica, sans-serif;
+%  font-size: 14px;
+%  background: #ffffff;
+%  color: #6C8800;
+%  text-align: justify;
+%  line-height: 18px;
+}
+
+img {
+	border: 0px;
+}
+
+a:link, a:active, a:visited
+{
+	text-decoration: underline;
+	color: #3A5D9A;%#008D7E;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #FF6600;//599ADE;
+}
+
+h1 {
+%	font-size: 38px;
+	color: #143E87;%#FF6600;
+	font-weight: normal;
+%	line-height: 43px; 
+}
+
+h2 {
+%	font-size: 12px;
+	color: #143E87;%#FF6600;
+	font-weight: bold;
+%	line-height: 18px; 
+}

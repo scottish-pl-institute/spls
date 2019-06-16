@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SPLS Oct '18</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/custom.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://msp-strath.github.io/spls-18/index.html">SPLS Oct '18</a> <!--  -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+	    <!-- <li><a href="">Call for papers</a></li> -->
+	    <li><a href="index.html#about-spls">About SPLS</a></li>
+  	    <li><a href="index.html#time-and-place">Time and place</a></li>
+	    <li><a href="index.html#registration">Registration</a></li>
+	    <li><a href="index.html#programme">Programme</a></li>
+	    <li><a href="index.html#abstracts">Abstracts</a></li>
+	    
+	  </ul>
+	   <ul class="nav navbar-nav navbar-right">
+	    <li><a href="http://www.dcs.gla.ac.uk/research/spls/">SPLS</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+		<h1 id="scottish-programming-languages-seminar-spls">Scottish Programming Languages Seminar (SPLS)</h1>
+
+<h2 id="university-of-strathclyde-17th-october-2018">University of Strathclyde, 17th October 2018</h2>
+
+<p>Location: Royal College building</p>
+
+<p>Talks: Room 641</p>
+
+<p>Food/coffee: Room 513</p>
+
+<p>The rooms are signposted from the main George Street entrance, and Montrose
+Street (James Weir building) entrance.</p>
+
+<h2 id="about-spls">About SPLS</h2>
+
+<p>The <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a>
+is an informal meeting for the discussion of any aspect of programming languages.
+The next SPLS will take place on Wednesday 17th October at the
+University of Strathclyde.</p>
+
+<p>Information and updates about the October edition of SPLS will be sent
+via the <a href="https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls">SPLS Mailing List</a>.</p>
+
+<h2 id="time-and-place">Time and place</h2>
+
+<p>12:00–17:45, 17th October, University of Strathclyde. Royal
+College building, Room 641.</p>
+
+<h2 id="registration">Registration</h2>
+
+<p>Please add your name to the
+<a href="https://doodle.com/poll/dfufkg7y6qb6psvp">Doodle poll</a> to
+register. Any dietary requirements should be made as a comment on the
+doodle poll!</p>
+
+<h2 id="programme">Programme</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12.00</td>
+      <td>Lunch (provided)</td>
+    </tr>
+    <tr>
+      <td>13.00</td>
+      <td>Context Constrained Computation - James Wood</td>
+    </tr>
+    <tr>
+      <td>13.30</td>
+      <td>Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes</td>
+    </tr>
+    <tr>
+      <td>14.00</td>
+      <td>Coffee</td>
+    </tr>
+    <tr>
+      <td>14.30</td>
+      <td>Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke</td>
+    </tr>
+    <tr>
+      <td>15.00</td>
+      <td>Notebook Programming Considered Harmful - Jeremy Singer</td>
+    </tr>
+    <tr>
+      <td>15.30</td>
+      <td>Where the linear lambdas go - Wen Kokke</td>
+    </tr>
+    <tr>
+      <td>16.00</td>
+      <td>Coffee</td>
+    </tr>
+    <tr>
+      <td>16.30</td>
+      <td>Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti</td>
+    </tr>
+    <tr>
+      <td>17.00</td>
+      <td>Announcements?</td>
+    </tr>
+    <tr>
+      <td>17.15</td>
+      <td>Pub</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstracts">Abstracts</h2>
+
+<h4 id="context-constrained-computation---james-wood">Context Constrained Computation - James Wood</h4>
+
+<p>In normal typed λ-calculi, variables may be used multiple times, in
+multiple contexts, for multiple reasons, as long as the types
+agree. The disciplines of linear types and coeffects refine this by
+tracking how variables are used. For instance, we might track how many
+times a variable is used, or whether it is used covariantly,
+contravariantly, or invariantly. Such a discipline yields a general
+framework of “context constrained computing”, where constraints on
+variables in the context tell us something interesting about the
+computation being performed. We will present work in progress on
+capturing the “intensional” properties of programs via a family of
+Kripke indexed relational semantics that refines a simple
+set-theoretic semantics of programs. The value of our approach lies in
+its generality and the range of examples covered.</p>
+
+<h4 id="type-driven-development-of-soc-architectures---jan-de-muijnck-hughes">Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes</h4>
+
+<p>The protocols that describe the interactions between IP Cores on
+System-on-a-Chip (SoC) architectures are well-documented, describing
+not only the structural properties of the physical interfaces but also
+the behaviour of the emanating signals.  However, there is a
+disconnect between the design of SoC architectures, their formal
+description, and the verification of their implementation in known
+hardware description languages. In this talk I will discuss my work in
+designing a modelling language with a substructural type-system that
+reasons about the structure of SoC Architectures.</p>
+
+<h4 id="industry-experience-of-implementing-80-dsls-on-top-of-xtext---gregory-dyke">Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke</h4>
+
+<p>Avaloq is an international leading Fintech company and the creator of
+the Avaloq Banking Suite. Domain Specific Languages (DSLs) are used to
+customize the business logic of the banking suite. Xtext is an Eclipse
+project that provides rich support for the implementation of
+DSLs. Xtext is very flexible and easily extensible allowing to apply
+it way beyond simple flowchart DSLs. At Avaloq we used Xtext to
+implement tools for over 80 DSLs out of which over 50 languages
+existed long before we learned about Xtext and hence were designed
+without Xtext implementation in mind. In this talk we introduce DSL
+Developer Kit, a family of DSLs built on top of Xtext to help with
+heavy customization of parsing, indexing, scoping, validation, and
+formatting.</p>
+
+<h4 id="notebook-programming-considered-harmful---jeremy-singer">Notebook Programming Considered Harmful - Jeremy Singer</h4>
+
+<p>Millennials write their code in Jupyter Notebooks (formerly known as
+IPython). Highly evangelized benefits include (1) familiar
+browser-based coding environment, (2) interactive feedback, (3) inline
+tutorial commentary and code blocks, and (4) tight integration with
+popular libraries e.g. NumPy, matplotlib. Many coders, particularly in
+the data science domain, use Jupyter as their development platform of
+choice. At Glasgow, we have switched our first year undergraduate
+coding labs to Jupyter. <em>However</em> Jupyter is not always a bringer of
+jollity. The notebook abstraction has several serious problems, which
+expose themselves (at best) as inconveniences to experienced hackers
+or (at worst) as conceptual misdirections to novice developers. In
+this talk, I will highlight some of these problems and propose
+potential fixups.</p>
+
+<h4 id="where-the-linear-lambdas-go---wen-kokke">Where the linear lambdas go - Wen Kokke</h4>
+
+<p>Have you ever wondered where the lambdas live, and if you could just
+grab a random few to see if your compiler works, only to realise
+“WHOA, that’s kinda hard!” Turns out that linear lambdas live in an
+even more elusive land, where none of the existing solutions – as far
+as I know – really apply. A common problem with support for those
+pesky linear types, really. This talk will drag you though some rather
+naive solutions, some existing work, and then end rather abruptly with
+a cry for help. Spoilers.</p>
+
+<h4 id="generating-efficient-parallel-code-for-irregular-shaped-arrays---federico-pizzuti">Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti</h4>
+
+<p>Data types in high-level programming languages capture semantic
+information about the program. Compilers for languages such as
+Accelerate, Futhark, Delite or Lift have shown how to exploit this
+information to produce high-performance code. While these approaches
+have the ability to handle multi-dimensional arrays, their type
+systems are currently limited to nested arrays of rectangular
+shapes. This talk presents our work on lifting some of these
+limitations and enable the representation of irregular, yet statically
+known shaped, multi-dimensional arrays at the type level. This will
+enable the Lift compiler to generate efficient code for applications
+operating on irregular-shaped structure, such as matrix-triangle
+multiplication or operations on compact representations of tree-like
+data structures. In particular, the type system is extended by
+allowing the array element type to depend, in a restricted way, on its
+position in the enclosing array. We show how existing high-level
+patterns together with a couple new primitives naturally express
+computations on such data structures. Finally, we show how classical
+low-level loop optimisations can be expressed in terms of operations
+on such irregular arrays, highlighting their utility even in
+applications that are expressible using more traditional methods.</p>
+
+<h4 id="cancelled-talk---folds-unfolds-and-metaheuristics---adam-barwell">Cancelled Talk - Folds, Unfolds, and Metaheuristics - Adam Barwell</h4>
+
+<p>Metaheuristics are families of algorithms that describe how to achieve
+acceptable solutions for hard optimisation problems. Current
+approaches to the design, development, and transformation of
+metaheuristic algorithms are predominantly ad hoc. In this talk, we
+present work in progress on a constructive approach to the definition
+of metaheuristic algorithms that supports mechanical reasoning about
+well-known algorithms from metaheuristics literature. This facilitates
+a type-driven rewriting system that is able to synthesise known
+metaheuristic algorithms. Using our approach, we intend for it to be
+possible to determine whether two algorithms are equivalent in terms
+of their results, and to choose an algorithm from a set of equivalent
+algorithms for a given problem, based on a given cost model, or the
+overall fitness of results. We conjecture that it is also possible to
+generate new metaheuristic algorithms using our approach.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<ul>
+  <li><a href="http://bishboria.com">Stuart Gale</a>, University of Strathclyde</li>
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This meeting of SPLS will receive financial support from the
+<a href="http://www.sicsa.ac.uk/research/theory-modelling-computation/">Theory, Modelling and Computation theme</a>
+of the <a href="http://www.sicsa.ac.uk/">Scottish Informatics and Computer Science Alliance</a>.</p>
+
+<p><img src="sicsa_blue.jpg" alt="SICSA logo" title="SICSA logo" /></p>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

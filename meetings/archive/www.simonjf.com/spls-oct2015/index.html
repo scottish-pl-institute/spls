@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SPLS, Wednesday 21 October 2015 at the University of Edinburgh</title>
+
+    <link rel="stylesheet" href="http://simonjf.com/spls-oct2015/stylesheets/styles.css">
+    <link rel="stylesheet" href="http://simonjf.com/spls-oct2015/stylesheets/github-light.css">
+    <script src="http://simonjf.com/spls-oct2015/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">SPLS, Wednesday 21 October 2015 at the University of Edinburgh</h1>
+        <p class="header"></p>
+      </header>
+      <section>
+        <h1>
+<a id="spls" class="anchor" href="index.html#spls" aria-hidden="true"><span class="octicon octicon-link"></span></a>SPLS</h1>
+<img src="http://simonjf.com/spls-oct2015/images/sicsa_blue.png" alt="SICSA (Scottish Informatics and Computer Science Alliance) logo" />
+
+<p>The <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a> is an informal meeting for the discussion of any aspect of programming languages. 
+The next SPLS will take place on <b>Wednesday 21 October 2015</b> at the University of Edinburgh.</p>
+
+<p>Information and updates about the October edition of SPLS will be sent via the <a href="https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls">SPLS Mailing List</a>.</p>
+
+<p><b>If you plan on attending, please <a href="http://server.simonjf.com/links/schedule/schedule.links">register here</a>.</b></p>
+
+<p>We gratefully acknowledge financial support from the Complex Systems Engineering theme of <a href="http://www.sicsa.ac.uk">SICSA</a>.</p>
+
+<hr>
+
+<h2>
+<a id="confirmed-speakers" class="anchor" href="index.html#confirmed-speakers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Confirmed Speakers</h2>
+
+<p>
+	<ul>
+		<li>Danel Ahman (University of Edinburgh) -- Dependent Types and Fibred Computational Effects</li>
+		<li>Guillaume Allais (University of Strathclyde) -- Type and Scope Preserving Semantics</li>
+		<li>James Chapman (University of Strathclyde) -- Relative Monads</li>
+		<li>Aaron Crane (<a href="http://www.cutbot.net">Cutbot</a>) -- Writing immutable software in a mutable language</li>
+		<li>Charles Grellois (University of Dundee) -- Linear logic, duality, and higher-order model-checking </li>
+		<li>Shayan Najd (University of Edinburgh) -- Quoted Domain-Specific Languages, an Interesting Spot in the Design Space</li>
+		<li>Roly Perera (University of Glasgow) -- Behavioural Prototypes</li>
+		<li>Matúš Tejiščák (University of St Andrews) -- Erasure in dependently typed functional languages</li>
+	</ul>
+</p>
+<h2>
+<a id="programme" class="anchor" href="index.html#programme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programme</h2>
+
+<p>The meeting will begin at 11AM and last until 17:30. There will be lunch, talks, coffee breaks, and a visit to a nearby pub.</p>
+
+<h3>10:30 - 11:00: Early Arrivals Coffee</h3>
+<h3>11:00 - 12:30: Session 1</h3>
+<ul>
+	<li><h4>11:00 - 11:45: James Chapman -- Relative Monads</h4>
+<p><blockquote>
+
+Relative Monads are a naturally arising relaxation of the monads where the underlying functor need not be an endofunctor. I will describe relative monads and their surrounding theory, and give examples of their use in Agda and Haskell.
+</blockquote>
+</p>
+</li>
+	<li><h4>11:45 - 12:30: Aaron Crane -- Writing immutable software in a mutable language</h4>
+		<p>
+			<blockquote>
+Languages like Haskell and Idris view immutability of data as a
+property of the language. Proponents of this approach point out
+advantages like the ease of reasoning about program behaviour,
+especially for data that is used across concurrency boundaries.<br /> <br />
+
+This talk offers an alternative view of the world: that software
+designs can get huge benefit from relying on immutable data even when
+the implementation uses a language designed around mutable data. While
+this is not an entirely novel position, it is backed up here by a case
+study of a piece of real-world industrial software, written in Perl,
+that extracts rich information from web pages published by the
+Scottish and UK parliaments. Perl is a highly dynamic language; it
+strongly favours the flexibility and convenience offered by that
+approach over both theoretical purity and the ability to make static
+guarantees about program behaviour. This talk examines how the design
+of the Cutbot software makes the most of both mutable and immutable
+data — even in the absence of language support for guaranteeing
+immutability. </blockquote></p>
+	</li>
+</ul>
+
+<h3>12:30 - 13:30: Lunch</h3>
+<h3>13:30 - 14:30: Session 2</h3>
+<ul>
+	<li><h4>13:30 - 14:00: Shayan Najd -- Quoted Domain-Specific Languages, an Interesting Spot in the Design Space</h4></li>
+	<p><blockquote>
+We describe a new approach to implementing Domain-Specific
+Languages (DSLs), called Quoted DSLs (QDSLs), that is inspired
+by two old ideas: quotation (or more properly, quasi-quotation),
+from McCarthy’s Lisp of 1960, and the subformula principle of
+normal proofs, from Gentzen’s natural deduction of 1935. 
+QDSLs reuse facilities provided for the host language, since host and
+quoted terms share the same syntax, type system, and normalisation
+rules. QDSL terms are normalised to a canonical form, inspired by
+the subformula principle, which guarantees that one can use higher-
+order types in the source while guaranteeing first-order types in the
+target, and enables using types to guide fusion. We test our ideas by
+re-implementing Feldspar, which was originally implemented as an
+Embedded DSL (EDSL), as a QDSL; and we compare the QDSL
+and EDSL variants.</blockquote></p>
+	<li><h4>14:00 - 14:30: Guillaume Allais -- Type and Scope Preserving Semantics</h4>
+	<p><blockquote>
+We introduce a notion of type and scope preserving semantics generalising Goguen
+and McKinna’s approach to defining one traversal generic enough to be instantiated
+to renaming first and then substitution. Its careful distinction of environment and
+model values as well as its variation on a structure typical of a Kripke semantics
+make it capable of expressing renaming and substitution but also various forms of
+Normalisation by Evaluation as well as, perhaps moresurprisingly, monadic computations
+such as a printing function. <br />  <br />
+We then demonstrate that expressing these algorithms in a common framework yields
+immediate benefits: we can deploy some logical relations generically over these
+instances and obtain for instance the fusion lemmas for renaming, substitution
+and normalisation by evaluation as simple corollaries of the appropriate fundamental
+lemma. </blockquote></p></li>
+</ul>
+
+<h3>14:30 - 15:00: Coffee</h3>
+
+<h3>15:00 - 16:00: Session 3</h3>
+<ul>
+	<li><h4>15:00 - 15:30: Danel Ahman -- Dependent Types and Fibred Computational Effects</h4></li>
+	<p><blockquote>
+	In this talk I will discuss the interplay between two important topics 
+in programming language research: dependent types and computational 
+effects; by defining a small dependently-typed language, combining the 
+features of Martin-Löf type theory and computational languages such as 
+Call-By-Push-Value and the Enriched Effect Calculus. Our language has 
+both value types and terms and computation types and terms, with the 
+value and computation types only allowed to depend on values. A novel 
+aspect of our language is the use of computational sigma-types to 
+account for type-dependency in the sequential composition of computations. <br /><br />
+
+The design of our language is inspired by a class of categorical models 
+we call fibred adjunction models. These naturally combine i) 
+comprehension categories arising from the semantics of dependent types; 
+and ii) adjunctions arising from the semantics of computational effects. 
+We also discuss a variety of examples, some arising from EM-algebras of 
+monads, some from other decompositions of monads into adjunctions and 
+some from considering general recursion as a computational effect. <br /><br /> 
+
+Finally, we also comment on some ongoing work on understanding 
+parametrized adjunctions and parametrized computational effects in this 
+fibred setting. In particular, we show how the clear distinction between 
+values and computations sheds new light on how to model parametrized 
+computational effects where the result parameters need to depend on the 
+values returned by the program, for example, to model the possible 
+failure of opening a file. <br /><br /> 
+
+(Joint work with Neil Ghani and Gordon Plotkin.)
+</blockquote></p>
+	<li><h4>15:30 - 16:00: Matúš Tejiščák -- Erasure in dependently typed functional languages</h4></li>
+<p><blockquote>In dependently typed languages, we often express algorithms in ways more
+amenable to reasoning. We program with views, turn inductive types into
+indexed families, carefully craft definitions to ensure correctness by
+construction. However, this means that our programs compute with more
+data -- views, proofs, indices -- and they may end up asymptotically
+slower if these extra structures are too big asymptotically, even if
+they shouldn't affect the behaviour of the program at runtime. <br /><br />
+
+In this talk, I will show how Idris recognises and erases this
+runtime-irrelevant data before reaching the code generation stage. Then
+I will describe an improved, type-based erasure scheme, which adds
+features like erasure from higher-order functions or a form of erasure
+polymorphism.
+</blockquote>
+</p>
+</ul>
+
+<h3>16:00 - 16:30: Coffee</h3>
+
+<h3>16:30 - 17:30: Session 4</h3>
+<ul>
+	<li><h4>16:30 - 17:00: Charles Grellois -- Linear logic, duality, and higher-order model-checking</h4>
+	<p><blockquote>A common approach in verification, model-checking consists in computing whether a given formula holds on an abstract model of interest -- typically, on a tree of actions representing the set of executions of a program. Over such a tree, a common procedure is to execute an automaton which checks whether an associated formula is satisfied. <br /> <br />
+
+The model-checking of functional programs requires a careful treatment of higher-order recursive computation, 
+which is a major hurdle to the traditional abstraction of programs as finite graphs, and thus to a decidability result. 
+This led to the use of semantic methods, notably in Ong's decidability proof (2006). <br /> <br />
+
+In this talk, we explain how linear logic leads to a new insight into the higher-order model-checking problem, 
+notably as it discloses very naturally the dual behavior of the program and of its automata-theoretic specification. 
+From this observation, we extend models of linear logic to obtain a purely semantic account of Ong's result: 
+a given property over the set of executions of the program is satisfied if and only if the semantic interaction of 
+the program with the automaton encoding the property of interest contains the initial state of the automaton. <br /> <br />
+
+This is joint work with my PhD advisor Paul-André Melliès.</blockquote></p></li>
+	<li><h4>17:00 - 17:30: Roly Perera -- Behavioural Prototypes</h4></li>
+	<p><blockquote>I'll demo a simple language of concurrent objects which explores the
+design space between type systems and continuous testing. In our
+language, finite-state programs are checked automatically for multiparty
+compatibility. This property of communicating automata, taken from the
+session types literature but here applied to terms rather than types,
+guarantees that no state-related errors arise during execution: no
+object gets stuck because it was sent the wrong message, and every
+message is processed. <br /><br />
+
+The usual object-oriented notion of subtyping is also interpreted at the
+level of terms rather than types. An abstraction takes the form of a
+prototypical implementation against which another program can be
+automatically tested for behavioural conformance. Any program can act as
+an abstraction, and conversely every abstraction is a concrete program
+that can be executed.<br /><br />
+(Joint work with Simon Gay.)
+</blockquote></p>
+</ul>
+
+
+<h2>
+<a id="venue-and-travel" class="anchor" href="index.html#venue-and-travel" aria-hidden="true"><span class="octicon octicon-link"></span></a>Venue and Travel</h2>
+
+<p>SPLS will take place at the Informatics Forum, 10 Crichton Street, Edinburgh. The entrance is opposite that of Appleton Tower; the rooms used for the seminar and lunches will be signposted.</p>
+
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.5610174371202!2d-3.187107574010932!3d55.944767069959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78447fcdee1%3A0xb4769668986c5918!2s10+Crichton+St%2C+Edinburgh+EH8+9AB!5e0!3m2!1sen!2suk!4v1441824634154" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<p>Further information about travelling to the Informatics Forum can be found on the <a href="http://www.ed.ac.uk/informatics/about/location">School of Informatics web site</a>.</p>
+
+<hr>
+
+<h2>
+<a id="organisers" class="anchor" href="index.html#organisers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Organisers</h2>
+
+<p>The organisers are Simon Fowler (simon.fowler -at- ed.ac.uk), Sam Lindley (sam.lindley -at- ed.ac.uk), and James McKinna (james.mckinna -at- ed.ac.uk).</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Scottish Programming Languages Seminar: Wednesday 30th October 2013</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="reveal-abstract.js"></script>
+  </head>
+  <body>
+    <div class="headerid">
+      <img src="InformaticsUni_RGBsm.jpg" alt="The University of Edinburgh, Informatics">
+    </div>
+
+    <h1>Scottish Programming Languages Seminar</h1>
+
+    <p>
+    The next <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a> will be held on
+    <strong>Wednesday 30th October 2013</strong> at the
+    <strong>Informatics Forum, University of Edinburgh</strong>. The
+    organisers are <a href="http://homepages.inf.ed.ac.uk/slindley/">Sam Lindley</a> and
+    <a href="http://www.inf.ed.ac.uk/people/staff/Roland_Perera.html">Roly Perera</a>.
+
+    <p>
+    The seminar will be held at the Informatics Forum, 10 Crichton
+    Street, Edinburgh, EH8 9AB. A <a
+    href="http://www.ed.ac.uk/maps/buildings/informatics-forum">map
+    showing the Forum</a> is available. The entrance is opposite that of
+    Appleton Tower.
+
+    <p>
+      Lunch will be available from 12.30pm, and talks will begin at
+      1.30pm with an LFCS seminar delivered by SICSA distinguished
+      visiting fellow <a href="http://www.ittc.ku.edu/~andygill/">Andy
+      Gill</a>. The programme is below. We aim to finish at 5.30pm,
+      after which we will head to a nearby pub.
+
+    <p>
+      Lunch and coffee breaks will be held in "Mini-Forum 2" (room
+      4.40) - take the glass lift to the fourth floor and turn right;
+      it is the large room at the end of the corridor. Talks will be
+      held in room 4.31/4.33 - from the lift turn right, then right
+      again into another corridor. The room is the glass-walled
+      meeting room on the inside of the building. You can see it from
+      the lift on the way up.
+
+    <p>We will have signs directing you to both rooms on the day.
+
+    <p>SPLS receives financial support from the Complex Systems Engineering theme of <a href="http://www.sicsa.ac.uk/">SICSA</a>,
+       the Scottish Informatics and Computer Science Alliance. </p>
+
+    <h2>Programme</h2>
+
+<table class="meetings">
+<col id="date"><col id="stuff">
+
+<tr>
+ <td class="date">1230</td>
+ <td>
+  Lunch
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 1 - LFCS seminar</td>
+</tr>
+
+
+<tr>
+ <td class="date">1330</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Andy Gill (Kansas)</td></tr>
+    <tr><th>Title:</th>  <td>HERMIT - Equational Reasoning in Haskell and GHC Core</td></tr>
+  </table>
+  <div class="abstract">
+  <p>The importance of reasoning about and refactoring programs
+  is a central tenet of functional programming.
+  Yet our compilers and development toolchains
+  only provide rudimentary support for these tasks.
+  To address this, we have implemented HERMIT, a toolkit enabling
+  informal but systematic transformation of Haskell
+  programs from inside the Glasgow Haskell Compiler's
+  optimization pipeline.
+  With HERMIT, users can experiment with optimizations
+  and equational reasoning, while the
+  tedious heavy lifting of performing the actual transformations
+  is done for them.
+  <p>HERMIT provides a transformation API that can be
+  used to build higher-level rewrite tools.
+  In this talk I will describe our principal HERMIT application---a
+  read-eval-print shell for performing transformations using HERMIT.
+  I will also demonstrate using this shell to prototype an optimization
+  on a specific example, and discuss our experiences and remaining challenges.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1430</td>
+ <td>Tea and coffee break</td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 2</td>
+</tr>
+
+<tr>
+ <td class="date">1500</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Kevin Hammond (St Andrews)</td></tr>
+    <tr><th>Title:</th> 
+     <td>Predictable Timing Behaviour on x86 Multicores using High-Level Patterns of Parallelism</td>
+    </tr>
+  </table>
+  <div class="abstract">
+  <p>The EU ParaPhrase Project is investigating new approaches to
+  programming parallel computing systems using high-level patterns of
+  parallelism to target heterogeneous parallel platforms.  In order to
+  do this effectively, it is necessary to construct good timing models
+  and analyses.
+
+  <p>The relaxed-memory concurrency protocols that are enforced by commonly
+  used hardware, such as x86 multicores and some ARM multicores, have
+  complex functional and timing behaviours.  Understanding these
+  behaviours is crucial to constructing good timing analyses for these
+  architectures, that can be used to predict parallel performance.  This
+  talk takes a principled and rigorous approach to relaxed memory
+  concurrency, building on the functional and behavioural semantics of
+  primitive x86 concurrency primitives including atomic memory
+  exchanges, memory fences and a detailed cache model, to build accurate
+  high-level timing analyses for some key high-level patterns of
+  parallelism.  The talk shows that using these analyses, it is possible
+  to accurately predict timing behaviour for real x86 multicores.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1530</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Robert Atkey</td></tr>
+    <tr><th>Title:</th>  <td>From Parametricity to Conservation Laws, via Noether's Theorem</td></tr>
+  </table>
+  <div class="abstract">
+  <p>Invariance is of paramount importance in programming languages and in
+  physics. In programming languages, John Reynolds’ theory of relational
+  parametricity demonstrates that parametric polymorphic programs are
+  invariant under change of data representation, a property that yields
+  “free” theorems about programs just from their types. In physics, Emmy
+  Noether showed that if the action of a physical system is invariant
+  under change of coordinates, then the physical system has a conserved
+  quantity: a quantity that remains constant for all time. Knowledge of
+  conserved quantities can reveal deep properties of physical systems.
+  For example, the conservation of energy, which by Noether’s theorem is
+  a consequence of a system’s invariance under time-shifting.
+
+  <p>In this talk, I'll link Reynolds’ relational parametricity with
+  Noether’s theorem for deriving conserved quantities. I propose an
+  extension of System Fω with new kinds, types and term constants for
+  writing programs that describe classical mechanical systems in terms
+  of their Lagrangians. I'll show, by constructing a relationally
+  parametric model of our extension of Fω, that relational parametricity
+  is enough to satisfy the hypotheses of Noether’s theorem, and so to
+  derive conserved quantities for free, directly from the polymorphic
+  types of Lagrangians expressed in our system.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1600</td>
+ <td>Tea and coffee break</td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 3</td>
+</tr>
+
+<tr>
+ <td class="date">1630</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Marco Gaboardi (Dundee)</td></tr>
+    <tr><th>Title:</th>  <td>Linear Dependent Types and Program Analysis</td></tr>
+  </table>
+  <div class="abstract">
+  <p>In this talk I will present a type methodology combining linear types with 
+  lightweight dependent types and how to use it in program analysis. 
+  Linear types are useful for expressing properties of functions in terms of
+  the usage of their input; lightweight dependent types are useful for
+  describing the behavior of the program in terms of its control flow. 
+  These two ideas fit together well when one is interested in
+  analyzing properties of functions depending on the control flow of the
+  program. I will present these ideas in the context of sensitivity analysis for 
+  differential privacy. 
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1700</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Greg Michaelson (Heriot-Watt)</td></tr>
+    <tr><th>Title:</th>  <td>The I/O Hokey-Cokey</td></tr>
+  </table>
+  <div class="abstract">
+  <p>
+  <i>
+  You put your output in,<br />
+  You get your input out,<br />
+  Putc, Getc, shake it all about,<br />
+  Jack plugs, cables, side effects,<br />
+  That's what it's all about...<br />
+  </i>
+
+  <p>
+  Without I/O, computation is mere mathematical whimsy, yet programming
+  languages tend to treat I/O as an afterthought. In this rambling brain
+  dump, we will survey the peculiar history of programming language I/O,
+  deploying specious taxonomies to try and tease out and critique I/O
+  design choices.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1730</td>
+ <td class="break">Finish</td>
+</tr>
+
+<!--
+<tr>
+ <td colspan="2" class="break">&nbsp;</td>
+</tr>
+
+<tr>
+ <td class="date">1400</td>
+ <td>
+  Coffee break
+ </td>
+</tr>
+-->
+
+</table>
+
+  </body>
+</html>
+

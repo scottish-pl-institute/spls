@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>SPLS at Glasgow University -- June 18 2014</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+
+<body>
+
+<table width="75%" align="center">
+	<tr>
+		<td valign="top">
+		  <img alt="The University of Glasgow" src="logo-glasgow-university.png" style="margin: 5px 0px 25px 25px; width: 8cm" align="right" /><h1><b>Scottish Programming Languages Seminar</b></h1>
+
+		  Welcome to the site of the <a href="http://www.dcs.gla.ac.uk/research/spls/" target="_blank">Scottish Programming Languages Seminar (SLPS)</a> 2014 summer meeting. The seminar will be held on <b>Wednesday 18th of June</b> at the <a href="http://www.gla.ac.uk/schools/computing/" target="_blank">School of Computing Science</a>, the University of Glasgow. The organisers are <a href="http://www.dcs.gla.ac.uk/~simon/">Simon Gay</a>, <a href="http://www.dcs.gla.ac.uk/~ornela/">Ornela Dardha</a>, and <a href="http://www.dcs.gla.ac.uk/~natalia/">Natalia Chechina</a>.
+
+		  <br /><br /><b>Please, register <a href="http://doodle.com/defseqd5cr73sq5g" target="_blank">here</a></b> if you intend to attend the seminar.
+
+
+		  <br /><br /><img alt="Scottish Informatics and Computer Science Alliance (SICSA)" src="logo-sicsa.jpg" style="margin: 5px 0px 25px 25px; width: 11cm" align="right" /><h2>Location</h2>
+		  School of Computing Science, University of Glasgow
+		  <br />Sir Alwyn Williams Building (SAWB) Room 422
+		  <br />Lilybank Gardens, Glasgow G12 8QQ
+
+		  <br /><br />Information on travelling to the School of Computing Science of the University of Glasgow can be found <a href="http://www.gla.ac.uk/schools/computing/aboutus/howtofindus/" target="_blank">here</a>.
+
+		  <!-- <br /><br />Lunch and coffee breaks will be held in room SAWB 422. -->
+
+
+
+		  <br /><br /><h2>Acknowledgement</h2>
+		  This meeting of SPLS has received financial support from the <a href="http://www.sicsa.ac.uk/themes/complex-systems-engineering" target="_blank">Complex Systems Engineering theme</a> of the <a href="http://www.sicsa.ac.uk/" target="_blank">Scottish Informatics and Computer Science Alliance (SICSA)</a>.
+
+
+		  <br /><br /><h2>Programme</h2>
+		  <b>12.00 &emsp;Lunch</b>
+		  <!-- <br />Sir Alwyn Williams Building (SAWB) Room 422 -->
+
+		  <br /><br /><b>13.00 &emsp;Stream-processing for Functional Programmers</b>
+		  <br /><i><a href="http://www.cs.indiana.edu/~rrnewton/homepage.html">Ryan Newton</a>, Indiana University</i>
+		  <blockquote>Functional programming and stream-processing have shared history -- from early work on dataflow architectures, VAL, and SISAL, to Haskell's use of stream-based IO (before monads) or the modern-day resurgence of Haskell stream libraries (iteratees, pipes, conduit). These days, "streaming" can mean a lot of things; StreamIt, based on synchronous-dataflow, has totally ordered streams and will not duplicate stateful stream processors, whereas Apache Storm makes the opposite decisions. The first part of this talk will overview this broad landscape.
+
+		    <br />We argue that the degree of dynamism (e.g. in data-rates and stream topologies) is the major axis along which various stream technologies are differentiated. In the second part of this talk, we describe our past and ongoing work on navigating this spectrum, by developing technologies that leverage regularities where they occur, but tolerate dynamism.  We have studied profile-driven program partitioning, and other compilation topics, and our current thrust for developing stream DSLs overlaps heavily with work on data-parallel DSLs (e.g. Accelerate).
+		  </blockquote>
+
+		  <b>14.00 &emsp;Tea/coffee break</b>
+
+		  <br /><br /><b>14.30 &emsp;An Automaton Programming Language for Dynamic, Distributed, Complex Event Processing Systems</b>
+		  <br /><i><a href="http://www.dcs.gla.ac.uk/~joe/">Joe Sventek</a>, Glasgow University</i>
+		  <blockquote>In the current era of "Big Data", distributed complex event processing is the prevailing approach to analyzing streams of raw data in real time. The sheer volume of raw data events demands that aggregation operations take place as close as possible to the sources of raw data.  Many such sources are constrained, wireless sensor nodes (such as constitute the Internet of Things); increasingly, smart phones are also providing socially-related streams of raw data. Traditional complex event processing technologies, based upon stream database management systems or publish/subscribe systems, are adept at handling many demands for complex event processing. A growing number of hybrid complex event detection scenarios require features of both technologies. Previous work in my group [1] has focused on a unification of publish/subscribe and stream database concepts to tackle all complex event processing scenarios, with particular emphasis upon hybrid scenarios. Fundamental to this unification is an automaton programming language for specifying aggregation operations and an asymmetric publish/subscribe broker architecture for aggregating at different levels of abstraction. This architecture enables runtime composition of ensembles of automata, an essential feature for an open, distributed complex event processing platform. It also enables the placement of aggregation operations into the infrastructure.
+ 
+		    <br />In this talk, I will describe the automaton programming language, GAPL, its runtime, give some examples, and provide information about the performance and scalability of the system.
+ 
+		    <br /><br />[1] J Sventek, A Koliousis, "Unification of publish/subscribe systems and stream databases: the impact on complex event processing", Proceedings of the 13th International Middleware Conference, 292-311.
+		  </blockquote>
+
+		  <b>15.00 &emsp;The New SYCL for OpenCL Standard: C++ Metaprogramming for Heterogeneous Systems</b>
+		  <br /><i>Andrew Richards, CEO, <a href="http://www.codeplay.com/">Codeplay</a></i>
+		  <blockquote>We have just finished the first provisional release of a standard we have been working on with a group of semiconductor companies and software developers. It's called SYCL and it enables C++ metaprogramming on a wide range of heterogeneous processors supported by OpenCL. This talk will cover some of the problems standardizing a programming model on a range of heterogeneous devices and operating systems and how as a group we overcame those problems with SYCL. We came up with some interesting new solutions to the challenges posed by heterogeneous systems, such as:
+		    <ul>
+		      <li>How do you provide a standard way for different compilers for very different devices to interoperate and compile the same integrated source file?</li>
+		      <li>How do you expose the multiple levels of parallelism that exist in OpenCL's execution model in an easy-to-use way?</li>
+		      <li>How do you handle the differences in data access between the "host" CPU and different devices in the system?</li>
+		      <li>How does the type system handle the difference in pointer types between host and device?</li>
+		      <li>We also had a lot of discussions about asynchronous error-handling, which is a hard problem in C++ right now.</li>
+		    </ul>
+		  </blockquote>
+
+		  <b>15.30 &emsp;Session Type-like Reasoning Using Multi-sorted Term Algebras</b>
+		  <br /><i><a href="http://www.cis.strath.ac.uk/cis/staff/index.php?uid=72830">Stevan Andjelkovic</a>, University of Strathclyde</i>
+		  <blockquote>I'll show how (a type theoretic generalisation of) multi-sorted signatures and their terms algebras can be used to write client and server programs that interact according to some pre-specified protocol. The programs written in this style will be correct-by-construction with regard to the protocol, similar to programs written in a language with session types. It's not clear to me how far this approach can be pushed, in particular it's not obvious how to handle concurrency nor recursive protocols -- if there's time, I shall try to touch upon those topics.
+		  </blockquote>
+
+		  <b>16.00 &emsp;Tea/coffee break</b>
+
+		  <br /><br /><b>16.30 &emsp;Resource-dependent Algebraic Effects for Communication Protocols</b>
+		  <br /><i><a href="http://edwinb.wordpress.com/">Edwin Brady</a>, University of St Andrews</i>
+		  <blockquote>There has been significant interest in recent months in finding new ways to implement composable and modular effectful programs using handlers of algebraic effects.  In previous work, I have shown how an algebraic effect system can be embedded directly in a dependently typed host language, Idris. In this talk I will show how, additionally, parameterising algebraic effects over a resource state allows us to reason about run-time state transitions, where a transition may depend on run-time information about resource usage.
+		    <br />Using this, I will show how we can describe communication protocols for concurrent and distributed systems, and build implementations of those protocols which are verified by the Idris type checker.</blockquote>
+
+		  <b>17.00 &emsp;How domain specific are Domain Specific Languages?</b>
+		  <br /><i><a href="http://www.macs.hw.ac.uk/~greg/">Greg Michaelson</a>, Heriot-Watt University</i>
+		  <blockquote>DSLs are supposed to capture abstractions appropriate for well characterised classes of problems. But if a DSL is Turing complete (TC), or embedded in a TC language, or its domain maps to other domains, then is it really domain specific? Perhaps domain specific-ness is a pragmatic rather than a semantic property? 
+		    <br />This is an extended version of the presentation given at the Real World DSL Workshop on 1/5/14.</blockquote>
+
+		  <b>17.30 &emsp;Pub</b>
+		  <br /><br /><br />
+
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+

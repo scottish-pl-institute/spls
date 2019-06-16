@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Scottish Programming Languages Seminar: Tuesday 15th March 2011</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="reveal-abstract.js"></script>
+  </head>
+  <body>
+    <div class="headerid">
+      <img src="InformaticsUni_RGBsm.jpg" alt="The University of Edinburgh, Informatics">
+    </div>
+
+    <h1>Scottish Programming Languages Seminar</h1>
+
+    <p>
+    The next <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a> will be held on
+    <strong>Tuesday 15th March 2011</strong> at the
+    <strong>Informatics Forum, University of Edinburgh</strong>. The
+    organisers are <a href="http://www.inf.ed.ac.uk/people/staff/Brian_Campbell.html">Brian Campbell</a> and <a
+    href="http://homepages.inf.ed.ac.uk/slindley/">Sam Lindley</a>.
+
+    <p>
+    The seminar will be held at the Informatics Forum, 10 Crichton
+    Street, Edinburgh, EH8 9AB. A <a
+    href="http://www.ed.ac.uk/maps/buildings/informatics-forum">map
+    showing the Forum</a> is available. The entrance is opposite that of
+    Appleton Tower.
+
+    <p>
+      Lunch will be available from around 1pm, and the talks will
+      start at 2pm.  The programme is below.
+      We expect to finish around 5.40pm, after which we will head to a
+      nearby pub.
+
+    <p>
+      Our thanks to everyone who let us know that they would be coming.
+      Everyone else is still welcome to attend, hopefully there will be
+      enough food and refreshments for you, too.
+
+    <p>
+      Lunch and coffee breaks will be held in "Mini-Forum 2" (room
+      4.40 in the link below) - take the lift to the fourth floor and
+      turn right; it is the large room at the end of the corridor.
+      Talks will be held in room 4.31/4.33 - from the lifts turn
+      right, then right again into another corridor.  The room is the
+      glass-walled meeting room on the inside of the building.  You
+      can see it from the lift on the way up.
+
+    <p>We will have
+    signs <a href="http://touchscreens.inf.ed.ac.uk/forum/tab-maps.php?floor=G#floor-4">directing
+    you to both rooms</a> on the day.
+
+    <p>SPLS receives financial support from the Complex Systems Engineering theme of <a href="http://www.sicsa.ac.uk/">SICSA</a>,
+       the Scottish Informatics and Computer Science Alliance. </p>
+
+    <h2>Programme</h2>
+
+<table class="meetings">
+<col id="date"><col id="stuff">
+
+<tr>
+ <td class="date">1300</td>
+ <td>
+  Lunch
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 1</td>
+</tr>
+
+
+<tr>
+ <td class="date">1400</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Christophe Dubach (Edinburgh)</td></tr>
+    <tr><th>Title:</th>  <td>LiquidMetal: a unified programming language and runtime for
+heterogeneous platforms
+</td></tr>
+  </table>
+  <div class="abstract">
+In this talk I will give an overview of the LiquidMetal project at IBM
+(<a href="http://www.research.ibm.com/liquidmetal/">www.research.ibm.com/liquidmetal/</a>)
+and present some preliminary results
+for the GPU backend which I developed in collaboration with IBM.
+
+LiquidMetal aims to address the difficulties that programmers face today
+when developing applications for computers that feature programmable
+accelerators (GPUs and FPGAs) alongside conventional multi-core
+processors. It offers a single unified programming language called Lime
+and a runtime that allows (all) portions of an application to move
+fluidly between hardware and software, dynamically and adaptively.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1430</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Aziem Chawdhary (Edinburgh)</td></tr>
+    <tr><th>Title:</th>  <td>Proving the Soundness of Abstract Interpreters for Liveness
+Properties using Metric Spaces
+</td></tr>
+  </table>
+  <div class="abstract">
+We present a brief overview of a framework for defining abstract
+interpreters for liveness properties, in particular program
+termination. The framework makes use of the theory of metric spaces to
+define a concrete semantics, relates this semantics with the usual
+order-theoretic semantics of abstract interpretation and identifies a
+set of conditions for determining when an abstract interpreter is
+sound for analysing liveness properties. Our soundness proof of the
+framework is based on a novel relationship between unique fixpoints in
+metric semantics and post-fixpoints computed by abstract
+interpreters. <br>
+This talk is based on the paper Metric Spaces and Termination Analysis from
+APLAS 2010. 
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1500</td>
+ <td>Tea and coffee break</td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 2</td>
+</tr>
+
+<tr>
+ <td class="date">1520</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Adam Gundry (Strathclyde)</td></tr>
+    <tr><th>Title:</th>  <td>Types with units of measure</td></tr>
+  </table>
+  <div class="abstract">
+A type system extended with units of measure allows static checking of
+unit consistency, ensuring, for example, that numbers with different
+units can be multiplied but not added. Kennedy describes an elegant
+system of units of measure that supports polymorphism, and which has
+been implemented in the functional programming language F#. This
+system models units as elements of a free abelian group, for which
+unification is decidable and has most general solutions, so type
+inference is possible. However, the system interacts awkwardly with
+the let-generalisation step of the Damas-Milner algorithm, and the F#
+implementation fails to infer principal types. I present an approach
+to unification and type inference based on minimal-commitment problem
+solving in a structured context, for which generalisation is
+simple. Type inference for the system of units of measure is then
+straightforward.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1550</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Gordon Guthrie (Hypernumbers)</td></tr>
+    <tr><th>Title:</th>  <td>The User-Programmable Web</td></tr>
+  </table>
+  <div class="abstract">
+Hypernumbers are a small cash-flow positive Edinburgh startup in the
+End-User Programming space.
+
+End user programming for the desktop is dominated by Microsoft Excel
+and Microsoft Access and Hypernumbers are trying to extend that market
+to the web space.
+
+The spreadsheet is an expression-based functional programming paradigm
+and the strategic aim is to make the entire internet an
+expression-based FP.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1620</td>
+ <td>Tea and coffee break</td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 3</td>
+</tr>
+
+<tr>
+ <td class="date">1640</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Kenneth MacKenzie (Edinburgh)</td></tr>
+    <tr><th>Title:</th>  <td>Amortised Resource Analysis for Java Bytecode</td></tr>
+  </table>
+  <div class="abstract">
+I'll describe and demonstrate a resource analysis tool for Java
+bytecode which uses a technique (due to Bob Atkey, and related to work
+by Steffen Jost and Martin Hofmann) combining separation logic and
+amortisation.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1710</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Robert Atkey (Strathclyde)</td></tr>
+    <tr><th>Title:</th>  <td>Generalised Parsing with Combinators</td></tr>
+  </table>
+  <div class="abstract">
+Parser combinators are a popular method for constructing parsers within
+functional programming languages. The advantages of parser combinators
+include the ability to change the language being parsed on-the-fly:
+either before parsing starts or during parsing, based on previous input.
+In this talk I will discuss three popular interfaces for parser
+combinators---monadic, applicative functor and arrow based---and discuss
+their relative strengths. I will also discuss how to adapt parser
+combinators to parse grammars that are traditionally difficult for them,
+including left recursion and high levels of ambiguity, by adapting
+Earley's algorithm for general context-free grammars.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1740</td>
+ <td class="break">Finish</td>
+</tr>
+
+<!--
+<tr>
+ <td colspan="2" class="break">&nbsp;</td>
+</tr>
+
+<tr>
+ <td class="date">1400</td>
+ <td>
+  Coffee break
+ </td>
+</tr>
+-->
+
+</table>
+
+  </body>
+</html>

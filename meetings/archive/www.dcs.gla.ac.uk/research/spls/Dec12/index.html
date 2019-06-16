@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title></title>
+</head>
+
+<body>
+  <h1></h1>
+<pre>
+
+
+
+
+	      THE SCOTTISH PROGRAMMING LANGUAGES SEMINAR
+
+		       Thursday 6 December 2012
+		      University of Strathclyde
+	     Livingstone Tower, room LT1415, 12.00-17.30
+
+
+
+Programme
+
+--12.00-13.30----Lunch (sandwiches, etc, will be provided)-----------
+
+  13.30-14.00  Neel Krishnaswami                  (Birmingham)
+               Simple and Efficient Higher-Order Reactive Programming
+
+  14.00-14.30  Chris Brown                        (St Andrews)
+               The ParaPhrase Project:
+               Parallel Patterns for Heterogenous Multicore Systems
+
+--14.30-15.00----Coffee----------------------------------------------
+
+  15.00-15.30  Sam Lindley                        (Strathclyde)
+               Handlers in Action
+
+  15.30-16.00  Danel Ahman                        (Edinburgh)
+               Computational effects (and their handlers)
+               in normalization by evaluation
+
+--16.00-16.30----Coffee----------------------------------------------
+
+  16.30-17.00  Jeremy Singer                      (Glasgow)
+               JVM Linguistics:
+               A dynamic analysis of Non-Java JVM languages
+
+  17.00-17.30  Simon Fowler / Philip Hölzenspies  (St Andrews)
+               Tactile Terms demonstration
+
+--17.30-18.30----Pub-------------------------------------------------
+
+Actions for You
+
+  * Please let me know if you're coming for lunch, so we can guess how
+      many little things on sticks, etc there should be. Do indicate if you
+      would like some influence over what sort of things are on the sticks.
+
+  * Please let me know if you're interested in staying for dinner. I'd be
+      happy to book somewhere, but they always want numbers. I'm currently
+      inclined towards Italian food, but I could be persuaded otherwise.
+
+
+
+
+Abstracts
+
+
+  13.30-14.00  Neel Krishnaswami                  (Birmingham)
+               Simple and Efficient Higher-Order Reactive Programming
+
+Functional reactive programming (FRP) is an elegant approach to
+declaratively specify reactive systems. However, the powerful
+abstractions of FRP have historically made it difficult to predict and
+control the resource usage of programs written in this style.
+
+In this talk we give a simple type theory for higher-order func-
+tional reactive programming, as well as a natural implementation
+strategy for it. Our type theory simplifies and generalizes prior type
+systems for reactive programming. At the same time, we give a an
+efficient implementation strategy which eagerly deallocates old
+values, ruling out space and time leaks, two notorious sources of
+inefficiency in reactive programs. Our language neither restricts the
+expressive power of the FRP model, nor does it require a complex
+substructural type system to track the resource usage of programs.
+
+We also show that for programs well-typed under our type system, our
+implementation strategy of eager deallocation is safe: we show the
+soundness of our type system under our implementation strategy, using
+a novel step-indexed Kripke logical relation.
+
+
+  14.00-14.30  Chris Brown                        (St Andrews)
+               The ParaPhrase Project:
+               Parallel Patterns for Heterogenous Multicore Systems
+
+Enabling programmers to "think parallel" is critical if we are to be
+able to effectively exploit future multicore/manycore architectures.
+In this talk I will introduce paraphrasing: a new approach for
+constructing parallel programs using formally-defined refactoring
+transformations.  I will introduce a number of new refactorings for
+Erlang that capture common parallel abstractions, such as maps, farms
+and pipelines, and show how these can be used by a refactoring tool,
+to introduce and tune parallelism, using cost-models as guidance.
+
+Using a paraphrasing approach, we are able to easily obtain
+significant and scalable speedups in Erlang (up to 4.9 on an 8-core
+machine).
+
+
+  15.00-15.30  Sam Lindley                        (Strathclyde)
+               Handlers in Action
+
+Plotkin and Pretnar's handlers for algebraic effects occupy a sweet
+spot in the design space of abstractions for effectful computation. By
+separating effect signatures from their implementation, algebraic
+effects provide a new level of modularity allowing programmers to
+express effectful programs independently of the concrete
+interpretation of their effects. A handler is an interpretation of the
+effects of an algebraic computation.
+
+The handler abstraction adapts well to multiple settings: pure or
+impure, strict or lazy, static or dynamic typing. I will give a gentle
+introduction to its use and a collection of illustrative
+examples. Time permitting, I will describe our implementation in
+Haskell, outline other implementation strategies, and present
+preliminary results on the impact of the high level of abstraction on
+performance.
+
+
+  15.30-16.00  Danel Ahman                        (Edinburgh)
+               Computational effects (and their handlers)
+               in normalization by evaluation
+
+I shall summarize the work undertaken during my MPhil project on
+formalizing normalization by evaluation (NBE) for Levy's fine-grained
+call-by-value (FGCBV) language extended with Plotkin-Power algebraic
+value and effect theories. I will show how free monads, Kripke logical
+relations and semantics based on partial equivalence relations make
+both the definition of the normalizer and the correctness proofs neat
+and straightforward.
+
+If time permits, I will also outline the latest work on extending
+Levy's FGCBV language and the NBE algorithm with Pretnar's handlers of
+computational effects. This will include discussing two possibilities
+of handling computations (into computations or into values) and
+various subtleties both in giving the handlers an equational theory in
+FGCBV and defining normal handlers that are identity on operations.
+
+
+  16.30-17.00  Jeremy Singer                      (Glasgow)
+               JVM Linguistics:
+               A dynamic analysis of Non-Java JVM languages
+
+The rapid adoption of non-Java JVM languages is impressive: major
+international corporations are staking critical parts of their
+software infrastructure on components built from JVM languages such as
+Scala and Clojure. However, to date there has been no principled
+comparison of how these languages interact with the JVM. I will
+describe an exploratory data analysis of the dynamic behaviour of five
+widely used JVM languages. We discover divergence in dynamic behaviour
+from Java programs, and discuss the implications of these differences
+for the performance of JIT compilation and garbage collection.
+
+
+  17.00-17.30  Simon Fowler / Philip Hölzenspies  (St Andrews)
+               Tactile Terms demonstration
+
+Programming languages with strong type systems have proven their use
+in disallowing erroneous programs. Arguably, therefore, as many
+programs as possible should be written in a strongly typed
+language. Uptake of such languages by the programming community at
+large, unfortunately, is slow. Worse still, strongly type languages
+are losing ground to dynamically typed languages, like Python, Ruby,
+Perl and PHP. We believe the rejection of strong types by many people
+stems from the experience that they make for complicated
+languages. Type errors seem to have an especially deterring effect on
+students and programming novices. The alternative programmer-compiler
+interaction presented in this demonstration is aimed at making strong
+types more accessible to the mainstream of programming, as well as
+providing expert programmers in these languages with a comfortable and
+fast development tool. This is achieved, not by using graphical
+metaphors for terms, but by giving users per-modification feedback on
+the types of their terms - including the rejection of the construction
+of ill-typed terms - and a more visual presentation of these (still
+textual) terms than simple (syntax highlighted) text.
+
+
+
+
+
+
+</pre>
+<hr>
+<address></address>
+<!-- hhmts start --> Last modified: Tue Feb 26 10:33:28 GMT 2013 <!-- hhmts end -->
+</body> </html>

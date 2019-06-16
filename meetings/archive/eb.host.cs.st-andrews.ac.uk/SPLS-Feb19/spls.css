@@ -1,0 +1,87 @@
+BODY, SPAN {
+        font-family: Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+        color:  #000020;
+        background: #ffffff;
+        }
+
+UL, OL {
+        font-family: Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+        color:  #000020;
+        background: #ffffff;
+        }
+
+P {
+        font-family: Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+}
+
+H1, H2, H3 {
+        font-family: Tahoma, "Myriad Web",
+	Syntax, sans-serif;
+	font-weight: bold; 
+	color: #101020;
+        background: #d0d0ff;
+}
+
+TH {
+        font-family: Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+        color:  #000020;
+        background: #f0f0ff;
+}
+
+TD {
+        font-family: Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+        color:  #200000;
+        background: #f0f0ff;
+	vertical-align: top
+}
+
+.photo {
+       background : #C0C0F0;
+       padding: 20px;
+}
+
+.caption {
+       background : #B0B0F0;
+       padding: 10px;
+}
+
+.layout {
+        color:  #000000;
+        background: #C0C0D0;
+}
+
+.main {
+        color:  #000020;
+        background: #E0E0F0;
+}
+
+TABLE {
+      color: #F00000
+}
+
+H2, H3 {
+        font-family: Verdana, Tahoma, "Myriad Web", Syntax, sans-serif;
+	color: #000080;	
+}
+
+ADDRESS {
+        font-family: Verdana, Tahoma, "Myriad Web",
+        Syntax, sans-serif;
+        color:  #F5F5F5;
+        font-size: 80%;
+        }
+
+PRE     {
+        font-family: 'Andale Mono', 'Monotype.com', "Courier New", 
+        monospace;
+        }
+
+HR      {
+        color:  #3030E0;
+        }
+

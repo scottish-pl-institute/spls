@@ -1,0 +1,234 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SPLS in St Andrews, March 13th 2019</title>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="spls.css">
+</head>
+<body>
+
+<h1>Scottish Programming Languages Seminar</h1>
+
+<h3>Date and Time</h3>
+
+<p>Wednesday March 13th 2019, 12noon - 5:30pm</p>
+
+<h3>Venue</h3>
+
+<p>
+<a href="http://www.sicsa.ac.uk/"><img src="sicsa-logo.png" align=right></a>
+
+Lunch: School of Computer Science, University of St Andrews, KY16 9SX
+(<a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=ky16+9sx&sll=54.965002,-2.373047&sspn=13.803836,38.364258&ie=UTF8&hq=&hnear=Saint+Andrews,+Fife+KY16+9SX,+United+Kingdom&z=16">map</a>,
+<a href="http://www.st-andrews.ac.uk/visiting/GettingtoStAndrews/">directions</a>) thanks to <a href="http://www.sicsa.ac.uk"/>SICSA</a>.
+</p>
+<p>Talks: Maths Lecture Theatre B</p>
+
+<h3>Registration</h3>
+
+To register, please fill in the 
+<a href="https://doodle.com/poll/tv9x3cf9ys9cpxnk">doodle poll</a>. For
+any special requirements (dietary or otherwise) please contact
+<a href="mailto:ecb10@st-andrews.ac.uk">the organiser</a>.
+
+<h3>Programme</h3>
+
+<table>
+<tr><td><b>12noon</b></td><td></td><td><b>Lunch</b></td><td></td></tr>
+<tr><td><b>12:45pm</b></td><td>
+		Bastian Hagedorn<br>(University of Münster)
+</td><td><a href="index.html#michel">Elevate: A language for expressing optimisation strategies</a></td></tr>
+
+<tr><td><b>1:15pm</b></td><td>
+Sam Lindley
+<br> (University of Edinburgh)
+</td><td><a href="index.html#sam">On the relative expressive power of equi-recursive and iso-recursive types</a></td></tr>
+
+<tr><td><b>1:45pm</b></td><td>
+		Bob Atkey <br>(Strathclyde University)
+</td><td>
+<a href="index.html#bob">One Monad to the Tune of Another</a></td></tr>
+
+<tr><td><b>2:15pm</b></td><td></td><td><b>Coffee</b></td></tr>
+
+<tr><td><b>2:45pm</b></td><td>
+		Ekaterina Komendantskaya <br>(Heriot-Watt University)
+</td><td>
+<a href="index.html#katya">
+	SICSA Summer School on Verification and Programming Languages
+</a>
+(<a href="https://eb.host.cs.st-andrews.ac.uk/SPLS-Feb19/Slides/SummerSchool.pdf">Slides</a>)
+ </td></tr>
+
+<tr><td><b>3:00pm</b></td><td>
+		Philippa Cowderoy<br>
+</td><td>
+<a href="index.html#philippa">
+Information-Aware Type Systems
+</a>
+(<a href="https://eb.host.cs.st-andrews.ac.uk/SPLS-Feb19/Slides/IATS.pdf">Slides</a>)
+ </td></tr>
+
+<tr><td><b>3:30pm</b></td><td>
+		Malin Altenmuller <br>(Strathclyde University)
+</td><td>
+<a href="index.html#malin">
+ Containers of Applications and Applications of Containers
+</a>
+ </td></tr>
+
+<tr><td><b>4pm</b></td><td></td><td><b>Coffee</b></td><td></td></tr>
+
+<tr><td><b>4:30pm</b></td><td>
+		Ohad Kammar <br>(University of Edinburgh)
+</td><td>
+<a href="index.html#ohad">
+	Eff-Bayes: modular implementations of approximate Bayesian
+inference with effect handlers
+</a> </td></tr>
+
+<tr><td><b>5:00pm</b></td><td>
+		Conor McBride <br>(Strathclyde University)
+</td><td><a href="index.html#conor">Type Theory: Rules OK?</a></td></tr>
+
+
+<tr><td><b>5:30pm</b></td><td></td><td><b>Pub and dinner</b></td><td></td></tr>
+</table>
+
+<!--
+<p>
+If you are interested in giving a talk, please contact the organisers
+(details below) giving a title and abstract.
+</p>
+-->
+
+<h3>Abstracts</h3>
+
+<a name="michel">
+	<h4>Bastian Hagedorn: Elevate: A language for expressing optimisation strategies</h4>
+
+<p>
+The increasing trend towards specialised hardware accelerators makes writing portable software that achieves high performance and efficiency across multiple devices a challenging – if not impossible – task for most programmers. Higher level programming languages combined with sophisticated code generators have emerged as a promising direction to address this performance portability challenge.
+Among these approaches is the Lift project (www.lift-projet.org). The high-level Lift language allows developers to express applications in a composable and portable way. Lift programs are then translated with a rewrite system into a low-level form from which high-performance code is generated. These two layers clearly separate the functional “what to compute” from the imperative “how to compute it”.
+In this talk I will present an early version of Elevate a new language to define optimisation strategies of Lift programs as compositions of rewrite rules. While other systems, such as Halide, provide means to apply schedules or strategies externally, Elevate is designed to be extensible and allows developers to define their own optimisation strategies such as tiling or particular strategies to map computations to the hardware.
+I will show that Lift and Elevate successfully address the performance portability challenge on a series of applications ranging from linear algebra over HPC stencil computations to machine learning.
+</p>
+
+<p>
+   This is joined work with Michel Steuwer (University of Glasgow)
+</p>
+
+<a name="sam">
+	<h4>Sam Lindley: On the relative expressive power of equi-recursive and iso-recursive types</h4>
+
+<p>
+Abstract to follow
+</p>
+
+<a name="bob">
+	<h4>
+Bob Atkey: One Monad to the Tune of Another	
+	</h4>
+
+<p>
+I'll talk about a generic way of reasoning about monadic computations by
+mapping one monad, the "computational" monad, to another, the "specification"
+monad via a monad morphism. Such monad morphisms allow us to reconstruct
+existing program logics for state, I/O, nondeterminism, and exceptions. Monad
+morphisms can be packaged up neatly as a "Dijkstra Monad" -- essentially a
+monad graded by another monad -- yielding a useful technique for simultaneous
+programming and verification.
+</p>
+<p>
+This is joint work with Kenji Maillard, Danel Ahman, Guido Martínez, Cǎtǎlin
+Hriţcu, Exequiel Rivas and Éric Tanter.  </p>
+
+
+<a name="ohad">
+	<h4>
+		Ohad Kammar: Eff-Bayes: modular implementations of approximate
+		Bayesian inference with effect handlers
+	</h4>
+
+<p>
+I will describe work-in-progress, implementing a library for Bayesian
+inference algorithms for statistical probabilistic programming in the
+programming language Eff using algebraic effects and handlers.
+</p>
+<p>
+Joint work with Matija Pretnar, Žiga Lukšič, Oliver Goldstein, and
+Adam Ścibior.
+</p>
+
+<a name="katya">
+	<h4>
+		Ekaterina Komendantskaya: SICSA Summer School on Verification and Programming Languages
+	</h4>
+
+<p>
+Abstract to follow
+</p>
+
+<a name="philippa">
+	<h4>
+Philippa Cowderoy: Information-Aware Type Systems
+	</h4>
+
+<p>
+It's easy to get confused by what's going on in a modern type system. Whether
+we're doing metatheory and struggling to show something we hope is obvious, or
+just looking at part of a type error message and wondering "where's that
+from?!" 
+</p>
+<p>
+With a Simple and familiar example, I'll demonstrate how we can use a
+range of tools to make ourselves more aware of how information behaves in a
+type system. Information effects per James and Sabry enable a new presentation
+- and a path to information awareness.
+</p>
+
+<a name="malin">
+	<h4>
+Malin Altenmuller: Containers of Applications and Applications of Containers
+	</h4>
+
+<p>
+Abstract to follow
+</p>
+
+
+<a name="conor">
+	<h4>
+		Conor McBride: Type Theory: Rules OK?
+	</h4>
+
+<p>
+How should we make sure that the rules of a type theory are ok, in the sense that they admit sensible metatheoretical properties, e.g. stability under substitution? By giving a type of ok typing rules, of course! Physician, heal thyself!
+</p>
+
+<h3>Contact</h3>
+
+<p>
+General information about SPLS is available from
+the <a href="http://www.dcs.gla.ac.uk/research/spls/">SPLS
+    page</a>. For information about the event, please contact the
+organiser:
+</p>
+
+<ul>
+<li>Edwin Brady
+  (<a href="mailto:ecb10@st-andrews.ac.uk">ecb10@st-andrews.ac.uk</a>)
+</ul>
+
+<p>
+SPLS receives financial support from 
+<a href="http://www.sicsa.ac.uk/">SICSA</a>, the Scottish
+Informatics and Computer Science Alliance.
+</p>
+
+<hr>
+<em>Last updated March 1st 2019 &mdash;
+<a href="mailto:eb@cs.st-andrews.ac.uk">eb@cs.st-andrews.ac.uk</a>
+</em>
+
+</body>

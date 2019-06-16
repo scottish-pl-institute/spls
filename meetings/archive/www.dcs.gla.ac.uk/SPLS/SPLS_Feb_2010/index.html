@@ -1,0 +1,226 @@
+<html>
+  <head>
+    <title>SPLS Meeting: Wed Feb 10 2010</title>
+    <!-- <base href="http://www.macs.hw.ac.uk/~pm175/SPLS_2010_Feb_10/"> -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Scottish Programming Languages Seminar</h1>
+
+    <h3>Date</h3>
+    <p>
+      Wednesday, 10th February 2010, 13:00 &ndash; 17:30
+    </p>
+
+    <h3>Venue</h3>
+    <p>
+      <a href="http://www.icms.org.uk/">ICMS</a>, 14 India Street, Edinburgh
+    <br><br>
+      India Street is situated in the New Town district of Edinburgh
+      which is just to the north of the city centre, a few minutes
+      walk from Haymarket or Waverley train stations.
+      <a href="http://maps.google.co.uk/maps?q=eh3+6ez">(Location map from GoogleMaps)</a>
+    </p>
+
+    <h3>Programme</h3>
+    <table border="0">
+      <tr valign="top">
+        <td><b>12:00</b></td><td>&nbsp;</td>
+        <td><b>Lunch</b></td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>12:55</b></td><td></td>
+        <td>
+          <a href="http://www.macs.hw.ac.uk/~hwloidl/"><b>Hans-Wolfgang Loidl</b></a>, Heriot-Watt University<br>
+          <em>Announcement: SICSA MultiCore Challenge</em>
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>13:00</b></td><td></td>
+        <td>
+          <a href="http://www.cs.st-andrews.ac.uk/~eb/"><b>Edwin Brady</b></a>, University of St Andrews<br>
+          <em>Implementing Domain Specific Languages using Dependent Types and Partial Evaluation</em>
+          <br><br>
+            In this talk, I will describe the efficient implementation
+            of domain specific languages (DSLs) in Idris, a
+            dependently typed functional programming language. I will
+            introduce the language Idris, and show how it can be used
+            to implement a verified network transport protocol, as a
+            DSL. I will present experimental evidence that partial
+            evaluation of such programs yields efficient residual
+            programs whose performance is competitive with their Java
+            and C equivalents and which are also, through the use of
+            dependent types, verifiably type- and resource-safe.
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>13:40</b></td><td></td>
+        <td>
+          <a href="http://homepages.inf.ed.ac.uk/ratkey/"><b>Bob Atkey</b></a>, University of Strathclyde<br>
+          <em>Amortised Resource Analysis with Separation Logic</em>
+          <br><br>
+            Type-based amortised resource analysis following Hofmann
+            and Jost &mdash; where resources are associated with
+            individual elements of data structures and doled out to
+            the programmer under a linear typing discipline &mdash;
+            have been successful in providing concrete resource bounds
+            for functional programs, with good support for
+            inference. In this work we translate the idea of amortised
+            resource analysis to imperative languages by embedding a
+            logic of resources, based on Bunched Implications, within
+            Separation Logic. The Separation Logic component allows us
+            to assert the presence and shape of mutable data
+            structures on the heap, while the resource component
+            allows us to state the resources associated with each
+            member of the structure.
+          <br><br>
+            We present the logic on a small imperative language with
+            procedures and mutable heap, based on Java bytecode. We
+            have formalised the logic within the Coq proof assistant
+            and extracted a certified verification condition
+            generator. We demonstrate the logic on some examples,
+            including proving termination of in-place list reversal on
+            lists with cyclic tails.
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>14:20</b></td><td></td>
+        <td>
+          <a href="http://www.cs.albany.edu/FacultyStaff/profiles/lenore.htm"><b>Lenore M. Mullin</b></a>, University at Albany, State University of New York<br>
+          <em>Optimization of Tensor Based Languages</em>
+          <br><br>
+            The pervasiveness of matrix decompositions and tensor
+            operations in knowledge representation, and the sciences:
+            biological, chemical, physical, ... ([1, 2]) have renewed
+            an interest in domain specific algorithms. Consequently,
+            there also exists a renewed interest in domain specific
+            computing: libraries (Flame), languages (Spiral),
+            symbolic/numeric computing, expression templates,
+            compilers, operating systems, and processor/memory
+            hierarchies. The transformational nature of matrix (2-d
+            tensors) operations and tensor operations in general,
+            provides a prudent, hopeful, and deterministic way to
+            reason about computation.  The determinism arises from the
+            data structure, i.e. memory layout (contiguous), and the
+            linear (and multilinear) operations applied to the data
+            structure.  It also comes from using the same tensor
+            operations to abstract the processor/memory/network
+            hierarchy. This talk will discuss how to optimize multiple
+            Kronecker Products using A Mathematics of Arrays and Psi
+            Calculus, an algebra of multi-dimensional arrays and an
+            index calculus.
+          <br><br>
+            References:
+            <ol>
+              <li>Tamara G. Kolda and Brett W. Bader. Tensor decompositions and applications. SIAM Review, 51(3):455-500, September 2009.</li>
+              <li>Charles Van Loan. http://www.cs.cornell.edu/cv/tenwork/home.htm, Feb. 2009.</li>
+            </ol>
+        </td>
+      <tr><td>&nbsp;</td></tr>
+      </tr>
+       <tr valign="top">
+        <td><b>15:00</b></td><td></td>
+        <td><b>Tea/Coffee</b></td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>15:30</b></td><td></td>
+        <td>
+          <a href="http://homepages.inf.ed.ac.uk/wadler/"><b>Philip Wadler</b></a>, University of Edinburgh<br>
+          <em>The Audacity of Hope: Thoughts on Reclaiming the Database Dream</em>
+          <br><br>
+            A venerable line of research aims to provide a
+            general-purpose programming language with a well-defined
+            subset that compiles into efficient queries, perhaps by
+            translation into SQL or some other suitable query
+            language.  This talk discusses some older and more recent
+            advances in this direction, including the languages
+            Kleisli, LINQ, Ferry, M, and Links.
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>16:10</b></td><td></td>
+        <td>
+          <a href="http://personal.cis.strath.ac.uk/~ng/"><b>Neil Ghani</b></a>, University of Strathclyde<br>
+          <em>All Initial Algebras Support Induction</em>
+          <br><br>
+            We know that all initial algebras, solely from initiality,
+            support recursive definitions. These are known as folds in
+            the FP community.  But, so far, it seems that only certain
+            classes of initial algebras support proof by
+            induction. This is an asymmetry and it is displeasing.
+          <br><br>
+            I'll show how we can restore the harmony that the universe
+            seeks. Namely, I'll show that all initial algebras, solely
+            from their initiality, support proof by induction.
+          <br><br>
+            This is joint work with Patricia Johann.
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>16:50</b></td><td></td>
+        <td>
+          <a href="http://www.kcl.ac.uk/schools/humanities/depts/philosophy/people/fellows/mgabbay.html"><b>Michael Gabbay</b></a>, King's College London<br>
+          <em>A Simple Class Of Kripke-Style Models In Which Logic And Computation Have Equal Standing</em>
+          <br><br>
+            We present a sound and complete model of lambda-calculus
+            reductions based on structures inspired by modal logic
+            (closely related to Kripke structures).  Accordingly we
+            can construct a logic which is sound and complete for the
+            same models, and we identify lambda-terms with certain
+            simple sentences (predicates) in this logic, by direct
+            compositional translation. Under this identification,
+            reduction becomes identified with logical entailment.
+          <br><br>
+            Thus, the models suggest a new way to identify logic and
+            computation. Both have elementary and concrete
+            representations in our models; where these representations
+            overlap, they coincide.
+          <br><br>
+            In a concluding speculation, we note a certain subclass of
+            the models which seems to play a role analogous to that
+            played by the cumulative hierarchy models in axiomatic set
+            theory and the natural numbers in formal arithmetic &mdash;
+            there are many models of the respective theories, but only
+            some, characterised by a fully second order
+            interpretation, are the `intended' ones.
+        </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr valign="top">
+        <td><b>17:30</b></td><td>&nbsp;</td>
+        <td><b>Pub</b> &mdash; probably <a href="http://www.oxfordbar.com">The Oxford Bar</a></td>
+      </tr>
+    </table>
+
+    <h3>Acknowledgement</h3>
+    <p>
+      This meeting of SPLS has received financial support from the
+      <a href="http://www.sicsa.ac.uk/themes/complex-systems-engineering">Complex Systems Engineering</a>
+      theme of <a href="http://www.sicsa.ac.uk">SICSA</a>, the Scottish
+      Informatics and Computer Science Alliance.
+    </p>
+
+    <h3>Contact</h3>
+    <p>
+      General information about the SPLS series can be found on the <a href="http://www.dcs.gla.ac.uk/research/spls/">SPLS page</a>.
+      For information about this event contact the organisers:
+    </p>
+    <ul>
+      <li><a href="http://www.macs.hw.ac.uk/~pm175/">Patrick Maier</a></li>
+      <li><a href="http://www.macs.hw.ac.uk/~greg/">Greg Michaelson</a></li>
+      <li><a href="http://www.macs.hw.ac.uk/~gabbay/">Murdoch J. Gabbay</a></li>
+    </ul>
+    <p>
+      School of Mathematical and Computer Sciences, Heriot-Watt University
+    </p>
+
+    <h4>Page last modified: Wednesday 10 February 2010</h4>
+  </body>
+</html>

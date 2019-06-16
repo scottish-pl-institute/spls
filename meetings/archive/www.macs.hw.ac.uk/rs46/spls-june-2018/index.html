@@ -1,0 +1,256 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<title>SPLS, Heriot-Watt University, 5 June 2018</title>
+
+<h2>Scottish Programming Languages Seminar</h2>
+Tuesday 5 June 2018<br>
+12:00 - 18:00<br>
+Cairn Auditorium, PG G.01, Postgraduate Centre (detailed directions below)<br>
+Heriot-Watt University<br><br>
+<i>Please register</i> so that catering can be ordered: <a href="https://doodle.com/poll/speren83zqd5ysmv#table">doodle poll</a> (mark <i>only</i> the 5 June column).<br>
+Any dietary requirements email Rob Stewart (R.Stewart@hw.ac.uk) by Friday 11 May.
+
+<h2>Talks</h2>
+
+    <li><B>12:00 - Lunch</B><br><br>
+
+    <li><B>12:30 - Multi-level parallelism for high performance
+    combinatorics</B><br><i>Florent Hivert, University
+	Paris-Sud</i><br>
+      <a href="http://www.macs.hw.ac.uk/~rs46/spls-june-2018/slides/HPC-Combi.pdf">[slides]</a>
+      <br><br>
+
+      <div id="abstract">
+	In this talk, I will report on several experiments around
+	large scale enumerations in enumerative and algebraic
+	combinatorics.
+	<br>
+        I'll describe a methodology used to achieve large speedups in
+        several enumeration problems. Indeed, in many combinatorial
+        structures (permutations, partitions, monomials, young
+        tableaux), the data can be encoded as a small sequence of
+        small integers that can often efficiently be handled by a
+        creative use of processor vector instructions. Through the
+        challenging example of numerical monoids, I will then report
+        on how Cilkplus allows for a extremely fast parallelization of
+        the enumeration. Indeed, we have been able to enumerate sets
+        with more that 10^15 elements on a single multicore machine.
+      </div>
+      <br><br>
+
+    <li><B>13:00 - AnyDSL: Building Domain-Specific Languages for
+	Productivity and Performance</B><br><i>Roland Leißa, Saarland
+	University</i><br><br>
+
+      <div id="abstract">
+	Nowadays, the computing landscape is becoming increasingly
+	heterogeneous and this trend is currently showing no signs of
+	turning around. In particular, hardware becomes more and more
+	specialized and exhibits different forms of parallelism. For
+	performance-critical codes it is indispensable to address
+	hardware-specific peculiarities. Because of the halting
+	problem, however, it is unrealistic to assume that a program
+	implemented in a general-purpose programming language can be
+	fully automatically compiled to such specialized hardware
+	while still delivering peak performance.<br>
+
+	In this talk, we present AnyDSL. This framework allows to
+	embed a so-called domain-specific language (DSL) into a host
+	language. On the one hand, a DSL offers the application
+	developer a convenient interface; on the other hand, a DSL can
+	perform domain-specific optimizations and effectively map DSL
+	constructs to various architectures. In order to implement a
+	DSL, one usually has to write or modify a compiler. With
+	AnyDSL though, the DSL constructs are directly implemented in
+	the host language while a partial evaluator removes any
+	abstractions that are required in the implementation of the
+	DSL.
+      </div>
+      <br><br>
+
+    <li><B>13:30 - Taking Linear Logic Apart<br></B><i>Wen Kokke,
+    University of Edinburgh</i><br><br>
+
+      <div id="abstract">
+      Process calculi based in logic, such as πDILL and CP, provide a
+      foundation for deadlock-free concurrent programming. However, in
+      previous work, there has been a mismatch between the rules for
+      constructing proofsand the term constructors of the
+      π-calculus. We introduce the Hypersequent Classical Processes
+      (HCP),which addresses this mismatch by using hypersequents
+      (collections of sequents) to register parallelism inthe typing
+      judgements. We prove that HCP enjoys deadlock-freedom and a
+      series of properties that relate it back to CP.
+      </div>
+      <br><br>
+
+    <li><B>14:00 - Refreshments</B><br><br>
+
+      
+    <li><B>14:30 - The Syntax and Semantics of Quantitative Type
+    Theory<br></B><i>Bob Atkey, University of Strathclyde</i>.<br><br>
+
+      <div id="abstract">
+      I will talk about Quantitative Type Theory, a Type Theory that
+      records usage information for each variable, refining a system by
+      McBride. The additional usage information means that it is possible to
+      assign a computational meaning to each term of the theory that is
+      appropriately "resource sensitive". Practically, this means that we
+      can compile type theory to environments where resources are
+      scarce. Formally, it is a realisability semantics over a variant of
+      Linear Combinatory Algebras. The semantics is defined in terms of
+      Quantitative Categories with Families, a novel extension of Categories
+      with Families for modelling resource sensitive type theories.
+      </div>
+      <br><br>
+
+    <li><B>15:00 - Proof-relevant Horn Clauses for Dependent Type
+Inference and Term Synthesis</B><br><i>Franta Farka, Heriot-Watt
+University</i><br><br>
+
+      <div id="abstract">
+	First-order resolution has been used for type inference for
+	many years, including in Hindley- Milner type inference,
+	type-classes, and constrained data types. Dependent types are
+	a new trend in functional languages. In this paper, we show
+	that proof-relevant first-order resolution can play an
+	important role in automating type inference and term synthesis
+	for dependently typed languages. We propose a calculus that
+	translates type inference and term synthesis problems in a
+	dependently typed language to a logic program and a goal in
+	the proof-relevant first-order Horn clause logic. The computed
+	answer substitution and proof term then provide a solution to
+	the given type inference and term synthesis problem.
+      </div>
+      <br><br>
+
+          <li><B>15:30 - Python Dynamic Source Fuzzing using
+    Aspects</B><br><i>Tom Wallis, University of Glasgow</i><br><br>
+
+      <div id="abstract">
+	Aspect oriented programming is an interesting paradigm which
+	allows a separation of cross-cutting concerns from a problem
+	domain. Standard examples of cross-cutting concerns are things
+	like logging or debugging code, which can be separated out
+	from core programming logic. We produce an aspect orientation
+	library — “ASP” — for Python 2, and demonstrate the mechanisms
+	which help it to work — and then demonstrate that variance can
+	be treated as a cross-cutting concern, where alterations to
+	processes can be applied using aspects. We demonstrate that,
+	using ASP’s mechanisms, process fuzzing libraries can be built
+	which apply random process mutation as a cross-cutting
+	concern. We show that this can be used for accurate modelling
+	of socio-technical behaviour, and then demonstrate some more
+	advanced process fuzzing aspects which can be used for the
+	implementation of things like genetic programming.
+      </div>
+      <br><br>
+
+      
+    <li><B>16:00 - Refreshments</B><br><br>
+
+    <li><B>16:30 - Announcement</B><br><i>Jeremy Singer, University
+    of Glasgow</i><br><br>
+      
+    <li><B>16:35 - The language of stratified sets, Quine’s NF,
+rewriting, and higher-order logic: A brief tour</B><br><i>Jamie
+Gabbay, Heriot-Watt University</i><br><br>
+
+      <div id="abstract">
+
+	Russell's paradox is a famous inconsistency in naive set
+        theory, that there is a set R such that R is a member of
+        itself if and only if it is not a member of itself.  Three
+        solutions to this problem are: ZF set theory, higher-order
+        logic, and Quine's NF.
+	<br>
+	I will motivate and describe Quine's NF, which is a simple
+	system to define and which depends on a beautiful and
+	mysterious "stratification condition".  I will give an
+	accessible account of this stratification condition, embed it
+	into higher-order logic to help make sense of it, and then
+	approach NF from the point of view of term-rewriting to note
+	that it has some nice properties.
+	<br>
+	The interested reader can read a bit more in a paper just
+	published in LMCS:<br>
+	<a href="http://www.gabbay.org.uk/papers.html#lanssc">http://www.gabbay.org.uk/papers.html#lanssc</a><br>
+	<a href="https://arxiv.org/abs/1705.07767">https://arxiv.org/abs/1705.07767</a>
+	<br><br>
+ 
+	The language of Stratified Sets is confluent and strongly normalising.
+      </div>
+      <br><br>
+
+      
+<h3>Directions</h3>
+
+This map shows the location of the Post Graduate building (SPLS location):<br>
+
+<iframe width="100%" height="500px" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/untitled-map_221440?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false#16/55.9132/-3.3179"></iframe><p><a href="http://umap.openstreetmap.fr/en/map/untitled-map_221440">See full screen</a></p>
+
+The <B>34 bus</B> enters the campus via the research park. Get off at
+the stop indicated at the red mark above. Alternative bus services are
+the <B>25</B> and <B>45</B> (see below).
+
+<br><br>
+
+SPLS is happening in G.01 (ground floor) of the postgraduate building,
+which looks like this:<br>
+
+<img src="https://www.rias.org.uk/images/image-popover/2013/02/05/A7837607-A11D-7B01-21DB-2A16BC8AF7BC.jpg"/>
+
+<h4>By bus</h4>
+
+Heriot-Watt is served by numerous buses.  25, 34 and 45 serve the
+route between the city centre and the university, with the 25 passing
+Haymarket Station and all three stopping near Waverley station. The
+cost is £1.70 per trip, and you need to have the exact fare.
+<br><br>
+<li> <B>34 route</B> get off at the penultimate stop on campus. The
+Post Graduate building is opposite the Earl Mountbatten (Computer
+Science) building.
+<li><B>45 route</B> get off at the penultimate stop on campus (same
+as <B>34</B>).
+<li><B>25 route</B> get off on the final stop and enjoy the walk over
+The Loch.
+<br>
+
+<h4>By train</h4>
+
+The closest stations to Heriot-Watt are <B>Curriehill</B> (where some
+trains to/from Glasgow Central stop), <B>Edinburgh Park</B> (where
+trains to/from the west, including some Glasgow trains, and Stirling
+trains stop) and <B>Edinburgh Gateway</B> (where trains to/from the
+north, including Aberdeen, Inverness and Perth trains stop).  There is
+no public transport from any of these stations to the university, so
+you will need to take a taxi (5-10 minute journey) from the station.
+You may be able to pick one up at the station, but it is advisable to
+book one in advance.
+<br>
+If your train doesn’t stop at any of these stations, you can get off
+at <B>Haymarket</B> and take the 25 bus from there.  If you are coming
+from the south, you can get the 25, 34 or 45 from
+near <B>Waverley</B>.
+
+<h3>Social</h3>
+
+The upstairs area in the Haymarket Pub has been booked from 18:15. The
+pub is opposite the Haymarket train station, easy for onwards rail
+travellers.
+
+<br><br>
+It's easier to get there using the <B>25</B> bus service. To get to a
+bus top for the 25 from the Postgraduate centre:
+<br>
+<img src="pg-34.png"/>
+<br><br>
+There is a stop very close to the Haymarket pub.
+<br><br>
+
+Alternatively, if you wish to use the <B>34</B> bus service, then the
+Haymarket pub is a short walk:
+
+<img src="from-34.png"/>
