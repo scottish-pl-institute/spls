@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Scottish Programming Languages Seminar: 14th January 2009</title>
+    <link rel="stylesheet" type="text/css" href="spls-jan2009.css">
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="reveal-abstract.js"></script>
+  </head>
+  <body>
+    <h1>Scottish Programming Languages Seminar</h1>
+
+    <p>
+    The next <a href="http://www.dcs.gla.ac.uk/research/spls/">Scottish Programming Languages Seminar</a> will be held on
+    <strong>Wednesday 14th January 2009</strong> at the
+    <strong>Informatics Forum, University of Edinburgh</strong>. The
+    organisers are <a href="http://homepages.inf.ed.ac.uk/ratkey/">Bob
+    Atkey</a> and <a
+    href="http://homepages.inf.ed.ac.uk/slindley/">Sam Lindley</a>.
+
+    <p>
+    The seminar will be held at the new Informatics Forum, 10 Crichton
+    Street, Edinburgh, EH8 9AB. A <a
+    href="http://www.ed.ac.uk/maps/buildings/informatics-forum">map
+    showing the Forum</a> is available. The entrance is opposite that of
+    Appleton Tower. Once inside the building, there will be signs
+    directing you to room 4.31, where the talks will be held, and room
+    4.40 “Mini Forum 2”, where lunch and coffee breaks will be held.
+
+    <p>
+    A buffet lunch will be provided before the meeting at 12 noon. The
+    meeting is expected to finish at around 5.30pm. We will probably
+    head to a local pub afterwards.
+
+    <p>
+    If you intend to attend, please email one of the organisers so
+    that we can get an idea of numbers.
+
+    <h2>Programme</h2>
+<p>
+<i>Update (2009-01-12): different title and abstract for Ezra's talk.</i><br/>
+<i>Update (2009-01-13): Dominic Mulligan taking the place of Jamie
+Gabbay.</i>
+</p>
+<table class="meetings">
+<col id="date"><col id="stuff">
+
+<tr>
+ <td class="date">1200</td>
+ <td>
+  Lunch
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 1</td>
+</tr>
+
+<tr>
+ <td class="date">1300</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Ezra Cooper</td></tr>
+    <tr><th>Title:</th>  <td>Not lost in translation: How to write great SQL in your own language, and be sure it will succeed</td></tr>
+  </table>
+  <div class="abstract">
+A programmer's interface to a relational database is rarely comfortable. 
+But I will show you how a compiler can translate ordinary functional 
+program code into SQL queries. Somewhat surprisingly, the technique 
+works for any appropriately-typed pure functional expression, albeit for 
+a strong notion of "purity." Thus, unlike in Hollywood where a 
+screenwriter can never be sure a movie sequel will be popular, here you 
+can be sure that your SQL--written in your own native programming 
+language--will succeed (in translating to SQL).
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1330</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Christophe Dubach</td></tr>
+    <tr><th>Title:</th>  <td>Portable Optimising Compiler Using Machine Learning</td></tr>
+  </table>
+  <div class="abstract">
+Building an optimising compiler is a difficult and time consuming
+process. Moreover this must be repeated for each new generation of a
+microprocessor. When changes occur in the microarchitecture the compiler
+must be retuned to optimise specifically for that new target. Several
+releases of a compiler might be necessary to fully exploit a processor's
+performance potential.
+<p>
+We address this challenge by developing a portable optimising compiler.
+Our approach makes use of machine-learning to automatically learn the
+best optimisations to apply for any new program on a new
+microarchitectural configuration.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">&nbsp;</td>
+</tr>
+
+<tr>
+ <td class="date">1400</td>
+ <td>
+  Coffee break
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 2</td>
+</tr>
+
+<tr>
+ <td class="date">1430</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Dominic Mulligan</td></tr>
+    <tr><th>Title:</th>  <td>Permissive nominal terms</td></tr>
+  </table>
+  <div class="abstract">
+<a target="_blank" href="http://www.gabbay.org.uk/papers.html#nomu-jv">Nominal terms</a>
+are a syntax which extends first-order term syntax with facilities for
+describing and manipulating binding.
+They have served as the basis of a
+<a target="_blank" href="http://www.gabbay.org.uk/papers.html#nomu-jv">unification
+algorithm</a>, a
+<a target="_blank" href="http://www.gabbay.org.uk/papers.html#nomr-jv">rewriting
+framework</a>, and a
+<a target="_blank" href="http://www.gabbay.org.uk/papers.html#noma">universal algebra</a>.
+Nominal terms retain the flavour of first order terms (likewise for
+the unification algorithm and the notions of rewriting and algebra),
+but with binders.
+In this talk, I will describe <i>permissive nominal terms</i>.  These
+generalise nominal terms, with interesting effects on behaviour and
+meta-theory.  I will show what permissive nominal terms look like, how
+they behave, and what I think they are good for.
+More information, including papers and slides and videos of past
+talks, are on <a target="_blank" href="http://www.gabbay.org.uk">my homepage</a>.
+<i>(Abstract originally written for a talk by Jamie Gabbay.)</i>
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1500</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Hossein Haeri</td></tr>
+    <tr><th>Title:</th>  <td>Proving Equivalence between Lazy Programs in Presence of Selective Strictness</td></tr>
+  </table>
+  <div class="abstract">
+Many predominantly lazy languages now incorporate strictness enforcing
+primitives, for example a strict let or sequential composition
+seq. The primitives are introduced for a variety of reasons, e.g., to
+gain time or space efficiencies or to control parallel
+evaluation. This talk develops a theory for proving equivalences
+between programs in such languages with selective strictness,
+speciffically for a core lazy functional language with seq. The
+research contributions of the full paper are as follows:
+
+<ul>
+<li>We define three notions of equivalence between programs written in a lazy
+language with selective strictness:
+
+<ul>
+<li>Two expressions are value equivalent (=v) when the final value
+computed is the same. No account is taken of reductions recorded in the
+heap.</li>
+
+<li>Two expressions are heap equivalent (=h) when the effect they have on
+the heap during their evaluation is the same. No account is taken of their
+final value computed.</li>
+
+<li>Two expressions are strictly equivalent (=s) when they evaluate to the
+same value, and in doing so have the same effect on the heap</li>
+</ul>
+</li>
+
+<li>We present for the first time proofs of equivalences between
+programs explicitly containing seq, based on a van Eckelen and de Mol
+operational semantics which in turn extends Launchbury's
+semantics. Some important equivalences include:
+
+<ol>
+<li> x seq (x seq y) =s x seq y (Idempotence of seq).</li>
+<li> x seq (y seq z) =s (x seq y) seq z (Associativity of seq).</li>
+<li> x seq y =h y seq x (Commutativity of seq). </li>
+<li> x seq y seq z =s y seq x seq z. </li>
+<li> Suppose that e_1 =s e_2. Then, e'_1 seq e_1 =s e'_2 seq e_2 if e'_1 =h e'_2. </li>
+</ol>
+</li>
+
+<li>Our proof approach is simple and concise and compares favourably
+with the other works in this area. This is because our approach
+directly manipulates expressions rather than using typed denotations
+or other indirect means.</li>
+</ul>
+
+The current work has both independent interest and is a good starting point
+for reasoning about non-strict parallel languages, like GpH or Eden, that
+combine parallelism with selective strictness. The immanent predominance of
+multicore technology makes the ability to reason about such languages increas-
+ingly important.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1530</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Andrew Birkett</td></tr>
+    <tr><th>Title:</th>  <td>Hadoop</td></tr>
+  </table>
+  <div class="abstract">
+Hadoop (aka map/reduce) is an open-source framework for distributing 
+computation across a large cluster of machines.  By decomposing 
+computations into idempotent 'map' and 'reduce' steps, the programmer is 
+largely freed from the vagaries of distributed systems.  Hadoop presents 
+the programmer with the abstraction of a single massively scalable, 
+smart and reliable computer.  I will present an overview of how Hadoop 
+achieves these goals, some real world examples of Hadoop usage, and also 
+look at some of the exciting new developments in this area.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">&nbsp;</td>
+</tr>
+
+<tr>
+ <td class="date">1600</td>
+ <td>
+  Coffee break
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" class="break">Session 3</td>
+</tr>
+
+<tr>
+ <td class="date">1630</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Youssef Gdura</td></tr>
+    <tr><th>Title:</th>  <td>Porting Vector Pascal Compiler to Cell</td></tr>
+  </table>
+  <div class="abstract">
+
+My talk will be: An introduction of our project to improve the
+computing power of high level programming languages. Our plan is to
+develop data parallel and partitioning techniques that harness the
+multicore designs promises. We are basing our approach on two key
+points:
+
+<ul>
+<li>The use of array/vector statements in source languages</li>
+<li>The use of ILCG a machine independent representation for intermediate code</li>
+</ul>
+        
+We are also planning to apply these techniques to develop a back-end
+Vector Pascal compiler that can be ported to CELL.
+  </div>
+ </td>
+</tr>
+
+<tr>
+ <td class="date">1700</td>
+ <td>
+  <table class="talk">
+    <tr><th>Speaker:</th><td>Alastair F. Donaldson</td></tr>
+    <tr><th>Title:</th>  <td>Method duplication</td></tr>
+  </table>
+  <div class="abstract">
+I will describe a system developed at Codeplay for offloading parts of
+application source code to run on accelerator processors with scratchpad
+memories (e.g. the SPE cores in the Cell BE processor).  The idea is
+that code enclosed in a "sievethread" block is compiled to run with
+standard semantics on an accelerator. Versions of all functions
+associated with call-graphs rooted in a sievethread block are also
+compiled for offloading to the accelerator.
+
+<p>
+The advantage of such a system is that it allows heterogeneous
+multi-core processors to be programmed in C++ using a paradigm similar
+to traditional POSIX threads, and allows homogeneous and heterogeneous
+versions of an application to coexist in one source base.
+
+<p>
+The research challenge is in the duplication of methods. This raises
+many interesting issues, including: separation of pointers to data in
+host memory from pointers to data in local store, duplication and
+offloading of methods called via function pointers, and complex C++
+features such as virtual methods.
+
+<p>
+Most of the talk will focus on these issues: I will describe the
+solutions we have devised and implemented in a version of the system for
+a major semiconductor company.  
+
+<p>
+I expect members of the SPLS community have been thinking about how to
+compile high-level programs for heterogeneous multi-core processors, and
+am keen to get their feedback on the topic.  In particular, I am
+interested in the extent to which analogous challenges arise when
+compiling functional programs for heterogeneous multi-core platforms.
+  </div>
+ </td>
+</tr>
+
+
+</table>
+
+  </body>
+</html>
