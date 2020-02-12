@@ -1,0 +1,62 @@
+/*
+  Style file for SPLS, 18 March 2020, Stirling
+
+  Patrick Maier
+*/
+
+/* Limit the size of the text; center if window is too wide */
+BODY {
+    max-width: 67em; padding: 0; margin: auto;
+}
+H1, H2, H3, H4, H5, H6, P, TABLE, OL, UL {
+    padding: 0 3% 0 3%; margin-left: 0; margin-right: 0;
+}
+LI {
+    margin-left: 2em;
+}
+
+BODY {
+    font-family: sans-serif;
+    color:  #000020;
+    background-color: #ffffff;
+}
+
+H2, H3 {
+    font-weight: bold; 
+    color: #000080;
+    background-color: #d0d0ff;
+}
+
+IMG.logo {
+    vertical-align: middle;
+    max-height: 72px;
+}
+
+TABLE {
+    color: #f00000
+}
+
+TH {
+    background-color: #f0f0ff;
+}
+
+TD {
+    color:  #200000;
+    background-color: #f0f0ff;
+    vertical-align: top
+}
+
+ADDRESS {
+    color:  #f5f5f5;
+    font-size: 80%;
+}
+
+HR {
+    color:  #3030e0;
+}
+
+.header {}
+
+.footer {
+    font-weight: normal; font-size: smaller;
+}
