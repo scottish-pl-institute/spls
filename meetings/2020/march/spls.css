@@ -33,7 +33,7 @@ IMG.logo {
 }
 
 TABLE {
-    color: #f00000
+    color: #f00000;
 }
 
 TH {
@@ -43,7 +43,18 @@ TH {
 TD {
     color:  #200000;
     background-color: #f0f0ff;
-    vertical-align: top
+    vertical-align: top;
+    padding: 1% 1% 1% 1%;
+}
+
+TD.author {
+    padding: 0.5% 1% 0.5% 0.5%;
+    width: 20em;
+}
+
+TD.title {
+    padding: 0.5% 0.5% 0.5% 1%;
+    width: 44em;
 }
 
 ADDRESS {
@@ -58,5 +69,14 @@ HR {
 .header {}
 
 .footer {
-    font-weight: normal; font-size: smaller;
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.author {
+    font-style: normal;
+}
+
+.title {
+    font-style: italic;
 }
