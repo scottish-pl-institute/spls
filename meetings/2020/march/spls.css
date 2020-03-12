@@ -80,3 +80,15 @@ HR {
 .title {
     font-style: italic;
 }
+
+.blinking {
+    animation: blinkingText 1.2s 3;
+    color: red;
+}
+@keyframes blinkingText {
+      0% { color: red; }
+     49% { color: red; }
+     60% { color: transparent; }
+     99% { color: transparent; }
+    100% { color: red; }
+}
