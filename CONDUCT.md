@@ -45,4 +45,4 @@ If you are subject to or witness unacceptable behavior, or have any other concer
 
 ## License and attribution
 
-This Code of Conduct is directly adapted from the [https://wiki.creativecommons.org/wiki/Slack/Code_of_Conduct](Creative Commons Slack CoC) and distributed under a Creative Commons Attribution-ShareAlike license.
+This Code of Conduct is directly adapted from the [Creative Commons Slack CoC](https://wiki.creativecommons.org/wiki/Slack/Code_of_Conduct) and distributed under a Creative Commons Attribution-ShareAlike license.
