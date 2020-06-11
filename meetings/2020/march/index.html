@@ -4,6 +4,20 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>SPLS, 22 July 2020, online (organised by Stirling)</title>
   <link rel="stylesheet" href="spls.css">
+  <script>
+    function showAbstract(name) {
+      var abstract = document.getElementById(name + "/abstract");
+      var button = document.getElementById(name + "/button");
+      button.style.display = "none";
+      abstract.style.display = "block";
+    }
+    function hideAbstract(name) {
+      var abstract = document.getElementById(name + "/abstract");
+      var button = document.getElementById(name + "/button");
+      button.style.display = "block";
+      abstract.style.display = "none";
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -80,7 +94,7 @@
           <a href="https://homepages.inf.ed.ac.uk/slindley/">Sam Lindley</a> (Heriot-Watt)
 	</td>
 	<td class="title">
-          The virtues of semi-explicit polymorphism 
+          <span>The Virtues of Semi-Explicit Polymorphism</span>
 	</td>
       </tr>
     </table>    
@@ -94,15 +108,40 @@
 	  <!--<a href="https://www.inf.ed.ac.uk/people/students/Jesse_Sigal.html">-->Jesse Sigal<!--</a>--> (Edinburgh)
 	</td>
 	<td class="title">
-	  Automatic Differentiation via Effects and Handlers
+	  <span>Automatic Differentiation via Effects and Handlers</span>
 	</td>
       </tr>
       <tr>
 	<td class="author">
-          <a href="https://wenkokke.github.io/">Wen Kokke</a> (Edinburgh)
+          <a href="https://wenkokke.github.io/">Wen Kokke</a> (Heriot-Watt, Edinburgh)
 	</td>
 	<td class="title">
-          Robustness as a Refinement Type
+          <span>Robustness as a Refinement Type</span>
+	  <div class="abstract" id="Wen/button">
+	    <button onclick="showAbstract('Wen')">Abstract</button>
+	  </div>
+	  <div class="abstract" id="Wen/abstract" style="display:none;" onclick="hideAbstract('Wen')">
+	    <p>
+	      We present StarChild and Lazuli, two libraries which leverage
+	      refinement types to verify neural network, implemented in F*
+	      and Liquid Haskell.
+	      Refinement types are types augmented, or refined, with assertions
+	      about values of that type, e.g., “integers greater than five”,
+	      which are checked by an SMT solver. Crucially, these assertions
+	      are written in the language itself. A user of our library can
+	      refine the type of neural networks, e.g., “MNIST neural networks
+	      which are robust against adversarial attacks”, and expect F* to
+	      handle the verification of this claim for any specific network,
+	      without having to change the representation of the network, or
+	      even having to learn about SMT solvers.
+	    </p>
+	    <p>
+	      Our initial experiments indicate that our approach could greatly
+	      reduce the burden of verifying neural networks. Unfortunately,
+	      they also show that SMT solvers do not scale to the sizes
+	      required for neural network verification.
+	    </p>
+          </div>
 	</td>
       </tr>
     </table>    
@@ -116,7 +155,7 @@
           <a href="https://bentnib.org/">Bob Atkey</a> (Strathclyde)
 	</td>
 	<td class="title">
-          Resource Constrained Programming with Full Dependent Types
+          <span>Resource Constrained Programming with Full Dependent Types</span>
 	</td>
       </tr>
     </table>    
@@ -124,6 +163,8 @@
     <h5>17:15 &mdash; 18:00 &nbsp;&nbsp; CLOSING/PUB</h5>
   </section>
 
+
+  
 <!--
   <section>
     <h3>Directions</h3>
