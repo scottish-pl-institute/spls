@@ -79,7 +79,7 @@
 
     <h5>13:00 &mdash; 13:30 &nbsp;&nbsp; WELCOME</h5>
 
-    <h5>13:30 &mdash; 14:30 &nbsp;&nbsp; SESSION 1: Compilers</h5>
+    <h5>13:30 &mdash; 14:30 &nbsp;&nbsp; SESSION 1: Programming Language Design and Compilers</h5>
     <table>
       <tr>
 	<td class="author">
@@ -95,6 +95,34 @@
 	</td>
 	<td class="title">
           <span>The Virtues of Semi-Explicit Polymorphism</span>
+	  <div class="abstract" id="Sam/button">
+	    <button onclick="showAbstract('Sam')">Abstract</button>
+	  </div>
+	  <div class="abstract" id="Sam/abstract" style="display:none;" onclick="hideAbstract('Sam')">
+	    <p>
+              There are two standard ways of specifying a type system for ML:
+	      an orthogonal presentation and a syntax-directed presentation.
+	      The former allows implicit generalisation and instantiation
+	      anywhere in a program, and is thus not syntax-directed. The
+	      latter fuses generalisation with let-bindings and instantiation
+	      with variables, and is thus non-orthogonal. By introducing
+	      explicit syntax for generalisation and instantiation, that is,
+	      semi-explicit polymorphism, we obtain a presentation of
+	      Explicit ML, a mild variant of ML, which is both orthogonal
+	      and syntax-directed. Moreover, we recover the usual implicit
+	      version of ML as syntactic sugar.
+	    </p>
+	    <p>
+	      FreezeML is a small extension of ML providing first-class
+	      polymorphism and sound and complete type inference of
+	      principal types, whose typing rules are non-orthogonal.
+	      We show that Explicit ML extends naturally to Explicit FreezeML,
+	      an orthogonal presentation of an explicit variant of FreezeML.
+	      We recover the usual implicit version of FreezeML as syntactic
+	      sugar. Explicit FreezeML is a conservative extension of both
+	      Explicit ML and System F.
+	    </p>
+          </div>
 	</td>
       </tr>
     </table>    
