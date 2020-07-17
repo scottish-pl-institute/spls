@@ -137,6 +137,31 @@
 	</td>
 	<td class="title">
 	  <span>Automatic Differentiation via Effects and Handlers</span>
+	  <div class="abstract" id="Jesse/button">
+	    <button onclick="showAbstract('Jesse')">Abstract</button>
+	  </div>
+	  <div class="abstract" id="Jesse/abstract" style="display:none;" onclick="hideAbstract('Jesse')">
+	    <p>
+              We will present implementations of various automatic
+	      differentiation (AD) modes via effects and handlers.
+	      The underlying theory is still in progress.
+	    </p>
+	    <p>
+              Automatic differentiation's aim is to calculate the derivative
+	      of a program which uses mathematical functions. A natural class
+	      of functions to consider are smooth (infinitely differentiable)
+	      functions. Smooth functions form an algebraic (Lawvere) theory
+	      in the context of universal algebra. Algebraic theories are often
+	      at the base of denotational semantics for effects and handlers,
+	      and this observation leads to natural implementations of AD.
+	    </p>
+	    <p>
+              We implement forward mode, reverse mode, and checkpointed reverse
+	      mode in the Frank language. These modes can be nested (which is
+	      non-trivial in some systems). Their implementation as handlers
+	      also seems to enable useful equational reasoning.
+	    </p>
+          </div>
 	</td>
       </tr>
       <tr>
