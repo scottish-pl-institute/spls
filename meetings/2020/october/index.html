@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SPLS, 22 July 2020, online (organised by Stirling)</title>
+  <title>SPLS, October 21st, 2020, online (organised by Heriot-Watt)</title>
   <link rel="stylesheet" href="sakura.css">
   <style>
 .column {
@@ -76,6 +76,7 @@
 
   <section>
     <h3>Programme</h3>
+    All the times below are given in UTC+01:00 (UK time zone).
     <table>
         </tr>
                 <td class="time">11:30&ndash;12:30</td>
@@ -107,65 +108,6 @@
         <tr><td class="time">12:30&ndash;13:30</td><td>Lunch Break</td></tr>
         <tr>
                 <td class="time">13:30&ndash;14:00</td>
-                <td>
-                        <div class="speaker">Sven-Bodo Scholz</div>
-                        <a href="javascript:toggleAbstract('bodo-abstract')">
-                                Effective Host-GPU Memory Management Through Code Generation
-                        </a>
-                        <div id="bodo-abstract" class="talk-abstract">
-                                <p>NVidia's CUDA programming environment provides several options on
-                                how to orchestrate the management of host and device memory as well
-                                as the transfers between them.  This talk gives a brief overview of
-                                the options available and it discusses the implications of those
-                                choices for generating CUDA code from high-level specifications.
-                                Finally, we present some initial performance evaluations based on a
-                                full fledged implementation in the Sac compiler sac2c.</p>
-                        </div>
-                </td>
-        </tr>
-        <tr>
-                <td class="time">14:00&ndash;14:30</td>
-                <td>
-                        <div class="speaker">Jan de Muijnck-Hughes</div>
-                        <a href="javascript:toggleAbstract('jan-abstract')">
-                                Towards A Formalisation of the (Sub)-Structural Aspects of SystemVerilog
-                        </a>
-                        <div id="jan-abstract" class="talk-abstract">
-
-                                <p>SystemVerilog is a well-known Hardware Description and Verification
-                                Language.  Many attempts at formalising such languages concentrate
-                                of formalising the behaviour of designs at the Register Transaction
-                                Level i.e.  the signals going across the wire.  Hardware design is
-                                becoming increasingly commoditised and it might be the case that
-                                several components of your design are encrypted bitstreams bought
-                                from third-parties.  Here we must have trust that the encrypted
-                                bitstreams do what they are supposed to.</p>
-
-                                <p>In the Border Patrol Project we are interested in being able to
-                                reason about the structure &amp; behaviour of designs as a whole,
-                                regardless of if we can inspect each module down to the individual
-                                gates &amp; wires.  In this talk I will introduce PicoSystemVerilog
-                                (PSV) [0,1] a lambda calculus we are developing that encapsulates
-                                various structural aspects of SystemVerilog, and allows us to reason
-                                about Design structure.  I will show that a PSV Design can capture
-                                the essence of a Design's structure, and also enforce substructural
-                                properties over data types as defined in the SystemVerilog standard
-                                using techniques borrowed from maths-a-magical structured
-                                programming.  With PSV we hope to establish a foundational
-                                formalisation that we can later extend to reason about other
-                                structural characteristics and also about a design's behaviour.</p>
-
-                                <p>[0] This is work in heavy progress and is not incredibly
-                                polished.</p>
-                                <p>[1] The name is heavily subject to me being able to think of a much
-                                cooler name whose acronym doesn't make me think of PSV
-                                Eindhoven.</p>
-                        </div>
-                </td>
-        </tr>
-        <tr><td class="time">14:30&ndash;15:00</td><td>Break</td></tr>
-        <tr>
-                <td class="time">15:00&ndash;15:30</td>
                 <td>
                         <div class="speaker">Paul Keir</div>
                         <a href="javascript:toggleAbstract('paul-abstract')">
@@ -209,7 +151,7 @@
         </tr>
 
         <tr>
-                <td class="time">15:30&ndash;16:00</td>
+                <td class="time">14:00&ndash;14:30</td>
                 <td>
                         <div class="speaker">Magnus Morton</div>
                         <a href="javascript:toggleAbstract('magnus-abstract')">
@@ -240,9 +182,9 @@
                         </div>
                 </td>
         </tr>
-        <tr><td class="time">16:00&ndash;16:30</td><td>Break</td></tr>
+        <tr><td class="time">14:30&ndash;15:00</td><td>Break</td></tr>
         <tr>
-                <td class="time">16:30&ndash;17:00</td>
+                <td class="time">15:00&ndash;15:30</td>
                 <td>
                         <div class="speaker">Xueying Qin</div>
                         <a href="javascript:toggleAbstract('xueying-abstract')">
@@ -266,6 +208,66 @@
                         </div>
                 </td>
         </tr>
+        <tr>
+                <td class="time">15:30&ndash;16:00</td>
+                <td>
+                        <div class="speaker">Jan de Muijnck-Hughes</div>
+                        <a href="javascript:toggleAbstract('jan-abstract')">
+                                Towards A Formalisation of the (Sub)-Structural Aspects of SystemVerilog
+                        </a>
+                        <div id="jan-abstract" class="talk-abstract">
+
+                                <p>SystemVerilog is a well-known Hardware Description and Verification
+                                Language.  Many attempts at formalising such languages concentrate
+                                of formalising the behaviour of designs at the Register Transaction
+                                Level i.e.  the signals going across the wire.  Hardware design is
+                                becoming increasingly commoditised and it might be the case that
+                                several components of your design are encrypted bitstreams bought
+                                from third-parties.  Here we must have trust that the encrypted
+                                bitstreams do what they are supposed to.</p>
+
+                                <p>In the Border Patrol Project we are interested in being able to
+                                reason about the structure &amp; behaviour of designs as a whole,
+                                regardless of if we can inspect each module down to the individual
+                                gates &amp; wires.  In this talk I will introduce PicoSystemVerilog
+                                (PSV) [0,1] a lambda calculus we are developing that encapsulates
+                                various structural aspects of SystemVerilog, and allows us to reason
+                                about Design structure.  I will show that a PSV Design can capture
+                                the essence of a Design's structure, and also enforce substructural
+                                properties over data types as defined in the SystemVerilog standard
+                                using techniques borrowed from maths-a-magical structured
+                                programming.  With PSV we hope to establish a foundational
+                                formalisation that we can later extend to reason about other
+                                structural characteristics and also about a design's behaviour.</p>
+
+                                <p>[0] This is work in heavy progress and is not incredibly
+                                polished.</p>
+                                <p>[1] The name is heavily subject to me being able to think of a much
+                                cooler name whose acronym doesn't make me think of PSV
+                                Eindhoven.</p>
+                        </div>
+                </td>
+        </tr>
+        <tr><td class="time">16:00&ndash;16:30</td><td>Break</td></tr>
+        <tr>
+                <td class="time">16:30&ndash;17:00</td>
+                <td>
+                        <div class="speaker">Sven-Bodo Scholz</div>
+                        <a href="javascript:toggleAbstract('bodo-abstract')">
+                                Effective Host-GPU Memory Management Through Code Generation
+                        </a>
+                        <div id="bodo-abstract" class="talk-abstract">
+                                <p>NVidia's CUDA programming environment provides several options on
+                                how to orchestrate the management of host and device memory as well
+                                as the transfers between them.  This talk gives a brief overview of
+                                the options available and it discusses the implications of those
+                                choices for generating CUDA code from high-level specifications.
+                                Finally, we present some initial performance evaluations based on a
+                                full fledged implementation in the Sac compiler sac2c.</p>
+                        </div>
+                </td>
+        </tr>
+        <tr><td class="time">17:00&ndash;</td><td>Virtual Pub</td></tr>
     </table>
   </section>
 
