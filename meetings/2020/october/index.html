@@ -71,15 +71,99 @@
 
   <section>
     <h2>Attendance</h2>
-    The details regarding platforms and tools will be announced soon.
+    <p>Please register for the SPLS meeting <a href="https://doodle.com/poll/mxu46kf5n4k2x3yt">here</a>.
+    The main purpose of the registration is to estimate the number of participants so that we could
+    adjust the online platforms accordingly.</p>
+
+    <h3>Platforms</h3>
+    <p>The talks are going to be delivered via <a href="https://zoom.us/">Zoom</a>.  The talks will be
+    streamed to the <a href="https://www.youtube.com/channel/UCvz9G06hQh-WNA72O6Oux9Q/">SPLS youtube channel</a>.</p>
+    <p>The links to the Zoom meetings will be announced on the <a href="https://spls.zulipchat.com/">SPLS zulip chat</a>
+    prior to the talks.</p>
+    <p>The questions after each talk may be asked directly in Zoom or via <i>spls-2020-10</i> stream on Zulip.
+    Each talk will get a separate substream where further discussions can take place.</p>
+    <p>Virtual pub will be handled by <a href="https://gather.town/">Gather Town</a> (the actual links will appear soon).</p>
   </section>
 
   <section>
     <h3>Programme</h3>
     All the times below are given in UTC+01:00 (UK time zone).
     <table>
+        <tr>
+                <td class="time">11:30&ndash;12:00</td>
+                <td>
+                        <div class="speaker">Jan de Muijnck-Hughes</div>
+                        <a href="javascript:toggleAbstract('jan-abstract')">
+                                Towards A Formalisation of the (Sub)-Structural Aspects of SystemVerilog
+                        </a>
+                        <div id="jan-abstract" class="talk-abstract">
+
+                                <p>SystemVerilog is a well-known Hardware Description and Verification
+                                Language.  Many attempts at formalising such languages concentrate
+                                of formalising the behaviour of designs at the Register Transaction
+                                Level i.e.  the signals going across the wire.  Hardware design is
+                                becoming increasingly commoditised and it might be the case that
+                                several components of your design are encrypted bitstreams bought
+                                from third-parties.  Here we must have trust that the encrypted
+                                bitstreams do what they are supposed to.</p>
+
+                                <p>In the Border Patrol Project we are interested in being able to
+                                reason about the structure &amp; behaviour of designs as a whole,
+                                regardless of if we can inspect each module down to the individual
+                                gates &amp; wires.  In this talk I will introduce PicoSystemVerilog
+                                (PSV) [0,1] a lambda calculus we are developing that encapsulates
+                                various structural aspects of SystemVerilog, and allows us to reason
+                                about Design structure.  I will show that a PSV Design can capture
+                                the essence of a Design's structure, and also enforce substructural
+                                properties over data types as defined in the SystemVerilog standard
+                                using techniques borrowed from maths-a-magical structured
+                                programming.  With PSV we hope to establish a foundational
+                                formalisation that we can later extend to reason about other
+                                structural characteristics and also about a design's behaviour.</p>
+
+                                <p>[0] This is work in heavy progress and is not incredibly
+                                polished.</p>
+                                <p>[1] The name is heavily subject to me being able to think of a much
+                                cooler name whose acronym doesn't make me think of PSV
+                                Eindhoven.</p>
+                        </div>
+                </td>
         </tr>
-                <td class="time">11:30&ndash;12:30</td>
+        <tr>
+                <td class="time">12:00&ndash;12:30</td>
+                <td>
+                        <div class="speaker">Magnus Morton</div>
+                        <a href="javascript:toggleAbstract('magnus-abstract')">
+                                DelayRepay: Delayed Execution for Kernel Fusion in Python
+                        </a>
+                        <div id="magnus-abstract" class="talk-abstract">
+                                <p>Python is a popular, dynamic language for data science and
+                                scientific computing. To ensure efficiency, significant numerical
+                                libraries are implemented in static native languages. However,
+                                performance suffers when switching between native and non-native
+                                code, especially if data has to be converted between native arrays
+                                and Python data structures. As GPU accelerators are increasingly
+                                used, this problem becomes particularly acute. Data and control has
+                                to be repeatedly transferred between the accelerator and the
+                                host.</p>
+
+                                <p>In this talk, we present DelayRepay, a delayed execution
+                                framework for numeric Python programs. It avoids excessive switching
+                                and data transfer by using lazy evaluation and kernel fusion. Using
+                                DelayRepay, operations on NumPy arrays are executed lazily, allowing
+                                multiple calls to accelerator kernels to be fused together
+                                dynamically. DelayRepay is available as a drop-in replacement for
+                                existing Python libraries. This approach enables significant
+                                performance improvement over the state-of-the-art and is invisible
+                                to the application programmer. We show that our approach provides an
+                                average 24× speedup over NumPy - a 60% increase over the state of
+                                the art.<p>
+                        </div>
+                </td>
+        </tr>
+        <tr><td class="time">12:30&ndash;13:30</td><td>Lunch Break</td></tr>
+        </tr>
+                <td class="time">13:30&ndash;14:30</td>
                 <td>
                         <div class="speaker">Jesper Cockx</div>
                         <a href="javascript:toggleAbstract('jesper-abstract')">
@@ -105,9 +189,34 @@
                         </div>
                 </td>
         </tr>
-        <tr><td class="time">12:30&ndash;13:30</td><td>Lunch Break</td></tr>
+        <tr><td class="time">14:30&ndash;15:00</td><td>Break</td></tr>
         <tr>
-                <td class="time">13:30&ndash;14:00</td>
+                <td class="time">15:00&ndash;15:30</td>
+                <td>
+                        <div class="speaker">Xueying Qin</div>
+                        <a href="javascript:toggleAbstract('xueying-abstract')">
+                                Proving the Correctness of Rewrite Rules with Agda
+                        </a>
+                        <div id="xueying-abstract" class="talk-abstract">
+                                <p>The approach of LIFT is to provide high performance high-level
+                                programming with code portability. The rewrite system of LIFT
+                                systematically transforms high-level algorithmic patterns into
+                                low-level high performance OpenCL code with equivalent functionality
+                                by applying a set of rewrite rules. To ensure the effectiveness of
+                                these rewrite rules, we would like to:</p>
+                                <ol>
+                                        <li> Formalise the type constraints of them</li>
+                                        <li> Prove their correctness</li>
+                                </ol>
+                                <p>We have encoded the semantics of LIFT in Agda and developed
+                                mechanical proofs to the correctness of these rewrite rules. We
+                                would like to present our findings in equality reasoning about
+                                array/tensor operations with Agda.</p>
+                        </div>
+                </td>
+        </tr>
+        <tr>
+                <td class="time">15:30&ndash;16:00</td>
                 <td>
                         <div class="speaker">Paul Keir</div>
                         <a href="javascript:toggleAbstract('paul-abstract')">
@@ -146,105 +255,6 @@
                                 <p>We conclude with a case study involving compile-time verification
                                 of the Metamath proof database format, and discuss our ongoing work
                                 within the Clang constant expression evaluator.</p>
-                        </div>
-                </td>
-        </tr>
-
-        <tr>
-                <td class="time">14:00&ndash;14:30</td>
-                <td>
-                        <div class="speaker">Magnus Morton</div>
-                        <a href="javascript:toggleAbstract('magnus-abstract')">
-                                DelayRepay: Delayed Execution for Kernel Fusion in Python
-                        </a>
-                        <div id="magnus-abstract" class="talk-abstract">
-                                <p>Python is a popular, dynamic language for data science and
-                                scientific computing. To ensure efficiency, significant numerical
-                                libraries are implemented in static native languages. However,
-                                performance suffers when switching between native and non-native
-                                code, especially if data has to be converted between native arrays
-                                and Python data structures. As GPU accelerators are increasingly
-                                used, this problem becomes particularly acute. Data and control has
-                                to be repeatedly transferred between the accelerator and the
-                                host.</p>
-
-                                <p>In this talk, we present DelayRepay, a delayed execution
-                                framework for numeric Python programs. It avoids excessive switching
-                                and data transfer by using lazy evaluation and kernel fusion. Using
-                                DelayRepay, operations on NumPy arrays are executed lazily, allowing
-                                multiple calls to accelerator kernels to be fused together
-                                dynamically. DelayRepay is available as a drop-in replacement for
-                                existing Python libraries. This approach enables significant
-                                performance improvement over the state-of-the-art and is invisible
-                                to the application programmer. We show that our approach provides an
-                                average 24× speedup over NumPy - a 60% increase over the state of
-                                the art.<p>
-                        </div>
-                </td>
-        </tr>
-        <tr><td class="time">14:30&ndash;15:00</td><td>Break</td></tr>
-        <tr>
-                <td class="time">15:00&ndash;15:30</td>
-                <td>
-                        <div class="speaker">Xueying Qin</div>
-                        <a href="javascript:toggleAbstract('xueying-abstract')">
-                                Proving the Correctness of Rewrite Rules with Agda
-                        </a>
-                        <div id="xueying-abstract" class="talk-abstract">
-                                <p>The approach of LIFT is to provide high performance high-level
-                                programming with code portability. The rewrite system of LIFT
-                                systematically transforms high-level algorithmic patterns into
-                                low-level high performance OpenCL code with equivalent functionality
-                                by applying a set of rewrite rules. To ensure the effectiveness of
-                                these rewrite rules, we would like to:</p>
-                                <ol>
-                                        <li> Formalise the type constraints of them</li>
-                                        <li> Prove their correctness</li>
-                                </ol>
-                                <p>We have encoded the semantics of LIFT in Agda and developed
-                                mechanical proofs to the correctness of these rewrite rules. We
-                                would like to present our findings in equality reasoning about
-                                array/tensor operations with Agda.</p>
-                        </div>
-                </td>
-        </tr>
-        <tr>
-                <td class="time">15:30&ndash;16:00</td>
-                <td>
-                        <div class="speaker">Jan de Muijnck-Hughes</div>
-                        <a href="javascript:toggleAbstract('jan-abstract')">
-                                Towards A Formalisation of the (Sub)-Structural Aspects of SystemVerilog
-                        </a>
-                        <div id="jan-abstract" class="talk-abstract">
-
-                                <p>SystemVerilog is a well-known Hardware Description and Verification
-                                Language.  Many attempts at formalising such languages concentrate
-                                of formalising the behaviour of designs at the Register Transaction
-                                Level i.e.  the signals going across the wire.  Hardware design is
-                                becoming increasingly commoditised and it might be the case that
-                                several components of your design are encrypted bitstreams bought
-                                from third-parties.  Here we must have trust that the encrypted
-                                bitstreams do what they are supposed to.</p>
-
-                                <p>In the Border Patrol Project we are interested in being able to
-                                reason about the structure &amp; behaviour of designs as a whole,
-                                regardless of if we can inspect each module down to the individual
-                                gates &amp; wires.  In this talk I will introduce PicoSystemVerilog
-                                (PSV) [0,1] a lambda calculus we are developing that encapsulates
-                                various structural aspects of SystemVerilog, and allows us to reason
-                                about Design structure.  I will show that a PSV Design can capture
-                                the essence of a Design's structure, and also enforce substructural
-                                properties over data types as defined in the SystemVerilog standard
-                                using techniques borrowed from maths-a-magical structured
-                                programming.  With PSV we hope to establish a foundational
-                                formalisation that we can later extend to reason about other
-                                structural characteristics and also about a design's behaviour.</p>
-
-                                <p>[0] This is work in heavy progress and is not incredibly
-                                polished.</p>
-                                <p>[1] The name is heavily subject to me being able to think of a much
-                                cooler name whose acronym doesn't make me think of PSV
-                                Eindhoven.</p>
                         </div>
                 </td>
         </tr>
