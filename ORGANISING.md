@@ -31,9 +31,14 @@ You'll want to include a registration form of some sort with your announcement, 
   + do you have any dietary restrictions?
 
 ## The programme
-Sometimes you get lots of talk proposals, sometimes you don't. If there's too many proposals, please prioritise Ph.D. students. If there's too few, it's worth reaching out to individuals and groups in Scotland which haven't submitted any (or many) talks.
-Once you've gotten a few talk proposals, you can start putting together a programme. Talks should be *about* half an hour each, including questions, and there should be breaks every two to three talks. Make sure to put your programme up on the website!
-Invited speakers aren't necessary, but if there are visiting researchers in Scotland at the time of SPLS, it's a good idea to invite them!
+- Sometimes you get lots of talk proposals, sometimes you don't. If there's too many proposals, please prioritise Ph.D. students. If there's too few, it's worth reaching out to individuals and groups in Scotland which haven't submitted any (or many) talks.
+
+- Once you've gotten a few talk proposals, you can start putting together a programme. Talks should be *about* half an hour each, including questions, and there should be breaks every two to three talks. Make sure to put your programme up on the website!
+
+- You will also need to organise session chairs to keep time and ask questions if none are forthcoming. Typically, the organisers will chair some sessions.
+
+- Invited speakers aren't necessary, but if there are visiting researchers in Scotland at the time of SPLS (e.g., SICSA Distinguished Visiting Fellows), it's a good idea to invite them.
+
 
 ## The place
 There's a big difference between *in-person* and *online* events.
@@ -42,12 +47,14 @@ There's a big difference between *in-person* and *online* events.
 The in-person meetings are hosted on the premises of the organising university. They start with a catered lunch and end with a dinner and pub social.
 
 1. Make a **room booking** with your university.
-2. Make a **lunch booking** with your university catering; make sure to pass on any dietary restrictions.
-3. Make a **dinner reservation**; decide on a restaurant, reach out to the restaurant to ask whether they can cater to people with the indicated dietary restrictions, and make a reservation for the number of people who've registered for dinner.
+2. Ensure you have **funding** for catering (lunch and coffee breaks). The best way to do this is via SICSA [theme event funding][sicsa-theme]. In the past, attendance has been around 60 people, although it remains to be seen how this will pan out post-pandemic; your university admin staff will be able to get you quotes. If SICSA do not have funding, then it may be the case that your institution has some funding available, or you can try asking someone at your who holds an SPLS-aligned research grant. Make sure you acknowledge funders on relevant materials (website, signage, etc.)
+3. Make a **lunch booking** with your university catering; make sure to pass on any dietary restrictions.
+4. Make a **dinner reservation**; decide on a restaurant, reach out to the restaurant to ask whether they can cater to people with the indicated dietary restrictions, and make a reservation for the number of people who've registered for dinner.
 
 ### Online
 The online meetings are hosted using a teleconference service and live-streamed via the SPLS [YouTube channel][spls-youtube]. Breaks and the post-seminar social take place in the SPLS pub on [Gather Town][spls-gather-town]. (The Gather Town link isn't published here, since the link itself provides access to the room. Ask the organisers of the previous online SPLS for the link.) After each talk, questions may be asked either directly on Zoom or via the stream on Zulip. (Please make sure to create a fresh topic for each talk.)
 
+[sicsa-theme]: https://www.sicsa.ac.uk/research/theory-modelling-computation/
 [spls-zulip]: https://spls.zulipchat.com/
 [spls-mailing-list]: mailto:spls@lists.cent.gla.ac.uk
 [spls-website]: https://spls-series.github.io/
