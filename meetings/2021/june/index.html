@@ -91,200 +91,95 @@
 
   <section>
     <h3>Programme</h3>
-    <p> TBD </p>
-    <!--All the times below are given in UTC+01:00 (UK time zone). -->
-    <!--table>
-        <tr><td class="time">11:00&ndash;11:30</td><td>Pre-meeting chat (gather.town)</td></tr>
+    <p>All the times below are given in UTC+01:00 (UK time zone). </p>
+    <table>
         <tr>
-                <td class="time">11:30&ndash;12:00</td>
+                <td class="time">01:00&ndash;02:00</td>
                 <td>
-                        <div class="speaker">Jan de Muijnck-Hughes</div>
-                        <a href="javascript:toggleAbstract('jan-abstract')">
-                                Towards A Formalisation of the (Sub)-Structural Aspects of SystemVerilog
+                        <div class="speaker">Neel Krishnaswami</div>
+                        <a href="javascript:toggleAbstract('abstract1')">
+                                TBA
                         </a>
-                        <div id="jan-abstract" class="talk-abstract">
-
-                                <p>SystemVerilog is a well-known Hardware Description and Verification
-                                Language.  Many attempts at formalising such languages concentrate
-                                of formalising the behaviour of designs at the Register Transaction
-                                Level i.e.  the signals going across the wire.  Hardware design is
-                                becoming increasingly commoditised and it might be the case that
-                                several components of your design are encrypted bitstreams bought
-                                from third-parties.  Here we must have trust that the encrypted
-                                bitstreams do what they are supposed to.</p>
-
-                                <p>In the Border Patrol Project we are interested in being able to
-                                reason about the structure &amp; behaviour of designs as a whole,
-                                regardless of if we can inspect each module down to the individual
-                                gates &amp; wires.  In this talk I will introduce PicoSystemVerilog
-                                (PSV) [0,1] a lambda calculus we are developing that encapsulates
-                                various structural aspects of SystemVerilog, and allows us to reason
-                                about Design structure.  I will show that a PSV Design can capture
-                                the essence of a Design's structure, and also enforce substructural
-                                properties over data types as defined in the SystemVerilog standard
-                                using techniques borrowed from maths-a-magical structured
-                                programming.  With PSV we hope to establish a foundational
-                                formalisation that we can later extend to reason about other
-                                structural characteristics and also about a design's behaviour.</p>
-
-                                <p>[0] This is work in heavy progress and is not incredibly
-                                polished.</p>
-                                <p>[1] The name is heavily subject to me being able to think of a much
-                                cooler name whose acronym doesn't make me think of PSV
-                                Eindhoven.</p>
+                        <div id="abstract1" class="talk-abstract">
                         </div>
                 </td>
         </tr>
         <tr>
-                <td class="time">12:00&ndash;12:30</td>
+                <td class="time">02:30&ndash;03:00</td>
                 <td>
-                        <div class="speaker">Magnus Morton</div>
-                        <a href="javascript:toggleAbstract('magnus-abstract')">
-                                DelayRepay: Delayed Execution for Kernel Fusion in Python
+                        <div class="speaker">Thomas Koehler</div>
+                        <a href="javascript:toggleAbstract('abstract2')">
+                                Optimizing Functional Programs with Equality Saturation
                         </a>
-                        <div id="magnus-abstract" class="talk-abstract">
-                                <p>Python is a popular, dynamic language for data science and
-                                scientific computing. To ensure efficiency, significant numerical
-                                libraries are implemented in static native languages. However,
-                                performance suffers when switching between native and non-native
-                                code, especially if data has to be converted between native arrays
-                                and Python data structures. As GPU accelerators are increasingly
-                                used, this problem becomes particularly acute. Data and control has
-                                to be repeatedly transferred between the accelerator and the
-                                host.</p>
+                        <div id="abstract2" class="talk-abstract">
+                                <p>Equality saturation is a rewrite-driven optimization technique
+                                which leverages a special data structure called e-graph to
+                                efficiently represent many variants of a rewritten expressions.
+                                </p>
+                                <p>However, challenges arise when applying this technique to
+                                optimize functional programs. How can we for example efficiently
+                                implement alpha-equivalence; substitution for beta-reduction; or
+                                predicates for eta-reduction? </p>
 
-                                <p>In this talk, we present DelayRepay, a delayed execution
-                                framework for numeric Python programs. It avoids excessive switching
-                                and data transfer by using lazy evaluation and kernel fusion. Using
-                                DelayRepay, operations on NumPy arrays are executed lazily, allowing
-                                multiple calls to accelerator kernels to be fused together
-                                dynamically. DelayRepay is available as a drop-in replacement for
-                                existing Python libraries. This approach enables significant
-                                performance improvement over the state-of-the-art and is invisible
-                                to the application programmer. We show that our approach provides an
-                                average 24× speedup over NumPy - a 60% increase over the state of
-                                the art.<p>
-                        </div>
-                </td>
-        </tr>
-        <tr><td class="time">12:30&ndash;13:30</td><td>Lunch Break</td></tr>
-        </tr>
-                <td class="time">13:30&ndash;14:30</td>
-                <td>
-                        <div class="speaker">Jesper Cockx</div>
-                        <a href="javascript:toggleAbstract('jesper-abstract')">
-                                Rewriting Type Theory
-                        </a>
-                        <div id="jesper-abstract" class="talk-abstract">
-                                <p>Dependently typed languages such as Coq and Agda can statically
-                                guarantee the correctness of our proofs and programs. To provide this
-                                guarantee, they restrict users to certain schemes – such as strictly
-                                positive datatypes, complete case analysis, and well-founded induction –
-                                that are known to be safe. However, these restrictions limit the
-                                expressivity of the language and can make programs and proofs hard to
-                                write.</p>
-                                <p>In this talk I present Rewriting Type Theory (RTT), a dependently
-                                typed language with user-defined higher-order rewrite rules. These rewrite
-                                rules can be used to ease reasoning about existing definitions, and to
-                                extend the language with new constructs such as quotient types and
-                                exceptions. To ensure subject reduction in the presence of rewrite rules, I
-                                present a general method to check confluence based on Tait and Martin-Löf's
-                                triangle property of parallel reduction. We have implemented rewrite rules
-                                as an extension to Agda, and formalized the meta-theoretic properties of
-                                RTT using the MetaCoq framework.</p>
-                        </div>
-                </td>
-        </tr>
-        <tr><td class="time">14:30&ndash;15:00</td><td>Break</td></tr>
-        <tr>
-                <td class="time">15:00&ndash;15:30</td>
-                <td>
-                        <div class="speaker">Xueying Qin</div>
-                        <a href="javascript:toggleAbstract('xueying-abstract')">
-                                Proving the Correctness of Rewrite Rules with Agda
-                        </a>
-                        <div id="xueying-abstract" class="talk-abstract">
-                                <p>The approach of LIFT is to provide high performance high-level
-                                programming with code portability. The rewrite system of LIFT
-                                systematically transforms high-level algorithmic patterns into
-                                low-level high performance OpenCL code with equivalent functionality
-                                by applying a set of rewrite rules. To ensure the effectiveness of
-                                these rewrite rules, we would like to:</p>
-                                <ol>
-                                        <li> Formalise the type constraints of them</li>
-                                        <li> Prove their correctness</li>
-                                </ol>
-                                <p>We have encoded the semantics of LIFT in Agda and developed
-                                mechanical proofs to the correctness of these rewrite rules. We
-                                would like to present our findings in equality reasoning about
-                                array/tensor operations with Agda.</p>
+                                <p>In this talk, we investigate different solutions to address
+                                these challenges, such as using De-Bruijn indices instead of named
+                                identifiers.</p>
+
+                                <p>We show their impact in practice when optimizing programs
+                                expressed in Rise: a typed lambda calculus. </p>
+
+                                <p>We will show that the presented solutions enable us to discover
+                                more complex optimizations than a naive implementation, although
+                                scaling the technique further remains an open challenge.</p>
                         </div>
                 </td>
         </tr>
         <tr>
-                <td class="time">15:30&ndash;16:00</td>
+                <td class="time">03:15&ndash;03:45</td>
                 <td>
-                        <div class="speaker">Paul Keir</div>
-                        <a href="javascript:toggleAbstract('paul-abstract')">
-                                Compile-Time Dynamic Memory Allocation is Real
+                        <div class="speaker">Gabbay Jamie</div>
+                        <a href="javascript:toggleAbstract('abstract3')">
+                                TBA
                         </a>
-                        <div id="paul-abstract" class="talk-abstract">
-                                <p>C++20 extends the capabilities of generalised constant
-                                expressions to include <b>transient</b> dynamic memory allocation; which
-                                must be freed before evaluation of the surrounding constant
-                                expression.</p>
-
-                                <p>While interactivity, and other ad-hoc restrictions on constant
-                                expressions remain, the opportunity now exists to integrate existing
-                                and idiomatic stateful programs within type level calculations.</p>
-
-                                <p>The C++ standard library is the most basic dependency of a project;
-                                and shipped with every compiler. Yet, while compile-time dynamic
-                                memory allocation is functional, algorithms and containers from the
-                                standard library are not available for use within constant
-                                expressions.</p>
-
-                                <p>We introduce the C'est library: providing a growing subset of
-                                common functions and classes from the C++ standard library,
-                                applicable within constant expressions. The need for strongly-typed
-                                allocation arises, and we introduce emergent idioms to overcome the
-                                limitations of transient allocation.</p>
-
-                                <p>Pervasive memory errors, including uninitialised memory access;
-                                using non-owned memory; buffer overflows; and double free errors,
-                                are all now capable of capture through compilation errors; rather
-                                than runtime errors. While template metaprogramming has been
-                                avoided, there is nevertheless a development cost, with the
-                                capabilities of the debugger stretched; and memory debuggers
-                                now indispensable in the quest even to compile larger programs.</p>
-
-                                <p>We conclude with a case study involving compile-time verification
-                                of the Metamath proof database format, and discuss our ongoing work
-                                within the Clang constant expression evaluator.</p>
+                        <div id="abstract3" class="talk-abstract">
                         </div>
                 </td>
         </tr>
-        <tr><td class="time">16:00&ndash;16:30</td><td>Break</td></tr>
         <tr>
-                <td class="time">16:30&ndash;17:00</td>
+                <td class="time">04:15&ndash;04:45</td>
                 <td>
-                        <div class="speaker">Sven-Bodo Scholz</div>
-                        <a href="javascript:toggleAbstract('bodo-abstract')">
-                                Effective Host-GPU Memory Management Through Code Generation
+                        <div class="speaker">Sam lindley</div>
+                        <a href="javascript:toggleAbstract('abstract4')">
+                                Handler calculus
                         </a>
-                        <div id="bodo-abstract" class="talk-abstract">
-                                <p>NVidia's CUDA programming environment provides several options on
-                                how to orchestrate the management of host and device memory as well
-                                as the transfers between them.  This talk gives a brief overview of
-                                the options available and it discusses the implications of those
-                                choices for generating CUDA code from high-level specifications.
-                                Finally, we present some initial performance evaluations based on a
-                                full fledged implementation in the Sac compiler sac2c.</p>
+                        <div id="abstract4" class="talk-abstract">
+                          <p>We present handler calculus, a core calculus of effect
+                          handlers. Inspired by the Frank programming language, handler
+                          calculus does not have primitive functions, just handlers.
+                          Functions, products, sums, and inductive types, are all encodable
+                          in handler calculus. We extend handler calculus with recursive
+                          effects, which we use to encode recursive data types. We extend
+                          handler calculus with parametric operations, which we use to
+                          encode existential data types. We then briefly outline how one
+                          can encode universal data types by composing a CPS translation
+                          for parametric handler calculus into System F with Fujita’s CPS
+                          translation of System F into minimal existential logic.</p>
+                        </div>
+                </td>
+        </tr>
+        <tr>
+                <td class="time">05:00&ndash;05:30</td>
+                <td>
+                        <div class="speaker">Wen Kokke</div>
+                        <a href="javascript:toggleAbstract('abstract5')">
+                                TBA
+                        </a>
+                        <div id="abstract5" class="talk-abstract">
                         </div>
                 </td>
         </tr>
         <tr><td class="time">17:00&ndash;</td><td>Virtual Pub</td></tr>
-    </table -->
+    </table>
   </section>
 
 
