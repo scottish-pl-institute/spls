@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SPLS, October 21st, 2020, online (organised by Heriot-Watt)</title>
+  <title>SPLS, June 31st, 2021, online</title>
   <link rel="stylesheet" href="sakura.css">
   <style>
 .column {
@@ -172,9 +172,25 @@
                 <td>
                         <div class="speaker">Celeste Hollenbeck</div>
                         <a href="javascript:toggleAbstract('abstract5')">
-                                TBA
+                                Investigating Magic Numbers: An Evaluation of Inlining in the Glasgow Haskell Compiler
                         </a>
                         <div id="abstract5" class="talk-abstract">
+                          <p>Haskell’s performance can sometimes rival that of low-level languages.
+                          However, many of the performance-affecting decisions of the Glasgow
+                          Haskell Compiler (GHC) are informed by out-of-date heuristics typically
+                          evaluated on nofib, an out-of-date benchmark suite. </p>
+                          <p> We investigated the
+                          case for upgrading GHC’s inliner by gathering performance data across
+                          real-world Haskell packages. To do so, we developed an updated benchmark
+                          suite and evaluated the impact of some of GHC's hard-coded constants, or
+                          "magic-numbers", on GHC’s inlining behaviour. Using these benchmarks, we
+                          demonstrated the potential for a 12.37 % geometric mean speedup.</p>
+                          <p>This
+                          speedup is not attainable, however, without rewriting GHC’s inliner. With
+                          its current code, our analysis shows that a replacement of the inliner’s
+                          numerical thresholds—its magic numbers—would only yield a speedup of
+                          5.36%, justifying a rethink of GHC’s inliner design.
+                          </p>
                         </div>
                 </td>
         </tr>
