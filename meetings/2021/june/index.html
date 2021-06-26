@@ -98,9 +98,25 @@
                 <td>
                         <div class="speaker">Neel Krishnaswami</div>
                         <a href="javascript:toggleAbstract('abstract1')">
-                                TBA
+                                Adjoint Reactive GUI Programming
                         </a>
                         <div id="abstract1" class="talk-abstract">
+                          <p>Most interaction with a computer is done via a graphical user
+                          interface. Traditionally, these are implemented in an imperative fashion
+                          using shared mutable state and callbacks. This is efficient, but is also
+                          difficult to reason about and error prone. Functional Reactive Programming
+                          (FRP) provides an elegant alternative which allows GUIs to be designed in
+                          a declarative fashion. However, most FRP languages are synchronous and
+                          continually check for new data. This means that an FRP-style GUI will
+                          “wake up” on each program cycle. This is problematic for applications like
+                          text editors and browsers, where often nothing happens for extended
+                          periods of time, and we want the implementation to sleep until new data
+                          arrives. In this paper, we present an asynchronous FRP language for
+                          designing GUIs called λWidget. Our language provides a novel semantics for
+                          widgets, the building block of GUIs, which offers both a natural
+                          Curry–Howard logical interpretation and an efficient implementation
+                          strategy.
+                          </p>
                         </div>
                 </td>
         </tr>
@@ -139,9 +155,15 @@
                 <td>
                         <div class="speaker">Jamie Gabbay</div>
                         <a href="javascript:toggleAbstract('abstract3')">
-                                TBA
+                                Nominal programming for the working programmer
                         </a>
                         <div id="abstract3" class="talk-abstract">
+                          <p> I'll outline what it would take to implement a "Nominal" package in an
+                          arbitrary programming language, generalising from my experience from
+                          designing the <a href=https://hackage.haskell.org/package/nom>Nominal
+                            Haskell package.</a>
+                          </p>
+
                         </div>
                 </td>
         </tr>
