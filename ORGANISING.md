@@ -64,6 +64,53 @@ Online meetings are hosted using a teleconference service (typically Zoom) and l
 * if you would like to read out your question yourself (on Zoom) then prefix it with "Q:"
 * if you would like the chair to read it out then prefix it with "SQ:" (silent question)
 
+### Online todo-list template
+
+Here is a template for all the steps you need to take in order to organise the online version of SPLS
+
+#### 4 weeks prior
+
+- [ ] Check deadline for ICFP
+- [ ] Check deadline for OOPLA
+- [ ] Check deadline for PLDI
+- [ ] Check deadline for POPL
+- [ ] Get access to Gather
+- [ ] Get access to YouTube
+- [ ] Get access to Zoom or other distribution platform
+- [ ] Decide on the schedule
+- [ ] Update the website with a new page for the event
+   - [ ] Insert the schedule with placeholders
+
+#### 2 weeks prior
+
+- [ ] Obtain title and abstract from invited speaker
+   - [ ] Get abstract and title from speaker 1
+   - [ ] Get abstract and title from speaker 2
+   - [ ] Get abstract and title from speaker 3
+   - [ ] Get abstract and title from speaker 4
+   - [ ] Get abstract and title from speaker 5
+- [ ] Update website with speaker info
+   - [ ] Update abstract and title from invited speaker
+   - [ ] Update abstract and title from speaker 1
+   - [ ] Update abstract and title from speaker 2
+   - [ ] Update abstract and title from speaker 3
+   - [ ] Update abstract and title from speaker 4
+   - [ ] Update abstract and title from speaker 5
+- [ ] Write reminder to the mailing list
+- [ ] Write reminder on the Zulip server
+
+#### A couple days prior
+- [ ] Send reminder email
+- [ ] Send reminded to SPLS-Zulip
+- [ ] Ask speakers about pre-meeting by email
+- [ ] Ask speakers about pre-meeting on Zulip
+
+#### On the day of the event
+
+- [ ] Check the speaker's setup, confirm their preferences for: streaming, recording, questions (during or after)
+- [ ] Send the links 30m before the event
+
+
 [sicsa-theme]: https://www.sicsa.ac.uk/research/theory-modelling-computation/
 [spls-zulip]: https://spls.zulipchat.com/
 [spls-mailing-list]: mailto:spls@lists.cent.gla.ac.uk
