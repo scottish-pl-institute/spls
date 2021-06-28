@@ -221,9 +221,31 @@
                 <td>
                         <div class="speaker">Wen Kokke</div>
                         <a href="javascript:toggleAbstract('abstract6')">
-                                TBA
+                           Prioritise the Best Variation
                         </a>
                         <div id="abstract6" class="talk-abstract">
+                          <p>Binary session types guarantee communication safety and session
+                          fidelity, but alone they cannot rule out deadlocks arising from the
+                          interleaving of different sessions. <br/>
+                          In Classical Processes (CP)—a process calculus based on classical linear
+                          logic—deadlock freedom is guaranteed by combining channel creation and
+                          parallel composition under the same logical cut rule. Similarly, in Good
+                          Variation (GV)—a linear concurrent λ-calculus—deadlock freedom is
+                          guaranteed by combining channel creation and thread spawning under the
+                          same operation, called fork. <br/>
+                          In both CP and GV, deadlock freedom is achieved at the expense of
+                          expressivity, as the only processes allowed are tree-structured. Dardha
+                          and Gay define Priority CP (PCP), which allows cyclic-structured
+                          processes and restores deadlock freedom by using priorities, in line with
+                          Kobayashi and Padovani. <br/>
+                          Following PCP, we present Priority GV (PGV), a variant of GV which
+                          decouples channel creation from thread spawning. Consequently, we type
+                          cyclic-structured processes and restore deadlock freedom by using
+                          priorities. We show that our type system is sound by proving subject
+                          reduction and progress. We define an encoding from PCP to PGV and prove
+                          that the encoding preserves typing and is sound and complete with respect
+                          to the operational semantics.
+                          </p>
                         </div>
                 </td>
         </tr>
