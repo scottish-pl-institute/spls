@@ -192,38 +192,11 @@
         <tr>
                 <td class="time">16:45&ndash;17:15</td>
                 <td>
-                        <div class="speaker">Celeste Hollenbeck</div>
-                        <a href="javascript:toggleAbstract('abstract5')">
-                                Investigating Magic Numbers: An Evaluation of Inlining in the Glasgow Haskell Compiler
-                        </a>
-                        <div id="abstract5" class="talk-abstract">
-                          <p>Haskell’s performance can sometimes rival that of low-level languages.
-                          However, many of the performance-affecting decisions of the Glasgow
-                          Haskell Compiler (GHC) are informed by out-of-date heuristics typically
-                          evaluated on nofib, an out-of-date benchmark suite. </p>
-                          <p> We investigated the
-                          case for upgrading GHC’s inliner by gathering performance data across
-                          real-world Haskell packages. To do so, we developed an updated benchmark
-                          suite and evaluated the impact of some of GHC's hard-coded constants, or
-                          "magic-numbers", on GHC’s inlining behaviour. Using these benchmarks, we
-                          demonstrated the potential for a 12.37 % geometric mean speedup.</p>
-                          <p>This
-                          speedup is not attainable, however, without rewriting GHC’s inliner. With
-                          its current code, our analysis shows that a replacement of the inliner’s
-                          numerical thresholds—its magic numbers—would only yield a speedup of
-                          5.36%, justifying a rethink of GHC’s inliner design.
-                          </p>
-                        </div>
-                </td>
-        </tr>
-        <tr>
-                <td class="time">17:30&ndash;18:00</td>
-                <td>
                         <div class="speaker">Wen Kokke</div>
-                        <a href="javascript:toggleAbstract('abstract6')">
+                        <a href="javascript:toggleAbstract('abstract5')">
                            Prioritise the Best Variation
                         </a>
-                        <div id="abstract6" class="talk-abstract">
+                        <div id="abstract5" class="talk-abstract">
                           <p>Binary session types guarantee communication safety and session
                           fidelity, but alone they cannot rule out deadlocks arising from the
                           interleaving of different sessions. <br/>
@@ -245,6 +218,33 @@
                           reduction and progress. We define an encoding from PCP to PGV and prove
                           that the encoding preserves typing and is sound and complete with respect
                           to the operational semantics.
+                          </p>
+                        </div>
+                </td>
+        </tr>
+        <tr>
+                <td class="time">17:30&ndash;18:00</td>
+                <td>
+                        <div class="speaker">Celeste Hollenbeck</div>
+                        <a href="javascript:toggleAbstract('abstract6')">
+                                Investigating Magic Numbers: An Evaluation of Inlining in the Glasgow Haskell Compiler
+                        </a>
+                        <div id="abstract6" class="talk-abstract">
+                          <p>Haskell’s performance can sometimes rival that of low-level languages.
+                          However, many of the performance-affecting decisions of the Glasgow
+                          Haskell Compiler (GHC) are informed by out-of-date heuristics typically
+                          evaluated on nofib, an out-of-date benchmark suite. </p>
+                          <p> We investigated the
+                          case for upgrading GHC’s inliner by gathering performance data across
+                          real-world Haskell packages. To do so, we developed an updated benchmark
+                          suite and evaluated the impact of some of GHC's hard-coded constants, or
+                          "magic-numbers", on GHC’s inlining behaviour. Using these benchmarks, we
+                          demonstrated the potential for a 12.37 % geometric mean speedup.</p>
+                          <p>This
+                          speedup is not attainable, however, without rewriting GHC’s inliner. With
+                          its current code, our analysis shows that a replacement of the inliner’s
+                          numerical thresholds—its magic numbers—would only yield a speedup of
+                          5.36%, justifying a rethink of GHC’s inliner design.
                           </p>
                         </div>
                 </td>
