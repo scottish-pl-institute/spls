@@ -85,17 +85,13 @@ Here is a template for all the steps you need to take in order to organise the o
 
 - [ ] Obtain title and abstract from invited speaker
    - [ ] Get abstract and title from speaker 1
-   - [ ] Get abstract and title from speaker 2
-   - [ ] Get abstract and title from speaker 3
-   - [ ] Get abstract and title from speaker 4
-   - [ ] Get abstract and title from speaker 5
+   - [ ] Get abstract and title from speaker ...
+   - [ ] Get abstract and title from speaker n
 - [ ] Update website with speaker info
    - [ ] Update abstract and title from invited speaker
    - [ ] Update abstract and title from speaker 1
-   - [ ] Update abstract and title from speaker 2
-   - [ ] Update abstract and title from speaker 3
-   - [ ] Update abstract and title from speaker 4
-   - [ ] Update abstract and title from speaker 5
+   - [ ] Update abstract and title from speaker ...
+   - [ ] Update abstract and title from speaker n
 - [ ] Write reminder to the mailing list
 - [ ] Write reminder on the Zulip server
 
@@ -107,8 +103,16 @@ Here is a template for all the steps you need to take in order to organise the o
 
 #### On the day of the event
 
-- [ ] Check the speaker's setup, confirm their preferences for: streaming, recording, questions (during or after)
+- [ ] Check the speaker's setup, confirm their preferences for: streaming, recording, questions (do they
+      want the host to relay questions from the chat or will they pick questions themselves? Do they want
+      the audience to interrupt the talk or would they rather have the questions be held until the end?)
 - [ ] Send the links 30m before the event
+
+#### For each talk during the event
+
+- [ ] Create a new thread in the channel for the event
+- [ ] start the youtube streaming 
+- [ ] share the youtube stream on the thread for the talk and in the 
 
 
 [sicsa-theme]: https://www.sicsa.ac.uk/research/theory-modelling-computation/
