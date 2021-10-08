@@ -39,6 +39,10 @@
 .talk-abstract {
   display: none;
 }
+
+td, th {
+  vertical-align: top;
+}
 </style>
   <script>
         function toggleAbstract(id) {
@@ -110,8 +114,8 @@
 
   <section>
     <h3>Programme</h3>
-    <b> We are looking for people to give talks!</b> If you have a topic you
-    would like to present at SPLS, please email
+    There is still time to register for the remaining speaker slot. If you have
+    a topic you would like to present at SPLS, please email
     <a href="mailto:teh6@st-andrews.ac.uk">Thomas E. Hansen</a>,
     CC'ing
     <a href="mailto:ecb10@st-andrews.ac.uk">Edwin Brady</a>,
@@ -123,16 +127,350 @@
     <table>
       <tr>
         <th>Time</th>
-        <th>Presenter</th>
+        <th>Speaker</th>
         <th>Title</th>
-        <th>Abstract</th>
       </tr>
+
       <tr>
-        <td> TBD </td>
-        <td> TBD </td>
-        <td> TBD </td>
-        <td> TBD </td>
+        <td> 10:00-11:00 </td>
+        <td> Tarmo Uustalo </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract1')">
+            List monads
+          </a>
+          <div id="abstract1" class="talk-abstract">
+            <p>
+            We tend to speak of the (possibly empty) list monad and the nonempty
+            list monad, meaning the free monoid monad and the free semigroup
+            monad, as if those were the only monad structures on the list and
+            nonempty list endofunctors (on Set). But they are not! It may at
+            first seem hard to construct other list and nonempty list monads,
+            but at a closer look it turns out that examples abound. There are
+            infinitely many list monads with the singleton function as the unit
+            that admit a presentation with one nullary and one binary operation,
+            and infinitely many nonempty list monads with singleton as the unit
+            and a presentation with one binary operation; some multiplications
+            not only delete, but even duplicate and permute elements. There are
+            list and nonempty list monads with singleton as the unit that have
+            no finite presentation.  There are nonempty list monads whose unit
+            is the doubleton function.  You cannot tell if a nonempty list monad
+            presented to you as a blackbox is the free semigroup monad by
+            testing the unit and multiplication on finitely many inputs. Etc. We
+            are far from having classified all list monads or all nonempty list
+            monads, but these are cool combinatorial problems. 
+            </p>
+
+            <p>
+            This is joint work with Dylan McDermott and Maciej Piróg.
+            </p>
+          </div>
+        </td>
+
+      <tr style="background:#E6E6E6">
+        <td> 11:00-11:30 </td>
+        <td colspan=2> COFFEE BREAK </td>
       </tr>
+
+      <tr>
+        <td> 11:30-12:00 </td>
+        <td> Daniel Hillerström </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract2')">
+            Typed Continuations in Wasm
+          </a>
+          <div id="abstract2" class="talk-abstract">
+            <p>
+            In this talk I will discuss the design and status of the "typed
+            continuations" proposal for Wasm.
+            </p>
+
+            <p>
+            Non-local control flow features provide the ability to suspend the
+            current execution context and later resume it. Many
+            industrial-strength programming languages feature a wealth of
+            non-local control flow features such as async/await, coroutines,
+            generators/iterators, effect handlers, call/cc, and so forth. For
+            some programming languages non-local control flow is central to
+            their identity, meaning that they rely on non-local control flow for
+            efficiency, e.g.  to support massively scalable concurrency.
+            </p>
+
+            <p>
+            Currently, Wasm lacks support for implementing such features
+            directly and efficiently without a circuitous global transformation
+            of source programs on the producer side. One possible strategy is to
+            add special support for each individual non-local control flow
+            feature to Wasm, but strategy does not scale to the next 700
+            non-local control flow features. Instead, the goal of this proposal
+            is to introduce a unified structured mechanism based Plotkin and
+            Pretnar's effect handlers which is sufficiently general to cover
+            present use-cases as well as being forwards compatible with future
+            use-cases, whilst admitting efficient implementations.
+            </p>
+
+            <p>
+            Proposal repository
+            <a href=https://github.com/effect-handlers/wasm-spec>
+              https://github.com/effect-handlers/wasm-spec
+            </a>.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 12:00-12:30 </td>
+        <td> Chris Brown </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract3')">
+            Proof-Carrying Refactorings: Proving Renaming for Haskell via
+            Dependent Types
+          </a>
+          <div id="abstract3" class="talk-abstract">
+            <p>
+            Refactoring is the process of changing the structure of a program
+            without changing its behaviour, and is a common practice aimed at
+            making a program more understandable, accessible, or amenable to
+            further alterations to a program's design. Refactorings can be
+            applied manually, which is both a tedious and error-prone process,
+            or via automated refactoring tools, which can both simplify the
+            workflow and guard against common human mistakes, such as
+            overlooking one file within hundreds. Unfortunately, automated tools
+            have their own mode of failure: i.e. changing the behaviour of the
+            code silently in unexpected ways. As refactoring tools grow in power
+            and are applied to ever larger codebases, the key correctness
+            criteria that they indeed do not change program behaviour becomes
+            crucial.
+            </p>
+
+            <p>
+            Most available refactoring tools do not come with any correctness
+            promises.  With common refactoring tools such as Eclipse for Java
+            having well-reported bugs. Indeed, any correctness guarantees of
+            such tools is usually in writing: either by test cases or by
+            hand-written or mechanised correctness proofs.
+            </p>
+
+            <p>
+            In this talk I will demonstrate a different approach: producing a
+            proof of correctness together with the refactoring, where I use
+            Idris to provide a verified refactoring tool for a subset of Haskell
+            98. Dependent types provides an implementation of a  formally
+            verified semantics of the refactorings and give soundness proofs as
+            part of the refactoring implementations themselves.
+            </p>
+
+            <p>
+            I will present PART, a Proof Carrying Refactoring Tool for Haskell
+            98 programs implemented in Idris. I will also give a verified static
+            semantics for a subset of Haskell 98, and a renaming refactoring
+            over that subset. I will conclude with a soundness proof of our
+            renaming implementation.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr style="background:#E6E6E6">
+        <td> 12:30-14:00 </td>
+        <td colspan=2> LUNCH </td>
+      </tr>
+
+      <tr>
+        <td> 14:00-14:30 </td>
+        <td> Ohad Kammar </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract4')">
+            Frex: dependently-typed algebraic simplification
+          </a>
+          <div id="abstract4" class="talk-abstract">
+            <p>
+            (joint work with Guillaume Allais, Edwin Brady, Nathan Corbyn, and
+            Jeremy Yallop)
+            </p>
+
+            <p>
+            I'll present an extensible, mathematically-structured algebraic
+            simplification library design. We structure the library using
+            universal algebraic concepts: a free algebra; and a free extension
+            --- frex --- of an algebra by a set of variables. The latter
+            concept, the frex, generalises the `ring of polynomials over a ring'
+            to that of `an algebra of polynomials over an algebra`.
+            </p>
+
+            <p>
+            The library's dependently-typed API guarantees that the
+            simplification modules in the library, even user-defined ones, are
+            terminating, sound, and complete with respect to a well-specified
+            class of equations. Our design is modular in two axes. First,
+            simplification modules share thousands of lines of infrastructure
+            code dealing with term-representation, pretty-printing,
+            certification, and macros/reflection. Second, more advanced
+            simplification modules can reuse existing simplification modules. We
+            demonstrate this design by developing three monoid simplification
+            modules: ordinary, commutative, and involutive monoids. We
+            implemented this design in the new Idris2 dependently-typed
+            programming language, and in Agda. I will demonstrate the Idris2
+            implementation.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 14:30-15:00 </td>
+        <td> Hossein Haeri </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract5')">
+          Mind Your Outcomes -- Quality-Centric Systems Development in a Pure
+          Functional Framework
+          </a>
+          <div id="abstract5" class="talk-abstract">
+            <p>
+            This paper defines the ΔQ𝑆𝐷 language that embodies the main concepts
+            of the ΔQ framework for distributed systems design. The ΔQ framework
+            has been developed over three decades to design large distributed
+            systems with predictable behaviour under high applied load. The
+            framework specifies system designs at different levels of refinement
+            and tracks and predicts their performance envelope as a function of
+            load. System designers can thereby determine whether the system is
+            likely to perform satisfactorily before the system is actually
+            built.  This is a critical property for real-world systems: they are
+            expected to perform well in exactly those cases when it is difficult
+            to ensure adequate performance, such as telephony systems during
+            natural catastrophes.
+            </p>
+
+            <p>
+            The ΔQ𝑆𝐷 language defines a system as a formal structure (called an
+            “outcome diagram”) that makes explicit how all system behaviours
+            relate to each other. The system’s design is then a sequence of
+            refinement steps starting from a system with wholly unspecified
+            structure and ending with a system with completely specified
+            structure. We give the language semantics that allows computation of
+            the predicted system performance at any step in the refinement
+            process. In future work we intend to incorporate ΔQ𝑆𝐷 in software
+            tools and to use it to provide formal proofs that a partially
+            specified design’s performance is adequate or inadequate. This will
+            make it a practical and useful tool for system designers.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 15:00-15:30 </td>
+        <td> TBD </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract6')">
+            TBD
+          </a>
+          <div id="abstract6" class="talk-abstract">
+          </div>
+        </td>
+      </tr>
+
+      <tr style="background:#E6E6E6">
+        <td> 15:30-16:00 </td>
+        <td colspan=2> COFFEE BREAK </td>
+      </tr>
+
+      <tr>
+        <td> 16:00-16:30 </td>
+        <td> Matthew Daggitt </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract7')">
+          Embedding constraints in neural networks: from training to termination
+          </a>
+          <div id="abstract7" class="talk-abstract">
+            <p>
+            In the last 5 years the pressing need to ensure the safety of AI
+            systems has led to the development of a plethora of different tools
+            targeting the problem of how to constrain the relationship between a
+            neural network's inputs and outputs.  This includes: training it to
+            obey the relationship, verifying the relationship holds or finding
+            counterexamples, and verifying larger systems that make use of the
+            network. In this talk I will describe how our proposed DSL Vehicle,
+            aims to bridge the gaps between all these different tools and
+            provide a single high-level human readable interface for embedding
+            and monitoring the properties of a network all the way through its
+            lifecycle.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 16:30-17:00 </td>
+        <td> André Videla<br>and<br>Matteo Capucci </td>
+        <td>
+          <a href="javascript:toggleAbstract('abstract8')">
+            Parametrised lenses and client-server relationships
+          </a>
+          <div id="abstract8" class="talk-abstract">
+            <p>
+            Parametrised optics form the backbone of <em>categorical
+            cybernetics</em> [1], an area of study focused on interactive,
+            controlled systems. The central mathematical innovation is
+            acknowledging the
+            <span class="math display">
+              <strong>Para</strong>
+            </span>
+            construction as the way to talk about controlled-controller
+            relations in cybernetic systems while retaining a straightforward
+            graphical calculus and mathematical theory. Applications of this
+            framework include <em>open games</em> (compositional game theory
+            [1, 2]) and <em>open learners</em> (compositional machine
+            learning [1, 3]).
+            </p>
+
+            <p>
+            In this presentation we show how common client-server relationships
+            (such as CRUD/RESTful APIs) can be treated in the same fashion. We
+            propose parametrised lenses as an expressive primitive for a server
+            library, allowing programmer to write and extend clients and servers
+            without the hassle associated with it. The talk will feature both a
+            categorical and theoretic analysis and a walkthrough of an Idris
+            implementation of a RESTful server library.
+            </p>
+
+            <p>
+            This presentation is a follow up from the existing talk “Optics for
+            servers” [4]
+            </p>
+
+            <p>
+            <em>References</em>:
+            <br>
+            [1] Capucci, Gavranovic, Hedges, Rischel,
+            <em><a href="https://arxiv.org/abs/2105.06332">
+                Towards foundations of categorical cybernetics
+            </a></em>, 2021
+            <br>
+              [2] Capucci, Ghani, Ledent, Forsber,
+            <em><a href="https://arxiv.org/abs/2105.06763">
+                Translating Extensive Form Games to Open Games with Agency
+            </a></em>, 2021
+            <br>
+            [3] Cruttwell, Gavranovic, Ghani, Wilson, Zanasi,
+            <em><a href="https://arxiv.org/abs/2103.01931">
+                Categorical Foundations of Gradient-Based Learning
+            </a></em>, 2021
+            <br>
+            [4] Optics for servers:
+            <a href="https://www.youtube.com/watch?v=4xpbYPa1lTc">
+              https://www.youtube.com/watch?v=4xpbYPa1lTc
+            </a>
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr style="background:#E6E6E6">
+        <td> 17:30-??? </td>
+        <td colspan=2> Virtual Pub </td>
+      </tr>
+
     </table>
   </section>
 
