@@ -4,6 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SPLS, March 9th 2022 hosted by The University of Edinburgh</title>
+     <style type="text/css">
+      body {
+        color: black;
+        background: white;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      li {
+        margin-top: 10px;
+      }
+
+      li:first-child, .dense li {
+        margin-top: 0;
+      }
+  </style>
   </head>
   <body>
     <h1>Scottish Programming Languages Seminar</h1>
@@ -39,23 +55,234 @@
     <h2><a name="programme" class="anchor">Programme</a></h2>
     <p>
       TBA. Tentative schedule
-      <ul>
-        <li>12:00 - 13:00 Lunch</li>
-        <li>13:00 - 14:00 Session 1</li>
-        <li>14:00 - 14:30 Coffee break</li>
-        <li>14:30 - 15:30 Session 2</li>
-        <li>15:30 - 16:00 Coffee break</li>
-        <li>16:00 - 17:00 Session 3</li>
-      </ul>
-      Confirmed speakers
-      <ul>
-        <li>James McKinna (Heriot-Watt University) (presents in-person)</li>
-        <li>Jeremy Singer (University of Glasgow) (presents in-person)</li>
-        <li>Conor McBride (University of Strathclyde)/Sam Lindley (The University of Edinburgh)/Simon Gay (University of Glasgow) (present in-person)</li>
-        <li>Bastian K&ouml;pcke (Universit&auml;t M&uuml;nster) (presents remotely)</li>
-        <li>Xueying Qin (The University of Edinburgh) (TBD)</li>
-        <li>Rob Wright (The University of Edinburgh) (presents in-person)</li>
-      </ul>
+      <table border="1">
+        <tr>
+          <th>Time</th>
+          <th>Speaker(s)</th>
+          <th>Title &amp; Abstract</th>
+          <th>In-person/virtual</th>
+        </tr>
+        <!-- Lunch -->
+        <tr>
+          <th>12:00 &mdash; 13:00</th>
+          <th colspan="3">Lunch</th>
+        </tr>
+        <!-- Session 1 -->
+        <tr>
+          <th>13:00 &mdash; 14:00</th><th colspan="3">Session 1: Forward in reverse</th>
+        </tr>
+        <!-- First talk -->
+        <tr>
+          <td>13:00 &mdash; 13:30</td>
+          <td>
+            <ul>
+              <li>Conor McBride</li>
+              <li>Sam Lindley</li>
+              <li>Simon Gay</li>
+            </ul>
+          </td>
+          <td>
+            <b>Launching the Scottish Programming Languages Institute</b>
+            <p>
+              We propose to set up a Scottish Programming Languages
+              Institute (SPLI) as an umbrella for activities such as
+              the Scottish Programming Languages Seminar (SPLS), the
+              Scottish Summer School on Programming Languages and
+              Verification (SPLV), various seminar series that have
+              grown beyond their host institutions, and industrial
+              engagement. By formally consolidating the breadth, depth
+              and expertise of programming language research in
+              Scotland, SPLI will provide a platform for future
+              initiatives.
+            </p>
+          </td>
+          <td>In-person</td>
+        </tr>
+        <!-- Second talk -->
+        <tr>
+          <td>13:30 &mdash; 14:00</td>
+          <td>James McKinna</td>
+          <td>
+            <b>Automatic differentiation, in forward- and reverse-mode, as a one-liner</b>
+            <p>
+              This talk aims to demystify the basics of automatic
+              differentiation (AD) by considering it as an abstract
+              evaluator of symbolic expressions (the 'one-liner' of
+              the title). We further show how to incorporate the
+              mysteries of forward- and backward-mode AD by changing
+              the result type of the evaluation in interesting, but
+              algebraically comprehensible, ways, which moreover
+              realise the successive improvements, in computational
+              complexity, from purely functional vanilla forward-mode
+              AD to imperative, array-based, reverse-mode AD.
+            </p>
+            <p>
+              Joint work with Birthe van den Bergh, Tom Schrijvers (KU
+              Leuven) and Alexander Vandenbroucke (Standard Chartered).
+            </p>
+          </td>
+          <td>In-person</td>
+        </tr>
+        <!-- Coffee break 1 -->
+        <tr>
+          <td>14:00 &mdash; 14:30</td><th colspan="3">Coffee break</th>
+        </tr>
+        <!-- Session 2 -->
+        <tr>
+          <th>14:30 &mdash; 15:30</th>
+          <th colspan="3">Session 2: Data {types,science}</th>
+        </tr>
+        <!-- Third talk -->
+        <tr>
+          <td>14:30 &mdash; 15:00</td>
+          <td>Xueying Qin</td>
+          <td>
+            <b>Property-based container data types</b>
+            <p>
+              Container data types such as sets, lists, and trees,
+              represent collections of data that, are commonly used in
+              computer programs. Much work have been done in the past
+              decades to design better abstraction, improve
+              performance and verify correctness for container data
+              types. However, one crucial problem still
+              exists. Currently, when choosing a container data type,
+              programmers can not choose an abstract container only
+              based on the desired container’s behaviours, but they
+              must choose a concrete implementation of that abstract
+              container as well. For example, instead of being able to
+              request a container with unique elements, programmers
+              must choose between possible implementation such as
+              trees or hash sets. One serious drawback is that the
+              chosen concrete implementation cannot provide the
+              desirable performance or memory efficiency in all usage
+              scenarios. Also, the portability of programs is limited
+              as one concrete implementation might only have optimised
+              performance for certain hardware systems.
+            </p>
+          </td>
+          <td>In-person</td>
+        </tr>
+        <!-- Fourth talk -->
+        <tr>
+          <td>15:00 &mdash; 15:30</td>
+          <td>Robert Wright</td>
+          <td>
+            <b>Idris Type-Driven Data Science</b>
+            <p>
+              Traditionally, most data science is done in dynamically
+              typed languages. If you're manipulating a table of data,
+              and make a typo in a column name, or ask for the wrong
+              column, then you don't find out until runtime - after
+              which significant computation may have taken place. So a
+              small mistake could lose a large amount of time.
+            </p>
+            <p>
+              With dependant types, we can express the schemas of
+              tables at compile-time. This allows us to check, at
+              compile-time, that our columns exist, and are of the
+              correct types.
+            </p>
+            <p>
+              We will go through a simple machine learning example,
+              and show the whole workflow, to demonstrate how
+              dependant types can help the process.
+            </p>
+          </td>
+          <td>In-person</td>
+        </tr>
+        <!-- Coffee break 2 -->
+        <tr>
+          <td>15:30 &mdash; 16:00</td><th colspan="3">Coffee break</th>
+        </tr>
+        <!-- Session 3 -->
+        <tr>
+          <th>16:00 &mdash; 17:00</th>
+          <th colspan="3">Session 3: Stay safe</th>
+        </tr>
+        <!-- Fifth talk -->
+        <tr>
+          <td>16:00 &mdash; 16:30</td>
+          <td>Bastian K&ouml;pcke</td>
+          <td>
+            <b>Descend: A safe GPU systems programming language</b>
+            <p>
+              Programming Graphics Processing Units (GPUs) is a
+              challenging task even for expert programmers. Thousands
+              of GPU threads have to be coordinated to safely make
+              efficient use of the hardware resources. The most common
+              GPU programming language CUDA, a variant of C, offers
+              programmers great control over which thread operates at
+              which time on which memory location. This is essential
+              for achieving high performance but comes with the same
+              memory and concurrency safety challenges well-known in
+              C.  High-level languages such as Futhark or RISE address
+              this by severely restricting the programmers' ability to
+              control low-level details and providing fixed common
+              higher level computational patterns, such as map and
+              reduce.
+            </p>
+            <p>
+              We present a new GPU programming language, Descend, that
+              aims to combine the advantages of both approaches:
+              enabling precise control safely.  Descend is heavily
+              inspired by Rust, but addresses additional challenges
+              arising from the GPU hardware. Descend 1) guarantees
+              memory safety in the presence of thousands of parallel
+              executing threads, 2) ensures the correct interaction
+              between CPU and GPU, 3) enforces the GPU’s thread and
+              memory hierarchy.
+            </p>
+            <p>
+              In this talk, I will present our current status of
+              designing and implementing Descend, which includes a
+              Rust-style affine type system with extended borrowing
+              rules, and a prototype implementation of a compiler
+              generating CUDA code. I will present Descend using
+              examples to highlight how it enforces memory safety while
+              allowing users to maintain control.
+            </p>
+          </td>
+          <td>Virtual</td>
+        </tr>
+        <!-- Sixth talk -->
+        <tr>
+          <td>16:30 &mdash; 17:00</td>
+          <td>Jeremy Singer</td>
+          <td>
+            <b>Capability Boehm: Challenges and Opportunities for Garbage Collection with Capability Hardware</b>
+            <p>
+              The Boehm-Demers-Weiser Garbage Collector (BDWGC) is a
+              production-quality memory management framework for C/C++
+              applications. In this talk, we explore adapting BDWGC
+              for modern capability hardware, in particular the CHERI
+              system, which provides guarantees about memory safety
+              due to runtime enforcement of fine-grained pointer
+              bounds and permissions. We describe various challenges
+              presented by the CHERI micro-architectural constraints,
+              along with some significant opportunities for runtime
+              optimization.
+            </p>
+          </td>
+          <td>In-person</td>
+        </tr>
+      </table>
+      <!-- <ul> -->
+      <!--   <li>12:00 - 13:00 Lunch</li> -->
+      <!--   <li>13:00 - 14:00 Session 1</li> -->
+      <!--   <li>14:00 - 14:30 Coffee break</li> -->
+      <!--   <li>14:30 - 15:30 Session 2</li> -->
+      <!--   <li>15:30 - 16:00 Coffee break</li> -->
+      <!--   <li>16:00 - 17:00 Session 3</li> -->
+      <!-- </ul> -->
+      <!-- Confirmed speakers -->
+      <!-- <ul> -->
+      <!--   <li>James McKinna (Heriot-Watt University) (presents in-person)</li> -->
+      <!--   <li>Jeremy Singer (University of Glasgow) (presents in-person)</li> -->
+      <!--   <li>Conor McBride (University of Strathclyde)/Sam Lindley (The University of Edinburgh)/Simon Gay (University of Glasgow) (present in-person)</li> -->
+      <!--   <li>Bastian K&ouml;pcke (Universit&auml;t M&uuml;nster) (presents remotely)</li> -->
+      <!--   <li>Xueying Qin (The University of Edinburgh) (TBD)</li> -->
+      <!--   <li>Rob Wright (The University of Edinburgh) (presents in-person)</li> -->
+      <!-- </ul> -->
     </p>
 
     <h2><a name="attending" class="anchor">Attending</a></h2>
