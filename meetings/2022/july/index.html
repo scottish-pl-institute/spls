@@ -54,10 +54,152 @@
             <h2>Programme</h2>
 
             <p>
-                We are currently accepting requests for talks! 
-                If you are interested, please send an email to one of the organisers.
-                Talks will have a 30 minute slot each, including time for questions.
+                The following is a <i>tentative</i> schedule for this edition of SPLS. 
+                Note that the call for lightning talks is currently open, feel free to get in touch to give a short 5-10min talk about ongoing work.
             </p>
+
+            <h3>Schedule</h3>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="double">12:00-13:00</td>
+                        <td class="double">Lunch</td>
+                        <td class="double"></td>
+                    </tr>
+
+                    <tr>
+                        <th>13:00-14:00</th>
+                        <th>Session: Semantics</th>
+                        <th>Chair: Simon Fowler</th>
+                    </tr>
+                    <tr>
+                        <td>13:00-13:30</td>
+                        <td>Bruce Collie</td>
+                        <td>The K Framework: Practical Semantic Tools from Term Rewriting</td>
+                    </tr>
+                    <tr>
+                        <td>13:30-14:00</td>
+                        <td>Nachiappan Valiappan</td>
+                        <td>Normalization for Fitch-style Modal Calculi</td>
+                    </tr>
+
+                    <tr>
+                        <td class="double">14:00-14:30</td>
+                        <td class="double">Coffee</td>
+                        <td class="double"></td>
+                    </tr>
+
+                    <tr>
+                        <th>14:30-15:30</th>
+                        <th>Session: Type Systems</th>
+                        <th>Chair: Matthew Alan Le Brun</th>
+                    </tr>
+                    <tr>
+                        <td>14:30-15:00</td>
+                        <td>Katarzyna Marek</td>
+                        <td>Idris-TyRE - a Dependently-Typed Regex Parser</td>
+                    </tr>
+                    <tr>
+                        <td>15:00-15:30</td>
+                        <td>Conor McBride</td>
+                        <td>TypOS: An Operating System for Typechecking Actors</td>
+                    </tr>
+
+                    <tr>
+                        <td class="double">15:30-16:00</td>
+                        <td class="double">Coffee</td>
+                        <td class="double"></td>
+                    </tr>
+
+                    <tr>
+                        <th>16:00-17:00</th>
+                        <th>Session: Energy</th>
+                        <th>Chair: Jeremy Singer</th>
+                    </tr>
+                    <tr>
+                        <td>16:00-16:30</td>
+                        <td>Ryan Kirkpatrick (Remote)</td>
+                        <td>Energy Efficient Thread Placement with Dynamic Instrumentation</td>
+                    </tr>
+                    <tr>
+                        <td>16:30-17:00</td>
+                        <td>Lightning Talks</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Talks</h3>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Bruce Collie</th>
+                        <th>The K Framework: Practical Semantic Tools from Term Rewriting</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>K (<a href="https://kframework.org/">https://kframework.org/</a>) is a rewrite-based executable semantic framework in which programming languages, type systems and formal analysis tools can be defined. 
+                            From a single language definition in K, an entire suite of tools can be automatically derived (including a parser, concrete interpreter, and symbolic execution engine); it provides a flexible, powerful environment for constructing programming languages. 
+                            In this talk, I'll provide an introduction to K by demonstrating a simple imperative language semantics, along with a set of proofs over programs in this language enabled by K's generic theorem prover. 
+                            Finally, I'll talk briefly about how we use K commercially at scale in the blockchain and embedded software domains.</td>
+                    </tr>
+                    <tr>
+                        <th>Nachiappan Valiappan</th>
+                        <th>Normalization for Fitch-style Modal Calculi</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Fitch-style modal lambda calculi enable programming with necessity modalities in a typed lambda calculus by extending the typing context with a delimiting operator that is denoted by a lock. 
+                            The addition of locks simplifies the formulation of typing rules for calculi that incorporate different modal axioms, but each variant demands different, tedious and seemingly ad hoc syntactic lemmas to prove normalization. 
+                            In this work, we develop normalization by evaluation (NbE) for Fitch-style calculi that incorporate the K, T and 4 axioms of modal logic by leveraging their possible-world semantics. 
+                            The NbE approach exploits the commonalities of these calculi in the possible-world semantics and isolates their differences to a specific parameter that determines the modal fragment, thus enabling reuse of the evaluation machinery and many lemmas proved in the process. 
+                            Finally, we showcase several consequences of normalization for proving meta-theoretic properties of Fitch-style calculi based on different interpretations of the necessity modality in programming languages, such as capability safety, noninterference and a form of binding-time correctness.</td>
+                    </tr>
+                    <tr>
+                        <th>Katarzyna Marek</th>
+                        <th>Idris-TyRE - a Dependently-Typed Regex Parser</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Regexes are widely used not only for validating, but also for parsing textual data. 
+                            Generally, regex parsers output a very generic structure, e.g. an unstructured list of matches, leaving it up to the user to validate the output's properties and transform it into the desired structure. 
+                            Since the regex itself carries information about the structure, this leads to unnecessary repetition. 
+                            In this talk we will present Idris-TyRE - a library for type-driven regex parsing. 
+                            The idea is based on Radanne’s typed regexes library of the same name - a typed, indexed combinators layer that can be added on top of an existing regex engine. 
+                            In contrast to Radanne's design, we also implement a parser, which maintains the type-safety throughout all layers. 
+                            The parser is implemented in Idris 2 utilising the following features of Idris 2's advanced type system. 
+                            We take advantage of type-level computation to establish the correct parse tree type; we use dependent-type verification to ensure the result type correctness; and we benefit from quantitative types by erasing the proofs and avoiding run-time overhead.
+                            This is joint work with Ohad Kammar.</td>
+                    </tr>
+                    <tr>
+                        <th>Conor McBride</th>
+                        <th>TypOS: An Operating System for Typechecking Actors</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Abstract TBA</td>
+                    </tr>
+                    <tr>
+                        <th>Ryan Kirkpatrick</th>
+                        <th>Energy Efficient Thread Placement with Dynamic Instrumentation</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Climate change is now critical, and computing is an increasingly important part of our growing carbon footprints. 
+                            New green-computing techniques are needed to reduce the overall energy consumption of computation without decreasing overall performance. 
+                            Multicore devices offer some energy savings but finding the optimal configuration for a multi-threaded application requires in-depth knowledge of the threads' energy and performance properties.
+                            We present a new technique to optimise thread placement in a multi-threaded application, by using dynamic binary instrumentation to measure inter-thread, shared-memory communication and automatically infer the communication topology of the application. 
+                            This is combined with hardware topology information to place communicating threads close to each other in the cache hierarchy of the target machine. 
+                            When the communication happens via close caches, latency and throughput are improved and traffic on memory busses and package-links is reduced. 
+                            Our technique does not require the application to be modified or recompiled. 
+                            In this talk we will present our thread placement technique and demonstrate how it can be used to potentially reduce energy consumption of multi-core applications.
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
 
         <section id="organisers" class="container">
@@ -96,5 +238,16 @@
         .padding-top {
             padding-top: 2rem;
         }
+
+        td.double {
+            border-top: 0.3rem double #e1e1e1;
+            border-bottom: 0.3rem double #e1e1e1;
+        }
+
+        table {
+            text-align: justify;
+        }
+
+
     </style>
 </html>
