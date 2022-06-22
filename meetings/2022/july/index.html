@@ -73,12 +73,12 @@
                         <th>Session: Semantics</th>
                         <th>Chair: Simon Fowler</th>
                     </tr>
-                    <tr>
+                    <tr class="clickable" onclick="window.location='#k-framework'">
                         <td>13:00-13:30</td>
                         <td>Bruce Collie</td>
                         <td>The K Framework: Practical Semantic Tools from Term Rewriting</td>
                     </tr>
-                    <tr>
+                    <tr class="clickable" onclick="window.location='#fitch-style-modal-calculi'">
                         <td>13:30-14:00</td>
                         <td>Nachiappan Valiappan</td>
                         <td>Normalization for Fitch-style Modal Calculi</td>
@@ -95,12 +95,12 @@
                         <th>Session: Type Systems</th>
                         <th>Chair: Matthew Alan Le Brun</th>
                     </tr>
-                    <tr>
+                    <tr class="clickable" onclick="window.location='#idris-tyre'">
                         <td>14:30-15:00</td>
                         <td>Katarzyna Marek</td>
                         <td>Idris-TyRE - a Dependently-Typed Regex Parser</td>
                     </tr>
-                    <tr>
+                    <tr class="clickable" onclick="window.location='#typos'">
                         <td>15:00-15:30</td>
                         <td>Conor McBride</td>
                         <td>TypOS: An Operating System for Typechecking Actors</td>
@@ -117,7 +117,7 @@
                         <th>Session: Energy</th>
                         <th>Chair: Jeremy Singer</th>
                     </tr>
-                    <tr>
+                    <tr class="clickable" onclick="window.location='#energy'">
                         <td>16:00-16:30</td>
                         <td>Ryan Kirkpatrick (Remote)</td>
                         <td>Energy Efficient Thread Placement with Dynamic Instrumentation</td>
@@ -134,7 +134,7 @@
 
             <table>
                 <tbody>
-                    <tr>
+                    <tr id="k-framework">
                         <th>Bruce Collie</th>
                         <th>The K Framework: Practical Semantic Tools from Term Rewriting</th>
                     </tr>
@@ -145,7 +145,7 @@
                             In this talk, I'll provide an introduction to K by demonstrating a simple imperative language semantics, along with a set of proofs over programs in this language enabled by K's generic theorem prover. 
                             Finally, I'll talk briefly about how we use K commercially at scale in the blockchain and embedded software domains.</td>
                     </tr>
-                    <tr>
+                    <tr id="fitch-style-modal-calculi">
                         <th>Nachiappan Valiappan</th>
                         <th>Normalization for Fitch-style Modal Calculi</th>
                     </tr>
@@ -157,7 +157,7 @@
                             The NbE approach exploits the commonalities of these calculi in the possible-world semantics and isolates their differences to a specific parameter that determines the modal fragment, thus enabling reuse of the evaluation machinery and many lemmas proved in the process. 
                             Finally, we showcase several consequences of normalization for proving meta-theoretic properties of Fitch-style calculi based on different interpretations of the necessity modality in programming languages, such as capability safety, noninterference and a form of binding-time correctness.</td>
                     </tr>
-                    <tr>
+                    <tr id="idris-tyre">
                         <th>Katarzyna Marek</th>
                         <th>Idris-TyRE - a Dependently-Typed Regex Parser</th>
                     </tr>
@@ -173,7 +173,7 @@
                             We take advantage of type-level computation to establish the correct parse tree type; we use dependent-type verification to ensure the result type correctness; and we benefit from quantitative types by erasing the proofs and avoiding run-time overhead.
                             This is joint work with Ohad Kammar.</td>
                     </tr>
-                    <tr>
+                    <tr id="typos">
                         <th>Conor McBride</th>
                         <th>TypOS: An Operating System for Typechecking Actors</th>
                     </tr>
@@ -181,7 +181,7 @@
                         <td></td>
                         <td>Abstract TBA</td>
                     </tr>
-                    <tr>
+                    <tr id="energy">
                         <th>Ryan Kirkpatrick</th>
                         <th>Energy Efficient Thread Placement with Dynamic Instrumentation</th>
                     </tr>
@@ -246,6 +246,10 @@
 
         table {
             text-align: justify;
+        }
+
+        .clickable {
+            cursor: pointer;
         }
 
 
