@@ -114,13 +114,13 @@
 
                     <tr>
                         <th>16:00-17:00</th>
-                        <th>Session: Energy</th>
+                        <th>Session: Refactoring and Lightning Talks</th>
                         <th>Chair: Jeremy Singer</th>
                     </tr>
-                    <tr class="clickable" onclick="window.location='#energy'">
+                    <tr class="clickable" onclick="window.location='#refactoring'">
                         <td>16:00-16:30</td>
-                        <td>Ryan Kirkpatrick (Remote)</td>
-                        <td>Energy Efficient Thread Placement with Dynamic Instrumentation</td>
+                        <td>Chris Brown</td>
+                        <td>RePi: Towards a Refactoring Tool for Dependently Typed Programs</td>
                     </tr>
                     <tr class="no-bottom-border">
                         <td>16:30-17:00</td>
@@ -201,21 +201,35 @@
                         <td></td>
                         <td>Abstract TBA</td>
                     </tr>
-                    <tr id="energy">
-                        <th>Ryan Kirkpatrick</th>
-                        <th>Energy Efficient Thread Placement with Dynamic Instrumentation</th>
+                    <tr id="refactoring">
+                        <th>Chris Brown</th>
+                        <th>RePi: Towards a Refactoring Tool for Dependently Typed Programs</th>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td>Climate change is now critical, and computing is an increasingly important part of our growing carbon footprints. 
-                            New green-computing techniques are needed to reduce the overall energy consumption of computation without decreasing overall performance. 
-                            Multicore devices offer some energy savings but finding the optimal configuration for a multi-threaded application requires in-depth knowledge of the threads' energy and performance properties.
-                            We present a new technique to optimise thread placement in a multi-threaded application, by using dynamic binary instrumentation to measure inter-thread, shared-memory communication and automatically infer the communication topology of the application. 
-                            This is combined with hardware topology information to place communicating threads close to each other in the cache hierarchy of the target machine. 
-                            When the communication happens via close caches, latency and throughput are improved and traffic on memory busses and package-links is reduced. 
-                            Our technique does not require the application to be modified or recompiled. 
-                            In this talk we will present our thread placement technique and demonstrate how it can be used to potentially reduce energy consumption of multi-core applications.
-                            </td>
+                        <td>
+                            <p>Dependently-typed programming languages are becoming increasingly popular in the functional programming community,
+                                allowing programmers to express properties of logic and proofs as part of their implementation. Dependent types
+                                permit the programmer to implement safe programs, by encoding safety properties as parts of the types themselves;
+                                these properties can be encoded by permitting the types to depend on values. However, programming dependently-typed
+                                systems is still very difficult for the average software developer, who may have had some prior training with
+                                functional languages, such as Haskell, but lacks the background and experience in logic and type systems to make
+                                appropriate use of the dependent types to build strong safe systems as a part of their day-to-day practice.
+                            </p>
+                            <p>
+                                Refactoring aims to provide programmers with the ability to systemically restructure their code to better
+                                reflect its purpose, making it more amenable to change and maintainability, or simply to make it more understandable.
+                                The advantage of refactoring tool support is that it not only presents the programmer with a structured set of
+                                well-defined transformations, but it also alleviates the error-prone burden of manually making modifications across
+                                an entire project that might contain thousands of source code modules. To date, however, there are no refactoring
+                                tools for dependently-typed programming languages.
+                            </p>
+                            <p>
+                                In this talk, we address this problem by discussing a number of new refactorings to be implemented for the
+                                dependently-typed programming language, Pi-Forall, developed by Weirich. We particularly focus on refactorings
+                                for extending and maintaining data types in Pi-Forall. We demonstrate our prototype refactorings over a simple
+                                lambda calculus example and discuss our preliminary refactoring tool, RePi.
+                            </p>
+                        </td>
                     </tr>
                 </tbody>
             </table>
