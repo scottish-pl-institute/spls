@@ -199,7 +199,17 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td>Abstract TBA</td>
+                        <td>
+                            <p>TypOS is an experimental language specific to the domain of implementing type checking, type synthesis and type-directed elaboration algorithms, presented as concurrent actors. We develop the idea "A rule is a server for its conclusion and a client for its premises." into a framework where the judgment forms are presented as interaction protocols and the rules for a given judgment are collectively presented as an actor serving the judgment's protocol.
+                            A running actor may spawn new actors of which it is the client, each with its own channel.
+                            The parameters to each judgement thus acquire not only a syntactic category, but also a mode as input or output.
+                            With this stromger sense of information flow, the language of formulae occurring in rules naturally splits into patterns which analyse things coming and expressions which synthesize things going. Expressions may contain substitutions to be done, but patterns may not, because substitutions are hard to undo.
+                            More generally, the TypOS design strategy is to prevent practices likely to result in failure of metatheoretical safety properties.
+                            We pay particular attention to term variable scope, for example ensuring that no actor can learn the name of a variable bound by another.
+                            TypOS also supports the speculation of unknowns, which become monotonically more defined as constraints are solved: we thus have the one kind of shared memory that makes sense in a distributed setting.
+                            Actors can thus block if they need information which is not yet available: ensuring that resuming actors operate on up-to-date information is the implementation challenge which precipitated the whole effort.</p>
+                            
+                            <p>TypOS is joint work with Guillaume Allais, Malin Altenmueller, Georgi Nakov, Fredrik Nordvall Forsberg and Craig Roy. https://github.com/msp-strath/TypOS</td></p>
                     </tr>
                     <tr id="refactoring">
                         <th>Chris Brown</th>
