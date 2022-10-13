@@ -5,24 +5,72 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>SPLS, 26 October 2022, Stirling</title>
   <style>
-    body {
-      color: black;
-      background: white;
-      margin-left: 10%;
-      margin-right: 10%;
+    BODY {
+      max-width: 67em; padding: 0; margin: auto;
     }
 
-    li {
-      margin-top: 10px;
+    H1, H2, H3, H4, H5, H6, P, TABLE, OL, UL {
+      padding: 0 3% 0 3%; margin-left: 0; margin-right: 0;
     }
 
-    li:first-child, .dense li {
-      margin-top: 0;
+    LI {
+      margin-left: 1em;
+      margin-top: 0.5em;
     }
 
-    img.logo {
+    LI:first-child {
+      margin-top: 0.25em;
+    }
+
+    BODY {
+      font-family: sans-serif;
+      color:  #000020;
+      background-color: #ffffff;
+    }
+
+    H2, H3 {
+      font-weight: bold; 
+      color: #000080;
+      background-color: #d0d0ff;
+    }
+
+    IMG.logo {
       vertical-align: middle;
       max-height: 72px;
+      padding: 0 3% 0 3%;
+    }
+
+    .map {
+      padding: 0 3% 0 3%;
+    }
+
+    TABLE {
+      color: #f00000;
+    }
+
+    TH {
+      background-color: #f0f0ff;
+    }
+
+    TD {
+      color:  #200000;
+      background-color: #f0f0ff;
+      vertical-align: top;
+      padding: 1% 1% 1% 1%;
+    }
+
+    TD.author {
+      padding: 0.5% 1% 0.5% 0.5%;
+      width: 20em;
+    }
+
+    TD.title {
+      padding: 0.5% 0.5% 0.5% 1%;
+      width: 44em;
+    }
+  
+    HR {
+      color:  #3030e0;
     }
 
     .header {}
@@ -31,20 +79,39 @@
       font-weight: normal;
       font-size: smaller;
     }
+
+    .author {
+      font-style: normal;
+    }
+
+    .title {
+      font-style: italic;
+    }
+
+    .abstract {
+      font-style: normal;
+      font-size: 95%;
+    }
+
+    .abstract P {
+      margin: 1% 0 0 0;
+    }
   </style>
-  <!--
-  <link rel="stylesheet" href="spls.css">
-  -->
+  <script>
+    function showAbstract(name) {
+      document.getElementById(name + "/abstract").style.display = "block";
+      document.getElementById(name + "/button").style.display = "none";
+    }
+    function hideAbstract(name) {
+      document.getElementById(name + "/button").style.display = "block";
+      document.getElementById(name + "/abstract").style.display = "none";
+    }
+  </script>
 </head>
 <body>
   <header>
     <h1>Scottish Programming Languages Seminar</h1>
-    <div class="header">
-      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../2019/june/static/images/sicsa_blue.jpg" alt="SICSA Logo"></a>
-      &nbsp;&nbsp;
-      <a href="https://www.stir.ac.uk/"><img class="logo" src="../../2020/march/uos-logo.svg" alt="University of Stirling Logo" style="height:48px;"></a>
-    </div>
-    <h1>Wednesday, 26th October 2022</h1>
+    <h2>Wednesday, 26th October 2022</h2>
     <p>
       The <a href="../../../">Scottish Programming Languages Seminar (SPLS)</a>
       is an informal meeting for discussing anything related to
@@ -60,32 +127,231 @@
     <p>
       This edition of SPLS is sponsored by <a href="https://www.sicsa.ac.uk/">SICSA</a>.
     </p>
+    <div class="header">
+      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../2019/june/static/images/sicsa_blue.jpg" alt="SICSA Logo"></a>
+      &nbsp;&nbsp;
+      <a href="https://www.stir.ac.uk/"><img class="logo" src="../../2020/march/uos-logo.svg" alt="University of Stirling Logo" style="height:48px;"></a>
+    </div>
   </header>
 
   <section>
-    <h2><a name="programme" class="anchor">Programme</a></h2>
+    <h3><a name="programme" class="anchor">(Tentative) Programme</a></h3>
 
-    <p>
-      TBD
-      <ul>
-	<li>SPLS starts with lunch at 12.</li>
-	<ul>
-	  <li>If you would like to offer a talk, please get in touch with the SPLS organiser.</li>
-	</ul>
-	<li>The <a href="https://scottish-pl-institute.github.io/">SPLI</a> is organising an in-person event for PhD students, starting at 9:30am.</li>
-      </ul>
-    </p>
+    <h4>09:30 &mdash; 12:00 &nbsp;&nbsp; SPLI PhD EVENT</h4>
+
+    <h4>12:00 &mdash; 13:00 &nbsp;&nbsp; LUNCH</h4>
+
+    <h4>13:00 &mdash; 14:00 &nbsp;&nbsp; SESSION 1: Program Transformations</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Anton Lorenzen (Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            Balanced Search Tree Insertion:
+            Functional is Top-down is Bottom-up
+          </span>
+          <div class="abstract" id="Anton/button">
+            <button onclick="showAbstract('Anton')">Abstract</button>
+          </div>
+          <div class="abstract" id="Anton/abstract" style="display:none;">
+	    <button onclick="hideAbstract('Anton')">Hide Abstract</button>
+            <p>
+              For splay trees, zip trees and red-black trees there are
+              versions of the insertion function: A functional one
+              that balances after a recursive call, a top-down
+              imperative one that balances on the way down and a
+              bottom-up imperative one that balances on the way up. In
+              this work, we aim to show that these superficially
+              different versions can be transformed into each other,
+              thus proving that they not only satisfy the same
+              invariants but actually produce the same trees. To do
+              this, we use compilation techniques such as reuse
+              analysis, the defunctionalized CPS transformation and
+              tail recursion modulo cons to compile the functional
+              implementation in two different ways, leading to the two
+              imperative versions.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Ryan Kirkpatrick (St Andrews)
+        </td>
+        <td class="title">
+          <span>
+            Automated Thread Placement via Dynamic Binary Instrumentation
+          </span>
+          <div class="abstract" id="Ryan/button">
+            <button onclick="showAbstract('Ryan')">Abstract</button>
+          </div>
+          <div class="abstract" id="Ryan/abstract" style="display:none;">
+	    <button onclick="hideAbstract('Ryan')">Hide Abstract</button>
+            <p>
+              We present COMPROF, our communication profiling tool for
+              shared-memory systems that requires no recompilation or
+              user intervention. We use dynamic binary instrumentation
+              to intercept memory operations and estimate inter-thread
+              communication overhead, deriving (and possibly
+              visualising) a communication graph of data-sharing
+              between threads. We then use this graph to map threads
+              to cores in order to optimise memory traffic through the
+              memory system. Different paths through a system’s memory
+              hierarchy have different latency, throughput and energy
+              properties, we exploit this heterogeneity to provide
+              automatic performance and energy improvements for
+              multi-threaded programs. We demonstrate this on the NAS
+              Parallel Benchmark (NPB) suite where, using our
+              technique, we are able to achieve improvements of up to
+              12% in the execution time and up to 10% in the energy
+              consumption (compared to default Linux scheduling) while
+              not requiring any modification or recompilation of the
+              application code.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>14:00 &mdash; 14:30 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>14:30 &mdash; 15:30 &nbsp;&nbsp; SESSION 2: Semantics</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Jacques Carette (McMaster)
+        </td>
+        <td class="title">
+          <span>
+            Definite Folds
+          </span>
+          <div class="abstract" id="Jacques/button">
+            <button onclick="showAbstract('Jacques')">Abstract</button>
+          </div>
+          <div class="abstract" id="Jacques/abstract" style="display:none;">
+            <button onclick="hideAbstract('Jacques')">Hide Abstract</button>
+            <p>
+              Notions of derivative abound in functional
+              programming. An obvious question arises: what about
+              integrals? It turns out that folds are the analogous
+              concept. Pursuing the analogy leads us to a proper
+              notion of "definite fold" corresponding to definite
+              integrals (and sums and products and ...). Many concepts
+              are needed along the way (Route, Pointed type, etc). In
+              return, incremental and parallel versions of fold arise
+              naturally. The correct notion of indefinite fold is a
+              little more elusive, making a "Fundamental Theorem of
+              Fold-Calculus" delicate; two such candidates will be
+              presented.
+            </p>
+            <p>
+              This is joint work with my Ph.D. student, Noel Brett.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Sam Lindley (Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            Encoding Product Types
+          </span>
+          <div class="abstract" id="Sam/button">
+            <button onclick="showAbstract('Sam')">Abstract</button>
+          </div>
+          <div class="abstract" id="Sam/abstract" style="display:none;">
+            <button onclick="hideAbstract('Sam')">Hide Abstract</button>
+            <p>
+              Can product types be encoded in simply-typed lambda
+              calculus with base types and function types? I'll show
+              that the answer to this apparently simple question is
+              more nuanced than we might expect.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>14:00 &mdash; 14:30 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>16:00 &mdash; 17:00 &nbsp;&nbsp; SESSION 3: Behavioural Types</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Simon Fowler (Glasgow)
+        </td>
+        <td class="title">
+          <span>
+            Special Delivery: Programming with Mailbox Types
+          </span>
+          <div class="abstract" id="Simon/button">
+            <button onclick="showAbstract('Simon')">Abstract</button>
+          </div>
+          <div class="abstract" id="Simon/abstract" style="display:none;">
+            <button onclick="hideAbstract('Simon')">Hide Abstract</button>
+            <p>
+              Actor-based languages such as Erlang and Elixir are
+              well-suited to distributed programming due to the
+              concept of a <em>mailbox</em>: a message queue local to each
+              thread of execution. However, actor languages are
+              vulnerable to subtle yet insidious programmer errors
+              such as protocol violations and communication
+              mismatches, which can be difficult to locate and fix.
+            </p>
+            <p>
+              Mailbox types, proposed by de'Liguoro and Padovani in
+              2018, are a behavioural type system which captures the
+              contents of a mailbox using a commutative regular
+              expression, and can rule out common communication errors
+              such as protocol violations, payload mismatches, and
+              some deadlocks. In this work, we present the first
+              theoretical and practical integration of mailbox types
+              into a programming language. Unlike session type
+              systems, the many-writer, single-reader nature of
+              mailboxes poses nontrivial challenges for language
+              integration. We address these challenges through the use
+              of Kobayashi's notion of quasi-linearity, and develop a
+              co-contextual algorithmic type system based on backwards
+              bidirectional typing.
+            </p>
+            <p>
+              (joint work with Simon Gay, Phil Trinder, and Franciszek Sowul)
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Katarzyna Marek (Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            A Sound and Complete View-based Regex Parser
+          </span>
+          <div class="abstract" id="Katarzyna/button">
+            <button onclick="showAbstract('Katarzyna')">Abstract</button>
+          </div>
+          <div class="abstract" id="Katarzyna/abstract" style="display:none;">
+            <button onclick="hideAbstract('Katarzyna')">Hide Abstract</button>
+          </div>
+        </td>
+      </tr>
+    </table>
   </section>
 
   <section>
-    <h2><a name="attending" class="anchor">Attending</a></h2>
-    <h3>Registration</h3>
+    <h3><a name="attending" class="anchor">Attending</a></h3>
+    <h4>Registration</h4>
     <ul>
       <li>Please register on the <a href="https://doodle.com/meeting/organize/id/e1r30j3a">SPLS Doodle poll</a> if you plan to attend SPLS in person.</li>
       <li>Please register on the <a href="https://doodle.com/meeting/organize/id/eE9Wgrge">PhD event Doodle poll</a> if you plan to attend the PhD event.</li>
       <li>Registration is required for catering. There are no COVID restrictions on attendance (as of now). Mask wearing in packed indoor areas is encouraged, as is testing before attending.</li>
     </ul>
-    <h3>Travel</h3>
+    <h4>Travel</h4>
     <ul>
       <li><a href="https://www.stir.ac.uk/about/getting-here/">Getting to Stirling</a> (by public transport, car, ...)</li>
       <li><a href="https://www.stir.ac.uk/about/getting-here/parking/">Parking on Campus</a> (not free)
@@ -94,7 +360,7 @@
         </ul>
       </li>
     </ul>
-    <div style="width: 800px; text-align: center;">
+    <div class="map" style="width: 800px; text-align: center;">
       <!--
       <iframe src="https://www.google.com/maps/d/embed?mid=18bO5PeaxiJTGp5u0zQa8uYo4zAB0f5Q&ehbc=2E312F" width="800" height="300"></iframe>
       -->
@@ -104,7 +370,7 @@
   </section>
 
   <section>
-    <h2><a name="organisers" class="anchor">Organisers</a></h2>
+    <h3><a name="organisers" class="anchor">Organisers</a></h3>
     <ul>
       <li>
 	For information about this SPLS meeting, please contact
@@ -121,7 +387,7 @@
   <footer>
     <hr>
     <p class="footer">
-      Last updated: 30 September 2022
+      Last updated: 13 October 2022
     </p>
   </footer>
 </body>
