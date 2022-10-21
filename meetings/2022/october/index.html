@@ -317,6 +317,22 @@
           </div>
           <div class="abstract" id="Katarzyna/abstract" style="display:none;">
             <button onclick="hideAbstract('Katarzyna')">Hide Abstract</button>
+	    <p>
+              In this talk, we present a formalization of a verified
+              (sound and complete) regex parser in the Idris 2
+              programming language. Soundness says that if the result
+              of parsing some text is a parse tree: 1. it is a valid
+              parse tree for the regex, 2. its flattening (fringe) is
+              a prefix of the parsed text; and completeness means,
+              that if parsing returns an error, there exists no parse
+              tree satisfying conditions (1) and (2). In our
+              implementation, we make use of McBride-McKinna views to
+              ease the proofs and get a correct parser by virtue of
+              its type.
+            </p>
+            <p>
+              This is joint work with Ohad Kammar and James McKinna.
+            </p>
           </div>
         </td>
       </tr>
