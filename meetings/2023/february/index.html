@@ -153,15 +153,257 @@
 
     <h4>12:00 &mdash; 13:00 &nbsp;&nbsp; LUNCH</h4>
 
-    <h4>13:00 &mdash; 14:00 &nbsp;&nbsp; SESSION 1</h4>
+    <h4>13:00 &mdash; 14:00 &nbsp;&nbsp; SESSION 1: Invited Talk</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Andreas Abel (Chalmers)
+        </td>
+        <td class="title">
+          <span>
+            Type-preserving compilation via dependently typed syntax
+          </span>
+          <div class="abstract" id="Andreas/button">
+            <button onclick="showAbstract('Andreas')">Abstract</button>
+          </div>
+          <div class="abstract" id="Andreas/abstract" style="display:none;">
+            <button onclick="hideAbstract('Andreas')">Hide Abstract</button>
+            <p>The <em>CompCert</em> project produced a verified
+              compiler for a large fragment of the C programming
+              language.  The CompCert compiler is implemented in the
+              type-theoretic proof assistant Coq, and is fully
+              verified: there is a proof that the semantics of the
+              source program matches the semantics of the target
+              program.  However, full verification comes with a price:
+              the majority of the formalization is concerned not with
+              the runnable code of the compiler, but with properties
+              of its components and proofs of these properties.  If we
+              are <em>not</em> willing to pay the price of full verification,
+              can we nevertheless profit from the technology of
+              type-theoretic proof assistants to make our compilers
+              <em>safer</em> and <em>less likely</em> to contain bugs?
+            </p>
+            <p>In this talk, I am presenting a compiler for a small
+              fragment of the C language using <em>dependently-typed
+              syntax</em>.  A typical compiler is proceeding in
+              phases: parsing, type checking, code generation, and
+              finally, object/binary file creation.  Parsing and type
+              checking make up the <em>front end</em>, which may
+              report syntax and type errors to the user; the other
+              phases constitute the <em>back end</em> that should only
+              fail in exceptional cases.  After type checking
+              succeeded, we have to deal only with well-typed source
+              programs, whose abstract syntax trees can be captured
+              with the indexed data types of dependently-typed proof
+              assistants and programming languages like Agda, Coq,
+              Idris, Lean etc.  More concisely, we shall by
+              <em>dependently-typed syntax</em> refer to the technique
+              of capturing well-typedness invariants of syntax trees.
+            </p>
+
+            <p>Representing also typed assembly language via
+              dependently-typed syntax, we can write a type-preserving
+              compiler whose type soundness is given <em>by
+              construction</em>.  In the talk, the target of
+              compilation is a fragment of the Java Virtual Machine
+              (JVM) enriched by some <em>administrative
+              instructions</em> that declare the types of local
+              variables.  With JVM being a stack machine, instructions
+              are indexed not only by the types of the local
+              variables, but also by the types of the stack entries
+              before and after the instruction.  However for
+              instructions that change the control flow, such as
+              unconditional and conditional jumps, we need an
+              additional structure to ensure type safety.  Jumps are
+              safe if the jump target has the same machine typing than
+              the jump source.  By <em>machine typing</em> we mean the
+              pair of the types of the local variables and the types
+              of the stack entries.  Consequently, each label (i.e.,
+              jump target) needs to be assigned a machine type and can
+              only be targeted from a program point with the same
+              machine type.  Technically, we represent labels as
+              machine-typed de Bruijn indices, and control-flow
+              instructions are indexed by a context of label types.
+              We then distinguish two types of labels:
+            </p>
+
+            <ol>
+              <li>Join points, e. g., labels of statements following
+                an `if-else` statement.  Join points can be
+                represented by a `let` binding in the abstract JVM
+                syntax.
+              </li>
+              <li>Looping points, e. g., labels at the beginning of a
+                `while` statement that allow back jumps to iterate the
+                loop.  Those are represented by `fix` (recursion).
+              </li>
+            </ol>
+
+            <p>
+              Using dependently-typed machine syntax, we ensure that
+              <em>well-typed jumps do not miss</em>.  As a result, we obtain
+              a type-preserving compiler by construction, with a good
+              chance of full correctness, since many compiler faults
+              already break typing invariants.  Intrinsic
+              well-typedness also allows us to write the compiler as a
+              total function from well-typed source to typed assembly,
+              and totality can be automatically verified by the Agda
+              type and termination checker.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
 
     <h4>14:00 &mdash; 14:30 &nbsp;&nbsp; COFFEE</h4>
 
-    <h4>14:30 &mdash; 15:30 &nbsp;&nbsp; SESSION 2</h4>
+    <h4>14:30 &mdash; 15:30 &nbsp;&nbsp; SESSION 2: Effects and Communication</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Wenhao Tang (Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            Tracking Linear Continuations for Effect Handlers
+          </span>
+          <div class="abstract" id="Wenhao/button">
+            <button onclick="showAbstract('Wenhao')">Abstract</button>
+          </div>
+          <div class="abstract" id="Wenhao/abstract" style="display:none;">
+            <button onclick="hideAbstract('Wenhao')">Hide Abstract</button>
+            <p>
+              Linear types and effect handlers are both useful
+              features for programming languages. However, they are
+              problematic when using together, as effect handlers may
+              invoke the continuations of operations zero or multiple
+              times, while conventional linear type systems do not
+              track the linearity of continuations. We present
+              Feffpop, a System F style calculus with linear types and
+              effect handlers, which uses type-and-effect system to
+              track linearity of continuations for operations. We
+              prove that it does not discard or duplicate linear
+              values during evaluation by defining a linearity-aware
+              semantics. To make it more practical, we present
+              λeffpop, an ML-variant of Feffpop with type inference
+              and no extra requirement for annotations. We also
+              present Qeffpop, an extension of λeffpop with a novel
+              form of effect system called qualified effect types,
+              which has better accuracy in tracking linear
+              continuations.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Matthew Alan Le Brun (Glasgow)
+        </td>
+        <td class="title">
+          <span>
+            MAGπ: Types for Failure-Prone Communication
+          </span>
+          <div class="abstract" id="Matthew/button">
+            <button onclick="showAbstract('Matthew')">Abstract</button>
+          </div>
+          <div class="abstract" id="Matthew/abstract" style="display:none;">
+            <button onclick="hideAbstract('Matthew')">Hide Abstract</button>
+            <p>
+              Multiparty Session Types (MPST) are a type discipline
+              for communication-based systems that guarantee relevant
+              properties, such as communication safety, deadlock
+              freedom and protocol compliance. In recent years,
+              several works have emerged which model failures and
+              introduce failure-handling techniques. However, such
+              works often make heavy assumptions on the underlying
+              network, e.g., assuming TCP-based communication where
+              messages are guaranteed to be delivered; adopting
+              centralised reliable nodes and ad-hoc notions of
+              reliability; or only addressing a single kind of failure
+              (such as node crash failures). In this work, we develop
+              MAGπ—a Multiparty, Asynchronous and Generalised
+              π-calculus, which is the first language and type system
+              to accommodate in unison: (i) the widest range of
+              non-Byzantine faults; (ii) a novel and most general
+              notion of reliability; and (iii) a theory generalised
+              over a spectrum of network assumptions, from the lowest
+              level of UDP-based network programming to the TCP-based
+              application level.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
 
     <h4>15:30 &mdash; 16:00 &nbsp;&nbsp; COFFEE</h4>
 
-    <h4>16:00 &mdash; 17:00 &nbsp;&nbsp; SESSION 3</h4>
+    <h4>16:00 &mdash; 17:00 &nbsp;&nbsp; SESSION 3: Verification and Representation</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Omri Isac (HU Jerusalem)
+        </td>
+        <td class="title">
+          <span>
+            Neural Network Verification with Proof Production
+          </span>
+          <div class="abstract" id="Omri/button">
+            <button onclick="showAbstract('Omri')">Abstract</button>
+          </div>
+          <div class="abstract" id="Omri/abstract" style="display:none;">
+            <button onclick="hideAbstract('Omri')">Hide Abstract</button>
+            <p>There are currently multiple techniques and tools for
+            verifying Deep Neural Networks (DNNs). When DNN verifiers
+            discover an input that triggers an error, that is easy to
+            confirm; but when they report that no error exists, there
+            is no way to ensure that the verification tool itself is
+            not flawed. As multiple errors have already been observed
+            in DNN verification tools, this calls the applicability of
+            DNN verification into question. In this talk, I will
+            present a novel mechanism for enhancing Simplex-based DNN
+            verifiers with proof production capabilities. We will
+            discuss how to create such mechanism based on an efficient
+            adaptation of the well-known Farkas’ lemma, combined with
+            mechanisms for handling piecewise-linear functions and
+            numerical precision errors. We will conclude by discussing
+            how to use the mechanism in order to improve the
+            performance of DNN verifiers, using conflict clauses.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Guillaume Allais (St Andrews)
+        </td>
+        <td class="title">
+          <span>
+            A Universe for Serialised Data
+          </span>
+          <div class="abstract" id="Guillaume/button">
+            <button onclick="showAbstract('Guillaume')">Abstract</button>
+          </div>
+          <div class="abstract" id="Guillaume/abstract" style="display:none;">
+            <button onclick="hideAbstract('Guillaume')">Hide Abstract</button>
+            <p>In typed functional languages, one can typically only
+              manipulate data in a type-safe manner if it first has
+              been deserialised into an in-memory tree represented as
+              a graph of nodes-as-structs and subterms-as-pointers.
+            </p>
+            <p>We demonstrate how we can use QTT as implemented in
+              Idris 2 to define a small universe of serialised
+              datatypes, and provide generic programs allowing users
+              to process values stored contiguously in buffers.
+            </p>
+            <p>Our approach allows implementors to prove the full
+              functional correctness, in a correct by construction
+              manner, of the IO functions processing the data stored
+              in the buffer.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
 
     <h4>17:00 &mdash; late &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PUB</h4>
   </section>
@@ -202,7 +444,7 @@
   <footer>
     <hr>
     <p class="footer">
-      Last updated: 22 January 2023
+      Last updated: 21 February 2023
     </p>
   </footer>
 </body>
