@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SPLS, 07 June 2023, University of the West of Scotland</title>
+  <style>
+    BODY {
+      max-width: 67em; padding: 0; margin: auto;
+    }
+
+    SECTION {
+      padding-top: 1%;
+    }
+
+    H1, H2, H3, H4, H5, H6, P, TABLE, OL, UL {
+      padding: 0 3% 0 3%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 1%;
+    }
+
+    LI {
+      margin-left: 1em;
+      margin-top: 0.5em;
+    }
+
+    LI:first-child {
+      margin-top: 0.25em;
+    }
+
+    BODY {
+      font-family: sans-serif;
+      color:  #000020;
+      background-color: #ffffff;
+    }
+
+    H2, H3 {
+      font-weight: bold; 
+      color: #000080;
+      background-color: #d0d0ff;
+    }
+
+    IMG.logo {
+      vertical-align: middle;
+      max-height: 72px;
+      padding: 0 3% 0 3%;
+    }
+
+    .map {
+      padding: 0 3% 0 3%;
+    }
+
+    TABLE {
+      color: #f00000;
+    }
+
+    TH {
+      background-color: #f0f0ff;
+    }
+
+    TD {
+      color:  #200000;
+      background-color: #f0f0ff;
+      vertical-align: top;
+      padding: 1% 1% 1% 1%;
+    }
+
+    TD.author {
+      padding: 0.5% 1% 0.5% 0.5%;
+      width: 20em;
+    }
+
+    TD.title {
+      padding: 0.5% 0.5% 0.5% 1%;
+      width: 44em;
+    }
+  
+    HR {
+      color:  #3030e0;
+    }
+
+    .header {}
+
+    .footer {
+      font-weight: normal;
+      font-size: smaller;
+    }
+
+    .author {
+      font-style: normal;
+    }
+
+    .title {
+      font-style: italic;
+    }
+
+    .abstract {
+      font-style: normal;
+      font-size: 95%;
+    }
+
+    .abstract P {
+      margin: 1% 0 0 0;
+    }
+
+    TD.phdevent {
+      padding: 0.5% 0.5% 0.5% 1%;
+      width: 64em;
+    }
+  </style>
+  <script>
+    function showAbstract(name) {
+      document.getElementById(name + "/abstract").style.display = "block";
+      document.getElementById(name + "/button").style.display = "none";
+    }
+    function hideAbstract(name) {
+      document.getElementById(name + "/button").style.display = "block";
+      document.getElementById(name + "/abstract").style.display = "none";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Scottish Programming Languages Seminar</h1>
+    <h2>Wednesday, 7th June 2023</h2>
+    <p>
+      The <a href="../../../">Scottish Programming Languages Seminar (SPLS)</a>
+      is an informal meeting for discussing anything related to
+      programming languages.
+    </p>
+    <p>
+      This edition of SPLS will be held both <strong>in-person</strong>
+      and <strong>online</strong>.
+      The in-person meeting will take place in the
+      <strong>Coats Building, room P118</strong>
+      at the <strong>University of the West of Scotland</strong>.
+    </p>
+<!--    <p>
+      This edition of SPLS is sponsored by <a href="https://www.sicsa.ac.uk/">SICSA</a>.
+    </p>
+-->
+    <div class="header">
+      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../2019/june/static/images/sicsa_blue.jpg" alt="SICSA Logo"></a>
+      &nbsp;&nbsp;
+        <a href="https://www.uws.ac.uk">
+        <img class="logo" src="./uws-logo-black-resized.png" alt="University of the West of Scotland">
+        </a>
+    </div>
+  </header>
+
+  <section>
+    <h3><a name="programme" class="anchor">Programme</a></h3>
+    Please send your talk titles and abstracts using the email addresses below.
+  </section>
+
+  <section>
+    <h3><a name="attending" class="anchor">Attending</a></h3>
+<!--
+    <p>For the on-line participants, we will use the following Zoom meeting: <a href="https://zoom.us/j/92793668626">https://zoom.us/j/92793668626</a>.</p>
+-->
+    <h4>Registration</h4>
+    <ul>
+      <li>Please register <em>by 30th May</em> on the <a href="https://doodle.com/meeting/participate/id/az7gnEYb">SPLS Doodle poll</a> if you plan to attend SPLS in person.</li>
+      <li>Registration is required for catering. There are no COVID restrictions on attendance. Mask wearing in packed indoor areas is welcomed, as is testing before attending.</li>
+    </ul>
+    <h4>Travel</h4>
+    <ul>
+      <li>By train from Glasgow Central to <a href="https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/pyg">Paisley Gilmour Street</a> and a 10 minute walk via High Street.
+      </li>
+      <li>Glasgow Central Train Station is a 10 minute walk from Glasgow Queen Street Train Station.
+      </li>
+      <li>Car parking is available at the nearby <a href="https://www.openstreetmap.org/?mlat=55.84393&mlon=-4.42709#map=18/55.84393/-4.42709">Paisley Centre Car Park</a>.
+      </li>
+      <li>The Coats Building on the map (<a href="https://www.openstreetmap.org/?mlat=55.84391&mlon=-4.42868#map=17/55.84391/-4.42868">larger version</a>):
+        <div class="map" style="width: 800px; text-align: center;">
+          <iframe width="800" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.43274753373755%2C55.842166041222356%2C-4.424609711586365%2C55.84565075073519&amp;layer=mapnik&amp;marker=55.843906929574345%2C-4.428676110146284" style="border: 1px solid black"></iframe>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3><a name="organisers" class="anchor">Organisers</a></h3>
+    <p>Paul Keir&lt;paul.keir@uws.ac.uk&gt; and Santiago Matalonga&lt;santiago.matalonga@uws.ac.uk&gt;</p>
+  </section>
+
+  <footer>
+    <hr>
+    <p class="footer">
+      Last updated: 11 May 2023
+    </p>
+  </footer>
+</body>
+</html>
