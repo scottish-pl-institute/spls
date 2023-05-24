@@ -170,7 +170,16 @@
           <div class="abstract" id="Matija/abstract" style="display:none;">
             <button onclick="hideAbstract('Matija')">Hide Abstract</button>
             <p>
-              Abstract 1 goes here.
+
+In the standard algebraic approach to effects, once an operation
+is called, the evaluation of the continuation stalls until it gets a result
+(either from a built-in primitive effect or through a handler). But we often
+desire asynchronous behaviour, when the continuation may proceed with the
+evaluation and suitably incorporates the result once it arrives. I will
+describe a small calculus with primitives for sending such signals and
+receiving corresponding interrupts, and show a small prototype in which one can
+express promises, preemptive multi-threading and remote function calls.
+
             </p>
           </div>
         </td>
@@ -196,9 +205,42 @@
           </div>
           <div class="abstract" id="Murdoch/abstract" style="display:none;">
             <button onclick="hideAbstract('Murdoch')">Hide Abstract</button>
-            <p>
-              Abstract 2 goes here.
-            </p>
+
+<p>
+A distributed system is permissionless when participants can join and leave the
+network without permission from a central authority. Many modern distributed
+systems are naturally permissionless, in the sense that a central permissioning
+authority would defeat their design purpose: this includes blockchains,
+filesharing protocols, some voting systems, and more. By their permissionless
+nature, such systems are heterogeneous: participants may only have a partial
+view of the system, and they may also have different goals and beliefs. Thus,
+the traditional notion of consensus -- i.e. system-wide agreement -- may not be
+adequate, and we may need to generalise it.
+</p>
+
+<p>
+This is a challenge: how should we understand what heterogeneous consensus is;
+what mathematical framework might this require; and how can we use this to
+build understanding and mathematical models of robust, effective, and secure
+permissionless systems in practice?
+</p>
+
+<p>
+We analyse heterogeneous consensus using semitopology as a framework. This is
+like topology, but without the restriction that intersections of opens be open.
+Semitopologies have a rich theory which is related to topology, but with its
+own distinct character and mathematics. We introduce novel well-behavedness
+conditions, including an anti-Hausdorff property and a new notion of `topen
+set', and we show how these structures relate to consensus. We give a
+restriction of semitopologies to witness semitopologies, which are an
+algorithmically tractable subclass corresponding to Horn clause theories,
+having particularly good mathematical properties. We introduce and study
+several other basic notions that are specific and novel to semitopologies, and
+study how known quantities in topology, such as dense subsets and closures,
+display interesting and useful new behaviour in this new semitopological
+context.
+</p>
+
           </div>
         </td>
       </tr>
@@ -217,7 +259,7 @@
           <div class="abstract" id="Xueying/abstract" style="display:none;">
             <button onclick="hideAbstract('Xueying')">Hide Abstract</button>
             <p>
-              Abstract 3 goes here.
+              TBA
             </p>
           </div>
         </td>
@@ -236,9 +278,33 @@
           </div>
           <div class="abstract" id="Fredrik/abstract" style="display:none;">
             <button onclick="hideAbstract('Fredrik')">Hide Abstract</button>
-            <p>
-              Abstract goes here.
-            </p>
+
+<p>
+Ordinals are useful for justifying termination, and giving semantics to
+inductive definitions, but should one use set theory or type theory to develop
+the theory of ordinals? In constructive set theory, an ordinal is usually
+understood as a hereditarily transitive set, whereas in homotopy type theory,
+an ordinal is a type with a transitive, wellfounded, and extensional binary
+relation -- two seemingly quite different approaches! However, we show that
+they are actually the same, in the following sense: working in homotopy type
+theory, we can use (a higher-inductive refinement of) Aczel's interpretation of
+constructive set theory into type theory to construct a type of set-theoretic
+ordinals. We show that this type is equal to the type of type-theoretic
+ordinals. Going further, we also show how the notion of a type-theoretic
+ordinal can be generalised to a natural class of ordered structures, which
+captures all sets in Aczel's interpretation.
+</p>
+
+<p>
+This is joint work with Tom de Jong, Nicolai Kraus and Chuangjie Xu, and
+will appear at LICS this year.
+</p>
+
+<p>
+Preprint:
+<a href="https://arxiv.org/abs/2301.10696"> https://arxiv.org/abs/2301.10696</a>
+<p>
+
           </div>
         </td>
       </tr>
@@ -264,7 +330,13 @@
           <div class="abstract" id="Filip/abstract" style="display:none;">
             <button onclick="hideAbstract('Filip')">Hide Abstract</button>
             <p>
-              Abstract 5 goes here.
+
+To any functional programmer, it is intuitively obvious that call-by-name
+evaluation can simulate the call-by-value one. However, most proofs of this
+fact are rather complex, or follow as corollaries from significantly more
+involved theorems. In this talk I will demonstrate a simple approach to proving
+this simulation result, with some methodological takeaways.
+
             </p>
           </div>
         </td>
@@ -284,7 +356,20 @@
           <div class="abstract" id="Jeremy/abstract" style="display:none;">
             <button onclick="hideAbstract('Jeremy')">Hide Abstract</button>
             <p>
-              Abstract 6 goes here.
+
+Several open-source memory allocators have been ported to CHERI, a hardware
+capability platform. In this presentation we examine the security and
+performance of these allocators when run under CheriBSD on Arm’s prototype
+Morello platform. We introduce a number of security attacks and show that all
+but one allocator are vulnerable to some of the attacks - including the default
+CheriBSD allocator. We then show that while some forms of allocator performance
+are meaningful, comparing the performance of hybrid and pure capability (i.e.
+‘running in non-CHERI vs. running in CHERI modes’) allocators does not
+currently appear to be meaningful. Although we do not fully understand the
+reasons for this, it seems to be at least as much due to factors such as
+immature compiler toolchains and prototype hardware as it is due to the effects
+of capabilities on performance.
+
             </p>
           </div>
         </td>
