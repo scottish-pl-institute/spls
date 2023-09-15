@@ -13,7 +13,7 @@ If you are travelling far or if you do not subscribe to the mailing list, you ar
 
 The email list is used to announce SPLS meetings, and occasionally for conference announcements, job adverts and other PL-related discussion.
 
-To subscribe, send an email to sympa@lists.cent.gla.ac.uk with the following in the Subject line:
+To subscribe, send an email to `sympa@lists.cent.gla.ac.uk` with the following in the Subject line:
 
 ```
 SUB spls  NAME
@@ -21,7 +21,7 @@ SUB spls  NAME
 
 where NAME is your first name followed by your last name.
 
-To unsubscribe, send an email to [sympa@lists.cent.gla.ac.uk}(mailto:sympa@lists.cent.gla.ac.uk) with nothing in the Subject line.
+To unsubscribe, send an email to `sympa@lists.cent.gla.ac.uk` with nothing in the Subject line.
 In the message body put the following:
 
 ```
