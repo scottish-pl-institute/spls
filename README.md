@@ -36,7 +36,7 @@ If you normally have an automatic signature at the end of your email, please put
 + The mailing list is managed by [Simon Gay](http://www.dcs.gla.ac.uk/~simon/) University of Glasgow,
 + Please join our [Zulip chat instance](https://spls.zulipchat.com/) kindly supported by community hosting from [Zulip](https://www.zulipchat.com/)
 + For more information about SPLS, please contact [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/)
-+ This website is managed by the [SPLS Community](https://github.com/spls-series/spls-series.github.io) under the auspices of the [Scottish Programming Languages Institute](https://scottish-pl-institute.github.io)
++ This website is managed by the [SPLS Community](https://github.com/scottish-pl-institute/spls) under the auspices of the [Scottish Programming Languages Institute](https://scottish-pl-institute.github.io)
 
 ## Support from SICSA
 
