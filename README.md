@@ -1,3 +1,6 @@
+---
+permalink: index.html
+---
 # Scottish Programming Languages Seminar Series
 
 The Scottish Programming Languages Seminar (SPLS) is a forum for discussion of all aspects of programming languages.

@@ -1,3 +1,7 @@
+---
+permalink: CONDUCT.html
+---
+
 # Code of Conduct
 
 Below is the code of conduct for the [SPLS Zulip chat service](http://spls.zulipchat.com).
