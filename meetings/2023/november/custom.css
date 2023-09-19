@@ -79,7 +79,12 @@ HR {
   color:  #3030e0;
 }
 
-.header {}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0 2em 0;
+}
 
 .footer {
   font-weight: normal;

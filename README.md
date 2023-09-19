@@ -47,7 +47,7 @@ SPLS receives financial support from the [Theory, Modelling and Computation](htt
 
 ## Forthcoming SPLS Meetings
 
-+ Autumn 2023 at the University of Strathclyde
++ [Wednesday, 22nd November 2023, University of Strathclyde](meetings/2023/november/)
 
 ## Previous SPLS Meetings
 
