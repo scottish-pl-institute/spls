@@ -1,0 +1,109 @@
+/* Custom CSS taken from existing SPLS sites.
+
+   @: Should this be the default?
+
+*/
+
+BODY {
+  max-width: 67em; padding: 0; margin: auto;
+}
+
+SECTION {
+  padding-top: 1%;
+}
+
+H1, H2, H3, H4, H5, H6, P, TABLE, OL, UL {
+  padding: 0 3% 0 3%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1%;
+}
+
+LI {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+LI:first-child {
+  margin-top: 0.25em;
+}
+
+BODY {
+  font-family: sans-serif;
+  color:  #000020;
+  background-color: #ffffff;
+}
+
+H2, H3 {
+  font-weight: bold;
+  color: #000080;
+  background-color: #d0d0ff;
+}
+
+IMG.logo {
+  vertical-align: middle;
+  max-height: 72px;
+  padding: 0 3% 0 3%;
+}
+
+.map {
+  padding: 0 3% 0 3%;
+}
+
+TABLE {
+  color: #f00000;
+}
+
+TH {
+  background-color: #f0f0ff;
+}
+
+TD {
+  color:  #200000;
+  background-color: #f0f0ff;
+  vertical-align: top;
+  padding: 1% 1% 1% 1%;
+}
+
+TD.author {
+  padding: 0.5% 1% 0.5% 0.5%;
+  width: 20em;
+}
+
+TD.title {
+  padding: 0.5% 0.5% 0.5% 1%;
+  width: 44em;
+}
+
+HR {
+  color:  #3030e0;
+}
+
+.header {}
+
+.footer {
+  font-weight: normal;
+  font-size: smaller;
+}
+
+.author {
+  font-style: normal;
+}
+
+.title {
+  font-style: italic;
+}
+
+.abstract {
+  font-style: normal;
+  font-size: 95%;
+}
+
+.abstract P {
+  margin: 1% 0 0 0;
+}
+
+TD.phdevent {
+  padding: 0.5% 0.5% 0.5% 1%;
+  width: 64em;
+}
