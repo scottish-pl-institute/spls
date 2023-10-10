@@ -15,7 +15,7 @@ This edition of SPLS will be hybrid and is organised by the [MSP Group](https://
 We will be physically located in the **McCance Building, room MC301** at the University of Strathclyde.
 Accessibility information is [available here](https://www.accessable.co.uk/university-of-strathclyde-glasgow/).
 
-For online participants we will stream the talks using `todo`.
+For online participants we will stream the talks using [YouTube](https://www.youtube.com/@scottishprogramminglanguag8396).
 
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
 
@@ -32,8 +32,8 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 
 ## Registration
 
-+ If you plan to attend in person register by `todo` using [this form](https://forms.office.com/e/qwExcRjAtg).
-+ If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by `todo` per email to one of the organizers.
++ If you plan to attend in person register by the **8th November 2023** using [this form](https://forms.office.com/e/qwExcRjAtg).
++ If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **15th November 2023** per email to one of the organizers.
 + Registration is required for catering.
 
 
