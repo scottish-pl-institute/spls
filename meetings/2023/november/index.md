@@ -34,6 +34,7 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 
 + If you plan to attend in person register by the **8th November 2023** using [this form](https://forms.office.com/e/qwExcRjAtg).
 + If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **15th November 2023** per email to one of the organizers.
++ If you want to attend the morning PhD event, please also fill in your name by the **8th November 2023** [here](https://forms.office.com/e/jP6C5NP5tM).
 + Registration is required for catering.
 
 
@@ -44,7 +45,35 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 
 ## Programme
 
-**TO BE DETERMINED**
+#### 10:00 - 12:00 PhD EVENT
+
+<table>
+      <tr>
+      <td class="phdevent">
+        In-person event for PhD students.
+          <ul>
+            <li>10:00 - 10:30 &nbsp;&nbsp; Coffee and welcome </li>
+            <li>10:30 - 11:30 &nbsp;&nbsp; University and SPLI presentation </li>
+            <li>11:30 - 12:00 &nbsp;&nbsp; Live Q&A </li>
+          </ul>
+        </td>
+      </tr>
+</table>
+
+#### 12:00 - 13:00  LUNCH
+
+#### 13:00 - 14:00  SESSION 1: TBD
+
+#### 14:00 - 14:30  COFFEE
+
+#### 14:30 - 15:30  SESSION 2: TBD
+
+#### 15:30 - 16:00  COFFEE
+
+#### 16:00 - 17:00  SESSION 3: TBD
+
+#### 17:00 - late   DINNER/PUB
+
 
 ## Travel
 
