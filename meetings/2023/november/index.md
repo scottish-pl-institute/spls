@@ -64,7 +64,7 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 <table>
 <tr>
 <td>
-13:30&mdash;13:00
+13:00&mdash;13:30
 </td>
 <td class="author"> Ross Horne (University of Strathclyde) </td>
 <td class="title">
@@ -84,7 +84,7 @@ Privacy problems such as unlinkability (the inability of an attacker to link two
 </tr>
 <tr>
 <td>
-14:00&mdash;13:30
+13:30&mdash;14:00
 </td>
 <td class="author"> Danel Ahman (University of Ljubljana, Slovenia) </td>
 <td class="title">
@@ -132,7 +132,7 @@ Lists as free monoids are a well-known construction in type theory. Adding the c
 </tr>
 <tr>
 <td>
-15:00&mdash;15:00
+15:00&mdash;15:30
 </td>
 <td class="author"> Anton Lorenzen (University of Edinburgh) </td>
 <td class="title">
@@ -154,7 +154,7 @@ This yields a first fully verified implementation of well known algorithms on bi
 </tr>
 <tr>
 <td>
-15:00&mdash;15:30
+15:30&mdash;16:00
 </td>
 <td class="author"> Joseph Eremondi (University of Edinburgh) </td>
 <td class="title">
