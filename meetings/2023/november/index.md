@@ -71,6 +71,7 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 <span>
 Reasoning about Privacy using Bisimilarity Congruences
 </span>
+(<a href="https://www.youtube.com/watch?v=dfAeO5G3T0E&list=PLzlUrBQwUE7NObFyG2c1P73FktN6MuucM">Video</a>)
 <div class="abstract" id="RossHorne/button">
 <button onclick="showAbstract('RossHorne')">Abstract</button>
 </div>
@@ -91,6 +92,7 @@ Privacy problems such as unlinkability (the inability of an attacker to link two
 <span>
 When programs have to watch paint dry
 </span>
+(<a href="https://www.youtube.com/watch?v=gNw4VlVnvcg&list=PLzlUrBQwUE7NObFyG2c1P73FktN6MuucM&index=2">Video</a>)
 <div class="abstract" id="DanelAhman/button">
 <button onclick="showAbstract('DanelAhman')">Abstract</button>
 </div>
@@ -118,6 +120,7 @@ A neat feature of the calculus is that it includes a temporally aware variant of
 <span>
 An abstract look at commutativity
 </span>
+(<a href="https://www.youtube.com/watch?v=pBxKvNrGwsI&list=PLzlUrBQwUE7NObFyG2c1P73FktN6MuucM&index=3">Video</a>)
 <div class="abstract" id="VikramanChoudhury/button">
 <button onclick="showAbstract('VikramanChoudhury')">Abstract</button>
 </div>
@@ -161,6 +164,7 @@ This yields a first fully verified implementation of well known algorithms on bi
 <span>
 Coverage Semantics for Dependent Pattern Matching
 </span>
+(<a href="https://www.youtube.com/watch?v=t-9coCh3mOE&list=PLzlUrBQwUE7NObFyG2c1P73FktN6MuucM&index=4">Video</a>)
 <div class="abstract" id="JosephEremondi/button">
 <button onclick="showAbstract('JosephEremondi')">Abstract</button>
 </div>
@@ -209,6 +213,7 @@ This talk is about algebraic theories and effect handlers. Algebraic theories pr
 <span>
 A new framework for defining binding-aware datatypes
 </span>
+(<a href="https://www.youtube.com/watch?v=-a-f_HSjzF4&list=PLzlUrBQwUE7NObFyG2c1P73FktN6MuucM&index=5">Video</a>)
 <div class="abstract" id="JanvanBrügge/button">
 <button onclick="showAbstract('JanvanBrügge')">Abstract</button>
 </div>
