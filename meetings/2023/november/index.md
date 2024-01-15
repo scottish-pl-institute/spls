@@ -247,3 +247,4 @@ Should you have comments or queries about the event please contact one of the or
 
 + **Principal**: Riu Rodríguez Sakamoto \<riu.rodriguez-sakamoto AT strath DOT ac DOT uk\>, Dilsat Yuksel \<dilsat.yuksel AT strath DOT ac DOT uk\>
 + **Junior**: Jan de Muijnck-Hughes, Fredrik Nordvall Forsberg
++ **Chairs**: Ezra Schoen (Session 1), Malin Altenmüller (Session 2), James Wood (Session 3)
