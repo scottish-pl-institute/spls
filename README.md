@@ -1,6 +1,7 @@
 ---
 permalink: index.html
 ---
+
 # Scottish Programming Languages Seminar Series
 
 The Scottish Programming Languages Seminar (SPLS) is a forum for discussion of all aspects of programming languages.
@@ -47,10 +48,11 @@ SPLS receives financial support from the [Theory, Modelling and Computation](htt
 
 ## Forthcoming SPLS Meetings
 
-+ [Wednesday, 22nd November 2023, University of Strathclyde](meetings/2023/november/)
++ [Wednesday, 6th March 2024, University of St Andrews](meetings/2024/march/)
 
 ## Previous SPLS Meetings
 
++ [Wednesday, 22nd November 2023, University of Strathclyde](meetings/2023/november/)
 + [Wednesday 7th June 2023, University of the West of Scotland](meetings/2023/june/)
 + [Wednesday 8th March 2023, Heriot-Watt University](meetings/2023/february/)
 + [Wednesday 26th October 2022, University of Stirling](meetings/2022/october/)
