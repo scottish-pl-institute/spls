@@ -62,9 +62,8 @@ Now:
    - Update the logo and name of your institution, as well as any supporting
        bodies who are sponsoring the SPLS (e.g. SICSA).
    - Update the date and time on the page to match what you have scheduled.
-5. On the main page:
-   - Move the previous meeting from 'forthcoming' to 'previous'.
-   - Add a link to your meeting's page under 'forthcoming'.
+5. Commit and push the changes. The GitHub CI will automagically deploy the page
+   and update the "Forthcoming" and "Previous" sections as appropriate.
 
 
 ## The announcement
