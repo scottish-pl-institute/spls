@@ -73,7 +73,7 @@ td, th {
 <body>
   <header>
 
-    <h1>SPLS &mdash; 6th March 2024 (exact times TBD) <!--(12:00&ndash;17:00)--></h1>
+    <h1>SPLS &mdash; 6th March 2024 (12:00&ndash;17:45)</h1>
     <div class="row">
 
       <div class="column">
@@ -120,13 +120,8 @@ td, th {
   <section>
     <h3>Programme</h3>
 
-    TBD
-
-<!--
     All the times below are given in Greenwich Mean Time (GMT), i.e. UTC+0.
--->
 
-<!--
     <table>
       <tr>
         <th>Time</th>
@@ -134,40 +129,255 @@ td, th {
         <th>Title</th>
       </tr>
 
+      <tr class="break">
+        <td> 12:00 &ndash; 13:00 </td>
+        <td colspan=2> Lunch </td>
+      </tr>
+
       <tr>
-        <td class="time"> TODO_TIME </td>
-        <td> TODO_SPEAKER_NAME </td>
+        <td class="time"> 13:00 &ndash; 13:30 </td>
+        <td> Ferdia McKeogh (St Andrews) </td>
         <td>
-          <!-- TODO: REMEMBER TO UPDATE THE ABSTRACT_ID INDEX -->
-<!--
           <a class="talk-title" href="javascript:toggleAbstract('abstract1')">
-            TODO_SHORT_TITLE
+            How to Compile a Compiler
           </a>
           <div id="abstract1" class="talk-abstract">
             <p>
-            TODO_TALK_ABSTRACT
-            </p>
-
-            <p>
-            TODO_OTHER_CONTRIBUTORS_IF_ANY
+              In this talk we present our work thus far on a toolchain for
+              compiling a model of an instruction set architecture (ISA) to a
+              performant dynamic binary translator (DBT) for that architecture.
+              An instruction set architectures (ISA) is the specification of the
+              interface between hardware and software in modern processors.
+              Emulating ISAs allows software for a given architecture to be
+              executed on a host machine with a different architecture. This is
+              useful for running, debugging, and testing such software when
+              hardware for the target architecture is unavailable. Sail is a
+              popular language for describing instruction set architectures
+              (ISAs). Sail models of ISAs can be compiled to produce an emulator
+              for that ISA. Many Sail models for popular architectures already
+              exist; models for Arm architectures can be produced automatically
+              from Arm’s internal specification, and RISC-V uses Sail for their
+              authoritative specification. However, the emulators produced by
+              the Sail compiler are relatively slow and do not take advantage of
+              modern emulation techniques. Faster emulators can be written
+              either by hand or using a different ISA description language, but
+              this requires the slow, labour-intensive, and error-prone process
+              of manually translating from the authoritative specifications into
+              the target language. The proposed solution is to automated this
+              process with a compiler that takes a Sail model as an input, and
+              produces a fast emulator of that architecture, drastically
+              reducing the time cost and improving correctness.
             </p>
           </div>
         </td>
-
-      <tr class="break">
-        <td> TODO_COFFEE_BREAK_TIME </td>
-        <td colspan=2> COFFEE BREAK </td>
       </tr>
 
+      <tr>
+        <td class="time"> 13:30 &ndash; 14:00 </td>
+        <td> Ellis Kesterton (St Andrews) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract2')">
+            Zero Cost Higher-Order Functions
+          </a>
+          <div id="abstract2" class="talk-abstract">
+            <p>
+              Higher-order functions are the key feature of most functional
+              languages. They enable the programmer to abstract out common
+              algorithmic patterns, resulting in cleaner and more modular code.
+              Unfortunately, higher-order programs are often less efficient than
+              their first-order counterparts due to the creation of closures at
+              run-time. This talk discusses a compile-time program
+              transformation which converts a higher-order program into an
+              equivalent first-order one, through a specialisation technique
+              based on partial evaluation. By adapting the work on
+              Normalisation-by-Evaluation, we derive an efficient, easily
+              verifiable algorithm for performing this transformation.
+            </p>
+          </div>
+        </td>
+      </tr>
 
       <tr class="break">
-        <td> TODO_PUB_TIME </td>
+        <td> 14:00 &ndash; 14:15 </td>
+        <td colspan=2> Coffee break </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 14:15 &ndash; 14:45 </td>
+        <td> Meven Lennon-Bertrand (Cambridge) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
+            Definitional Functoriality for Dependent (Sub)Types
+          </a>
+          <div id="abstract3" class="talk-abstract">
+            <p>
+              There are two standard approaches to subtyping. In the subsumptive
+              one, subtyping is implicit and does not appear in program code,
+              while in the coercive one each usage of subtyping has to be
+              explicitly marked with <em>coercions</em>. Users do not want to
+              put coercions in, yet they make the life of the semanticist much
+              easier and cleaner. One can elaborate programs from the
+              subsumptive to the coercive discipline, by adding coercions
+              wherever needed, based on a typing derivation. However, when there
+              are multiple derivations for the same program, these lead to
+              different elaborations. This is tackled by a coherence theorem,
+              which says that any two elaboration of the same program have the
+              same semantics. As usual, the story becomes more complicated with
+              dependent types, where the equational theory of programs appears
+              during typing. In other words, to show that elaboration is
+              type-preserving, we need coherence to hold. Yet, the equations
+              demanded by coherence, which correspond to a form of functoriality
+              of type-formers, do not hold on the nose in vanilla MLTT.
+              Fortunately, this is repairable: I will show how to add these
+              functoriality equations, while keeping all the other good
+              properties, allowing for a type-preserving elaboration.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 14:45 &ndash; 15:15 </td>
+        <td> Conor McBride (Strathclyde) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
+            Fulls Seldom Differ
+          </a>
+          <div id="abstract4" class="talk-abstract">
+            <p>
+              We sometimes index programs and data by numerical expressions to
+              capture patterns of scaling up, often by iterating successor or
+              doubling. I've been thinking again about the variety of functions
+              which arise in such situations, and I've arrived at three
+              guidelines: 1. things can only get bigger, so hereditarily
+              monotone functions are plenty; 2. never use aritmetic when you can
+              use structure, so one variable is plenty; 3. put numbers together
+              the way you take data apart. I certainly want 0, (1+), and (2*),
+              but I have learned the hard way to avoid (2^) as it makes a
+              dreadful mess of everything. Instead, I propose to use the
+              function I call "full", where full n = (2^n) - 1, which is oddly
+              well behaved. To my delight, the language of variables, 0, (1+),
+              (2*) and full has a complete unification algorithm which either
+              finds general solutions within the language or shows there are no
+              solutions. The key is to observe that numbers which are the
+              difference between two fulls are rare and special.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 15:15 &ndash; 15:45 </td>
+        <td> Constantine Theocharis (St Andrews) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
+            Customisable Representation for Logic and Data
+          </a>
+          <div id="abstract5" class="talk-abstract">
+            <p>
+              Functional programming languages with inductive data types provide
+              a convenient framework for the expression of pattern-matching
+              logic over abstract data. However, these data types (e.g. lists,
+              natural numbers) are commonly represented using linked trees in
+              most functional languages. This is not a very performant structure
+              for common operations such as lookup, and can often suffer from
+              cache locality issues. This work explores how the machine
+              representation of an inductive data type can be decoupled from its
+              actual definition, such that it can vary independently of the data
+              type itself. For example, heap-backed arrays can be used for
+              lists, and GMP-style big-integers can be used for natural numbers.
+              The presented system involves a translation process from a
+              high-level source language with inductive definitions, to a
+              low-level language with memory primitives such as heap boxes and
+              contiguous sequences. Data type representations are user-provided
+              and required for each data type (with fallback to linked trees).
+              The translation process operates on an intermediate representation
+              of data types which can perform non-trivial collapsing of
+              constructor chains into the target representation. During the
+              translation, specialised user-provided functions operating on a
+              specific representation of a data type can also be used in place
+              of their generalised counterparts (for example, specialising
+              <code>length</code> for heap-backed arrays). A categorical model
+              of the process is developed, and some basic meta-theoretic
+              properties of the translation are explored.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="break">
+        <td> 15:45 &ndash; 16:15 </td>
+        <td colspan=2> Coffee break </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 16:15 &ndash; 16:45 </td>
+        <td> Thomas Hansen (St Andrews) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
+            Increasing confidence in Types
+          </a>
+          <div id="abstract6" class="talk-abstract">
+            <p>
+              Dependent types can model and guide the implementation of various
+              systems, with the type checker aiding the programmer and keeping
+              errors out. However, if the typed model of the system is
+              erroneous, the type checker can also, unintentionally, create a
+              false sense of security. We present an example of how this kind of
+              mistake can be subtly hidden, along with work on integrating
+              QuickCheck at the type level, the result being type-driven
+              development with increased confidence that our types are correct.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 16:45 &ndash; 17:15 </td>
+        <td> Simon Gay (Glasgow) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract7')">
+            Trains and Types
+          </a>
+          <div id="abstract7" class="talk-abstract">
+            <p>
+              The problem of drawing diagrams of model train layouts gives an
+              elementary example of (1) an embedded domain-specific language and
+              (2) dependent types.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time"> 17:15 &ndash; 17:45 </td>
+        <td> Kengo Hirata (Edinburgh) </td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract8')">
+            Quantum Uncomputation as Garbage Collection
+          </a>
+          <div id="abstract8" class="talk-abstract">
+            <p>
+              In this talk, I aim to introduce my ongoing research in my PhD
+              program. In quantum programming languages, the qubit type must be
+              handled linearly, which can sometimes be cumbersome. One technique
+              to make it look like affine type is 'automatic uncomputation'. In
+              this talk, I would like to explain that uncomputation functions as
+              garbage collection in quantum programming languages. Additionally,
+              I will discuss what ideal frameworks should look like and how a
+              language should be designed.
+            </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="break">
+        <td> 17:45 &ndash; late </td>
         <td colspan=2> Pub </td>
       </tr>
--->
-<!--
+
     </table>
--->
+
   </section>
 
   <section>
