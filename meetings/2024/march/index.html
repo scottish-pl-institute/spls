@@ -73,7 +73,7 @@ td, th {
 <body>
   <header>
 
-    <h1>SPLS &mdash; 6th March 2024 (12:00&ndash;18:00)</h1>
+    <h1>SPLS &mdash; 6th March 2024 (12:00&ndash;17:30)</h1>
     <div class="row">
 
       <div class="column">
@@ -296,33 +296,26 @@ td, th {
 
       <tr>
         <td class="time"> 15:00 &ndash; 15:30 </td>
-        <td> Conor McBride (Strathclyde) </td>
+        <td> Thomas Hansen (St Andrews) </td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
-            Fulls Seldom Differ
+            Increasing confidence in Types
           </a>
           <div id="abstract4" class="talk-abstract">
             <p>
-              We sometimes index programs and data by numerical expressions to
-              capture patterns of scaling up, often by iterating successor or
-              doubling. I've been thinking again about the variety of functions
-              which arise in such situations, and I've arrived at three
-              guidelines: 1. things can only get bigger, so hereditarily
-              monotone functions are plenty; 2. never use aritmetic when you can
-              use structure, so one variable is plenty; 3. put numbers together
-              the way you take data apart. I certainly want 0, (1+), and (2*),
-              but I have learned the hard way to avoid (2^) as it makes a
-              dreadful mess of everything. Instead, I propose to use the
-              function I call "full", where full n = (2^n) - 1, which is oddly
-              well behaved. To my delight, the language of variables, 0, (1+),
-              (2*) and full has a complete unification algorithm which either
-              finds general solutions within the language or shows there are no
-              solutions. The key is to observe that numbers which are the
-              difference between two fulls are rare and special.
+              Dependent types can model and guide the implementation of various
+              systems, with the type checker aiding the programmer and keeping
+              errors out. However, if the typed model of the system is
+              erroneous, the type checker can also, unintentionally, create a
+              false sense of security. We present an example of how this kind of
+              mistake can be subtly hidden, along with work on integrating
+              QuickCheck at the type level, the result being type-driven
+              development with increased confidence that our types are correct.
             </p>
           </div>
         </td>
       </tr>
+
 
       <tr>
         <td class="time"> 15:30 &ndash; 16:00 </td>
@@ -370,34 +363,12 @@ td, th {
 
       <tr>
         <td class="time"> 16:30 &ndash; 17:00 </td>
-        <td> Thomas Hansen (St Andrews) </td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
-            Increasing confidence in Types
-          </a>
-          <div id="abstract6" class="talk-abstract">
-            <p>
-              Dependent types can model and guide the implementation of various
-              systems, with the type checker aiding the programmer and keeping
-              errors out. However, if the typed model of the system is
-              erroneous, the type checker can also, unintentionally, create a
-              false sense of security. We present an example of how this kind of
-              mistake can be subtly hidden, along with work on integrating
-              QuickCheck at the type level, the result being type-driven
-              development with increased confidence that our types are correct.
-            </p>
-          </div>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="time"> 17:00 &ndash; 17:30 </td>
         <td> Simon Gay (Glasgow) </td>
         <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract7')">
+          <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
             Trains and Types
           </a>
-          <div id="abstract7" class="talk-abstract">
+          <div id="abstract6" class="talk-abstract">
             <p>
               The problem of drawing diagrams of model train layouts gives an
               elementary example of (1) an embedded domain-specific language and
@@ -408,13 +379,13 @@ td, th {
       </tr>
 
       <tr>
-        <td class="time"> 17:30 &ndash; 18:00 </td>
+        <td class="time"> 17:00 &ndash; 17:30 </td>
         <td> Kengo Hirata (Edinburgh) </td>
         <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract8')">
+          <a class="talk-title" href="javascript:toggleAbstract('abstract7')">
             Quantum Uncomputation as Garbage Collection
           </a>
-          <div id="abstract8" class="talk-abstract">
+          <div id="abstract7" class="talk-abstract">
             <p>
               In this talk, I aim to introduce my ongoing research in my PhD
               program. In quantum programming languages, the qubit type must be
@@ -430,7 +401,7 @@ td, th {
       </tr>
 
       <tr class="break">
-        <td> 18:00 &ndash; late </td>
+        <td> 17:30 &ndash; late </td>
         <td colspan=2> Pub </td>
       </tr>
 
