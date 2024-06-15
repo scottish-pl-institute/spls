@@ -36,14 +36,11 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 + If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **24th June 2024** per email to one of the organizers.
 + Registration is required for catering.
 
-
-#### COVID Information
-
-+ There are no COVID restrictions on attendance, however, mask wearing in packed indoor areas as well as testing on the morning prior to attending is welcome.
-
 ## Programme
 
-TBD
+#### Invited Speaker
+
+We are happy to announce that **José Pedro Magalhães**, a Managing Director at Standard Charter Bank, will be giving a keynote.
 
 ## Travel
 
