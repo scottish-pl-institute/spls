@@ -48,7 +48,7 @@ SPLS receives financial support from the [Theory, Modelling and Computation](htt
 
 ## Forthcoming SPLS Meetings
 
-+ Monday, 1st July 2024, The University of Edinburgh
++ [Monday, 1st July 2024, The University of Edinburgh](meetings/2024/july/)
 
 ## Previous SPLS Meetings
 
