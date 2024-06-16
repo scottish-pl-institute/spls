@@ -13,7 +13,7 @@ The [Scottish Programming Languages Seminar (SPLS)](https://spli.scot/spls) Seri
 This edition of SPLS will be hybrid and is organised by the the [School of Informatics](https://informatics.ed.ac.uk/) at [University of Edinburgh](https://www.ed.ac.uk).
 
 We will be physically located in the **40 George Square, room LG.09** at the University of Edinburgh.
-Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square).
+Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square-lower-ground-teaching-hub).
 
 For online participants we will provide further updates here.
 
