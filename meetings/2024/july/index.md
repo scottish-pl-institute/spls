@@ -32,7 +32,7 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 
 #### Invited Speaker
 
-We are happy to announce that **[José Pedro Magalhães](http://dreixel.net/)**, a Managing Director at Standard Charter Bank, will be giving the keynote.
+We are happy to announce that **[José Pedro Magalhães](http://dreixel.net/)**, a Managing Director at Standard Chartered Bank, will be giving the keynote.
 
 ## Registration
 
