@@ -36,7 +36,7 @@ We are happy to announce that **[José Pedro Magalhães](http://dreixel.net/)**,
 
 ## Registration
 
-+ If you plan to attend in person register by the **19th June 2024** using [this form](https://forms.office.com/e/0zUMNaUxVj).
++ ~~If you plan to attend in person register by the **19th June 2024** using [this form](https://forms.office.com/e/0zUMNaUxVj).~~
 + If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **24th June 2024** per email to one of the organizers.
 + Registration is required for catering.
 
@@ -64,6 +64,6 @@ Should you have comments or queries about the event please contact one of the or
 <footer>
 <hr>
 <p class="footer">
-Last updated: 15th June 2024
+Last updated: 20th June 2024
 </p>
 </footer>
