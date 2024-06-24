@@ -42,7 +42,14 @@ We are happy to announce that **[José Pedro Magalhães](http://dreixel.net/)**,
 
 ## Programme
 
-TBD
+Please find the tentative schedule below:
+
+#### 11:30&mdash;12:30 &nbsp;&nbsp; Session 1
+#### 12:30&mdash;13:30 &nbsp;&nbsp; Lunch (with coffee)
+#### 13:30&mdash;15:00 &nbsp;&nbsp; Session 2
+#### 15:00&mdash;15:30 &nbsp;&nbsp; Coffee break
+#### 15:30&mdash;17:00 &nbsp;&nbsp; Session 3
+#### 17:00&mdash;late &nbsp;&nbsp; Pub
 
 ## Travel
 
@@ -64,6 +71,6 @@ Should you have comments or queries about the event please contact one of the or
 <footer>
 <hr>
 <p class="footer">
-Last updated: 20th June 2024
+Last updated: {{ site.time | date: '%B %d, %Y' }}
 </p>
 </footer>
