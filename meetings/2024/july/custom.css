@@ -112,3 +112,7 @@ TD.phdevent {
   padding: 0.5% 0.5% 0.5% 1%;
   width: 64em;
 }
+
+BUTTON {
+  border-radius: revert;
+}

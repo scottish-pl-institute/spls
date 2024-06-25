@@ -20,7 +20,7 @@ For online participants we will provide further updates here.
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
 
 <div class="header">
-      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo.png" alt="SICSA Logo"></a>
+      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo-small.png" alt="SICSA Logo"></a>
       &nbsp;&nbsp;
             &nbsp;&nbsp;
                   &nbsp;&nbsp;
@@ -33,6 +33,20 @@ We kindly acknowledge the continuing sponsorship of the [Scottish Informatics an
 #### Invited Speaker
 
 We are happy to announce that **[José Pedro Magalhães](http://dreixel.net/)**, a Managing Director at Standard Chartered Bank, will be giving the keynote.
+
+<!-- Lazy, using the abstract button -->
+<div class="abstract" id="JoseBio/button">
+<p><button onclick="showAbstract('JoseBio')">Show biography</button></p>
+</div>
+<div class="abstract" id="JoseBio/abstract" style="display:none;">
+<p><button onclick="hideAbstract('JoseBio')">Hide biography</button></p>
+<p>
+José Pedro Magalhães is a Managing Director leading a team of ~45 quantitative developers at Standard Chartered Bank. He is also one of the founders of Chordify.
+Before joining Standard Chartered, he was a postdoctoral research assistant in the Programming Languages group at the Department of Computer Science of the University of Oxford, working on the Unifying Theories of Generic Programming project.
+Previously he was a PhD student at the Department of Information and Computing Sciences of Utrecht University in the Netherlands. His PhD topic was Real-Life Datatype Generic Programming, supervised by Johan Jeuring, Andres Löh, and Doaitse Swierstra. Before that he graduated from Minho University in Computer Science and Systems Engineering (Licenciatura em Engenharia de Sistemas e Informática).
+He has also been a Summer Student at CERN, an intern at Philips Research, and a research intern at Microsoft Research Cambridge.
+</p>
+</div>
 
 ## Registration
 
