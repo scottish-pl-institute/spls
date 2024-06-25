@@ -58,11 +58,157 @@ He has also been a Summer Student at CERN, an intern at Philips Research, and a 
 
 Please find the tentative schedule below:
 
-#### 11:30&mdash;12:30 &nbsp;&nbsp; Session 1
+#### 11:30&mdash;12:30 &nbsp;&nbsp; Session 1: Keynote
+<table>
+  <tr>
+    <td class="author">
+    José Pedro Magalhães<br>(Standard Chartered Bank)
+    </td>
+    <td class="title">
+      <span>
+      Functional Programming in Financial Markets
+      </span>
+      <div class="abstract" id="Jose/button">
+        <button onclick="showAbstract('Jose')">Abstract</button>
+      </div>
+      <div class="abstract" id="Jose/abstract" style="display:none;">
+        <button onclick="hideAbstract('Jose')">Hide Abstract</button>
+        <p>
+        In this talk we showcase the application of functional programming in a very large industrial setting. At Standard Chartered Bank, Haskell forms the core of a software library supporting the entire Financial Markets (FM), a business line with 5 billion USD operating income in 2023. Typed functional programming is used across the entire tech stack, including foundational APIs and CLIs for deal valuation and risk analysis, server-side components for long-running batches or sub-second RESTful services, and end-user GUIs. Thousands of users interact with software built using functional programming, and over one hundred write their own functional code.
+        <br><br>
+        We present the history of how functional programming established itself in FM, including the rationale for having our own compiler and dialect of Haskell. We then focus on how we leverage it to orchestrate type-driven large-scale pricing workflows. The same API can be used to price one trade locally, or millions of trades across thousands of nodes in the cloud. We build upon decades of research and experience in the functional programming community, relying on concepts such as monads, lenses, datatype generics, and closure serialisation.
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
 #### 12:30&mdash;13:30 &nbsp;&nbsp; Lunch (with coffee)
-#### 13:30&mdash;15:00 &nbsp;&nbsp; Session 2
+#### 13:30&mdash;15:00 &nbsp;&nbsp; Session 2: Talks
+<table>
+  <tr>
+    <td class="author">
+    Danielle Marshall<br>(Glasgow and Kent)
+    </td>
+    <td class="title">
+      <span>
+      Linearity, Uniqueness, Ownership: An Entente Cordiale
+      </span>
+      <div class="abstract" id="Danielle/button">
+        <button onclick="showAbstract('Danielle')">Abstract</button>
+      </div>
+      <div class="abstract" id="Danielle/abstract" style="display:none;">
+        <button onclick="hideAbstract('Danielle')">Hide Abstract</button>
+        <p>
+        Substructural type systems, which restrict the use of weakening and contraction rules from intuitionistic logic, are growing in popularity because they allow for a resourceful interpretation of data which can be used to rule out software bugs. Substructurality is finally taking hold in practical programming: Haskell now has linear types based on Girard's linear logic but integrated via graded function arrows, Clean has uniqueness types ensuring that values have at most a single reference, and Rust has an intricate ownership system guaranteeing memory safety. But despite this broad range of resourceful type systems, there has been comparatively little work on understanding their relative strengths and weaknesses. We demonstrate how linear types and uniqueness types can be used within a single system in the setting of the Granule language to offer both restrictions on local program behaviour and guarantees about global memory usage. We then extend this framework further, by showing that just like graded type systems as in Granule or Idris build upon linearity, Rust's ownership model builds upon uniqueness. We develop an extended type system incorporating ownership and borrowing based on ideas from both fractional permissions and graded types, and implement this in Granule.
+        </p>
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td class="author">
+    Bruce Collie<br>(Runtime Verification, Inc.)
+    </td>
+    <td class="title">
+      <span>
+      Meeting Developers Where They Are: Lessons Learned from Formal Verification in Practice
+      </span>
+      <div class="abstract" id="Bruce/button">
+        <button onclick="showAbstract('Bruce')">Abstract</button>
+      </div>
+      <div class="abstract" id="Bruce/abstract" style="display:none;">
+        <button onclick="hideAbstract('Bruce')">Hide Abstract</button>
+        <p>
+        Most (if not all) attendees of this workshop will have some idea of the benefits of applying formal verification techniques to software: we can prove to ourselves and others that our code behaves properly, rather than simply asserting this claim by testing (or worse, asserting it without substantiation). However, in our experience, the average developer "on the street" is not aware of these benefits, and even if they are, they may lack the time, opportunity or masochism required to start applying academic tools to their code in practice.
+        <br><br>
+        This talk is a tour through some of the lessons we've learned trying to get developers on board with formal verification in practice. I'll cover the underlying PL semantics techniques we base our work on, then go through a few representative examples of how we've tried to make more accessible and applicable FV software by meeting users "where they are", all without compromising on the underlying rigour and power of the tools in question.
+        </p>
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td class="author">
+    Conor McBride (Strathclyde)
+    </td>
+    <td class="title">
+      <span>
+      Fulls Seldom Differ
+      </span>
+      <div class="abstract" id="Conor/button">
+        <button onclick="showAbstract('Conor')">Abstract</button>
+      </div>
+      <div class="abstract" id="Conor/abstract" style="display:none;">
+        <button onclick="hideAbstract('Conor')">Hide Abstract</button>
+        <p>
+        One use for type-level numbers is to capture patterns of scaling up, e.g. "adding a pair of 2^n bit numbers and a carry-in to get a carry-out and a 2^n bit sum". These patterns often rely on reasoning steps such as "2^n is even iff n is a successor". We reach a place where type-level arithmetic is no longer enough. It's healthy to ask how the language of type-level numeric expressions impacts on the division of algebraic labour between programmer and typechecker. I'll present the current state of my enquiries, but the key observation is that (2^) is a troublesome primitive, but its neighbour, full(n) = (2^n)-1 (i.e., the n-bit number full of 1s) is remarkably cooperative. The numbers which happen to be the difference between two fulls have some rather special properties, yielding a carefully curated constraint space with a complete unification algorithm.
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
 #### 15:00&mdash;15:30 &nbsp;&nbsp; Coffee break
-#### 15:30&mdash;17:00 &nbsp;&nbsp; Session 3
+#### 15:30&mdash;17:00 &nbsp;&nbsp; Session 3: Talks
+<table>
+  <tr>
+    <td class="author">
+    Robert Wright (Edinburgh)
+    </td>
+    <td class="title">
+      <span>
+      First-class Algebraic Presentations with Elaborator Reflection
+      </span>
+      <div class="abstract" id="Robert/button">
+        <button onclick="showAbstract('Robert')">Abstract</button>
+      </div>
+      <div class="abstract" id="Robert/abstract" style="display:none;">
+        <button onclick="hideAbstract('Robert')">Hide Abstract</button>
+        <p>
+        We present a library for the ergonomic creation, manipulation, and use of first-order algebras. We do not rely on hard-coded syntactic support for our embedded language. Instead, we use metaprogramming to provide syntactic sugar for creating and using user-definable deeply-embedded first-order algebras.
+        </p>
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td class="author">
+    Dylan Thinnes (Digital Asset)
+    </td>
+    <td class="title">
+      <span>
+      Structured Error Messages and Error Postprocessing
+      </span>
+      <div class="abstract" id="Dylan/button">
+        <button onclick="showAbstract('Dylan')">Abstract</button>
+      </div>
+      <div class="abstract" id="Dylan/abstract" style="display:none;">
+        <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
+        <p>
+        TBD
+        </p>
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td class="author">
+    Jeremy Singer (Glasgow)
+    </td>
+    <td class="title">
+      <span>
+      Haskell in High School: Functional Programming for School Age Learners
+      </span>
+      <div class="abstract" id="Jeremy/button">
+        <button onclick="showAbstract('Jeremy')">Abstract</button>
+      </div>
+      <div class="abstract" id="Jeremy/abstract" style="display:none;">
+        <button onclick="hideAbstract('Jeremy')">Hide Abstract</button>
+        <p>
+        In conjunction with a colleague from Stanford University, we are deploying Haskell programming materials in Welsh high schools. The aim is to enable participants to create learning and teaching resources for algebra as part of work towards the Welsh Baccalaureate. In this short talk, I will review the Haskell materials used and consider the responses from early adopters. I will highlight challenges and opportunities related to teaching functional programming to younger learners.
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
 #### 17:00&mdash;late &nbsp;&nbsp; Pub
 
 ## Travel
