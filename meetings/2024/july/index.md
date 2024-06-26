@@ -16,7 +16,7 @@ We will be physically located in **40 George Square, room LG.09** at the Univers
 To reach LG.09 from the main entrance, either walk down the stairs or take the elevator.
 Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square-lower-ground-teaching-hub).
 
-For online participants, we will send a Zoom link via the SPLS mailing list and on the SPLS Zulip closer to the date.
+For online participants, we have sent a Zoom link via the SPLS mailing list and on the SPLS Zulip.
 
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
 
