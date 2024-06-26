@@ -200,7 +200,7 @@ Please find the tentative schedule below:
     </td>
     <td class="title">
       <span>
-      Structured Error Messages and Error Postprocessing
+      Structured Error Messages and Error Postprocessing in GHC
       </span>
       <div class="abstract" id="Dylan/button">
         <button onclick="showAbstract('Dylan')">Abstract</button>
@@ -208,7 +208,7 @@ Please find the tentative schedule below:
       <div class="abstract" id="Dylan/abstract" style="display:none;">
         <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
         <p>
-        TBD
+        Error messages are tricky - they need to be approachable for new users, informative for experienced users, interact with complicated type system features, and diagnose problems with limited information. In this talk we briefly go over the many difficulties facing the would-be error generator, some peculiar use cases, and existing efforts in the Glasgow Haskell Compiler for enabling better error messages for everyone.
         </p>
       </div>
     </td>
