@@ -134,7 +134,7 @@ Please find the tentative schedule below:
 <table>
   <tr>
     <td class="author">
-    Robert Wright (Edinburgh)
+    Robert Wright<br>(Edinburgh)
     </td>
     <td class="title">
       <span>
@@ -153,7 +153,7 @@ Please find the tentative schedule below:
   </tr>
   <tr>
     <td class="author">
-    Jeremy Singer (Glasgow)
+    Jeremy Singer<br>(Glasgow)
     </td>
     <td class="title">
       <span>
@@ -177,7 +177,7 @@ Please find the tentative schedule below:
 <table>
   <tr>
     <td class="author">
-    Conor McBride (Strathclyde)
+    Conor McBride<br>(Strathclyde and Quantinuum)
     </td>
     <td class="title">
       <span>
@@ -196,7 +196,7 @@ Please find the tentative schedule below:
   </tr>
   <tr>
     <td class="author">
-    Dylan Thinnes (Digital Asset)
+    Dylan Thinnes<br>(Digital Asset)
     </td>
     <td class="title">
       <span>
