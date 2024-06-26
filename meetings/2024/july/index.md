@@ -221,6 +221,8 @@ Please find the tentative schedule below:
 The University of Edinburgh (Central Area) is located a short (fifteen minutes) walk from Edinburgh Waverley, heading south from the City Centre.
 The University provides [travel information](https://www.ed.ac.uk/maps/) including maps and directions.
 
+To reach LG.09 from the main entrance, either walk down the stairs or take the elevator.
+
 40 George Square on the map ([larger version](https://www.openstreetmap.org/?mlat=55.94319&mlon=-3.18647#map=19/55.94319/-3.18647)):
 
 <div class="map" style="width: 800px; text-align: center;">
