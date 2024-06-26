@@ -133,49 +133,6 @@ Please find the tentative schedule below:
 <table>
   <tr>
     <td class="author">
-    Conor McBride (Strathclyde)
-    </td>
-    <td class="title">
-      <span>
-      Fulls Seldom Differ
-      </span>
-      <div class="abstract" id="Conor/button">
-        <button onclick="showAbstract('Conor')">Abstract</button>
-      </div>
-      <div class="abstract" id="Conor/abstract" style="display:none;">
-        <button onclick="hideAbstract('Conor')">Hide Abstract</button>
-        <p>
-        One use for type-level numbers is to capture patterns of scaling up, e.g. "adding a pair of 2^n bit numbers and a carry-in to get a carry-out and a 2^n bit sum". These patterns often rely on reasoning steps such as "2^n is even iff n is a successor". We reach a place where type-level arithmetic is no longer enough. It's healthy to ask how the language of type-level numeric expressions impacts on the division of algebraic labour between programmer and typechecker. I'll present the current state of my enquiries, but the key observation is that (2^) is a troublesome primitive, but its neighbour, full(n) = (2^n)-1 (i.e., the n-bit number full of 1s) is remarkably cooperative. The numbers which happen to be the difference between two fulls have some rather special properties, yielding a carefully curated constraint space with a complete unification algorithm.
-        </p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td class="author">
-    Dylan Thinnes (Digital Asset)
-    </td>
-    <td class="title">
-      <span>
-      Structured Error Messages and Error Postprocessing
-      </span>
-      <div class="abstract" id="Dylan/button">
-        <button onclick="showAbstract('Dylan')">Abstract</button>
-      </div>
-      <div class="abstract" id="Dylan/abstract" style="display:none;">
-        <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
-        <p>
-        TBD
-        </p>
-      </div>
-    </td>
-  </tr>
-</table>
-
-#### 16:00&mdash;16:30 &nbsp;&nbsp; Break (*no* coffee)
-#### 16:30&mdash;17:30 &nbsp;&nbsp; Session 4: Talks
-<table>
-  <tr>
-    <td class="author">
     Robert Wright (Edinburgh)
     </td>
     <td class="title">
@@ -208,6 +165,49 @@ Please find the tentative schedule below:
         <button onclick="hideAbstract('Jeremy')">Hide Abstract</button>
         <p>
         In conjunction with a colleague from Stanford University, we are deploying Haskell programming materials in Welsh high schools. The aim is to enable participants to create learning and teaching resources for algebra as part of work towards the Welsh Baccalaureate. In this short talk, I will review the Haskell materials used and consider the responses from early adopters. I will highlight challenges and opportunities related to teaching functional programming to younger learners.
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+#### 16:00&mdash;16:30 &nbsp;&nbsp; Break (*no* coffee)
+#### 16:30&mdash;17:30 &nbsp;&nbsp; Session 4: Talks
+<table>
+  <tr>
+    <td class="author">
+    Conor McBride (Strathclyde)
+    </td>
+    <td class="title">
+      <span>
+      Fulls Seldom Differ
+      </span>
+      <div class="abstract" id="Conor/button">
+        <button onclick="showAbstract('Conor')">Abstract</button>
+      </div>
+      <div class="abstract" id="Conor/abstract" style="display:none;">
+        <button onclick="hideAbstract('Conor')">Hide Abstract</button>
+        <p>
+        One use for type-level numbers is to capture patterns of scaling up, e.g. "adding a pair of 2^n bit numbers and a carry-in to get a carry-out and a 2^n bit sum". These patterns often rely on reasoning steps such as "2^n is even iff n is a successor". We reach a place where type-level arithmetic is no longer enough. It's healthy to ask how the language of type-level numeric expressions impacts on the division of algebraic labour between programmer and typechecker. I'll present the current state of my enquiries, but the key observation is that (2^) is a troublesome primitive, but its neighbour, full(n) = (2^n)-1 (i.e., the n-bit number full of 1s) is remarkably cooperative. The numbers which happen to be the difference between two fulls have some rather special properties, yielding a carefully curated constraint space with a complete unification algorithm.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="author">
+    Dylan Thinnes (Digital Asset)
+    </td>
+    <td class="title">
+      <span>
+      Structured Error Messages and Error Postprocessing
+      </span>
+      <div class="abstract" id="Dylan/button">
+        <button onclick="showAbstract('Dylan')">Abstract</button>
+      </div>
+      <div class="abstract" id="Dylan/abstract" style="display:none;">
+        <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
+        <p>
+        TBD
         </p>
       </div>
     </td>
