@@ -15,7 +15,7 @@ This edition of SPLS will be hybrid and is organised by the the [School of Infor
 We will be physically located in **40 George Square, room LG.09** at the University of Edinburgh.
 Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square-lower-ground-teaching-hub).
 
-For online participants we will provide further updates here.
+For online participants, we will send a Zoom link via the SPLS mailing list and on the SPLS Zulip closer to the date.
 
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
 
@@ -84,7 +84,7 @@ Please find the tentative schedule below:
 </table>
 
 #### 12:30&mdash;13:30 &nbsp;&nbsp; Lunch (with coffee)
-#### 13:30&mdash;15:00 &nbsp;&nbsp; Session 2: Talks
+#### 13:30&mdash;14:30 &nbsp;&nbsp; Session 2: Talks
 <table>
   <tr>
     <td class="author">
@@ -105,7 +105,7 @@ Please find the tentative schedule below:
       </div>
     </td>
   </tr>
-    <tr>
+  <tr>
     <td class="author">
     Bruce Collie<br>(Runtime Verification, Inc.)
     </td>
@@ -126,7 +126,12 @@ Please find the tentative schedule below:
       </div>
     </td>
   </tr>
-    <tr>
+</table>
+
+#### 14:30&mdash;15:00 &nbsp;&nbsp; Break (with coffee)
+#### 15:00&mdash;16:00 &nbsp;&nbsp; Session 3: Talks
+<table>
+  <tr>
     <td class="author">
     Conor McBride (Strathclyde)
     </td>
@@ -145,10 +150,29 @@ Please find the tentative schedule below:
       </div>
     </td>
   </tr>
+  <tr>
+    <td class="author">
+    Dylan Thinnes (Digital Asset)
+    </td>
+    <td class="title">
+      <span>
+      Structured Error Messages and Error Postprocessing
+      </span>
+      <div class="abstract" id="Dylan/button">
+        <button onclick="showAbstract('Dylan')">Abstract</button>
+      </div>
+      <div class="abstract" id="Dylan/abstract" style="display:none;">
+        <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
+        <p>
+        TBD
+        </p>
+      </div>
+    </td>
+  </tr>
 </table>
 
-#### 15:00&mdash;15:30 &nbsp;&nbsp; Coffee break
-#### 15:30&mdash;17:00 &nbsp;&nbsp; Session 3: Talks
+#### 16:00&mdash;16:30 &nbsp;&nbsp; Break (*no* coffee)
+#### 16:30&mdash;17:30 &nbsp;&nbsp; Session 4: Talks
 <table>
   <tr>
     <td class="author">
@@ -169,26 +193,7 @@ Please find the tentative schedule below:
       </div>
     </td>
   </tr>
-    <tr>
-    <td class="author">
-    Dylan Thinnes (Digital Asset)
-    </td>
-    <td class="title">
-      <span>
-      Structured Error Messages and Error Postprocessing
-      </span>
-      <div class="abstract" id="Dylan/button">
-        <button onclick="showAbstract('Dylan')">Abstract</button>
-      </div>
-      <div class="abstract" id="Dylan/abstract" style="display:none;">
-        <button onclick="hideAbstract('Dylan')">Hide Abstract</button>
-        <p>
-        TBD
-        </p>
-      </div>
-    </td>
-  </tr>
-    <tr>
+  <tr>
     <td class="author">
     Jeremy Singer (Glasgow)
     </td>
@@ -209,7 +214,7 @@ Please find the tentative schedule below:
   </tr>
 </table>
 
-#### 17:00&mdash;late &nbsp;&nbsp; Pub
+#### 17:30&mdash;late &nbsp;&nbsp; Pub
 
 ## Travel
 
