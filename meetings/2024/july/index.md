@@ -52,12 +52,10 @@ He has also been a Summer Student at CERN, an intern at Philips Research, and a 
 ## Registration
 
 + ~~If you plan to attend in person register by the **19th June 2024** using [this form](https://forms.office.com/e/0zUMNaUxVj).~~
-+ If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **24th June 2024** per email to one of the organizers.
++ ~~If you wish to give a talk then please indicate it in the above form. If your title or abstract is yet to be determined, they can be sent by the **24th June 2024** per email to one of the organizers.~~
 + Registration is required for catering.
 
 ## Programme
-
-Please find the tentative schedule below:
 
 #### 11:30&mdash;12:30 &nbsp;&nbsp; Session 1: Keynote
 <table>
