@@ -12,8 +12,8 @@ The [Scottish Programming Languages Seminar (SPLS)](https://spli.scot/spls) Seri
 
 This edition of SPLS will be hybrid and is organised by the the [School of Informatics](https://informatics.ed.ac.uk/) at [University of Edinburgh](https://www.ed.ac.uk).
 
-We will be physically located in **40 George Square, room LG.09** at the University of Edinburgh.
-To reach LG.09 from the main entrance, either walk down the stairs or take the elevator.
+We will be physically located in **40 George Square, room ~~LG.09~~ LG.11** at the University of Edinburgh.
+To reach LG.11 from the main entrance, either walk down the stairs or take the elevator.
 Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square-lower-ground-teaching-hub).
 
 For online participants, we have sent a Zoom link via the SPLS mailing list and on the SPLS Zulip.
@@ -220,7 +220,7 @@ He has also been a Summer Student at CERN, an intern at Philips Research, and a 
 The University of Edinburgh (Central Area) is located a short (fifteen minutes) walk from Edinburgh Waverley, heading south from the City Centre.
 The University provides [travel information](https://www.ed.ac.uk/maps/) including maps and directions.
 
-To reach LG.09 from the main entrance, either walk down the stairs or take the elevator.
+To reach ~~LG.09~~ LG.11 from the main entrance, either walk down the stairs or take the elevator.
 
 40 George Square on the map ([larger version](https://www.openstreetmap.org/?mlat=55.94319&mlon=-3.18647#map=19/55.94319/-3.18647)):
 
