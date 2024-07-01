@@ -13,12 +13,13 @@ The [Scottish Programming Languages Seminar (SPLS)](https://spli.scot/spls) Seri
 This edition of SPLS will be hybrid and is organised by the the [School of Informatics](https://informatics.ed.ac.uk/) at [University of Edinburgh](https://www.ed.ac.uk).
 
 We will be physically located in **40 George Square, room ~~LG.09~~ LG.11** at the University of Edinburgh.
-To reach LG.11 from the main entrance, either walk down the stairs or take the elevator.
+To reach LG.11, please take the Windmill lane entrance, see the pin [here](https://www.openstreetmap.org/?mlat=55.94335&mlon=-3.18634#map=19/55.94335/-3.18634).
 Accessibility information is [available here](https://www.accessable.co.uk/the-university-of-edinburgh/central-area/access-guides/40-george-square-lower-ground-teaching-hub).
 
 For online participants, we have sent a Zoom link via the SPLS mailing list and on the SPLS Zulip.
 
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
+We would also like to thank the [Effect Handler Oriented Programming project](https://effect-handlers.org/) (grant MR/T043830/1) for support.
 
 <div class="header">
       <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo-small.png" alt="SICSA Logo"></a>
@@ -220,12 +221,12 @@ He has also been a Summer Student at CERN, an intern at Philips Research, and a 
 The University of Edinburgh (Central Area) is located a short (fifteen minutes) walk from Edinburgh Waverley, heading south from the City Centre.
 The University provides [travel information](https://www.ed.ac.uk/maps/) including maps and directions.
 
-To reach ~~LG.09~~ LG.11 from the main entrance, either walk down the stairs or take the elevator.
+Please take the Windmill lane entrance to access ~~LG.09~~ LG.11, see the pin below.
 
-40 George Square on the map ([larger version](https://www.openstreetmap.org/?mlat=55.94319&mlon=-3.18647#map=19/55.94319/-3.18647)):
+40 George Square on the map ([larger version](https://www.openstreetmap.org/?mlat=55.94335&mlon=-3.18634#map=19/55.94335/-3.18634)):
 
 <div class="map" style="width: 800px; text-align: center;">
-      <iframe width="800" height="400" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.187499642372132%2C55.94266775633066%2C-3.185439705848694%2C55.94371320142805&amp;layer=mapnik&amp;marker=55.94319048240691%2C-3.1864696741104126" style="border: 1px solid black"></iframe>
+   <iframe width="800" height="400" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.1878349184989934%2C55.94282397233197%2C-3.1848362088203435%2C55.94386941321256&amp;layer=mapnik&amp;marker=55.943346696299834%2C-3.186335563659668" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=55.94335&amp;mlon=-3.18634#map=19/55.94335/-3.18634">View Larger Map</a></small>
 </div>
 
 ## Organising Committee
