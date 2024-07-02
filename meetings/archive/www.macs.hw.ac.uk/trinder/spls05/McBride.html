@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0096)https://web.archive.org/web/20060709054504/http://www.macs.hw.ac.uk/~trinder/spls05/McBride.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+    <h1>Idioms</h1>
+
+<h2>Conor McBride, Nottingham University</h2>
+In a tale from the implementation of Epigram, I shall tell of an  
+abstraction which made itself too useful to ignore. Idioms are a  
+class of functor equipped with a 'return' and an 'application'. In  
+Haskell,
+<p>
+   class Idiom i where<br>
+      ii :: x -&gt; i x<br>
+      (&lt;%&gt;) :: i (s -&gt; t) -&gt; i s -&gt; i t<br>
+</p><p>
+Idioms provide a notion of effectful computation which is more  
+limited than the monadic notion, but by the same token, more readily  
+available. Every monad induces an idiom but, without a 'bind', idioms  
+do not necessarily allow values from one computation to determine the  
+effects in another. This extra rigidity makes idioms closed under  
+composition without further ado. Many type constructors admit the  
+'threading' of idiomatic computations in a standard way, leading to a  
+small collection of powerful programming combinators with a diverse  
+array of uses which I shall illustrate by a variety of examples.
+  
+
+
+</p></body></html>
