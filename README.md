@@ -100,6 +100,6 @@ SPLS receives financial support from the [Theory, Modelling and Computation](htt
 + [Thursday 1st June 2006, Heriot-Watt University](meetings/archive/www.dcs.gla.ac.uk/research/spls/Jun06.html).
 + [Wednesday 1st February 2006, University of St  Andrews](meetings/archive/eb.host.cs.st-andrews.ac.uk/spls5.html).
 + Tuesday 25th October 2005, University of Strathclyde.
-+ Thursday 23rd June 2005, Heriot-Watt University.
++ [Thursday 23rd June 2005, Heriot-Watt University](meetings/archive/www.macs.hw.ac.uk/trinder/spls05/).
 + [Friday 4th March 2005, University of Edinburgh](meetings/archive/www.dcs.gla.ac.uk/research/spls/Mar05/).
 + [Tuesday 7th December 2004, University of  Glasgow](meetings/archive/www.dcs.gla.ac.uk/research/spls/Dec04.html).

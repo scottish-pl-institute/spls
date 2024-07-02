@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0095)https://web.archive.org/web/20060709054400/http://www.macs.hw.ac.uk/~trinder/spls05/Scholz.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<h1>Using Subtypes and Intersection Types to Strike the Balance Between Static and Dynamic Typing</h1>
+
+<h2>Dr Sven-Bodo Scholz, Unievrsity of Hertfordshire</h2>
+
+<p>
+In array programming, the most common domain error encountered is
+out-of-bound selection.  Unfortunately these errors cannot be statically
+detected unless either the source language is substantially restricted
+or the type system is rendered undecidable.
+</p><p>
+In the context of Single Assignment C ( or SaC for short) we have
+developed a hybrid approach.  We do not restrict the source language
+but introduce runtime checks in those situation where we statically
+cannot decide whether they are free of domain errors or not. This is
+achieved by introducing a hierarchy of array types and a form of
+intersection types which allow the level of static type inference
+to be adjusted dynamically.
+</p><p>
+For many programs this approach detects all domain inconsistencies
+statically.  However, in those situations where such a statical analysis
+is not feasible a less precise approximation can be made deferring some
+of the domain checks to runtime.  This comes for the price of a type
+inference which is unique modulo subtyping only, but allows all potentially
+correct programs to be compiled and run.
+  
+
+
+</p></body></html>
