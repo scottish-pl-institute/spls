@@ -46,12 +46,13 @@ If you normally have an automatic signature at the end of your email, please put
 
 SPLS receives financial support from the [Theory, Modelling and Computation](http://www.sicsa.ac.uk/research/theory-modelling-computation/) theme of the [Scottish Informatics and Computer Science Alliance](http://www.sicsa.ac.uk).
 
-## Forthcoming SPLS Meetings
+## Forthcoming SPLS Meeting
 
-+ [Monday, 1st July 2024, The University of Edinburgh](meetings/2024/july/)
++ [Wednesday, 6th November 2024, University of Glasgow](meetings/2024/november/)
 
 ## Previous SPLS Meetings
 
++ [Monday, 1st July 2024, The University of Edinburgh](meetings/2024/july/)
 + [Wednesday, 6th March 2024, University of St Andrews](meetings/2024/march/)
 + [Wednesday, 22nd November 2023, University of Strathclyde](meetings/2023/november/)
 + [Wednesday 7th June 2023, University of the West of Scotland](meetings/2023/june/)
