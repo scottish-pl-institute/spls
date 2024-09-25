@@ -2625,7 +2625,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(245, 106, 106, 0.05);
+  background-color: rgba(0, 83, 152, 0.1);
 }
 
 input[type="submit"]:active,
@@ -2633,7 +2633,7 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: rgba(245, 106, 106, 0.15);
+  background-color: rgba(0, 83, 152, 0.4);
 }
 
 input[type="submit"].icon:before,
@@ -2708,6 +2708,10 @@ button:disabled,
 .button:disabled {
   pointer-events: none;
   opacity: 0.25;
+}
+
+.button.download {
+  float: right
 }
 
 /* Mini Posts */
