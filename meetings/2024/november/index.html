@@ -161,7 +161,7 @@
                 </tr>
                 <tr>
                   <td>14:30 - 15:00</td>
-                  <td><a href="#wen_kokke">Proof Nets as Processes</a> &bull; Wen Kokke</td>
+                  <td><a href="#wen_kokke">Forwarders Should Be Lazy</a> &bull; Wen Kokke</td>
                 </tr>
                 <tr>
                   <td>15:00 - 15:30</td>
@@ -251,10 +251,19 @@
             </li>
             <li>
               <p>
-                <a name="wen_kokke">Proof Nets as Processes</a> &bull; <strong>Wen Kokke</strong> &bull; Strathclyde University and the University of Edinburgh &nbsp;&nbsp;
+                <a name="wen_kokke">Forwarders Should Be Lazy</a> &bull; <strong>Wen Kokke</strong> &bull; Strathclyde University and the University of Edinburgh &nbsp;&nbsp;
                 <!-- <a href="#" class="button small icon solid fa-download download">Slides</a> -->
               </p>
-              <p>TBD</p>
+              <p>
+                Classical Processes is a process calculus interpretation of Classical Linear Logic.
+                Nominally, CP interprets CLL's axiom as a <em>forwarder</em> process, which sends any message it receives over its input channel over its output channel.
+                Operationally, CP's forwarders do not forward messages at all.
+                Instead, they put their input and output channels together and terminate.
+                This causes lots of trouble with CP's metatheory and its use as a model of concurrent computation.
+              </p>
+              <p>
+                I propose an alternative operational semantics for forwarders which avoids this trouble and has an pleasant interpretation in CLL.
+              </p>
             </li>
             <li>
               <p>
