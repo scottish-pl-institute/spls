@@ -162,7 +162,7 @@
                 </tr>
                 <tr>
                   <td>14:30 - 15:00</td>
-                  <td><a href="#wen_kokke">Forwarders Should Be Lazy</a> &bull; Wen Kokke</td>
+                  <td><a href="#greg_brown">Freely Extending Interpreters</a> &bull; Greg Brown</td>
                 </tr>
                 <tr>
                   <td>15:00 - 15:30</td>
@@ -170,7 +170,7 @@
                 </tr>
                 <tr>
                   <td>15:30 - 16:00</td>
-                  <td><a href="#greg_brown">Freely Extending Interpreters</a> &bull; Greg Brown</td>
+                  <td><a href="#wen_kokke">Forwarders Should Be Lazy</a> &bull; Wen Kokke</td>
                 </tr>
 
                 <tr>
@@ -260,18 +260,18 @@
             </li>
             <li>
               <p>
-                <a name="wen_kokke">Forwarders Should Be Lazy</a> &bull; <strong>Wen Kokke</strong> &bull; Strathclyde University and the University of Edinburgh &nbsp;&nbsp;
+                <a name="greg_brown">Freely Extending Interpreters</a> &bull; <strong>Greg Brown</strong> &bull; University of Edinburgh &nbsp;&nbsp;
                 <!-- <a href="#" class="button small icon solid fa-download download">Slides</a> -->
               </p>
               <p>
-                Classical Processes is a process calculus interpretation of Classical Linear Logic.
-                Nominally, CP interprets CLL's axiom as a <em>forwarder</em> process, which sends any message it receives over its input channel over its output channel.
-                Operationally, CP's forwarders do not forward messages at all.
-                Instead, they put their input and output channels together and terminate.
-                This causes lots of trouble with CP's metatheory and its use as a model of concurrent computation.
+                A partial evaluator extends an interpreter to work on terms with free variables.
+                In this talk, I will formalise this intuition for pure simply-typed languages.
+                I will focus on the simply-typed lambda calculus, but my definitions are in terms of any second-order algebra as defined by Fiore.
+                After giving a definition for a denotational interpreter, I will define what it means for a model of a language (formulated as a SOAS algebra) to extend an interpreter, as well as morphisms between extensions.
+                From this, I will define the free extension of an interpreter, which is the least opinionated partial evaluator.
               </p>
               <p>
-                I propose an alternative operational semantics for forwarders which avoids this trouble and has an pleasant interpretation in CLL.
+                This is work in progress towards my PhD.
               </p>
             </li>
             <li>
@@ -289,23 +289,23 @@
                 While still slightly slower than conventional platforms, it offers interesting advantages in energy efficiency and opportunity for formal verification from source language down to hardware implementation.
                 We also propose a path towards a single-chip many-core architecture.
               </p>
-            </li>            
+            </li>
             <li>
               <p>
-                <a name="greg_brown">Freely Extending Interpreters</a> &bull; <strong>Greg Brown</strong> &bull; University of Edinburgh &nbsp;&nbsp;
+                <a name="wen_kokke">Forwarders Should Be Lazy</a> &bull; <strong>Wen Kokke</strong> &bull; Strathclyde University and the University of Edinburgh &nbsp;&nbsp;
                 <!-- <a href="#" class="button small icon solid fa-download download">Slides</a> -->
               </p>
               <p>
-                A partial evaluator extends an interpreter to work on terms with free variables.
-                In this talk, I will formalise this intuition for pure simply-typed languages.
-                I will focus on the simply-typed lambda calculus, but my definitions are in terms of any second-order algebra as defined by Fiore.
-                After giving a definition for a denotational interpreter, I will define what it means for a model of a language (formulated as a SOAS algebra) to extend an interpreter, as well as morphisms between extensions.
-                From this, I will define the free extension of an interpreter, which is the least opinionated partial evaluator.
+                Classical Processes is a process calculus interpretation of Classical Linear Logic.
+                Nominally, CP interprets CLL's axiom as a <em>forwarder</em> process, which sends any message it receives over its input channel over its output channel.
+                Operationally, CP's forwarders do not forward messages at all.
+                Instead, they put their input and output channels together and terminate.
+                This causes lots of trouble with CP's metatheory and its use as a model of concurrent computation.
               </p>
               <p>
-                This is work in progress towards my PhD.
+                I propose an alternative operational semantics for forwarders which avoids this trouble and has an pleasant interpretation in CLL.
               </p>
-            </li>
+            </li>            
             <li>
               <p>
                 <a name="jan_van_brugge">Strong Rule Induction for Syntax with Bindings</a> &bull; <strong>Jan van Brügge</strong> &bull; Heriot-Watt University &nbsp;&nbsp;
