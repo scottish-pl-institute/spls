@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SPLS, 5 March 2025, Stirling</title>
+  <style>
+    BODY {
+      max-width: 67em; padding: 0; margin: auto;
+    }
+
+    SECTION {
+      padding-top: 1%;
+    }
+
+    H1, H2, H3, H4, H5, H6, P, TABLE, OL, UL {
+      padding: 0 3% 0 3%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 1%;
+    }
+
+    LI {
+      margin-left: 1em;
+      margin-top: 0.5em;
+    }
+
+    LI:first-child {
+      margin-top: 0.25em;
+    }
+
+    BODY {
+      font-family: sans-serif;
+      color:  #000020;
+      background-color: #ffffff;
+    }
+
+    H2, H3 {
+      font-weight: bold; 
+      color: #000080;
+      background-color: #d0d0ff;
+    }
+
+    IMG.logo {
+      vertical-align: middle;
+      max-height: 72px;
+      padding: 0 3% 0 3%;
+    }
+
+    .map {
+      padding: 0 3% 0 3%;
+    }
+
+    TABLE {
+      color: #f00000;
+    }
+
+    TH {
+      background-color: #f0f0ff;
+    }
+
+    TD {
+      color:  #200000;
+      background-color: #f0f0ff;
+      vertical-align: top;
+      padding: 1% 1% 1% 1%;
+    }
+
+    TD.author {
+      padding: 0.5% 1% 0.5% 0.5%;
+      width: 20em;
+    }
+
+    TD.title {
+      padding: 0.5% 0.5% 0.5% 1%;
+      width: 44em;
+    }
+  
+    HR {
+      color:  #3030e0;
+    }
+
+    .header {}
+
+    .footer {
+      font-weight: normal;
+      font-size: smaller;
+    }
+
+    .author {
+      font-style: normal;
+    }
+
+    .title {
+      font-style: italic;
+    }
+
+    .abstract {
+      font-style: normal;
+      font-size: 95%;
+    }
+
+    .abstract P {
+      margin: 1% 0 0 0;
+    }
+
+    TD.phdevent {
+      padding: 0.5% 0.5% 0.5% 1%;
+      width: 64em;
+    }
+  </style>
+  <script>
+    function showAbstract(name) {
+      document.getElementById(name + "/abstract").style.display = "block";
+      document.getElementById(name + "/button").style.display = "none";
+    }
+    function hideAbstract(name) {
+      document.getElementById(name + "/button").style.display = "block";
+      document.getElementById(name + "/abstract").style.display = "none";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Scottish Programming Languages Seminar</h1>
+    <h2>Wednesday, 5th March 2025</h2>
+    <p>
+      The <a href="../../../">Scottish Programming Languages Seminar (SPLS)</a>
+      is an informal meeting for discussing anything related to
+      programming languages.
+    </p>
+    <p>
+      This edition of SPLS will be held both <strong>in-person</strong>
+      and <strong>online</strong>.
+      The in-person meeting will take place in the
+      <strong>Cottrell Building, room 2A93</strong>
+      at the <strong>University of Stirling</strong>.
+    </p>
+    <!--
+    <p>
+      This edition of SPLS is sponsored by <a href="https://www.sicsa.ac.uk/">SICSA</a>.
+    </p>
+    <div class="header">
+      <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../2019/june/static/images/sicsa_blue.jpg" alt="SICSA Logo"></a>
+      &nbsp;&nbsp;
+      <a href="https://www.stir.ac.uk/"><img class="logo" src="../../2020/march/uos-logo.svg" alt="University of Stirling Logo" style="height:48px;"></a>
+    </div>
+    -->
+  </header>
+
+  <section>
+    <h3><a name="registration" class="anchor">Registration</a></h3>
+    <ul>
+      <li>If you plan to attend in person register <em>by 26th February</em> using this poll.</li>
+      <li>Registration is required for catering.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3><a name="programme" class="anchor">Programme</a></h3>
+    <p>
+      TBD.
+      If you would like to offer a talk, please send the organiser a title and abstract.
+      Talks are typically 30 minutes including questions.
+      We aim to ensure a balanced programme; where offered talks outstrip available slots, priority will be given to PhD students and to speakers who haven't presented recently.
+    </p>
+  </section>
+
+  <section>
+    <h3><a name="travel" class="anchor">Travel</a></h3>
+    <ul>
+      <li><a href="https://www.stir.ac.uk/about/getting-here/">Getting to Stirling</a> (by public transport, car, ...)</li>
+      <li><a href="https://www.stir.ac.uk/about/getting-here/parking/">Parking on Campus</a> (not free)
+        <ul>
+	  <li>Free on-street parking is available about 20 minutes on foot from the Cottrell Building, e.g. at the top of Kenilworth Road.</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="map" style="width: 800px; text-align: center;">
+      <!--
+      <iframe src="https://www.google.com/maps/d/embed?mid=18bO5PeaxiJTGp5u0zQa8uYo4zAB0f5Q&ehbc=2E312F" width="800" height="300"></iframe>
+      -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4445.46439470566!2d-3.9207219999999996!3d56.144444!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5667ee63dcd12d7!2zNTbCsDA4JzQwLjAiTiAzwrA1NScxNC42Ilc!5e0!3m2!1sen!2suk!4v1662988499795!5m2!1sen!2suk" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of the Cottrell Building, Main Entrance"></iframe>
+      Map of the Cottrell Building
+    </div>
+  </section>
+
+  <section>
+    <h3><a name="organisers" class="anchor">Organisers</a></h3>
+    <p>
+      Patrick Maier &lt;firstname DOT lastname AT stir DOT ac DOT uk&gt;
+    </p>
+  </section>
+
+  <footer>
+    <hr>
+    <p class="footer">
+      Last updated: 27 January 2025
+    </p>
+  </footer>
+</body>
+</html>
