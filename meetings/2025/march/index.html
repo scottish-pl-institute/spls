@@ -156,32 +156,216 @@
 
   <section>
     <h3><a name="programme" class="anchor">Programme</a></h3>
-    <h4>Confirmed Talks</h4>
+
+    <h4>12:00 &mdash; 13:00 &nbsp;&nbsp; LUNCH</h4>
+
+    <h4>13:00 &mdash; 14:00 &nbsp;&nbsp; SESSION 1</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Jan Menz<br/>(Max Planck Institute for Software Systems)
+        </td>
+        <td class="title">
+          <span>
+            Dependency tracking for higher-order what declassification
+          </span>
+          <div class="abstract" id="Jan/button">
+            <button onclick="showAbstract('Jan')">Abstract</button>
+          </div>
+          <div class="abstract" id="Jan/abstract" style="display:none;">
+            <button onclick="hideAbstract('Jan')">Hide Abstract</button>
+            <p>
+              Many programs process secret data.  In fact, they often need
+              to reveal some amount of secret data.
+              <em>What declassification</em> allows a programmer to specify
+              what data they are willing to reveal.  In this work in progress,
+              we use dependency tracking to reason about what declassification
+              in the higher-order setting.  We present a novel
+              dependency-tracking type system tracking dependencies
+              of expressions on other expressions in their type and
+              a novel compositional semantics interpreting those types
+              to give what-declassification guarantees.  The heart
+              of our type system, the „trivial rule“, says that
+              an expression’s dependency can always be replaced
+              with the most precise dependency: the expression itself.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Orpheas van Rooij<br/>(University of Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            Affect: An Affine Type and Effect System
+          </span>
+          <div class="abstract" id="Orpheas/button">
+            <button onclick="showAbstract('Orpheas')">Abstract</button>
+          </div>
+          <div class="abstract" id="Orpheas/abstract" style="display:none;">
+            <button onclick="hideAbstract('Orpheas')">Hide Abstract</button>
+            <p>
+              Effect handlers generalise exception handlers, but allow
+              resumption of the continuation from where the effect was raised.
+              Allowing continuations to be resumed
+              at most once (<em>one-shot</em>) or
+              an arbitrary number of times (<em>multi-shot</em>)
+              has far-reaching consequences.
+              In addition to performance considerations, multi-shot effects
+              break key rules of reasoning and thus render certain standard
+              transformation/optimizations unsound, especially in languages
+              with mutable references (such as OCaml&nbsp;5).
+              It is therefore desirable to statically track whether
+              continuations are used in a one-shot or multi-shot discipline,
+              so that a compiler could use this information to efficiently
+              implement effect handlers and to determine what optimizations
+              it may perform.
+            </p>
+            <p>
+              We address this problem by developing a type and effect system
+              &mdash; called <em>Affect</em> &mdash;
+              which uses affine types to track the usage of continuations.
+              To prove soundness of Affect we model types and judgements
+              semantically via a logical relation
+              in the Iris separation logic framework in Rocq.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>14:00 &mdash; 14:30 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>14:30 &mdash; 15:30 &nbsp;&nbsp; SESSION 2</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Matthew Alan Le Brun<br/>(University of Glasgow)
+        </td>
+        <td class="title">
+          <span>
+            Multiparty Session Types with a Bang!
+          </span>
+          <div class="abstract" id="Matthew/button">
+            <button onclick="showAbstract('Matthew')">Abstract</button>
+          </div>
+          <div class="abstract" id="Matthew/abstract" style="display:none;">
+            <button onclick="hideAbstract('Matthew')">Hide Abstract</button>
+            <p>
+              Replication is an alternative construct to recursion for
+              describing infinite behaviours in the pi-calculus.  We explore
+              the implications of including type-level replication in
+              <em>Multiparty Session Types (MPST)</em>, a behavioural type
+              theory for message-passing programs.  We introduce <em>MPST!</em>,
+              a session-typed multiparty process calculus with replication
+              and first-class roles.  We find that replication is not an
+              equivalent alternative to recursion in MPST, and using both
+              constructs in one type system in fact allows us to express
+              both context-free protocols and protocols that make
+              interesting use of <em>mutual exclusion</em> and <em>races</em>.
+              In this talk, we will demonstrate the expressiveness of
+              replication in MPST by example, observe the mutual non-inclusion
+              result, and discuss the decidability of typechecking.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Leonid Nosovitskiy<br/>(University of St Andrews)
+        </td>
+        <td class="title">
+          <span>
+            Multiparty Session Types: Paxos Made Easy
+          </span>
+          <!--
+          <div class="abstract" id="Leonid/button">
+            <button onclick="showAbstract('Leonid')">Abstract</button>
+          </div>
+          <div class="abstract" id="Leonid/abstract" style="display:none;">
+            <button onclick="hideAbstract('Leonid')">Hide Abstract</button>
+            <p>
+              TBD
+            </p>
+          </div>
+          -->
+        </td>
+      </tr>
+    </table>
+
+    <h4>15:30 &mdash; 16:00 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>16:00 &mdash; 17:00 &nbsp;&nbsp; SESSION 3</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Paul Keir<br/>(University of the West of Scotland)
+        </td>
+        <td class="title">
+          <span>
+            ClangOz:
+            Parallel constant evaluation of C++ map and reduce operations
+          </span>
+          <div class="abstract" id="Paul/button">
+            <button onclick="showAbstract('Paul')">Abstract</button>
+          </div>
+          <div class="abstract" id="Paul/abstract" style="display:none;">
+            <button onclick="hideAbstract('Paul')">Hide Abstract</button>
+            <p>
+              Interest in metaprogramming, reflection, and compile-time
+              evaluation continues to inspire and foster innovation among
+              the users and designers of the C++ programming language.
+              Regrettably, the impact on compile-times of such features
+              can be significant; and outside of build systems,
+              multi-core parallelism is unable to bring down
+              compilation times of individual translation units.
+              We present ClangOz, a novel Clang-based research compiler
+              that addresses this issue by evaluating annotated
+              constant expressions in parallel,
+              thereby reducing compilation times.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Jeremy Singer</br>(University of Glasgow)
+        </td>
+        <td class="title">
+          <span>
+            Esoteric Programming Languages and Why We Should Take Them Seriously
+          </span>
+          <div class="abstract" id="Jeremy/button">
+            <button onclick="showAbstract('Jeremy')">Abstract</button>
+          </div>
+          <div class="abstract" id="Jeremy/abstract" style="display:none;">
+            <button onclick="hideAbstract('Jeremy')">Hide Abstract</button>
+            <p>
+              Esoteric programming languages are fun to learn, and their
+              unusual features and constraints can improve programming ability.
+              From languages designed to be intentionally obtuse
+              (e.g. INTERCAL) to others targeting artistic expression
+              (e.g. Piet) or philosophical exploration (e.g. Chef),
+              this talk examines how esoteric languages push the boundaries
+              of software development.
+            </p>
+            <p>
+              My key thesis is that esoteric languages can improve general
+              PL awareness, as well as enabling the esoteric programmer to
+              impress their peers with obscure knowledge.
+              We will explore why people are attracted to esoteric languages
+              in terms of (a) program comprehension and coding, as well as
+              (b) language design and implementation.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>17:00 &mdash; late &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PUB</h4>
     <ul>
-      <li>
-        Matthew Alan Le Brun (Glasgow)
-        <em>Multiparty Session Types with a Bang!</em>
-      </li>
-      <li>
-        Jan Menz (MPI-SWS Saarbr&uuml;cken)
-        <em>Dependency tracking for higher-order what declassification</em>
-      </li>
-      <li>
-        Paul Keir (UWS)
-        <em>ClangOz: Parallel constant evaluation of C++ map and reduce operations</em>
-      </li>
-      <li>
-        Orpheas van Rooij (Edinburgh)
-        <em>Affect: An Affine Type and Effect System</em>
-      </li>
-      <li>
-        Leonid Nosovitskiy (St Andrews)
-        <em>Multiparty Session Types: Paxos Made Easy</em>
-      </li>
-      <li>
-        Jeremy Singer (Glasgow)
-        <em>Esoteric Programming Languages and Why We Should Take Them Seriously</em>
-      </li>
+      <li><a href="https://www.themeadowparkstirling.co.uk/">The Meadowpark</a> &mdash; right next to the University campus (serves decent food, too)</li>
     </ul>
   </section>
 
@@ -191,14 +375,11 @@
       <li><a href="https://www.stir.ac.uk/about/getting-here/">Getting to Stirling</a> (by public transport, car, ...)</li>
       <li><a href="https://www.stir.ac.uk/about/getting-here/parking/">Parking on Campus</a> (not free)
         <ul>
-	  <li>Free on-street parking is available about 20 minutes on foot from the Cottrell Building, e.g. at the top of Kenilworth Road.</li>
+          <li>Free on-street parking is available about 20 minutes on foot from the Cottrell Building, e.g. at the top of Kenilworth Road.</li>
         </ul>
       </li>
     </ul>
     <div class="map" style="width: 800px; text-align: center;">
-      <!--
-      <iframe src="https://www.google.com/maps/d/embed?mid=18bO5PeaxiJTGp5u0zQa8uYo4zAB0f5Q&ehbc=2E312F" width="800" height="300"></iframe>
-      -->
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4445.46439470566!2d-3.9207219999999996!3d56.144444!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5667ee63dcd12d7!2zNTbCsDA4JzQwLjAiTiAzwrA1NScxNC42Ilc!5e0!3m2!1sen!2suk!4v1662988499795!5m2!1sen!2suk" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of the Cottrell Building, Main Entrance"></iframe>
       Map of the Cottrell Building
     </div>
@@ -216,7 +397,7 @@
   <footer>
     <hr>
     <p class="footer">
-      Last updated: 13 February 2025
+      Last updated: 22 February 2025
     </p>
   </footer>
 </body>
