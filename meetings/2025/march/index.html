@@ -279,17 +279,36 @@
           <span>
             Multiparty Session Types: Paxos Made Easy
           </span>
-          <!--
           <div class="abstract" id="Leonid/button">
             <button onclick="showAbstract('Leonid')">Abstract</button>
           </div>
           <div class="abstract" id="Leonid/abstract" style="display:none;">
             <button onclick="hideAbstract('Leonid')">Hide Abstract</button>
             <p>
-              TBD
+              Multiparty Session Types (MPST) offer a robust framework
+              to ensure indispensable properties in distributed systems.
+              However, their adoption in industry remains limited.
+              Our work aims to facilitate industrial adoption by developing
+              a toolchain that improves the usability and accessibility
+              of MPST for industry use.  This effort is guided by examples
+              from Paxos &mdash; a fault-tolerant consensus algorithm
+              known for its complexity, stemming from intricate message
+              exchanges that are both challenging to understand and
+              implement correctly.
+            </p>
+            <p>
+              In this talk, we extend previous work that models
+              crash-stop processes and failure recovery via crash branches.
+              Specifically, we present different ways and their challenges
+              to semi-automatic refactoring of global protocols
+              to facilitate crash branches introduction.  Additionally,
+              we introduce a fine-grained method to simulate crashed links
+              using default communications, helping to prolong the session's
+              lifespan. Finally, we extend both the Scribble language and
+              Effpi, an MPST-based concurrency library for Scala,
+              with syntactic sugar to enhance the modularity of MPST.
             </p>
           </div>
-          -->
         </td>
       </tr>
     </table>
@@ -330,7 +349,7 @@
       </tr>
       <tr>
         <td class="author">
-          Jeremy Singer</br>(University of Glasgow)
+          Jeremy Singer<br/>(University of Glasgow)
         </td>
         <td class="title">
           <span>
