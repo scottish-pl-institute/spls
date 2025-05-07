@@ -48,10 +48,11 @@ SPLS receives financial support from the [Theory, Modelling and Computation](htt
 
 ## Forthcoming SPLS Meeting
 
-+ [Wednesday, 5th March 2025, University of Stirling](meetings/2025/march/)
++ [Wednesday, 4th June 2025, Heriot-Watt University](meetings/2025/june/)
 
 ## Previous SPLS Meetings
 
++ [Wednesday, 5th March 2025, University of Stirling](meetings/2025/march/)
 + [Wednesday, 6th November 2024, University of Glasgow](meetings/2024/november/)
 + [Monday, 1st July 2024, The University of Edinburgh](meetings/2024/july/)
 + [Wednesday, 6th March 2024, University of St Andrews](meetings/2024/march/)
