@@ -148,7 +148,296 @@
   <section>
     <h3><a name="programme" class="anchor">Programme</a></h3>
 
-    <h4>TBD</h4>
+    <h4>12:00 &mdash; 13:00 &nbsp;&nbsp; LUNCH</h4>
+
+    <h4>13:00 &mdash; 14:30 &nbsp;&nbsp; SESSION 1</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Ohad Kammar<br/>(University of Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            Modular abstract syntax trees (MAST): substitution tensors with second-class sorts
+          </span>
+          <div class="abstract" id="Ohad/button">
+            <button onclick="showAbstract('Ohad')">Abstract</button>
+          </div>
+          <div class="abstract" id="Ohad/abstract" style="display:none;">
+            <button onclick="hideAbstract('Ohad')">Hide Abstract</button>
+            <p>
+              We adapt Fiore, Plotkin, and Turi’s treatment of
+              abstract syntax with binding, substitution, and holes to
+              account for languages with second-class sorts. These
+              situations include programming calculi such as the
+              Call-by-Value 𝜆-calculus (CBV) and Levy’s
+              Call-by-Push-Value (CBPV). Prohibiting second-class
+              sorts from appearing in variable contexts means the
+              presheaf of variables is no longer a left-unit for Fiore
+              et al’s substitution tensor product. We generalise their
+              development to accommodate second-class sorts, and reuse
+              much of the development through bicategorical
+              arguments. We apply the resulting theory by proving
+              substitution lemmata for varieties of CBV modularly.
+            </p>
+            <p>
+              Joint work with Marcelo Fiore, Georg Moser, and Sam
+              Staton.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Jan de Muijnck-Hughes<br/>(University of Strathclyde)
+        </td>
+        <td class="title">
+          <span>
+            Towards Being Positively Negative about Dependent Types
+          </span>
+          <div class="abstract" id="Jan/button">
+            <button onclick="showAbstract('Jan')">Abstract</button>
+          </div>
+          <div class="abstract" id="Jan/abstract" style="display:none;">
+            <button onclick="hideAbstract('Jan')">Hide Abstract</button>
+            <p>
+              This talk is an extended practice talk for TYPES 2025
+              where I am reporting on work-in-progress that uses
+              techniques inspired by constructive negation to reframe
+              decision procedures as pairings of positive datatypes
+              that cancel each other out.
+            </p>
+            <p>
+              Specifically, I will report my experiences in providing
+              a library of positive decision procedures, and using
+              these procedures when programming. I will also examine
+              how being so positive in one’s negativity can be
+              backported to report our decision procedure's negativity
+              more positively.
+            </p>
+            <p>Please see the <a href="https://msp.cis.strath.ac.uk/types2025/abstracts/TYPES2025_paper20.pdf">extended abstract</a> for more information.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Philip Wadler<br/>(University of Edinburgh)
+        </td>
+        <td class="title">
+          <span>
+            A simple blame calculus for explicit nulls
+          </span>
+          <div class="abstract" id="Phil/button">
+            <button onclick="showAbstract('Phil')">Abstract</button>
+          </div>
+          <div class="abstract" id="Phil/abstract" style="display:none;">
+            <button onclick="hideAbstract('Phil')">Hide Abstract</button>
+            <p>
+              Gradual typing provides a model for when a legacy
+              language with less precise types interacts with a newer
+              language with more precise types. Casts mediate between
+              types of different precision, allocating blame when a
+              value fails to conform to a type. The blame theorem
+              asserts that blame always falls on the less-precisely
+              typed side of a cast. One instance of interest is when a
+              legacy language (such as Java) permits null values at
+              every type, while a newer language (such as Scala or
+              Kotlin) explicitly indicates which types permit null
+              values. Nieto et al. in 2020 introduced a gradually
+              typed calculus for just this purpose. The calculus
+              requires three distinct constructors for function types
+              and a non-standard proof of the blame theorem; it can
+              embed terms from the legacy language into the newer
+              language (or vice versa) only when they are
+              closed. Here, we define a simpler calculus that is more
+              orthogonal, with one constructor for function types and
+              one for possibly nullable types, and with an entirely
+              standard proof of the blame theorem; it can embed terms
+              from the legacy language into the newer language (and
+              vice versa) even if they are open. All results in the
+              paper have been mechanized in Coq.
+            </p>
+            <p>
+              In addition to technical details, the talk will ponder a
+              sociological question: why was Nieto et al 2020 was
+              published in ECOOP, while our simpler solution was
+              rejected from ESOP and went "straight to video" in JFP?
+            </p>
+            <p>
+              [Joint work with Ondrej Lhotak. Published in JFP 34,
+              e15, doi:10.1017/S0956796824000121. Practice for a talk
+              to be presented at ICFP 2025.]</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>14:30 &mdash; 15:00 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>15:00 &mdash; 16:00 &nbsp;&nbsp; SESSION 2</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Simon Fowler<br/>(University of Glasgow)
+        </td>
+        <td class="title">
+          <span>
+            Speak Now: Safe Actor Programming with Multiparty Session Types
+          </span>
+          <div class="abstract" id="Simon/button">
+            <button onclick="showAbstract('Simon')">Abstract</button>
+          </div>
+          <div class="abstract" id="Simon/abstract" style="display:none;">
+            <button onclick="hideAbstract('Simon')">Hide Abstract</button>
+            <p>
+              Actor languages such as Erlang and Elixir are widely
+              used for implementing scalable and reliable distributed
+              applications, but the informally-specified nature of
+              actor communication patterns leaves systems vulnerable
+              to costly errors such as communication mismatches and
+              deadlocks. Multiparty session types (MPSTs) rule out
+              communication errors early in the development process,
+              but until now, the nature of actor communication has
+              made it difficult for actor languages to benefit from
+              session types.
+            </p>
+            <p>
+              This paper introduces Maty, the first actor language
+              design supporting both static multiparty session typing
+              and the full power of actors taking part in multiple
+              sessions. Our main insight is to enforce session typing
+              through a flow-sensitive type-and-effect system,
+              combined with an event-driven programming style and
+              first-class message handlers. Using MPSTs allows us to
+              guarantee communication safety: a process will never
+              send or receive an unexpected message, nor will it ever
+              get stuck waiting for a message that will never
+              arrive. We extend Maty to support both Erlang-style
+              cascading failure handling and the ability to
+              proactively switch between sessions. We implement Maty
+              in Scala using an API generation approach, and evaluate
+              our implementation on a series of microbenchmarks, a
+              factory scenario, and a chat server.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Guillaume Allais<br/>(University of Strathclyde)
+        </td>
+        <td class="title">
+          <span>
+            Correct by Construction Concurrent Programs in Idris 2
+          </span>
+          <div class="abstract" id="Guillaume/button">
+            <button onclick="showAbstract('Guillaume')">Abstract</button>
+          </div>
+          <div class="abstract" id="Guillaume/abstract" style="display:none;">
+            <button onclick="hideAbstract('Guillaume')">Hide Abstract</button>
+            <p>
+              Concurrent programs destructively updating shared memory
+              are notoriously hard to get right. Concurrent separation
+              logics are logics with built-in notions of
+              e.g. ownership of memory regions, concurrent accesses,
+              and lock mechanisms. They give experts a way to verify a
+              posteriori that complex concurrent imperative programs
+              hopefully abide by their formal specification.  We will
+              see how next generation languages let us get rid of a
+              posteriori verification in favour of a
+              correct-by-construction approach whereby the program is
+              interactively built in a specification-respecting
+              dialogue with the compiler.
+            </p>
+            <p>
+              For this presentation we will be using Idris 2, a
+              general purpose functional language with an expressive
+              type system combining dependent types to enforce complex
+              invariants and linear logic to track resource usage.  We
+              will demonstrate how a simple library can capture ideas
+              from concurrent separation logic by providing
+              proof-carrying concurrent primitives. These make it
+              impossible to write into memory one does not own or to
+              release a lock without having proven that its associated
+              invariant has been re-established. They also guarantee
+              that whatever is read from the shared memory is
+              invariant-respecting.  This will culminate in worked out
+              example e.g. the definition of map-reduce primitives
+              repeatedly and safely breaking down a buffer into chunks
+              that can be processed concurrently.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>16:00 &mdash; 16:30 &nbsp;&nbsp; COFFEE</h4>
+
+    <h4>16:30 &mdash; 17:30 &nbsp;&nbsp; SESSION 3</h4>
+    <table>
+      <tr>
+        <td class="author">
+          Radu Mardare<br/>(Heriot-Watt University)
+        </td>
+        <td class="title">
+          <span>
+            Lawvere Logics
+          </span>
+          <div class="abstract" id="Radu/button">
+            <button onclick="showAbstract('Radu')">Abstract</button>
+          </div>
+          <div class="abstract" id="Radu/abstract" style="display:none;">
+            <button onclick="hideAbstract('Radu')">Hide Abstract</button>
+            <p>
+              This talk summarizes recent work aiming at developing
+              real-valued logics appropriate for reasoning about
+              algebraic structures on metric spaces and as support for
+              metatheoretical reasoning for approximated mathematical
+              (exact) phenomena. The main application is generalizing
+              the theory of Quantitative Algebras and Quantitative
+              Equational Logics, but they also open the perspective of
+              developing mathematical theories where identity is not
+              the main metalogical predicate.
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="author">
+          Ekaterina Komendantskaya<br/>(University of Southampton/Heriot-Watt University)
+        </td>
+        <td class="title">
+          <span>
+            Proof-Carrying Neuro-Symbolic Code
+          </span>
+          <div class="abstract" id="Katya/button">
+            <button onclick="showAbstract('Katya')">Abstract</button>
+          </div>
+          <div class="abstract" id="Katya/abstract" style="display:none;">
+            <button onclick="hideAbstract('Katya')">Hide Abstract</button>
+            <p>
+              <em>Neuro-symbolic code</em> simply refers to any
+              (standard, symbolic) program in which some exact
+              calculations are replaced by approximations given by
+              neural networks or similar machine-learning algorithms.
+              The purpose of <em>proof-carrying neuro-symbolic
+              code</em> as a research direction is to propose
+              languages or programming environments where
+              implementation of such a system, as well as all
+              necessary proofs of its safety, can be carried out in a
+              sound and consistent way. This has proven to be a
+              (programming language) challenge.  However, some battles
+              have been won. This talk will explain the existing
+              challenges and the future directions.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h4>17:30 &mdash; late &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PUB</h4>
+    <p>TBD</p>
   </section>
 
   <section>
