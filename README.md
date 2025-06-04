@@ -12,6 +12,10 @@ Please contact us if you would like to host a meeting or give a talk.
 Meetings are open, and all are welcome to attend.
 If you are travelling far or if you do not subscribe to the mailing list, you are advised to contact the organiser to check that there have been no last-minute changes.
 
+## Forthcoming SPLS Meeting
+
++ **Autumn 2025**, University of Strathclyde
+
 ## Email List
 
 
@@ -46,9 +50,6 @@ If you normally have an automatic signature at the end of your email, please put
 
 SPLS receives financial support from the [Theory, Modelling and Computation](http://www.sicsa.ac.uk/research/theory-modelling-computation/) theme of the [Scottish Informatics and Computer Science Alliance](http://www.sicsa.ac.uk).
 
-## Forthcoming SPLS Meeting
-
-+ **Autumn 2025**, University of Strathclyde
 
 ## Previous SPLS Meetings
 
