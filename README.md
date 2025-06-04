@@ -16,6 +16,10 @@ If you are travelling far or if you do not subscribe to the mailing list, you ar
 
 + **Autumn 2025**, University of Strathclyde
 
+## Support from SICSA
+
+SPLS receives financial support from the [Theory, Modelling and Computation](http://www.sicsa.ac.uk/research/theory-modelling-computation/) theme of the [Scottish Informatics and Computer Science Alliance](http://www.sicsa.ac.uk).
+
 ## Email List
 
 
@@ -45,11 +49,6 @@ If you normally have an automatic signature at the end of your email, please put
 + Please join our [Zulip chat instance](https://spls.zulipchat.com/) kindly supported by community hosting from [Zulip](https://www.zulipchat.com/)
 + For more information about SPLS, please contact [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/)
 + This website is managed by the [SPLS Community](https://github.com/scottish-pl-institute/spls) under the auspices of the [Scottish Programming Languages Institute](https://scottish-pl-institute.github.io)
-
-## Support from SICSA
-
-SPLS receives financial support from the [Theory, Modelling and Computation](http://www.sicsa.ac.uk/research/theory-modelling-computation/) theme of the [Scottish Informatics and Computer Science Alliance](http://www.sicsa.ac.uk).
-
 
 ## Previous SPLS Meetings
 
