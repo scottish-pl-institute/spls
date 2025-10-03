@@ -12,9 +12,13 @@ Please contact us if you would like to host a meeting or give a talk.
 Meetings are open, and all are welcome to attend.
 If you are travelling far or if you do not subscribe to the mailing list, you are advised to contact the organiser to check that there have been no last-minute changes.
 
+## Code of Conduct
+
+The SPLS Zulip operates under the following [Code of Conduct](CONDUCT).
+
 ## Forthcoming SPLS Meeting
 
-+ **Autumn 2025**, University of Strathclyde
++ [Wednesday, 3rd December 2025, University of Strathclyde](meetings/2025/december/)
 
 ## Support from SICSA
 
