@@ -71,8 +71,8 @@ Should you have comments or queries about the event please contact the organisin
 
    CIS_spls@groups.strath.ac.uk
 
-The organising team are:
+The organising team for this edition of SPLS are:
 
-+ **Principal**: Ezra Schoen, Bob Atkey
-+ **Junior**: Jan de Muijnck-Hughes, Fredrik Nordvall Forsberg
-+ **Chairs**: tbd
++ Ezra Schoen, Bob Atkey, Jan de Muijnck-Hughes, and Fredrik Nordvall Forsberg
+
++ **Session Chairs**: tbd
