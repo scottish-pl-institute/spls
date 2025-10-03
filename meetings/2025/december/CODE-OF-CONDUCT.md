@@ -9,9 +9,10 @@ is a collaborative effort between the Universities of
 Edinburgh,
 Glasgow,
 Heriot-Watt,
-Strathclyde
-and
-St Andrews.
+Strathclyde,
+Stirling,
+St Andrews,
+and the West of Scotland.
 SPLS is organised as part of the wider remit of the
 [Scottish Programming Languages Institute](https://spli.scot/)
 (SPLI).
@@ -68,7 +69,7 @@ has its own [Code of Conduct](https://spli.scot/spls/CONDUCT.html).
 
 ## Towards a Welcoming and Safe Environment
 
-SPLV hopes to create an environment in which diverse individuals can collaborate and interact in a positive and affirming way.
+SPLS hopes to create an environment in which diverse individuals can collaborate and interact in a positive and affirming way.
 Examples of behaviour that contributes to a positive environment for our
 community include:
 
@@ -103,7 +104,7 @@ reach out to any of the organisers.
 
 ## Reporting
 
-If any member of the SPLV community is being harassed by another member of our community,
+If any member of the SPLS community is being harassed by another member of our community,
 notice that someone else is being harassed,
 or have any other concerns,
 please get in contact directly with an organiser during the event.
@@ -147,7 +148,7 @@ decisions when appropriate.
 Every code of conduct violation report will be treated with seriousness and care.
 If a member’s immediate safety and security is threatened,
 an individual organiser may take any action that they deem appropriate,
-up to and including temporarily banning the offender from any SPLV space.
+up to and including temporarily banning the offender from any SPLS space.
 In less urgent situations,
 at least two organisers will discuss the offence and mutually arrive at a suitable response,
 which will be shared with the offender privately.
@@ -231,7 +232,7 @@ Community Impact Guidelines were inspired by
 Adapted from the QTC Code of Conduct and Contributor Covenant,
 which are licensed under a Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>).
 
-The adaptation was by Jan de Muijnck-Hughes on behalf of the SPLS/SPLI communities.
+The adaptation was by Jan de Muijnck-Hughes on behalf of the SPLV/SPLI communities.
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html

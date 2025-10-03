@@ -44,7 +44,7 @@ home to the Department of Computer & Information Sciences.
 
 ### Code of Conduct
 
-SPLS at Strathclyde will operate under the [following Code of Conduct](../../../CODE-OF-CONDUCT).
+SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-CONDUCT).
 
 
 ## Registration

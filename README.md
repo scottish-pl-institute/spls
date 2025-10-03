@@ -14,10 +14,7 @@ If you are travelling far or if you do not subscribe to the mailing list, you ar
 
 ## Code of Conduct
 
-From December 2025 onward,
-all SPLS events and activities will operate under the [following Code of Conduct](CODE-OF-CONDUCT).
-
-The SPLS Zulip operates under it's on [Code of Conduct](CONDUCT).
+The SPLS Zulip operates under the following [Code of Conduct](CONDUCT).
 
 ## Forthcoming SPLS Meeting
 
