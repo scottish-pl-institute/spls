@@ -21,7 +21,7 @@ The SPLS Zulip operates under it's on [Code of Conduct](CONDUCT).
 
 ## Forthcoming SPLS Meeting
 
-+ **Autumn 2025**, University of Strathclyde
++ [Wednesday, 3rd December 2025, University of Strathclyde](meetings/2025/december/)
 
 ## Support from SICSA
 
