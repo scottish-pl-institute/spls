@@ -56,8 +56,6 @@ SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-C
 + There are no COVID restrictions on attendance, however, we welcome mask wearing in packed indoor areas as well as testing on the morning prior to attending.
 
 ## Programme
-
-## Programme
 ### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event
 <table>
 <tr>
