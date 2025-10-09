@@ -54,7 +54,8 @@ SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-C
 
 You can register for SPLS *and* the PhD event here.
 
-https://forms.office.com/e/3SFMfg7iki
+<https://forms.office.com/e/3SFMfg7iki>
+
 
 ### Important Dates
 
