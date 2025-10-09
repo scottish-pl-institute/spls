@@ -37,30 +37,45 @@ Accessibility information is [available here](https://www.accessable.co.uk/unive
 
 We also plan to stream SPLS, using **tbc**.
 
-Subject to numbers,
-there will also be a morning PhD Event for PhD students attending SPLI Universities.
-The PhD Event will be held in **LT1414a** in *livingstone Tower*,
+A special PhD event will be held in the morning, starting at 1000hrs.
+The PhD Event will be held in **LT1414a** in *Livingstone Tower*,
 home to the Department of Computer & Information Sciences.
+It will be an introduction to SPLI in specific,
+and doing a PhD in general,
+as well as a chance to meet your fellow PhD students from other institutes.
+It is intended to be most useful to students early in their PhD, although everyone is free to attend (including non-PhD students).
 
 ### Code of Conduct
 
 SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-CONDUCT).
 
 
-## Registration
+### Registration
+
+You can register for SPLS *and* the PhD event here.
+
+https://forms.office.com/e/3SFMfg7iki
+
+### Important Dates
+
+**Talk Registration**
+:  29 October 2025
 
 
+**General Registration Closes**
+:  26 November 2025
 
 ### COVID Information
 
 + There are no COVID restrictions on attendance, however, we welcome mask wearing in packed indoor areas as well as testing on the morning prior to attending.
 
 ## Programme
+
 ### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event
 <table>
 <tr>
 <td>
-10:15&mdash;10:00
+10:00&mdash;10:15
 </td>
 <td class="author"> Simon Gay (University of Glasgow) </td>
 <td class="title">
@@ -78,7 +93,7 @@ TBD
 </tr>
 <tr>
 <td>
-10:50&mdash;10:20
+10:20&mdash;10:50
 </td>
 <td class="author"> Bob Atkey (University of Strathclyde) </td>
 <td class="title">
@@ -96,7 +111,7 @@ TBD
 </tr>
 <tr>
 <td>
-11:25&mdash;10:55
+10:55&mdash;11:25
 </td>
 <td class="author"> Ezra Schoen (University of Strathclyde) </td>
 <td class="title">
@@ -112,9 +127,18 @@ TBD
 </details>
 </td>
 </tr>
+<tr>
+<td>
+11:30&mdash;12:00
+</td>
+<td class="author"> </td>
+<td class="title">
+<span>
+Meet & Greet
+</span>
+</td>
+</tr>
 </table>
-
-### 11:30&mdash;12:00 &nbsp;&nbsp; Meet & Greet
 
 ## Travel
 
