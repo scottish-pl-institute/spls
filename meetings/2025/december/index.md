@@ -83,7 +83,7 @@ You can register for SPLS *and* the PhD event here.
 <span>
 Welcome to SPLI
 </span>
-<details open="">
+<details>
 <summary>Abstract</summary>
 <p>
 TBD
@@ -101,7 +101,7 @@ TBD
 <span>
 Reviewing a Paper
 </span>
-<details open="">
+<details>
 <summary>Abstract</summary>
 <p>
 TBD
@@ -119,7 +119,7 @@ TBD
 <span>
 How to do a PhD
 </span>
-<details open="">
+<details>
 <summary>Abstract</summary>
 <p>
 TBD
