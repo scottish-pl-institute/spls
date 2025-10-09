@@ -71,7 +71,6 @@ You can register for SPLS *and* the PhD event here.
 + There are no COVID restrictions on attendance, however, we welcome mask wearing in packed indoor areas as well as testing on the morning prior to attending.
 
 ## Programme
-
 ### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event
 <table>
 <tr>
@@ -112,7 +111,18 @@ TBD
 </tr>
 <tr>
 <td>
-10:55&mdash;11:25
+10:50&mdash;11:20
+</td>
+<td class="author"> </td>
+<td class="title">
+<span>
+Meet & Greet
+</span>
+</td>
+</tr>
+<tr>
+<td>
+11:25&mdash;11:55
 </td>
 <td class="author"> Ezra Schoen (University of Strathclyde) </td>
 <td class="title">
@@ -128,18 +138,13 @@ TBD
 </details>
 </td>
 </tr>
-<tr>
-<td>
-11:30&mdash;12:00
-</td>
-<td class="author"> </td>
-<td class="title">
-<span>
-Meet & Greet
-</span>
-</td>
-</tr>
 </table>
+
+### 12:00&mdash;13:00 &nbsp;&nbsp; Lunch
+
+### 13:00&mdash;tbc &nbsp;&nbsp; Main Programme
+
+**tbc**
 
 ## Travel
 
