@@ -49,7 +49,7 @@ SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-C
 
 ## Registration
 
-**tbc**
+
 
 ### COVID Information
 
@@ -57,7 +57,66 @@ SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-C
 
 ## Programme
 
-**tbc**
+## Programme
+### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event
+<table>
+<tr>
+<td>
+10:15&mdash;10:00
+</td>
+<td class="author"> Simon Gay (University of Glasgow) </td>
+<td class="title">
+<span>
+Welcome to SPLI
+</span>
+<details open="">
+<summary>Abstract</summary>
+<p>
+TBD
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+10:50&mdash;10:20
+</td>
+<td class="author"> Bob Atkey (University of Strathclyde) </td>
+<td class="title">
+<span>
+Reviewing a Paper
+</span>
+<details open="">
+<summary>Abstract</summary>
+<p>
+TBD
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+11:25&mdash;10:55
+</td>
+<td class="author"> Ezra Schoen (University of Strathclyde) </td>
+<td class="title">
+<span>
+How to do a PhD
+</span>
+<details open="">
+<summary>Abstract</summary>
+<p>
+TBD
+
+</p>
+</details>
+</td>
+</tr>
+</table>
+
+### 11:30&mdash;12:00 &nbsp;&nbsp; Meet & Greet
 
 ## Travel
 
