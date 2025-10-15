@@ -43,7 +43,7 @@ home to the Department of Computer & Information Sciences.
 It will be an introduction to SPLI in specific,
 and doing a PhD in general,
 as well as a chance to meet your fellow PhD students from other institutes.
-It is intended to be most useful to students early in their PhD, although everyone is free to attend (including non-PhD students).
+It is intended to be most useful to students early in their PhD, although everyone is free to attend (including non-PhD students). We would strongly recommend in-person attendance at the PhD event, but if you wish to attend it remotely, please contact us via email.
 
 ### Code of Conduct
 
@@ -56,6 +56,11 @@ You can register for SPLS *and* the PhD event here.
 
 <https://forms.office.com/e/3SFMfg7iki>
 
+### Talk Proposals
+
+You can submit a proposal for a talk here.
+
+<https://forms.office.com/e/S3uuznL6th>
 
 ### Important Dates
 
@@ -95,10 +100,10 @@ TBD
 <td>
 10:20&mdash;10:50
 </td>
-<td class="author"> Bob Atkey (University of Strathclyde) </td>
+<td class="author"> Sean Watters (University of Strathclyde) </td>
 <td class="title">
 <span>
-Reviewing a Paper
+How to do a PhD
 </span>
 <details>
 <summary>Abstract</summary>
@@ -116,7 +121,7 @@ TBD
 <td class="author"> </td>
 <td class="title">
 <span>
-Meet & Greet
+Coffee Break & Mingling
 </span>
 </td>
 </tr>
@@ -124,10 +129,10 @@ Meet & Greet
 <td>
 11:25&mdash;11:55
 </td>
-<td class="author"> Ezra Schoen (University of Strathclyde) </td>
+<td class="author"> Bob Atkey (University of Strathclyde) </td>
 <td class="title">
 <span>
-How to do a PhD
+How to review papers
 </span>
 <details>
 <summary>Abstract</summary>
