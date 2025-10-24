@@ -89,6 +89,7 @@ You can submit a proposal for a talk here.
 * Oliver Soeser (University of Edinburgh)
 * Mathieu Paturel (University of New South Wales)
 * Fredrik Nordvall Forsberg (University of Strathclyde)
+* Malin Altenmüller (University of Edinburgh)
 
 and some people who prefer not to be listed here. (Last updated: 24 October 2025)
 
