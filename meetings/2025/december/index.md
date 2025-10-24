@@ -71,6 +71,27 @@ You can submit a proposal for a talk here.
 **General Registration Closes**
 :  26 November 2025
 
+### Participants registered so far
+
+* Jules Kuo-Gross (University of Strathclyde)
+* Toby Ueno (University of Edinburgh)
+* Simon Fowler (University of Glasgow)
+* Jacob Walters (University of Edinburgh)
+* Jan van Brügge (Heriot-Watt University)
+* Amy Yin (University of Edinburgh)
+* Kengo Hirata (University of Edinburgh)
+* Anton Lorenzen (University of Edinburgh)
+* Cristina Matache (University of Edinburgh)
+* Orpheas van Rooij (University of Edinburgh)
+* Jan de Muijnck-Hughes (University of Strathclyde)
+* Conor Mc Bride (University of Strathclyde)
+* Matthew Alan Le Brun Barry (University of Glasgow)
+* Oliver Soeser (University of Edinburgh)
+* Mathieu Paturel (University of New South Wales)
+* Fredrik Nordvall Forsberg (University of Strathclyde)
+
+and some people who prefer not to be listed here. (Last updated: 24 October 2025)
+
 ### COVID Information
 
 + There are no COVID restrictions on attendance, however, we welcome mask wearing in packed indoor areas as well as testing on the morning prior to attending.
