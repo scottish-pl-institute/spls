@@ -94,6 +94,7 @@ You can submit a proposal for a talk here.
 * Philippa Cowderoy
 * Emma Tye (University of Strathclyde)
 * Ross Horne (University of Strathclyde)
+* Nachi Valliappan (University of Edinburgh)
 
 and some people who prefer not to be listed here. (Last updated: 4 November 2025)
 
