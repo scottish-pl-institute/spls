@@ -92,8 +92,10 @@ You can submit a proposal for a talk here.
 * Malin Altenmüller (University of Edinburgh)
 * Yukang Xie (Heriot-Watt University)
 * Philippa Cowderoy
+* Emma Tye (University of Strathclyde)
+* Ross Horne (University of Strathclyde)
 
-and some people who prefer not to be listed here. (Last updated: 29 October 2025)
+and some people who prefer not to be listed here. (Last updated: 4 November 2025)
 
 ### COVID Information
 
