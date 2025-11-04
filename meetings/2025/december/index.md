@@ -65,7 +65,7 @@ You can submit a proposal for a talk here.
 ### Important Dates
 
 **Talk Registration deadline**
-:  5 November 2025
+:  20 November 2025
 
 
 **General Registration Closes**
