@@ -95,8 +95,13 @@ You can submit a proposal for a talk here.
 * Emma Tye (University of Strathclyde)
 * Ross Horne (University of Strathclyde)
 * Nachi Valliappan (University of Edinburgh)
+* Wenhao Tang (University of Edinburgh)
+* Ricardo Almeida (University of Glasgow)
+* Justus Matthiesen (University of Edinburgh)
+* Sam Lindley (University of Edinburgh)
+* Bhakti Shah (University of St Andrews)
 
-and some people who prefer not to be listed here. (Last updated: 4 November 2025)
+and some people who prefer not to be listed here. (Last updated: 5 November 2025)
 
 ### COVID Information
 
