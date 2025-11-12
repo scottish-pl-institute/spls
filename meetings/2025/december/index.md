@@ -100,8 +100,14 @@ You can submit a proposal for a talk here.
 * Justus Matthiesen (University of Edinburgh)
 * Sam Lindley (University of Edinburgh)
 * Bhakti Shah (University of St Andrews)
+* Constantine Theocharis (University of St Andrews)
+* Omer Keskin (University of Edinburgh)
+* Magnus Morton (Huawei R&D UK)
+* Adam Gundry (Well-Typed LLP)
+* Alex Rice (University of Edinburgh)
+* Greg Brown (University of Edinburgh)
 
-and some people who prefer not to be listed here. (Last updated: 5 November 2025)
+and some people who prefer not to be listed here. (Last updated: 12 November 2025)
 
 ### COVID Information
 
