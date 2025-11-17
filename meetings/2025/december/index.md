@@ -187,6 +187,304 @@ TBD
 
 ### 13:00&mdash;tbc &nbsp;&nbsp; Main Programme
 
+<table>
+<tr>
+<td>
+13:00&mdash;13:30
+</td>
+<td class="author"> Nachi Valliappan (University of Edinburgh) </td>
+<td class="title">
+<span>
+Residualizing Functors using Neighborhood Semantics
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+Normalization by Evaluation (NbE) is an algorithmic technique
+for normalizing terms in a calculus by interpreting them in a
+suitable denotational model of the calculus. A model employed
+for this purpose allows normal forms to be reconstructed from
+the denotation of a term, and is known as a residualizing
+model. While NbE has been shown to be a versatile technique,
+constructing a residualizing model requires ingenuity and is
+often achieved using ad hoc calculus-specific methods that
+lack extensibility and reusability. In this talk, I will
+present ongoing work to develop a modal framework based on
+neighborhood semantics to construct residualizing models of
+various functors in typed lambda calculi. The proposed
+framework offers a systematic and lightweight alternative to
+constructing residualizing models of functors directly and
+makes it possible to isolate and reuse recurring patterns in
+NbE algorithms. I will show how NbE algorithms (some new) can
+be implemented and verified correct in Agda using this
+framework.
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+13:30&mdash;14:00
+</td>
+<td class="author"> Duncan Lowther (University of Glasgow) </td>
+<td class="title">
+<span>
+Secure Scripting with CHERIoT MicroPython
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+The lean MicroPython runtime is a widely adopted highlevel
+programming framework for embedded microcontroller
+systems. However, the existing MicroPython codebase has
+limited security features, rendering it a fundamentally
+insecure runtime environment. This is a critical problem,
+given the growing deployment of highly interconnected IoT
+systems on which society depends. Malicious actors seek to
+compromise such embedded infrastructure, using sophisticated
+attack vectors. We have implemented a novel variant of
+MicroPython, adding support for runtime security features
+provided in the CHERI RISC-V architecture as instantiated by
+the CHERIoT-RTOS system. Our new MicroPython port supports
+hardware-enabled spatial memory safety, mitigating a large set
+of common runtime memory attacks. We have also
+compartmentalized the MicroPython runtime, to prevent
+untrusted code from elevating its permissions and taking
+control of the entire system. We perform a multi-faceted
+evaluation of our work, involving a qualitative
+security-focused case study and a quantitative performance
+analysis. The case study explores the full set of five
+publicly reported MicroPython vulnerabilities (CVEs). We
+demonstrate that the enhanced security provided by CHERIoT
+MicroPython mitigate two heap buffer overflow CVEs. Our
+performance analysis shows a geometric mean runtime overhead
+of 48% for secure execution across a set of ten standard
+Python benchmarks, although we argue this is indicative of
+worst-case overhead on our prototype platform and a realistic
+deployment overhead would be significantly lower. This work
+opens up a new, secure-by-design approach to IoT application
+development.
+
+(originally presented at CC'25: https://doi.org/10.1145/3708493.3712694)
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+14:00&mdash;14:30
+</td>
+<td class="author"> Robert Booth (University of Oxford) </td>
+<td class="title">
+<span>
+Denotational semantics for stabiliser quantum programs
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+The stabiliser fragment of quantum theory is a foundational
+building block for quantum error correction and the
+fault-tolerant compilation of quantum programs. In this talk,
+I will develop a sound, universal and complete denotational
+semantics for stabiliser operations which include measurement,
+classically-controlled Pauli operators, and affine classical
+operations, in which quantum error-correcting codes are
+first-class objects. The operations will be interpreted as
+certain affine relations over finite fields. This offers a
+conceptually motivated and computationally tractable
+alternative to the standard operator-algebraic semantics of
+quantum programs (whose time complexity grows exponentially as
+the state space increases in size).
+
+I will carefully introduce and motivate the stabiliser
+fragment, before demonstrating the resulting semantics by
+describing a small, proof-of-concept assembly language for
+stabiliser programs with fully-abstract denotational
+semantics.
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+14:30&mdash;15:00
+</td>
+<td class="author"> </td>
+<td class="title">
+<span>
+Break I
+</span>
+</td>
+</tr>
+<tr>
+<td>
+14:00&mdash;14:30
+</td>
+<td class="author"> Louis Lemonnier (University of Edinburgh) </td>
+<td class="title">
+<span>
+Quantum circuits are just a phase
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+Quantum programs today are written at a low level of
+abstraction---quantum circuits akin to assembly
+languages---and the unitary parts of even advanced quantum
+programming languages essentially function as circuit
+description languages. This state of affairs impedes
+scalability, clarity, and support for higher-level
+reasoning. More abstract and expressive quantum programming
+constructs are needed.
+
+To this end, we introduce a simple syntax for generating
+unitaries from 'just a phase'; we combine a (global) phase
+operation that captures phase shifts with a quantum analogue
+of the `if let`construct that captures subspace selection
+via pattern matching. This minimal language lifts the focus
+from gates to eigen-decomposition, conjugation, and controlled
+unitaries; common building blocks in quantum algorithm design.
+
+We demonstrate several aspects of the expressive power of our
+language in several ways. Firstly, we establish that our
+representation is universal by deriving a universal quantum
+gate set. Secondly, we show that important quantum algorithms
+can be expressed naturally and concisely, including Grover's
+search algorithm, Hamiltonian simulation, Quantum Fourier
+Transform, Quantum Signal Processing, and the Quantum
+Eigenvalue Transformation. Furthermore, we give clean
+denotational semantics grounded in categorical quantum
+mechanics. Finally, we implement a prototype compiler that
+efficiently translates terms of our language to quantum
+circuits, and prove that it is sound with respect to these
+semantics. Collectively, these contributions show that this
+construct offers a principled and practical step toward more
+abstract and structured quantum programming.
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+15:30&mdash;16:00
+</td>
+<td class="author"> Constantine Theocharis (University of St Andrews) </td>
+<td class="title">
+<span>
+Natural models for computational irrelevance
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+Dependently typed programming languages benefit greatly from
+the ability to mark certain data as irrelevant for the
+purposes of runtime execution. There are many approaches to
+such systems, but the most popular is quantitative type theory
+(QTT), implemented by Agda and Idris2. In a simple
+instantiation of QTT with the {0,ω} semiring and a subusaging
+rule, we recover a version of MLTT with irrelevance. However,
+metatheoretically, this is not so nice to work with---it is
+not defined ‘algebraically’ in the way MLTT can be, and thus
+is not immediately equipped any models, or initiality of the
+syntax. As a result it is harder to show useful metatheorems
+like canonicity or normalisation.
+
+In this talk, I will present a different approach to
+computational irrelevance that can be described very concisely
+by a second-order generalised algebraic theory
+(SOGAT). Irrelevance is encoded as a phase distinction in the
+form of a 'proposition' that can appear in a context. As a
+bonus, the entire irrelevant fragment of the theory is
+derivable rather than primitive. By general theorems of
+SOGATs, this theory automatically comes with a rich category
+of models, among which the syntax is initial. Other models
+include a 'code extraction' model, as well as MLTT
+itself. Metatheorems are achievable using modern gluing
+techniques.
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+16:00&mdash;16:30
+</td>
+<td class="author"> </td>
+<td class="title">
+<span>
+Break II
+</span>
+</td>
+</tr>
+<tr>
+<td>
+16:30&mdash;17:00
+</td>
+<td class="author"> Toby Ueno (University of Edinburgh) </td>
+<td class="title">
+<span>
+Practical Refinement Session Type Inference
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+Session types express and enforce safe communication in
+concurrent message-passing systems by statically capturing the
+interaction protocols between processes in the type. Recent
+works extend session types with arithmetic refinements, which
+enable additional fine-grained description of communication,
+but impose additional annotation burden on the programmer. To
+alleviate this burden, we propose a type inference algorithm
+for a session type system with arithmetic refinements. We
+develop a theory of subtyping for session types, including an
+algorithm which we prove sound with respect to a semantic
+definition based on type simulation. We also provide a formal
+inference algorithm that generates type and arithmetic
+constraints, which are then solved using the z3 SMT
+solver. The algorithm has been implemented on top of the Rast
+language, and includes 3 key optimizations that make inference
+feasible and practical. We evaluate the efficacy of our
+inference engine by evaluating it on 6 challenging benchmarks,
+ranging from unary and binary natural numbers to linear
+lambda-calculus. We show the performance benefits provided by
+our optimizations in coercing z3 into solving the arithmetic
+constraints in reasonable time.
+
+(Joint work with Ankush Das, to appear at ESOP '26.)
+
+</p>
+</details>
+</td>
+</tr>
+<tr>
+<td>
+17:00&mdash;17:30
+</td>
+<td class="author"> Magnus Morton (Huawei R&D UK) </td>
+<td class="title">
+<span>
+Effect Handlers in Cangjie: Hands-on
+</span>
+<details>
+<summary>Abstract</summary>
+<p>
+Huawei recently open-sourced its Cangjie programming language,
+including support for effect handlers. This talk will cover
+the design and implementation of Cangjie’s effect handlers,
+delve into detailed examples, and includes a live demo.
+
+</p>
+</details>
+</td>
+</tr>
+</table>
+### 17:00&mdash;Late &nbsp;&nbsp; Pub
+
 **tbc**
 
 ## Travel
