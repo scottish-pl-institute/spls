@@ -58,9 +58,7 @@ You can register for SPLS *and* the PhD event here.
 
 ### Talk Proposals
 
-You can submit a proposal for a talk here.
-
-<https://forms.office.com/e/S3uuznL6th>
+Submission of talk proposals is now closed.
 
 ### Important Dates
 
@@ -106,8 +104,14 @@ You can submit a proposal for a talk here.
 * Adam Gundry (Well-Typed LLP)
 * Alex Rice (University of Edinburgh)
 * Greg Brown (University of Edinburgh)
+* Robert Wright (University of Edinburgh)
+* Louis Lemonnier (University of Edinburgh)
+* Clemens Kupke (University of Strathclyde)
+* Olivia Weston (University of Glasgow)
+* Vikraman Choudhury (University of Strathclyde)
+* Kim Worrall (University of Edinburgh)
 
-and some people who prefer not to be listed here. (Last updated: 12 November 2025)
+and some people who prefer not to be listed here. (Last updated: 16 November 2025)
 
 ### COVID Information
 
@@ -185,7 +189,7 @@ TBD
 
 ### 12:00&mdash;13:00 &nbsp;&nbsp; Lunch
 
-### 13:00&mdash;tbc &nbsp;&nbsp; Main Programme
+### 13:00&mdash;17:30 &nbsp;&nbsp; Main Programme
 
 <table>
 <tr>
@@ -321,7 +325,7 @@ Break I
 </tr>
 <tr>
 <td>
-14:00&mdash;14:30
+15:00&mdash;15:30
 </td>
 <td class="author"> Louis Lemonnier (University of Edinburgh) </td>
 <td class="title">
@@ -483,7 +487,8 @@ delve into detailed examples, and includes a live demo.
 </td>
 </tr>
 </table>
-### 17:00&mdash;Late &nbsp;&nbsp; Pub
+
+### 17:30&mdash;Late &nbsp;&nbsp; Pub
 
 **tbc**
 
@@ -497,7 +502,7 @@ The University provides [travel information](https://www.strath.ac.uk/maps/) inc
 
 Should you have comments or queries about the event please contact the organising team at:
 
-   CIS_spls@groups.strath.ac.uk
+   [CIS_spls@groups.strath.ac.uk](mailto:CIS_spls@groups.strath.ac.uk)
 
 The organising team for this edition of SPLS are:
 
