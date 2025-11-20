@@ -110,8 +110,15 @@ Submission of talk proposals is now closed.
 * Olivia Weston (University of Glasgow)
 * Vikraman Choudhury (University of Strathclyde)
 * Kim Worrall (University of Edinburgh)
+* Paul Keir (University of the West of Scotland)
+* Jacob Trevor (University of Glasgow)
+* Thomas E. Hansen (University of St Andrews)
+* Sean Watters (University of Strathclyde)
+* Sean Moss (University of Birmingham)
+* Edwin Brady (University of St Andrews)
+* Wim Vanderbauwhede (University of Glasgow)
 
-and some people who prefer not to be listed here. (Last updated: 16 November 2025)
+and some people who prefer not to be listed here. (Last updated: 20 November 2025)
 
 ### COVID Information
 
