@@ -117,8 +117,11 @@ Submission of talk proposals is now closed.
 * Sean Moss (University of Birmingham)
 * Edwin Brady (University of St Andrews)
 * Wim Vanderbauwhede (University of Glasgow)
+* J. Ryan Stinnett (King's College London)
+* Patrick Maier (University of Stirling)
+* Kenneth MacKenzie (IOG)
 
-and some people who prefer not to be listed here. (Last updated: 20 November 2025)
+and some people who prefer not to be listed here. (Last updated: 24 November 2025)
 
 ### COVID Information
 
