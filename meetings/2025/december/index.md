@@ -82,7 +82,6 @@ Submission of talk proposals is now closed.
 * Cristina Matache (University of Edinburgh)
 * Orpheas van Rooij (University of Edinburgh)
 * Jan de Muijnck-Hughes (University of Strathclyde)
-* Conor Mc Bride (University of Strathclyde)
 * Matthew Alan Le Brun Barry (University of Glasgow)
 * Oliver Soeser (University of Edinburgh)
 * Mathieu Paturel (University of New South Wales)
@@ -120,8 +119,11 @@ Submission of talk proposals is now closed.
 * J. Ryan Stinnett (King's College London)
 * Patrick Maier (University of Stirling)
 * Kenneth MacKenzie (IOG)
+* Fiona Blackett (University of Strathclyde)
+* Nicholas Morris (University of Glasgow)
+* Rin Liu (University of Strathclyde)
 
-and some people who prefer not to be listed here. (Last updated: 24 November 2025)
+and some people who prefer not to be listed here. (Last updated: 25 November 2025)
 
 ### COVID Information
 
