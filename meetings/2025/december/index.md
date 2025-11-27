@@ -52,9 +52,7 @@ SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-C
 
 ### Registration
 
-You can register for SPLS *and* the PhD event here.
-
-<https://forms.office.com/e/3SFMfg7iki>
+Registration is now closed.
 
 ### Talk Proposals
 
@@ -122,8 +120,9 @@ Submission of talk proposals is now closed.
 * Fiona Blackett (University of Strathclyde)
 * Nicholas Morris (University of Glasgow)
 * Rin Liu (University of Strathclyde)
+* Swaraj Dash (Heriot-Watt University)
 
-and some people who prefer not to be listed here. (Last updated: 25 November 2025)
+and some people who prefer not to be listed here. (Last updated: 27 November 2025)
 
 ### COVID Information
 
