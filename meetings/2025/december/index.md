@@ -14,7 +14,14 @@ Series is an informal meeting of the
 [Scottish Programming Languages Institute (SPLI)](https://scottish-pl-institute.github.io/)
 Community for discussing anything related to programming languages.
 
+We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
+
 <div class="header">
+<a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo.png" alt="SICSA Logo"></a>
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.strath.ac.uk">
 <img class="logo" src="../../../assets/images/strathclyde.jpg" alt="University of Strathclyde">
 </a>
@@ -33,22 +40,28 @@ Talks will take place in room **TL325** in the *Learning and Teaching Building*
 ([49 Richmond Street](https://maps.app.goo.gl/bReUXWTAfPWAdSSf6)).
 There will be signs directing you from the **main** entrance of the building.
 
-Accessibility information is [available here](https://www.accessable.co.uk/university-of-strathclyde-glasgow/).
+Prior to the main programme there will be a catered lunch provided in room **TL328**,
+also in the *Learning and Teaching Building* and opposite where SPLS will take place.
+
+Accessibility information for the University of Strathclyde is [available here](https://www.accessable.co.uk/university-of-strathclyde-glasgow/).
 
 We also plan to stream SPLS, using **tbc**.
 
 A special PhD event will be held in the morning, starting at 1000hrs.
 The PhD Event will be held in **LT1414a** in *Livingstone Tower*,
 home to the Department of Computer & Information Sciences.
-It will be an introduction to SPLI in specific,
+It will be an introduction to SPLI,
 and doing a PhD in general,
-as well as a chance to meet your fellow PhD students from other institutes.
-It is intended to be most useful to students early in their PhD, although everyone is free to attend (including non-PhD students). We would strongly recommend in-person attendance at the PhD event, but if you wish to attend it remotely, please contact us via email.
+as well as a chance to meet your fellow PhD students from other SPLI institutes.
+Although everyone is free to attend the PhD event
+(including non-PhD students),
+the event is primarily aimed for students early in their PhD.
+We would strongly recommend in-person attendance at the PhD event,
+however, if you wish to attend it remotely then please contact us via email.
 
 ### Code of Conduct
 
 SPLS at Strathclyde will operate under the [following Code of Conduct](CODE-OF-CONDUCT).
-
 
 ### Registration
 
@@ -69,6 +82,8 @@ Submission of talk proposals is now closed.
 
 ### Participants registered so far
 
+<details>
+<summary>Show Participants</summary>
 * Jules Kuo-Gross (University of Strathclyde)
 * Toby Ueno (University of Edinburgh)
 * Simon Fowler (University of Glasgow)
@@ -121,6 +136,7 @@ Submission of talk proposals is now closed.
 * Nicholas Morris (University of Glasgow)
 * Rin Liu (University of Strathclyde)
 * Swaraj Dash (Heriot-Watt University)
+</details>
 
 and some people who prefer not to be listed here. (Last updated: 27 November 2025)
 
@@ -129,7 +145,7 @@ and some people who prefer not to be listed here. (Last updated: 27 November 202
 + There are no COVID restrictions on attendance, however, we welcome mask wearing in packed indoor areas as well as testing on the morning prior to attending.
 
 ## Programme
-### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event
+### 10:00&mdash;12:00 &nbsp;&nbsp; PhD Event (LT1414a)
 <table>
 <tr>
 <td>
@@ -198,9 +214,9 @@ TBD
 </tr>
 </table>
 
-### 12:00&mdash;13:00 &nbsp;&nbsp; Lunch
+### 12:00&mdash;13:00 &nbsp;&nbsp; Lunch (TL328)
 
-### 13:00&mdash;17:30 &nbsp;&nbsp; Main Programme
+### 13:00&mdash;17:30 &nbsp;&nbsp; Main Programme (TL325)
 
 <table>
 <tr>
