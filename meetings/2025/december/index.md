@@ -84,8 +84,6 @@ Submission of talk proposals is now closed.
 
 ### Participants registered so far
 
-<details>
-<summary>Show Participants</summary>
 * Jules Kuo-Gross (University of Strathclyde)
 * Toby Ueno (University of Edinburgh)
 * Simon Fowler (University of Glasgow)
@@ -138,9 +136,9 @@ Submission of talk proposals is now closed.
 * Nicholas Morris (University of Glasgow)
 * Rin Liu (University of Strathclyde)
 * Swaraj Dash (Heriot-Watt University)
-</details>
 
-and some people who prefer not to be listed here. (Last updated: 27 November 2025)
+and some people who prefer not to be listed here.
+(Last updated: 27 November 2025)
 
 ### COVID Information
 
