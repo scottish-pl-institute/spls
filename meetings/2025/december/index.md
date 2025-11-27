@@ -4,9 +4,21 @@ title: "SPLS, 03 December 2025, University of Strathclyde"
 custom_css: simple
 ---
 
+<header>
 # Scottish Programming Languages Seminar
 
 ## Wednesday, 03 December 2025
+<div>
+<a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo.png" style="width: 300px;" alt="SICSA Logo"></a>
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<a href="https://www.strath.ac.uk">
+<img class="logo" src="../../../assets/images/strathclyde.jpg" style="width: 300px;" alt="University of Strathclyde">
+</a>
+</div>
+</header>
 
 The
 [Scottish Programming Languages Seminar (SPLS)](https://scottish-pl-institute.github.io/spls)
@@ -15,17 +27,6 @@ Series is an informal meeting of the
 Community for discussing anything related to programming languages.
 
 We kindly acknowledge the continuing sponsorship of the [Scottish Informatics and Computer Science Alliance (SICSA)](https://sicsa.ac.uk).
-
-<div class="header">
-<a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo.png" alt="SICSA Logo"></a>
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-<a href="https://www.strath.ac.uk">
-<img class="logo" src="../../../assets/images/strathclyde.jpg" alt="University of Strathclyde">
-</a>
-</div>
 
 
 This edition of SPLS will be hybrid and is organised by the
