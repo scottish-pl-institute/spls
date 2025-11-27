@@ -5,9 +5,6 @@ custom_css: simple
 ---
 
 <header>
-# Scottish Programming Languages Seminar
-
-## Wednesday, 03 December 2025
 <div>
 <a href="https://www.sicsa.ac.uk/"><img class="logo" src="../../../assets/images/sicsalogo.png" style="width: 300px;" alt="SICSA Logo"></a>
 &nbsp;&nbsp;
@@ -19,6 +16,10 @@ custom_css: simple
 </a>
 </div>
 </header>
+
+# Scottish Programming Languages Seminar
+
+## Wednesday, 03 December 2025
 
 The
 [Scottish Programming Languages Seminar (SPLS)](https://scottish-pl-institute.github.io/spls)
