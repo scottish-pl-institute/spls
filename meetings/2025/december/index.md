@@ -82,7 +82,7 @@ Submission of talk proposals is now closed.
 **General Registration Closes**
 :  26 November 2025
 
-### Participants registered so far
+### Participants
 
 * Jules Kuo-Gross (University of Strathclyde)
 * Toby Ueno (University of Edinburgh)
@@ -101,7 +101,6 @@ Submission of talk proposals is now closed.
 * Fredrik Nordvall Forsberg (University of Strathclyde)
 * Malin Altenmüller (University of Edinburgh)
 * Yukang Xie (Heriot-Watt University)
-* Philippa Cowderoy
 * Emma Tye (University of Strathclyde)
 * Ross Horne (University of Strathclyde)
 * Nachi Valliappan (University of Edinburgh)
@@ -138,7 +137,7 @@ Submission of talk proposals is now closed.
 * Swaraj Dash (Heriot-Watt University)
 
 and some people who prefer not to be listed here.
-(Last updated: 27 November 2025)
+(Last updated: 1 December 2025)
 
 ### COVID Information
 
@@ -156,13 +155,6 @@ and some people who prefer not to be listed here.
 <span>
 Welcome to SPLI
 </span>
-<details>
-<summary>Abstract</summary>
-<p>
-TBD
-
-</p>
-</details>
 </td>
 </tr>
 <tr>
@@ -174,24 +166,14 @@ TBD
 <span>
 How to do a PhD
 </span>
-<details>
-<summary>Abstract</summary>
-<p>
-TBD
-
-</p>
-</details>
 </td>
 </tr>
 <tr>
 <td>
 10:50&mdash;11:20
 </td>
-<td class="author"> </td>
+<td class="author"><span><em>Coffee Break & Mingling</em></span> </td>
 <td class="title">
-<span>
-Coffee Break & Mingling
-</span>
 </td>
 </tr>
 <tr>
@@ -203,13 +185,6 @@ Coffee Break & Mingling
 <span>
 How to review papers
 </span>
-<details>
-<summary>Abstract</summary>
-<p>
-TBD
-
-</p>
-</details>
 </td>
 </tr>
 </table>
@@ -343,11 +318,8 @@ semantics.
 <td>
 14:30&mdash;15:00
 </td>
-<td class="author"> </td>
+<td class="author"><span><em>Coffee Break</em></span></td>
 <td class="title">
-<span>
-Break I
-</span>
 </td>
 </tr>
 <tr>
@@ -422,9 +394,9 @@ metatheoretically, this is not so nice to work with---it is
 not defined ‘algebraically’ in the way MLTT can be, and thus
 is not immediately equipped any models, or initiality of the
 syntax. As a result it is harder to show useful metatheorems
-like canonicity or normalisation.
+like canonicity or normalisation.</p>
 
-In this talk, I will present a different approach to
+<p>In this talk, I will present a different approach to
 computational irrelevance that can be described very concisely
 by a second-order generalised algebraic theory
 (SOGAT). Irrelevance is encoded as a phase distinction in the
@@ -435,9 +407,7 @@ SOGATs, this theory automatically comes with a rich category
 of models, among which the syntax is initial. Other models
 include a 'code extraction' model, as well as MLTT
 itself. Metatheorems are achievable using modern gluing
-techniques.
-
-</p>
+techniques.</p>
 </details>
 </td>
 </tr>
@@ -445,11 +415,8 @@ techniques.
 <td>
 16:00&mdash;16:30
 </td>
-<td class="author"> </td>
+<td class="author"><em>Break</em></span> </td>
 <td class="title">
-<span>
-Break II
-</span>
 </td>
 </tr>
 <tr>
@@ -484,11 +451,9 @@ inference engine by evaluating it on 6 challenging benchmarks,
 ranging from unary and binary natural numbers to linear
 lambda-calculus. We show the performance benefits provided by
 our optimizations in coercing z3 into solving the arithmetic
-constraints in reasonable time.
+constraints in reasonable time.</p>
 
-(Joint work with Ankush Das, to appear at ESOP '26.)
-
-</p>
+<p>(Joint work with Ankush Das, to appear at ESOP '26.)</p>
 </details>
 </td>
 </tr>
