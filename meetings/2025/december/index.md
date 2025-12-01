@@ -270,11 +270,9 @@ Python benchmarks, although we argue this is indicative of
 worst-case overhead on our prototype platform and a realistic
 deployment overhead would be significantly lower. This work
 opens up a new, secure-by-design approach to IoT application
-development.
+development.</p>
 
-(originally presented at CC'25: https://doi.org/10.1145/3708493.3712694)
-
-</p>
+<p>(originally presented at CC'25: <a href="https://doi.org/10.1145/3708493.3712694">https://doi.org/10.1145/3708493.3712694</a>)</p>
 </details>
 </td>
 </tr>
@@ -302,15 +300,13 @@ certain affine relations over finite fields. This offers a
 conceptually motivated and computationally tractable
 alternative to the standard operator-algebraic semantics of
 quantum programs (whose time complexity grows exponentially as
-the state space increases in size).
+the state space increases in size).</p>
 
-I will carefully introduce and motivate the stabiliser
+<p>I will carefully introduce and motivate the stabiliser
 fragment, before demonstrating the resulting semantics by
 describing a small, proof-of-concept assembly language for
 stabiliser programs with fully-abstract denotational
-semantics.
-
-</p>
+semantics.</p>
 </details>
 </td>
 </tr>
@@ -341,17 +337,17 @@ programming languages essentially function as circuit
 description languages. This state of affairs impedes
 scalability, clarity, and support for higher-level
 reasoning. More abstract and expressive quantum programming
-constructs are needed.
+constructs are needed.</p>
 
-To this end, we introduce a simple syntax for generating
+<p>To this end, we introduce a simple syntax for generating
 unitaries from 'just a phase'; we combine a (global) phase
 operation that captures phase shifts with a quantum analogue
 of the `if let`construct that captures subspace selection
 via pattern matching. This minimal language lifts the focus
 from gates to eigen-decomposition, conjugation, and controlled
-unitaries; common building blocks in quantum algorithm design.
+unitaries; common building blocks in quantum algorithm design.</p>
 
-We demonstrate several aspects of the expressive power of our
+<p>We demonstrate several aspects of the expressive power of our
 language in several ways. Firstly, we establish that our
 representation is universal by deriving a universal quantum
 gate set. Secondly, we show that important quantum algorithms
@@ -365,9 +361,7 @@ efficiently translates terms of our language to quantum
 circuits, and prove that it is sound with respect to these
 semantics. Collectively, these contributions show that this
 construct offers a principled and practical step toward more
-abstract and structured quantum programming.
-
-</p>
+abstract and structured quantum programming.</p>
 </details>
 </td>
 </tr>
@@ -415,7 +409,7 @@ techniques.</p>
 <td>
 16:00&mdash;16:30
 </td>
-<td class="author"><em>Break</em></span> </td>
+<td class="author"><span><em>Break</em></span> </td>
 <td class="title">
 </td>
 </tr>
