@@ -40,14 +40,14 @@ SPLS will take place at the
 in central Glasgow.
 Talks will take place in room **TL325** in the *Learning and Teaching Building*
 ([49 Richmond Street](https://maps.app.goo.gl/bReUXWTAfPWAdSSf6)).
-There will be signs directing you from the **main** entrance of the building.
+There will be signs directing you from the main entrance of the building.
 
 Prior to the main programme there will be a catered lunch provided in room **TL328**,
-also in the *Learning and Teaching Building* and opposite where SPLS will take place.
+also in the *Learning and Teaching Building* and across the hall from where SPLS will take place.
 
 Accessibility information for the University of Strathclyde is [available here](https://www.accessable.co.uk/university-of-strathclyde-glasgow/).
 
-We also plan to stream SPLS, using **tbc**.
+We also plan to livestream SPLS on Youtube; a URL will be posted on Zulip and announced here shortly before the start of the seminar.
 
 A special PhD event will be held in the morning, starting at 1000hrs.
 The PhD Event will be held in **LT1414a** in *Livingstone Tower*,
@@ -135,9 +135,11 @@ Submission of talk proposals is now closed.
 * Nicholas Morris (University of Glasgow)
 * Rin Liu (University of Strathclyde)
 * Swaraj Dash (Heriot-Watt University)
+* Samuel Fish (University of Strathclyde)
+* Duncan Guthrie (University of Glasgow)
 
 and some people who prefer not to be listed here.
-(Last updated: 1 December 2025)
+(Last updated: 2 December 2025)
 
 ### COVID Information
 
