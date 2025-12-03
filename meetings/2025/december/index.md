@@ -47,7 +47,11 @@ also in the *Learning and Teaching Building* and across the hall from where SPLS
 
 Accessibility information for the University of Strathclyde is [available here](https://www.accessable.co.uk/university-of-strathclyde-glasgow/).
 
-We also plan to livestream SPLS on Youtube; a URL will be posted on Zulip and announced here shortly before the start of the seminar.
+### Live stream
+
+The seminar is livestreamed on Youtube on the following URL: https://www.youtube.com/watch?v=XH0MRovPOyU .
+
+### PhD event
 
 A special PhD event will be held in the morning, starting at 1000hrs.
 The PhD Event will be held in **LT1414a** in *Livingstone Tower*,
