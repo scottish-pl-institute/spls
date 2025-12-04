@@ -500,4 +500,4 @@ The organising team for this edition of SPLS are:
 
 + Ezra Schoen, Bob Atkey, Jan de Muijnck-Hughes, and Fredrik Nordvall Forsberg
 
-+ **Session Chairs**: tbd
++ **Session Chairs**: Jan de Muijnck-Hughes, Samuel Fish, and Fredrik Nordvall Forsberg
