@@ -49,7 +49,7 @@ Accessibility information for the University of Strathclyde is [available here](
 
 ### Live stream
 
-The seminar is livestreamed on Youtube on the following URL: https://www.youtube.com/watch?v=XH0MRovPOyU .
+The seminar was livestreamed on Youtube.
 
 ### PhD event
 
