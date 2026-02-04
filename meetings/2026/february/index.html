@@ -114,8 +114,8 @@ a:visited{
     <h2>Registration</h2>
     <p>Please fill out the <a href="https://forms.office.com/r/zCjk085Qv2">registration form</a> before 05/02/2026 if you plan to attend in-person. 
     </p>
-    <h2>Contributed talks</h2>
-    If you wish to contribute a presentation at this edition of SPLS, please email a prospective title and an informal summary of your presentation <a href="mailto:bs266@st-andrews.ac.uk">here</a> by 31/01/2026. Please make sure the subject line is of the form <i>&lt;SPLS 02/26 presentation proposal: [title here]&gt;</i>.
+    <!-- <h2>Contributed talks</h2>
+    If you wish to contribute a presentation at this edition of SPLS, please email a prospective title and an informal summary of your presentation <a href="mailto:bs266@st-andrews.ac.uk">here</a> by 31/01/2026. Please make sure the subject line is of the form <i>&lt;SPLS 02/26 presentation proposal: [title here]&gt;</i>. -->
     <h2>Attendance</h2>
     <p> Location TBA</p>
     <!-- <p>
@@ -189,257 +189,126 @@ a:visited{
         <td class="time">12:30 &ndash; 13:30</td>
         <td>Shriram Krishnamurthi (Brown University)</td>
         <td>
-          <a class="talk-title" href="javadcript:toggleAbstract('abstract0')">
-            TBA
+          <a class="talk-title" href="javascript:toggleAbstract('abstract0')">
+            A Programming Language for Lightweight Diagramming
           </a>
           <div id="abstract0" class="talk-abstract">
           <p>
-            TBA            
+            Formal modeling tools such as Alloy enable users to incrementally define, explore, verify, and diagnose specifications for complex systems. A critical component of these tools is a visualizer that lets users graphically explore generated models. However, a default visualizer that knows nothing about the domain can be unhelpful and can even actively violate presentational and cognitive principles. At the other extreme, full-blown custom visualization requires significant effort as well as knowledge that a tool user might not possess. Custom visualizations can also exhibit bad (even silent) failures. The same needs and demands apply to programming languages, which are virtually never accompanied by data structure visualizers.
+            <br>
+            We chart a middle ground between the extremes of default and fully-customizable visualization. We capture essential domain information for lightweight diagramming. To identify key elements of these diagrams, we ground the design in both cognitive science and in a corpus of custom visualizations. We distill from these sources a small set of orthogonal primitives, and use the primitives to guide a diagramming language.
+            <br>
+            We show how to endow the diagramming language with a spatial semantics and prove that it enjoys key properties. We also show how it can be embedded into three very different languages: Python, Rust, and Pyret. We present a novel counterfactual debugging aid for diagramming errors, combining textual and visual output. We evaluate the language and system for expressiveness, performance, and diagnostic quality. We thus define a new point in the design space of diagramming: through a language that is lightweight, effective, and driven by cognitively sound principles.            
           </p>
           </div>
 
         </td>
       </tr>
 
-      <!-- <tr>
-        <td class="time"> 12:45 &ndash; 13:15 </td>
-        <td> Andy Gordon (Cogna Ltd and University of Edinburgh) </td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract0')">
-            Rise of the AI-Empowered End User Software Engineer
-          </a>
-          <div id="abstract0" class="talk-abstract">
-            <p>
-              What if natural language really is the new programming language?
-              Inspired by the transformation of professional software
-              engineering by generative AI, let’s take the next step: empowering
-              end users. We can boost their productivity with hyper-customized
-              software generated from natural language. This challenge needs
-              research right across software engineering: requirements,
-              architecture, coding, testing, verification, repair, and
-              maintenance. My talk will survey current progress and open
-              research questions in this exciting new area of programming
-              language research.
-            </p>
-          </div>
-        </td>
+      <tr class="break">
+        <td> 13:30 &ndash; 14:00 </td>
+        <td colspan=2> Coffee break </td>
       </tr>
 
       <tr>
-        <td class="time"> 13:15 &ndash; 13:45 </td>
-        <td> Ferdia McKeogh (St Andrews) </td>
+        <td class="time">14:00 &ndash; 14:30</td>
+        <td>Zoe Stafford (Oxford University)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract1')">
-            How to Compile a Compiler
+            Holes in elaborating Multimodal Dependent Type Theory
           </a>
           <div id="abstract1" class="talk-abstract">
-            <p>
-              In this talk we present our work thus far on a toolchain for
-              compiling a model of an instruction set architecture (ISA) to a
-              performant dynamic binary translator (DBT) for that architecture.
-              An instruction set architectures (ISA) is the specification of the
-              interface between hardware and software in modern processors.
-              Emulating ISAs allows software for a given architecture to be
-              executed on a host machine with a different architecture. This is
-              useful for running, debugging, and testing such software when
-              hardware for the target architecture is unavailable. Sail is a
-              popular language for describing instruction set architectures
-              (ISAs). Sail models of ISAs can be compiled to produce an emulator
-              for that ISA. Many Sail models for popular architectures already
-              exist; models for Arm architectures can be produced automatically
-              from Arm’s internal specification, and RISC-V uses Sail for their
-              authoritative specification. However, the emulators produced by
-              the Sail compiler are relatively slow and do not take advantage of
-              modern emulation techniques. Faster emulators can be written
-              either by hand or using a different ISA description language, but
-              this requires the slow, labour-intensive, and error-prone process
-              of manually translating from the authoritative specifications into
-              the target language. The proposed solution is to automated this
-              process with a compiler that takes a Sail model as an input, and
-              produces a fast emulator of that architecture, drastically
-              reducing the time cost and improving correctness.
-            </p>
+          <p>
+            TBA            
+          </p>
           </div>
         </td>
       </tr>
-
       <tr>
-        <td class="time"> 13:45 &ndash; 14:15 </td>
-        <td> Ellis Kesterton (St Andrews) </td>
+        <td class="time">14:30 &ndash; 15:00</td>
+        <td>Janis Bailitis (Heriot-Watt University)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract2')">
-            Zero Cost Higher-Order Functions
+            Structural Aspects of Banach Categories
           </a>
           <div id="abstract2" class="talk-abstract">
-            <p>
-              Higher-order functions are the key feature of most functional
-              languages. They enable the programmer to abstract out common
-              algorithmic patterns, resulting in cleaner and more modular code.
-              Unfortunately, higher-order programs are often less efficient than
-              their first-order counterparts due to the creation of closures at
-              run-time. This talk discusses a compile-time program
-              transformation which converts a higher-order program into an
-              equivalent first-order one, through a specialisation technique
-              based on partial evaluation. By adapting the work on
-              Normalisation-by-Evaluation, we derive an efficient, easily
-              verifiable algorithm for performing this transformation.
-            </p>
+          <p>
+            TBA            
+          </p>
           </div>
         </td>
       </tr>
-
-      <tr class="break">
-        <td> 14:15 &ndash; 14:30 </td>
-        <td colspan=2> Coffee break </td>
-      </tr>
-
       <tr>
-        <td class="time"> 14:30 &ndash; 15:00 </td>
-        <td> Meven Lennon-Bertrand (Cambridge) </td>
+        <td class="time">15:00 &ndash; 15:30</td>
+        <td>Vikraman Choudhury (University of Strathclyde)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
-            Definitional Functoriality for Dependent (Sub)Types
+            Semantics of Reversible Concurrency
           </a>
           <div id="abstract3" class="talk-abstract">
-            <p>
-              There are two standard approaches to subtyping. In the subsumptive
-              one, subtyping is implicit and does not appear in program code,
-              while in the coercive one each usage of subtyping has to be
-              explicitly marked with <em>coercions</em>. Users do not want to
-              put coercions in, yet they make the life of the semanticist much
-              easier and cleaner. One can elaborate programs from the
-              subsumptive to the coercive discipline, by adding coercions
-              wherever needed, based on a typing derivation. However, when there
-              are multiple derivations for the same program, these lead to
-              different elaborations. This is tackled by a coherence theorem,
-              which says that any two elaboration of the same program have the
-              same semantics. As usual, the story becomes more complicated with
-              dependent types, where the equational theory of programs appears
-              during typing. In other words, to show that elaboration is
-              type-preserving, we need coherence to hold. Yet, the equations
-              demanded by coherence, which correspond to a form of functoriality
-              of type-formers, do not hold on the nose in vanilla MLTT.
-              Fortunately, this is repairable: I will show how to add these
-              functoriality equations, while keeping all the other good
-              properties, allowing for a type-preserving elaboration.
-            </p>
+          <p>
+            TBA            
+          </p>
           </div>
         </td>
       </tr>
-
-      <tr>
-        <td class="time"> 15:00 &ndash; 15:30 </td>
-        <td> Thomas Hansen (St Andrews) </td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
-            Increasing confidence in Types
-          </a>
-          <div id="abstract4" class="talk-abstract">
-            <p>
-              Dependent types can model and guide the implementation of various
-              systems, with the type checker aiding the programmer and keeping
-              errors out. However, if the typed model of the system is
-              erroneous, the type checker can also, unintentionally, create a
-              false sense of security. We present an example of how this kind of
-              mistake can be subtly hidden, along with work on integrating
-              QuickCheck at the type level, the result being type-driven
-              development with increased confidence that our types are correct.
-            </p>
-          </div>
-        </td>
-      </tr>
-
-
-      <tr>
-        <td class="time"> 15:30 &ndash; 16:00 </td>
-        <td> Constantine Theocharis (St Andrews) </td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
-            Customisable Representation for Logic and Data
-          </a>
-          <div id="abstract5" class="talk-abstract">
-            <p>
-              Functional programming languages with inductive data types provide
-              a convenient framework for the expression of pattern-matching
-              logic over abstract data. However, these data types (e.g. lists,
-              natural numbers) are commonly represented using linked trees in
-              most functional languages. This is not a very performant structure
-              for common operations such as lookup, and can often suffer from
-              cache locality issues. This work explores how the machine
-              representation of an inductive data type can be decoupled from its
-              actual definition, such that it can vary independently of the data
-              type itself. For example, heap-backed arrays can be used for
-              lists, and GMP-style big-integers can be used for natural numbers.
-              The presented system involves a translation process from a
-              high-level source language with inductive definitions, to a
-              low-level language with memory primitives such as heap boxes and
-              contiguous sequences. Data type representations are user-provided
-              and required for each data type (with fallback to linked trees).
-              The translation process operates on an intermediate representation
-              of data types which can perform non-trivial collapsing of
-              constructor chains into the target representation. During the
-              translation, specialised user-provided functions operating on a
-              specific representation of a data type can also be used in place
-              of their generalised counterparts (for example, specialising
-              <code>length</code> for heap-backed arrays). A categorical model
-              of the process is developed, and some basic meta-theoretic
-              properties of the translation are explored.
-            </p>
-          </div>
-        </td>
-      </tr>
-
       <tr class="break">
-        <td> 16:00 &ndash; 16:30 </td>
+        <td> 15:30 &ndash; 16:00 </td>
         <td colspan=2> Coffee break </td>
       </tr>
-
+            <tr>
+        <td class="time">16:00 &ndash; 16:30</td>
+        <td>Anton Lorenzen (University of Edinburgh)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
+            Persistent Amortized Analysis, Operationally
+          </a>
+          <div id="abstract4" class="talk-abstract">
+          <p>
+            Amortized analysis is a technique for proving a combined time bound for a batch of operations on a data structure, even if some of those operations are expensive.
+            <br>
+            But the traditional method of amortized analysis yields wrong time bounds when the data structure is used persistently.
+            Persistence allows operations to be performed on previous versions of the data structure, which prevents amortization of expensive restructuring work. 
+            <br>
+            In his seminal work, Chris Okasaki showed how to extend amortized analysis to persistent usage. His method works by storing debits on thunks. However, Okasaki describes his approach only informally, which makes it hard to understand precisely when and why it works.
+            <br>
+            In my talk, I'll give a formal definition of persistence and show that traditional amortized analysis is not persistent. Then I show that it is possible to perform amortized analysis by storing credits on thunks and that this is persistent.
+          </p>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td class="time">16:30 &ndash; 17:00</td>
+        <td>Christopher Brown (University of St Andrews)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
+            East of Eden: Parallel Functional Programming in Idris
+          </a>
+          <div id="abstract5" class="talk-abstract">
+          <p>
+            There have been various different attempts to introduce parallel programming models into functional languages, from very implicit approaches, such as the par and pseq model exhibited by GpH, to semi-explicit process models exhibited by the Haskell implementation, Eden, to very explicit actor-based models that use message passing and explicit process creation, such as Erlang. Implicit vs. explicit parallel models introduce important trade-offs to programmers. Explicit models give more control over the parallelism, but require much more low-level management (and often more expertise from the programmer); implicit approaches give less control over the parallelism (and therefore often require less parallel expertise) but offer more reasoning opportunities. However, to date, there has been little exploration to introduce implicit parallelism approaches to an emerging class of dependently typed programming languages.
+            <br>
+            Dependently typed programming languages, such as Idris, Lean, Agda and Coq, allow programmers to encode specifications of their programs as specialised types that depend on values. This value dependence means that the types express logical relations and the programs provide proof obligations that the relations hold. With the exception of pi-par, an extension to Idris with explicit process creation and message passing, there are little to no parallel dependently-typed languages that offer implicit parallel models to the programmer.
+            <br>
+            In this talk I introduce a semi-implicit programming model, similar to Eden for Haskell, by extending Idris with a dependently-typed process abstraction. This semi-implicit process model means that processes can be explicitly created, but low-level details, such as communication, synchronisation and scheduling is abstracted away by the runtime. Furthermore, our process model is enhanced by making use of dependent types to allow some of the parallel behaviour to be exposed to the programmer at the type level. In turn, this enables further typing abstractions that describe common parallel patterns and skeletons.            
+          </p>
+          </div>
+        </td>
+      </tr>
       <tr>
-        <td class="time"> 16:30 &ndash; 17:00 </td>
-        <td> Simon Gay (Glasgow) </td>
+        <td class="time">17:00 &ndash; 17:30</td>
+        <td>TBA</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
-            Trains and Types
+            TBA
           </a>
           <div id="abstract6" class="talk-abstract">
-            <p>
-              The problem of drawing diagrams of model train layouts gives an
-              elementary example of (1) an embedded domain-specific language and
-              (2) dependent types.
-            </p>
+          <p>
+            TBA            
+          </p>
           </div>
         </td>
       </tr>
-
-      <tr>
-        <td class="time"> 17:00 &ndash; 17:30 </td>
-        <td> Kengo Hirata (Edinburgh) </td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract7')">
-            Quantum Uncomputation as Garbage Collection
-          </a>
-          <div id="abstract7" class="talk-abstract">
-            <p>
-              In this talk, I aim to introduce my ongoing research in my PhD
-              program. In quantum programming languages, the qubit type must be
-              handled linearly, which can sometimes be cumbersome. One technique
-              to make it look like affine type is 'automatic uncomputation'. In
-              this talk, I would like to explain that uncomputation functions as
-              garbage collection in quantum programming languages. Additionally,
-              I will discuss what ideal frameworks should look like and how a
-              language should be designed.
-            </p>
-          </div>
-        </td>
-      </tr>
-
-    -->
-
-      <tr class="break">
-          <td>12:45-17:30</td>
-          <td colspan=2> TBA </td>
-      </tr>
-
       <tr class="break">
         <td> 17:30 &ndash; late </td>
         <td colspan=2> Pub </td>
