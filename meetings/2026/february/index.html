@@ -118,7 +118,8 @@ a:visited{
     If you wish to contribute a presentation at this edition of SPLS, please email a prospective title and an informal summary of your presentation <a href="mailto:bs266@st-andrews.ac.uk">here</a> by 31/01/2026. Please make sure the subject line is of the form <i>&lt;SPLS 02/26 presentation proposal: [title here]&gt;</i>. -->
     <h2>Attendance</h2>
     <p>The <a href="https://www.st-andrews.ac.uk/visiting/travel/">University website</a> has travel information on getting to St Andrews.</p>
-    <p> Location TBA</p>
+    <p> The talks will be held on the North Haugh, in the <a href="https://www.st-andrews.ac.uk/roomBookingView/index/209-A_01_12">Purdie</a> Building, lecture theatre D. </p>
+
     <!-- <p>
       The talks will be held on the North Haugh, in the Willie Russell Building,
       lecture theatre C.
@@ -210,9 +211,26 @@ a:visited{
         <td> 13:30 &ndash; 14:00 </td>
         <td colspan=2> Coffee break </td>
       </tr>
-
       <tr>
         <td class="time">14:00 &ndash; 14:30</td>
+        <td>Janis Bailitis (Heriot-Watt University)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract2')">
+            Structural Aspects of Banach Categories
+          </a>
+          <div id="abstract2" class="talk-abstract">
+          <p>
+          Probabilistic programming languages (PPLs) are a useful tool for statistical modelling, and semantics of PPLs are a highly active field of research. In the literature, two main approaches to give semantics to PPLs have emerged: Semantics based on categories of linear operators and semantics based on categories of Markov kernels, where a Markov kernel is a generalisation of a stochastic matrix. Both approaches have its strengths and weaknesses, and its weaknesses are  complementary. Addressing these weaknesses is, traditionally, both  highly technical and subtle. <br>  
+          Recent advance has been achieved by Azevedo de Amorim who defines a  two-level calculus nicely combining both types of PPLs: One level can  be interpreted by categories of linear operators and the other one  using categories of Markov kernels, while a modality mediates between  both levels, which is interpreted by a lax monoidal functor. We  introduce the term Banach category to refer to models of this calculus.<br>   
+          Azevedo de Amorim's PPL has already been applied in the literature,  but the theory of Banach categories remains underdeveloped, an issue  we address in this work: Azevedo de Amorim points out that the  semantics of his calculus behave even better when the lax monoidal  functor is full, motivating us to prove our main theorem: Subject to  certain conditions, for any Banach category, one can find another Banach category - its fullification - such that the lax monoidal functor of the fullification is full and the original Banach category  and its fullification are related in a nice way. <br>
+          This is joint work with Pedro H. Azevedo de Amorim (Universities of  Bath and Oxford) and Ruben van Belle (University of Oxford).
+          </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">14:30 &ndash; 15:00</td>
         <td>Zoe Stafford (Oxford University)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract1')">
@@ -225,30 +243,16 @@ a:visited{
           </div>
         </td>
       </tr>
-      <tr>
-        <td class="time">14:30 &ndash; 15:00</td>
-        <td>Janis Bailitis (Heriot-Watt University)</td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract2')">
-            Structural Aspects of Banach Categories
-          </a>
-          <div id="abstract2" class="talk-abstract">
-          <p>
-            TBA            
-          </p>
-          </div>
-        </td>
-      </tr>
-      <tr>
+            <tr>
         <td class="time">15:00 &ndash; 15:30</td>
-        <td>Vikraman Choudhury (University of Strathclyde)</td>
+        <td>Greg Brown (University of Edinburgh)</td>
         <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
-            Semantics of Reversible Concurrency
+          <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
+            A Dependent Language with Type-Safe Program Extraction
           </a>
-          <div id="abstract3" class="talk-abstract">
+          <div id="abstract6" class="talk-abstract">
           <p>
-            TBA            
+            Program extraction for dependently-typed languages such as Rocq often requires unsafe type casts. In this work I present some early ideas on a language called Extractly. To remove type-casts from extracted Extractly programs, we forbid large elimination of data types and rely on indexed data types (GADTs). Whilst nothing has yet been formalised, I present a "recipe" for removing large elimination which works for all examples I have found. This includes a metacircular interpreter for the simply-typed lambda calculus.            
           </p>
           </div>
         </td>
@@ -278,8 +282,22 @@ a:visited{
           </div>
         </td>
       </tr>
-            <tr>
+      <tr>
         <td class="time">16:30 &ndash; 17:00</td>
+        <td>Vikraman Choudhury (University of Strathclyde)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
+            Semantics of Reversible Concurrency
+          </a>
+          <div id="abstract3" class="talk-abstract">
+          <p>
+            The talk is going to be about a new semantics of reversible concurrency that I developed with my collaborator during a postdoctoral fellowship in Italy, over the last 2 years. It uses the mathematical framework of event structures, and develops a notion of reversibility on top of them, to explain how to run a concurrent process backwards in time, while maintaining causal-consistency. This is useful if you want to debug a concurrent system and inspect its execution. The details of the talk are theoretical and perhaps too technical, but I have some nice examples in mind, and will try to make it pedagogical and accessible to a wider PL audience.            
+          </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">17:00 &ndash; 17:30</td>
         <td>Christopher Brown (University of St Andrews)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
@@ -296,28 +314,67 @@ a:visited{
           </div>
         </td>
       </tr>
-      <tr>
-        <td class="time">17:00 &ndash; 17:30</td>
-        <td>TBA</td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract6')">
-            TBA
-          </a>
-          <div id="abstract6" class="talk-abstract">
-          <p>
-            TBA            
-          </p>
-          </div>
-        </td>
-      </tr>
       <tr class="break">
         <td> 17:30 &ndash; late </td>
-        <td colspan=2> Pub </td>
+        <td colspan=2> Dinner & pub: <a href=https://www.standrewsbrewingcompany.com/venues/st-andrews-south-street">St Andrews Brewing Company</a> </td>
       </tr>
       
     </table>
   </section>
-
+    
+  <section>
+    <h2>Attendees</h2>
+    Alex Rice <i>(University of Edinburgh)</i><br>
+    Amy Yin <i>(University of Edinburgh)</i><br>
+    Anton Lorenzen <i>(University of Edinburgh)</i><br>
+    Bhakti Shah <i>(University of St Andrews)</i><br>
+    Brian Campbell <i>(LFCS, University of Edinburgh)</i><br>
+    Christian Urlea <i>(University of Glasgow)</i><br>
+    Christopher Brown <i>(St Andrews)</i><br>
+    Conor Mc Bride <i>(Strathclyde)</i><br>
+    Constantine Theocharis <i>(University of St Andrews)</i><br>
+    Craig Ramsay<br>
+    Cristina Matache <i>(University of Edinburgh)</i><br>
+    Dominik Leichtle <i>(University of Edinburgh)</i><br>
+    Edwin Brady <i>(University of St Andrews)</i><br>
+    Emma Tye <i>(University of Strathclyde)</i><br>
+    Greg Brown <i>(University of Edinburgh)</i><br>
+    J. Ryan Stinnett <i>(King's College London)</i><br>
+    Jacob Walters <i>(University of Edinburgh)</i><br>
+    Jake Trevor <i>(University of Glasgow)</i><br>
+    Jan de Muijnck-Hughes <i>(University of Strathclyde )</i><br>
+    Janis Bailitis <i>(Heriot-Watt University, Edinburgh)</i><br>
+    Kathrin Stark <i>(Heriot-Watt University)</i><br>
+    Kengo Hirata <i>(University of Edinburgh)</i><br>
+    Kenneth MacKenzie <i>(IOG)</i><br>
+    Kim Worrall <i>(LFCS, University of Edinburgh)</i><br>
+    Laura Voinea <i>(University of Glasgow)</i><br>
+    Louis Lemonnier <i>(University of Edinburgh)</i><br>
+    Malin Altenmüller <i>(University of Edinburgh)</i><br>
+    Mathews George <i>(Heriot-Watt University)</i><br>
+    Matthew Alan Le Brun <i>(University of Glasgow)</i><br>
+    Nachi Valliappan <i>(University of Edinburgh)</i><br>
+    Ohad Kammar <i>(University of Edinburgh)</i><br>
+    Olivia Weston <i>(University of Glasgow)</i><br>
+    Omer Keskin <i>(Edinburgh Uni)</i><br>
+    Orpheas van Rooij <i>(University of Edinburgh)</i><br>
+    Owen Lynch <i>(Oxford University)</i><br>
+    Philippa Cowderoy<br>
+    Rin Liu <i>(Strathclyde MSP)</i><br>
+    Rob Stewart <i>(Heriot-Watt University)</i><br>
+    Robert Atkey <i>(University of Strathclyde)</i><br>
+    Robert Wright <i>(The University of Edinburgh)</i><br>
+    Sam Lindley <i>(The University of Edinburgh)</i><br>
+    Sean Moss <i>(University of Birmingham)</i><br>
+    Shriram Krishnamurthi <i>(Brown University)</i><br>
+    Swaraj Dash <i>(Heriot-Watt University)</i><br>
+    Thomas E. Hansen <i>(University of St Andrews)</i><br>
+    Toby Ueno <i>(University of Edinburgh)</i><br>
+    Vikraman Choudhury <i>(University of Strathclyde)</i><br>
+    Wenhao Tang <i>(The University of Edinburgh)</i><br>
+    Yukang Xie <i>(Heriot-Watt University)</i><br>
+    Zoe Stafford <i>(Oxford University)</i><br>
+</section>
   <section>
     <h3>Organisers</h3>
       General information about SPLS is available from the
