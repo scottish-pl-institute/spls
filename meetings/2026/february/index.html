@@ -261,8 +261,26 @@ a:visited{
         <td> 15:30 &ndash; 16:00 </td>
         <td colspan=2> Coffee break </td>
       </tr>
-            <tr>
+      <tr>
         <td class="time">16:00 &ndash; 16:30</td>
+        <td>Christopher Brown (University of St Andrews)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
+            East of Eden: Parallel Functional Programming in Idris
+          </a>
+          <div id="abstract5" class="talk-abstract">
+          <p>
+            There have been various different attempts to introduce parallel programming models into functional languages, from very implicit approaches, such as the par and pseq model exhibited by GpH, to semi-explicit process models exhibited by the Haskell implementation, Eden, to very explicit actor-based models that use message passing and explicit process creation, such as Erlang. Implicit vs. explicit parallel models introduce important trade-offs to programmers. Explicit models give more control over the parallelism, but require much more low-level management (and often more expertise from the programmer); implicit approaches give less control over the parallelism (and therefore often require less parallel expertise) but offer more reasoning opportunities. However, to date, there has been little exploration to introduce implicit parallelism approaches to an emerging class of dependently typed programming languages.
+            <br>
+            Dependently typed programming languages, such as Idris, Lean, Agda and Coq, allow programmers to encode specifications of their programs as specialised types that depend on values. This value dependence means that the types express logical relations and the programs provide proof obligations that the relations hold. With the exception of pi-par, an extension to Idris with explicit process creation and message passing, there are little to no parallel dependently-typed languages that offer implicit parallel models to the programmer.
+            <br>
+            In this talk I introduce a semi-implicit programming model, similar to Eden for Haskell, by extending Idris with a dependently-typed process abstraction. This semi-implicit process model means that processes can be explicitly created, but low-level details, such as communication, synchronisation and scheduling is abstracted away by the runtime. Furthermore, our process model is enhanced by making use of dependent types to allow some of the parallel behaviour to be exposed to the programmer at the type level. In turn, this enables further typing abstractions that describe common parallel patterns and skeletons.            
+          </p>
+          </div>
+        </td>
+      </tr>
+        <tr>
+        <td class="time">16:30 &ndash; 17:00</td>
         <td>Anton Lorenzen (University of Edinburgh)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
@@ -283,7 +301,7 @@ a:visited{
         </td>
       </tr>
       <tr>
-        <td class="time">16:30 &ndash; 17:00</td>
+        <td class="time">17:00 &ndash; 17:30</td>
         <td>Vikraman Choudhury (University of Strathclyde)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
@@ -296,24 +314,7 @@ a:visited{
           </div>
         </td>
       </tr>
-      <tr>
-        <td class="time">17:00 &ndash; 17:30</td>
-        <td>Christopher Brown (University of St Andrews)</td>
-        <td>
-          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
-            East of Eden: Parallel Functional Programming in Idris
-          </a>
-          <div id="abstract5" class="talk-abstract">
-          <p>
-            There have been various different attempts to introduce parallel programming models into functional languages, from very implicit approaches, such as the par and pseq model exhibited by GpH, to semi-explicit process models exhibited by the Haskell implementation, Eden, to very explicit actor-based models that use message passing and explicit process creation, such as Erlang. Implicit vs. explicit parallel models introduce important trade-offs to programmers. Explicit models give more control over the parallelism, but require much more low-level management (and often more expertise from the programmer); implicit approaches give less control over the parallelism (and therefore often require less parallel expertise) but offer more reasoning opportunities. However, to date, there has been little exploration to introduce implicit parallelism approaches to an emerging class of dependently typed programming languages.
-            <br>
-            Dependently typed programming languages, such as Idris, Lean, Agda and Coq, allow programmers to encode specifications of their programs as specialised types that depend on values. This value dependence means that the types express logical relations and the programs provide proof obligations that the relations hold. With the exception of pi-par, an extension to Idris with explicit process creation and message passing, there are little to no parallel dependently-typed languages that offer implicit parallel models to the programmer.
-            <br>
-            In this talk I introduce a semi-implicit programming model, similar to Eden for Haskell, by extending Idris with a dependently-typed process abstraction. This semi-implicit process model means that processes can be explicitly created, but low-level details, such as communication, synchronisation and scheduling is abstracted away by the runtime. Furthermore, our process model is enhanced by making use of dependent types to allow some of the parallel behaviour to be exposed to the programmer at the type level. In turn, this enables further typing abstractions that describe common parallel patterns and skeletons.            
-          </p>
-          </div>
-        </td>
-      </tr>
+      
       <tr class="break">
         <td> 17:30 &ndash; late </td>
         <td colspan=2> Dinner & pub: <a href="https://www.standrewsbrewingcompany.com/venues/st-andrews-south-street">St Andrews Brewing Company</a> </td>
