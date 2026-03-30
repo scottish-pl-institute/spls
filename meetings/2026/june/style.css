@@ -1,45 +1,42 @@
+/* Some custom styling for certain elements */
 
+.time {
+    vertical-align: top;
+}
 
-    /* Some custom styling for certain elements */
+/* grey background for breaks */
+.break {
+    background: #fbfffd;
+}
 
-    .time {
-        vertical-align: top;
-    }
+.talk-title {
+    text-decoration: underline;
+}
 
-    /* grey background for breaks */
-    .break {
-        background: #fbfffd;
-    }
+.talk-abstract {
+    display: none;
+}
 
-    .talk-title {
-        text-decoration: underline;
-    }
+td, th {
+    vertical-align: top;
+}
 
-    .talk-abstract {
-        display: none;
-    }
+a:link {
+    color: rgb(0, 114, 136);
+    background-color: transparent;
+    text-decoration: none;
+}
 
-    td,
-    th {
-        vertical-align: top;
-    }
+a:visited {
+    color: rgb(131, 0, 101);
+    background-color: transparent;
+    text-decoration: none;
+}
 
-    a:link {
-        color: rgb(0, 114, 136);
-        background-color: transparent;
-        text-decoration: none;
-    }
+h2 {
+    color: #041E42;
+}
 
-    a:visited {
-        color: rgb(131, 0, 101);
-        background-color: transparent;
-        text-decoration: none;
-    }
-
-    h2 {
-        color: #041E42;
-    }
-
-    h3 {
-        color: #487A7B
-    }
+h3 {
+    color: #487A7B
+}
