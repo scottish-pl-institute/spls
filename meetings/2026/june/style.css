@@ -1,0 +1,42 @@
+/* Some custom styling for certain elements */
+
+.time {
+    vertical-align: top;
+}
+
+/* grey background for breaks */
+.break {
+    background: #fbfffd;
+}
+
+.talk-title {
+    text-decoration: underline;
+}
+
+.talk-abstract {
+    display: none;
+}
+
+td, th {
+    vertical-align: top;
+}
+
+a:link {
+    color: rgb(0, 114, 136);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(131, 0, 101);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    color: #041E42;
+}
+
+h3 {
+    color: #487A7B
+}
