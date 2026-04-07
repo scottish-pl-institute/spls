@@ -18,7 +18,7 @@ The SPLS Zulip operates under the following [Code of Conduct](CONDUCT).
 
 ## Forthcoming SPLS Meeting
 
-+ [Wednesday, 11th February, 2026, University of St Andrews](meetings/2026/february/)
++ [Wednesday, 10th June 2026, The University of Edinburgh](meetings/2026/june/)
 
 ## Support from SICSA
 
@@ -56,8 +56,8 @@ If you normally have an automatic signature at the end of your email, please put
 
 ## Previous SPLS Meetings
 
-+ [Wedneday, 11th February 2026, University of Strathclyde](meetings/2026/february/)
-+ [Wedneday, 3rd December 2025, University of Strathclyde](meetings/2025/december/)
++ [Wednesday, 11th February 2026, University of St Andrews](meetings/2026/february/)
++ [Wednesday, 3rd December 2025, University of Strathclyde](meetings/2025/december/)
 + [Wednesday, 4th June 2025, Heriot-Watt University](meetings/2025/june/)
 + [Wednesday, 5th March 2025, University of Stirling](meetings/2025/march/)
 + [Wednesday, 6th November 2024, University of Glasgow](meetings/2024/november/)
