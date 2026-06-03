@@ -46,17 +46,141 @@
         <section>
             <h3>Registration</h3>
             Please <a href = https://docs.google.com/forms/d/e/1FAIpQLSfvBvwthS_nriNQt7IPHawPnBtJ6mVYStemcgcWuNQmBwwmfQ/viewform >register with this form</a> by <b>03/06/2026</b>.
-            <br>
-            If you would be interested in giving a talk, please email a prospective talk title and a short, informal summary of the talk to
-            kim.worrall@ed.ac.uk and alex.rice@ed.ac.uk by <b>27/05/2026</b>. Please make sure the subject line is of the form &lt;SPLS 06/26
-            presentation proposal: [title here]&gt;. Final titles and abstracts can be submitted closer to the event.
         </section>
 
-        <section>
-            <h3>Attendees</h3>
-            Alex Rice <i>(The University of Edinburgh)</i><br>
-            Kim Worrall <i>(The University of Edinburgh)</i><br>
-        </section>
+	<section>
+	  <h3>Schedule</h3>
+	  <table>
+      <tr>
+        <th style="width:12%">Time</th>
+        <th style="width:28%">Speaker</th>
+        <th style="width:60%">Title</th>
+      </tr>
+
+      <tr class="break">
+        <td> 12:00 &ndash; 13:00 </td>
+        <td colspan=2> Lunch </td>
+      </tr>
+
+      <tr>
+        <td class="time">13:00 &ndash; 13:30</td>
+        <td>Bob Atkey<br>(University of Strathclyde)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract0')">
+            Provenance Tracking as a kind of Automatic Differentiation
+          </a>
+          <div id="abstract0" class="talk-abstract">
+          <p>
+            Abstract TBC
+          </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">13:30 &ndash; 14:00</td>
+        <td>Zoey Shepherd<br>(The University of Edinburgh)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract1')">
+            NSynC: Normalised Synthesis of Computation
+          </a>
+          <div id="abstract1" class="talk-abstract">
+          <p>
+            Inductive program synthesis algorithms search a space of programs to find one that meets some specification. Enumerating syntax of the target language leads to a very large search space due to the presence of semantic duplicates. Constructing and checking these duplicates is time-consuming for no benefit: we propose enumerating semantics, instead of syntax, so that each object constructed is meaningful. We present NSynC, a proof of concept for our synthesis-by-semantics approach, which searches normal forms of the simply-typed lambda calculus with sums.
+          </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="break">
+        <td> 14:00 &ndash; 14:30 </td>
+        <td colspan=2> Coffee break </td>
+      </tr>
+
+      <tr>
+        <td class="time">14:30 &ndash; 15:00</td>
+        <td>Kengo Hirata<br>(The University of Edinburgh)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract2')">
+            1 + 1 is not equal to 2, linearly
+          </a>
+          <div id="abstract2" class="talk-abstract">
+          <p>
+            Indefinite causal order is a characteristic phenomenon in quantum computation, with examples including the quantum SWITCH
+ and the OCB process. Not all such processes are believed to be physically realizable: while some implementations of the quantum SWITCH have been proposed, the OCB process is suspected to be unrealizable. This difference in realizability is commonly attributed
+ to constraints imposed by physical causality. This talk studies such a causality issue in a higher-order setting, proposing a typed lambda calculus with quantum control and its categorical semantics. Our calculus extends pure quantum computation with higher-order
+ functions and quantum conditional branching, and it is equipped with a type system based on intuitionistic BV logic to enforce causality. We also present a novel model that is closely related to the Caus construction, by which we prove that some physically-unrealizable
+	    processes are not definable in our language.
+	    <br>
+	    This talk is based on the talk accepted to LICS.
+          </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">15:00 &ndash; 15:30</td>
+        <td>Ezra Schoen<br>(University of Strathclyde)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract3')">
+            Proof-relevant Kripke semantics for the modal μ-calculus
+          </a>
+          <div id="abstract3" class="talk-abstract">
+          <p>
+            The modal μ-calculus is the logic obtained by adding least and greatest fixed-point quantifiers to modal logic. In this talk, we present an ongoing project on formalising a variant of the modal μ-calculus inside Agda. We use the machinery of indexed containers to handle the fixed points. The result is a proof-relevant, constructive Kripke semantics, where the semantics of a formula P assigns to a world w a "type of witnesses" that P holds at w.
+	    <br>
+	    This semantics is as of yet only defined for the strictly positive fragment of μML (i.e., the fragment without negation and implication); we're still working on adding the missing connectives, and we'll discuss some possible directions for incorporating implication.
+          </p>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="break">
+        <td> 15:30 &ndash; 16:00 </td>
+        <td colspan=2> Coffee break </td>
+      </tr>
+
+      <tr>
+        <td class="time">16:00 &ndash; 16:30</td>
+        <td>Jakub Bachurski<br>(Jane Street)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
+            Metaprogramming without time travel in Ocaml
+          </a>
+          <div id="abstract4" class="talk-abstract">
+          <p>
+            Abstract TBC
+          </p>
+          </div>
+        </td>
+      </tr>
+        <tr>
+        <td class="time">16:30 &ndash; 17:00</td>
+        <td>Ricardo Almeida<br>(University of Glasgow)</td>
+        <td>
+          <a class="talk-title" href="javascript:toggleAbstract('abstract5')">
+            How to Compute the Intersection of Two Commutative Regular Expressions? A Certified Solver
+Based on Systems of Linear Diophantine Equations.
+          </a>
+          <div id="abstract5" class="talk-abstract">
+          <p>
+            Commutative regular expressions describe sets of unordered words, and are used, for example,
+	    when building type systems for process calculi. In these applications, an important operation is
+	    finding the intersection of two expressions, but no algorithm existed in the literature yet.
+	    In this talk I will present the algorithm we recently proposed and formalised in Rocq, where
+	    we encode the intersection of two expressions as systems of linear Diophantine equations,
+	    and extract from their solution an intersection expression.
+	    <br>
+	    I will also present an experimental evaluation of the OCaml-extracted solver using
+	    >50,000 random generated regular expressions.
+	    <br>
+	    This talk will be based on our paper that was recently accepted at ITP (FLoC 2026).
+          </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+	</section>
         <section>
             <h3>Organisers</h3>
             General information about SPLS is available from the
