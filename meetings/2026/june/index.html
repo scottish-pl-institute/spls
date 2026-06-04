@@ -135,6 +135,7 @@
  functions and quantum conditional branching, and it is equipped with a type system based on intuitionistic BV logic to enforce causality. We also present a novel model that is closely related to the Caus construction, by which we prove that some physically-unrealizable
 	    processes are not definable in our language.
 	    <br>
+	    <br>
 	    This talk is based on the talk accepted to LICS.
           </p>
           </div>
@@ -152,6 +153,7 @@
           <p>
             The modal μ-calculus is the logic obtained by adding least and greatest fixed-point quantifiers to modal logic. In this talk, we present an ongoing project on formalising a variant of the modal μ-calculus inside Agda. We use the machinery of indexed containers to handle the fixed points. The result is a proof-relevant, constructive Kripke semantics, where the semantics of a formula P assigns to a world w a "type of witnesses" that P holds at w.
 	    <br>
+	    <br>
 	    This semantics is as of yet only defined for the strictly positive fragment of μML (i.e., the fragment without negation and implication); we're still working on adding the missing connectives, and we'll discuss some possible directions for incorporating implication.
           </p>
           </div>
@@ -168,11 +170,17 @@
         <td>Jakub Bachurski<br>(Jane Street)</td>
         <td>
           <a class="talk-title" href="javascript:toggleAbstract('abstract4')">
-            Metaprogramming without time travel in Ocaml
+            Metaprogramming without time travel in OxCaml
           </a>
           <div id="abstract4" class="talk-abstract">
           <p>
-            Abstract TBC
+	    Metaprograms are programs that generate programs. <em>Staging</em> is a well-known approach to metaprogramming that revolves around <em>stage annotations</em>, which separate the generator from the generated program. Using staging, we can both make compiler optimisations explicit and predictable (e.g. inlining), and enable entirely new optimisation techniques (e.g. runtime specialisation). Staging has been successfully implemented in practical functional languages by projects like MetaOCaml and MacoCaml.
+	    <br>
+	    <br>
+	    One rightfully expects that <em>well-typed metaprograms don't go wrong</em>. Staging in a pure language with a Hindley-Milner type system features works out well: <em>well-typed metaprograms generate well-typed programs</em>. Unfortunately, OCaml’s combination of side effects and advanced type system features (like generalised algebraic datatypes and first-class modules) breaks down the soundness of obvious staging designs. The key issue is the unsound traversal of type information between stages.
+	    <br>
+	    <br>
+	    In this talk, I will present ongoing work on a sound design of staging in our OCaml dialect — <em>OxCaml</em>. Taking inspiration from Kovacs, we expand stage annotations to not just expressions, but also types. Likewise, we sketch the staging of kinds and modes, painting a full picture of staging OxCaml with all its features.
           </p>
           </div>
         </td>
@@ -194,8 +202,10 @@ Based on Systems of Linear Diophantine Equations.
 	    we encode the intersection of two expressions as systems of linear Diophantine equations,
 	    and extract from their solution an intersection expression.
 	    <br>
+	    <br>
 	    I will also present an experimental evaluation of the OCaml-extracted solver using
 	    >50,000 random generated regular expressions.
+	    <br>
 	    <br>
 	    This talk will be based on our paper that was recently accepted at ITP (FLoC 2026).
           </p>
