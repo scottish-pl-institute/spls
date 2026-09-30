@@ -18,7 +18,7 @@ The SPLS Zulip operates under the following [Code of Conduct](CONDUCT).
 
 ## Forthcoming SPLS Meeting
 
-+ University of Glasgow
++ [November 2026, University of Glasgow](meetings/2026/november)
 
 ## Support from SICSA
 
