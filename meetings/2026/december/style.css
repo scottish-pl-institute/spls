@@ -3,6 +3,12 @@
 table {
     text-align: left;
     width:100%;
+    /* fixed layout so expanding an abstract doesn't resize the columns */
+    table-layout: fixed;
+}
+
+td.author {
+    width: 30%;
 }
 
 .time {
