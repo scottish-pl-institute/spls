@@ -12,14 +12,13 @@
 
     <link rel="stylesheet" href="style.css" />
     <script>
-      function toggleAbstract(id) {
-        var e = document.getElementById(id);
-        s = getComputedStyle(e, null).display;
-        if (s === "none") {
-          e.style.display = "block";
-        } else {
-          e.style.display = "none";
-        }
+      function showAbstract(name) {
+        document.getElementById(name + "/abstract").style.display = "block";
+        document.getElementById(name + "/button").style.display = "none";
+      }
+      function hideAbstract(name) {
+        document.getElementById(name + "/button").style.display = "block";
+        document.getElementById(name + "/abstract").style.display = "none";
       }
     </script>
   </head>
@@ -102,7 +101,234 @@
 
     <section>
       <h3>Schedule</h3>
-      TBA
+
+      <h4>12:00 &mdash; 13:00 &nbsp;&nbsp; LUNCH</h4>
+
+      <h4>13:00 &mdash; 14:00 &nbsp;&nbsp; SESSION 1</h4>
+      <table>
+        <tr>
+          <td class="author">Cass Alexandru<br />(RPTU Kaiserslautern)</td>
+          <td class="title">
+            <span
+              >Intrinsically correct & total functional programming using
+              locally contractive functors</span
+            >
+            <div class="abstract" id="Cass/button">
+              <button onclick="showAbstract('Cass')">Abstract</button>
+            </div>
+            <div class="abstract" id="Cass/abstract" style="display: none">
+              <button onclick="hideAbstract('Cass')">Hide Abstract</button>
+              <p>
+                The definition of recursive algorithms in verified total
+                functional programming engenders two proof obligations: partial
+                correctness and termination. Often, partial correctness
+                properties already entail facts from which termination follows.
+                We exploit such cases through a novel way to define recursive
+                algorithms such that they are intrinsically correct and
+                terminating. Following the paradigm of structured recursion
+                (Hinze et al. POPL 2015), we separate the recursion behavior of
+                divide-and-conquer algorithms from their recursive steps, which
+                can be expressed categorically as (co)algebras for a functor. We
+                give conditions under which functors for intrinsically correct
+                algorithms are locally contractive (Birkedal et al. LMCS 2012),
+                and show how termination of algorithms for such functors holds
+                intrinsically.
+              </p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="author">Samuel Fish<br />(University of Strathclyde)</td>
+          <td class="title">
+            <span>Snoc Trees: Growing Trees From the Leaves</span>
+            <div class="abstract" id="Samuel/button">
+              <button onclick="showAbstract('Samuel')">Abstract</button>
+            </div>
+            <div class="abstract" id="Samuel/abstract" style="display: none">
+              <button onclick="hideAbstract('Samuel')">Hide Abstract</button>
+              <p>
+                Snoc-lists are reverse lists where new elements are filled in
+                from the back of the list, rather than from the front. When
+                lifting sampling of a probability distribution from a type to
+                lists over that type, we naturally encounter the need for
+                snoc-lists as accumulators. We introduce snoc-trees as a
+                generalisation of snoc-lists, we present their associated fold
+                rule via an initial algebra formalisation, and we show their use
+                via the lifting of a sampling algorithm to more general
+                inductive types. <br />Joint work with Fredrik Nordvall Forsberg
+                and Neil Ghani.
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <h4>14:00 &mdash; 14:30 &nbsp;&nbsp; COFFEE</h4>
+
+      <h4>14:30 &mdash; 16:00 &nbsp;&nbsp; SESSION 2</h4>
+      <table>
+        <tr>
+          <td class="author">
+            Kashish Raimalani<br />(University of Edinburgh)
+          </td>
+          <td class="title">
+            <span>Modal Effects as Implicit Effect Polymorphism</span>
+            <div class="abstract" id="Kashish/button">
+              <button onclick="showAbstract('Kashish')">Abstract</button>
+            </div>
+            <div class="abstract" id="Kashish/abstract" style="display: none">
+              <button onclick="hideAbstract('Kashish')">Hide Abstract</button>
+              <p>
+                Modal Effect Types (MET) make effect polymorphism implicit via
+                Modalities. Thus they avoid the pervasive effect-variable
+                annotations of traditional effect systems such as System Fε , an
+                extension of System F with row-based effect polymorphism. Prior
+                work established that MET can express any program satisfying the
+                single-effect-variable condition captured by the sublanguage
+                F1eff of System Fε . We present the converse: a compositional
+                encoding of MET into F1eff that preserves both typing and
+                semantics. In doing so, our encoding reveals how MET performs
+                implicit effect instantiation, showing that each type
+                application is determined by the typing context alone. Together
+                with the existing encoding of F1eff into MET, our encoding shows
+                that the F1eff fragment of traditional effect systems indeed
+                captures the full expressivity of MET.<br />This is joint work
+                with Wenhao Tang and Sam Lindley and was also submitted to PEPM
+                @ POPL.
+              </p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="author">Bhakti Shah<br />(University of St Andrews)</td>
+          <td class="title">
+            <span>Imperative Syntax for Dependent Types</span>
+            <div class="abstract" id="Bhakti/button">
+              <button onclick="showAbstract('Bhakti')">Abstract</button>
+            </div>
+            <div class="abstract" id="Bhakti/abstract" style="display: none">
+              <button onclick="hideAbstract('Bhakti')">Hide Abstract</button>
+              <p>
+                The average programming languages researcher thinks syntax is
+                the least important part of a programming language. The average
+                programmer disagrees. Dependently typed programming languages
+                are widely thought to be complex and unwieldy, characteristics
+                usually attributed to their mathematical semantics. While this
+                is certainly a factor, we believe the first barrier is syntax.
+                Dependently typed programming languages are often first
+                functional programming languages, and use syntax that differs
+                significantly from that of a typical imperative programming
+                language. Functional programming is a paradigm many
+                (experienced) programmers have not explored -- imperative
+                programming is far more popular, and prevalent. We explore the
+                design space of an imperative syntax for dependent types,
+                utilising well-established techniques in programming language
+                theory to lawfully encode imperative constructs in MLTT, along
+                with a translation of the syntax into executable Idris code. We
+                plan to evaluate the readability of this syntax in a formal user
+                study targeting experienced imperative programmers. Syntax is
+                not the whole solution, but a part of it -- and this work aims
+                to explore the impact of syntax in the context of existing
+                semantics for dependent types.
+              </p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="author">Wenhao Tang<br />(University of Edinburgh)</td>
+          <td class="title">
+            <span>Haunted bidirectional typing</span>
+            <div class="abstract" id="Wenhao/button">
+              <button onclick="showAbstract('Wenhao')">Abstract</button>
+            </div>
+            <div class="abstract" id="Wenhao/abstract" style="display: none">
+              <button onclick="hideAbstract('Wenhao')">Hide Abstract</button>
+              <p>
+                Bidirectional typing makes use of local information flow between
+                functions and arguments. Conventional bidirectional typing only
+                supports unidirectional information flow, typically from
+                functions to arguments, which is insufficient to infer
+                first-class polymorphism. Existing work on improving information
+                flow either has limited support for mixed information flow or
+                requires ad hoc mechanisms that harm predictability. In this
+                talk, I will show how to make bidirectional typing haunted to
+                enable more flexible and expressive information flow, and how
+                such information flow gives us better type inference for
+                first-class polymorphism.
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <h4>16:00 &mdash; 16:30 &nbsp;&nbsp; COFFEE</h4>
+
+      <h4>16:30 &mdash; 17:30 &nbsp;&nbsp; SESSION 3</h4>
+      <table>
+        <tr>
+          <td class="author">Arwa Alsubhi<br />(University of Glasgow)</td>
+          <td class="title">
+            <span
+              >TimedCoconut: Platform-Driven Typestates Extension for Embedded
+              C++</span
+            >
+            <div class="abstract" id="Arwa/button">
+              <button onclick="showAbstract('Arwa')">Abstract</button>
+            </div>
+            <div class="abstract" id="Arwa/abstract" style="display: none">
+              <button onclick="hideAbstract('Arwa')">Hide Abstract</button>
+              <p>
+                Ensuring embedded systems satisfy both behavioural protocols and
+                timing requirements on deployed hardware is challenging,
+                particularly when such properties are analysed separately. This
+                often leads developers to rely on late-stage profiling and
+                testing, where timing violations may be discovered late in
+                development or after deployment. We present TimedCoconut, a
+                GCC-based verification toolchain that extends C++ behavioural
+                protocols, i.e. typestates, with transition-level timing
+                constraints. TimedCoconut enables programmers to specify both
+                permitted sequences of operations and their temporal bounds
+                directly at the type level. Verification proceeds in two
+                compile-time phases. First, TimedCoconut checks operation
+                ordering and potential logical timing problems against the
+                declared timed typestate, independently of the target hardware.
+                Second, it invokes the Bound-T WCET analysis tool to validate
+                that the compiled program satisfies the declared timing bounds
+                on the selected target platform. We evaluate TimedCoconut on
+                five time-critical embedded applications running on two target
+                platforms, ARM and AVR. The results show that measured execution
+                times remain within the predicted WCET bounds, demonstrating
+                that TimedCoconut provides safe over-approximations of execution
+                time while enforcing both behavioural and timing constraints.
+                This shifts timing validation from late-stage hardware testing
+                to compile-time checking of timed typestate protocols against
+                target-specific execution bounds.
+              </p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="author">Julio Grillo<br />(University of St Andrews)</td>
+          <td class="title">
+            <span>Memory-Safe Bindings for WebGPU and Beyond in Idris</span>
+            <div class="abstract" id="Julio/button">
+              <button onclick="showAbstract('Julio')">Abstract</button>
+            </div>
+            <div class="abstract" id="Julio/abstract" style="display: none">
+              <button onclick="hideAbstract('Julio')">Hide Abstract</button>
+              <p>TBC</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <h4>17:30 &mdash; late &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PUB</h4>
+      <p>We have a room booked in Curlers Rest from 1800 onwards.</p>
+
       <br />
 
       If you'd like to offer a talk, please email the organising committee by
